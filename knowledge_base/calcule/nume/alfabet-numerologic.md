@@ -1,8 +1,6 @@
 # Alfabet numerologic
 
-De stabilit tabelul litera-numar folosit de aplicatie.
-
-## Varianta de lucru
+Pentru proiect folosim alfabetul pitagoreic.
 
 | Numar | Litere |
 | --- | --- |
@@ -18,9 +16,11 @@ De stabilit tabelul litera-numar folosit de aplicatie.
 
 ## Diacritice
 
-De stabilit regula finala:
+Pentru numele romanesti, diacriticele se normalizeaza la litera de baza:
 
-- A cu diacritice se reduce la A;
-- I cu diacritice se reduce la I;
-- S cu diacritice se reduce la S;
-- T cu diacritice se reduce la T.
+- A, Ă, Â -> A;
+- I, Î -> I;
+- S, Ș -> S;
+- T, Ț -> T.
+
+Semnele de punctuatie, spatiile si cratimele nu intra in calcul.

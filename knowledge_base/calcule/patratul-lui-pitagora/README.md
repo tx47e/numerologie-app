@@ -14,6 +14,7 @@ intelect.
 - [Semnificatii pozitii](semnificatii-pozitii.md)
 - [Semnificatii frecvente](semnificatii-frecvente.md)
 - [Elemente si linii](elemente-si-linii.md)
+- [Vectori](vectori.md)
 - [Exemple](exemple.md)
 - [Observatii](observatii.md)
 

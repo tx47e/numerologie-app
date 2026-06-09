@@ -1,36 +1,60 @@
 # Ani importanti interiori - metoda
 
-Formula exacta trebuie validata inainte de implementare.
+Formula de lucru adoptata pentru proiect:
 
-## Intentie de calcul
+```text
+un an este important interior daca vibratia anului este egala cu vibratia interioara
+```
 
-Acest calcul trebuie sa identifice anii in care activeaza teme personale
-interioare: clarificari, retrageri, alegeri intime, schimbari de perceptie si
-procese care pregatesc transformari ulterioare.
+## Logica
 
-## Date necesare
+Vibratia interioara vine din ziua nasterii. Cand vibratia unui an personal revine
+la aceeasi valoare, anul este marcat ca punct de activare interioara.
 
-- data nasterii;
-- anul sau intervalul de ani analizat;
-- regulile de reducere numerologica folosite in proiect.
+Acesti ani sunt tratati ca ani in care tema interioara a persoanei devine mai
+puternica decat de obicei. Nu inseamna neaparat evenimente vizibile imediat, ci
+mai ales decizii, constientizari, nevoi emotionale si schimbari de directie care
+se formeaza in interior.
 
-## Variante posibile
+In interpretare, anul important interior raspunde la intrebari de tipul:
 
-- calcul derivat din ziua si luna nasterii, aplicat peste anii calendaristici;
-- calcul derivat din vibratia interioara si anul analizat;
-- calcul pe intervale recurente, separat de vibratia anului.
+- ce se reactiveaza in omul din spatele rolurilor exterioare;
+- ce nevoie personala cere atentie;
+- ce lectie emotionala sau identitara revine;
+- ce decizie se pregateste inainte sa fie exprimata in exterior.
 
-## Pasi de calcul propusi
+## Pasi de calcul
 
 1. Se stabileste intervalul de ani pentru analiza.
-2. Se calculeaza vibratia interioara folosita ca baza, daca formula finala o cere.
-3. Pentru fiecare an din interval, se aplica formula validata pentru anul interior.
-4. Se reduc rezultatele conform regulilor proiectului.
-5. Se marcheaza anii care ating vibratiile considerate semnificative.
+2. Se calculeaza vibratia interioara.
+3. Pentru fiecare an din interval, se calculeaza vibratia anului.
+4. Se marcheaza anii in care `vibratia anului = vibratia interioara`.
 
-## Intrebari deschise
+## Mod de tratare
 
-- Formula porneste din vibratia interioara sau direct din data nasterii?
-- Ce vibratii marcheaza un an interior important?
-- Anii importanti interiori sunt puncte fixe sau cicluri recurente?
-- Pastram numerele maestre in acest calcul?
+Pentru fiecare an important interior se pot nota:
+
+- varsta persoanei in acel an;
+- vibratia anului;
+- tema interioara activata;
+- posibile manifestari emotionale;
+- recomandarea de lucru interior.
+
+Interpretarea trebuie sa fie formulata ca potential, nu ca verdict. Un an
+important interior poate fi resimtit intens chiar daca exteriorul pare stabil.
+El poate marca o schimbare de perspectiva, o clarificare de valori, o decizie
+amanata sau o nevoie de retragere si reasezare.
+
+## Model de interpretare
+
+```text
+In anul [AN], vibratia anului este egala cu vibratia interioara [NUMAR].
+Acest lucru indica o activare a vietii interioare. Persoana poate simti mai
+puternic nevoia de [TEMA], poate reevalua [DOMENIU] si poate lua decizii care
+nu sunt imediat vizibile, dar care pregatesc o schimbare ulterioara.
+```
+
+## Observatie
+
+Aceasta este o formula de lucru. Ea trebuie validata prin exemple si prin stilul
+final de interpretare al proiectului.

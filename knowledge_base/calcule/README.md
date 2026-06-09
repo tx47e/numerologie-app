@@ -17,6 +17,7 @@ Scopul este sa pastram separat:
 - `timp-si-cicluri/`: vibratia anului, cicluri si perioade.
 - `soarta-si-destin/`: soarta, destin, tema vietii si directii majore.
 - `pinacluri/`: oportunitati, provocari si etape de viata.
+- `karma/`: karma personala si karma neamului.
 - `patratul-lui-pitagora/`: matrice numerologica pe baza datei de nastere.
 
 ## Regula pentru fiecare calcul

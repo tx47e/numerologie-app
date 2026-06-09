@@ -3,6 +3,9 @@
 Matricea se citeste nu doar prin cifre individuale, ci si prin linii. Liniile
 arata cum se leaga domeniile intre ele.
 
+In scripturi si in aplicatie, aceste linii pot fi numite si vectori. Pentru
+denumirile de lucru ale vectorilor vezi `vectori.md`.
+
 ## Schema
 
 ```text

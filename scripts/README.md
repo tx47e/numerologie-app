@@ -9,3 +9,99 @@ Exemple posibile:
 - verificare structura `knowledge_base/`;
 - conversie continut;
 - pregatire date pentru aplicatie.
+
+## Regula pentru calcule
+
+Fiecare calcul numerologic validat in `knowledge_base/calcule/` trebuie sa aiba
+script rulabil in doua variante:
+
+- Python, pentru prototipare rapida si validare locala;
+- Java, pentru portare usoara daca aplicatia va folosi JVM sau logica server-side
+  in Java.
+
+Cele doua variante trebuie sa pastreze aceeasi metoda, aceleasi inputuri si
+acelasi rezultat afisat. Sursa de adevar pentru formula ramane fisierul
+`metoda.md` al calculului din `knowledge_base/calcule/`.
+
+Conventie nume fisiere:
+
+```text
+scripts/<slug_calcul>.py
+scripts/<NumeCalcul>.java
+```
+
+Exemplu:
+
+```text
+scripts/patratul_lui_pitagora.py
+scripts/PatratulLuiPitagora.java
+```
+
+## Calcule de implementat
+
+Lista initiala vine din `docs/roadmap.md` si din structura
+`knowledge_base/calcule/`:
+
+- vibratia numelui;
+- vibratia interioara;
+- vibratia exterioara;
+- vibratia datei nasterii;
+- vibratia anului;
+- tema anului;
+- ani importanti interiori;
+- ani importanti exteriori;
+- soarta;
+- destin;
+- tema vietii;
+- pinacluri;
+- cicluri de 7 ani;
+- cicluri de 9 ani;
+- cicluri de 12 ani;
+- patratul lui Pitagora.
+
+## Profil numerologic complet
+
+Scripturile comune calculeaza intr-un singur profil:
+
+- vibratia interioara;
+- vibratia exterioara;
+- vibratia numelui / destin;
+- soarta;
+- tema vietii;
+- vibratia anului;
+- karma personala;
+- karma neamului;
+- ani importanti interiori si exteriori;
+- pinacluri si provocari;
+- cicluri de 7, 9 si 12 ani.
+
+Python:
+
+```powershell
+python scripts\calcule_numerologice.py --zi 24 --luna 4 --an 1982 --nume "Ana Maria Popescu" --nume-familie "Popescu" --an-analizat 2026 --start 2026 --stop 2035 --varsta 44
+```
+
+Java:
+
+```powershell
+javac scripts\CalculeNumerologice.java
+java -cp scripts CalculeNumerologice --zi 24 --luna 4 --an 1982 --nume "Ana Maria Popescu" --nume-familie "Popescu" --an-analizat 2026 --start 2026 --stop 2035 --varsta 44
+```
+
+## Patratul lui Pitagora
+
+Scripturile pentru patratul lui Pitagora folosesc metoda documentata in
+`knowledge_base/calcule/patratul-lui-pitagora/metoda.md`.
+
+Python:
+
+```powershell
+python scripts\patratul_lui_pitagora.py 7 11 1994
+```
+
+Java:
+
+```powershell
+javac scripts\PatratulLuiPitagora.java
+java -cp scripts PatratulLuiPitagora 7 11 1994
+```

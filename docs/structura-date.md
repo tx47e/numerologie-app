@@ -142,6 +142,8 @@ Calcule documentate initial:
 - `cicluri-7-ani`: cicluri recurente de sapte ani.
 - `cicluri-9-ani`: cicluri recurente de noua ani.
 - `cicluri-12-ani`: cicluri recurente de doisprezece ani.
+- `karma-personala`: lectii karmice si datorii karmice.
+- `karma-neamului`: teme karmice derivate din numele de familie.
 
 ## Entitate: exemplu de calcul
 
