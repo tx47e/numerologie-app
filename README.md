@@ -1,6 +1,6 @@
 # Numerologie App
 
-Proiect pentru construirea unei aplicatii de numerologie in limba romana.
+Aplicatie care genereaza analize numerologice in limba romana.
 
 Scopul initial este crearea unei baze de informatii bine structurate, care poate
 fi folosita ulterior de aplicatie pentru afisare, cautare, interpretari si
