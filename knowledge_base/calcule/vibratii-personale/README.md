@@ -7,7 +7,6 @@ persoane.
 
 - `vibratia-interioara/`: ziua nasterii redusa numerologic; dimensiunea intima, motivatia profunda, lumea interioara.
 - `vibratia-exterioara/`: luna nasterii redusa numerologic; expresia vizibila, comportamentul observabil, imaginea proiectata.
-- `vibratia-generala/`: sinteza profilului personal, daca decidem sa o folosim.
 
 ## Observatie
 
