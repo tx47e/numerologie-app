@@ -78,3 +78,21 @@ Acest jurnal urmareste pasii importanti facuti in proiect.
   - `generated/`.
 - Scopul este separarea clara intre baza numerologica, documentatia de proiect,
   prompturi, exemple, surse si fisiere generate.
+
+### Extindere continut vibratii
+
+- A fost stabilit tonul editorial final in `style_guide/README.md`.
+- Au fost definite regulile pentru:
+  - ton general;
+  - raportul dintre simbolic, psihologic si practic;
+  - structura capitolelor;
+  - exemple;
+  - avertismente si limite;
+  - consistenta termenilor.
+- Capitolele `Arhetip` au fost extinse pentru vibratiile 1-9 si pentru numerele
+  maestre 11, 22 si 33.
+- Extinderea a adaugat pentru fiecare arhetip:
+  - mod de recunoastere in viata reala;
+  - rol matur;
+  - risc de umbra;
+  - lectie principala de integrare.
