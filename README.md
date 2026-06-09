@@ -11,6 +11,7 @@ generare de rapoarte.
 - `knowledge_base/`: baza de cunoastere numerologica folosita de aplicatie.
 - `knowledge_base/vibratii/`: continut pentru vibratiile numerologice 1-9.
 - `knowledge_base/calcule/`: formule, metode, semnificatii si exemple pentru calculele numerologice, inclusiv ani importanti interiori si exteriori.
+- `knowledge_base/tarot/`: interpretari pentru Arcanele Majore, folosite ca analogii simbolice.
 - `prompts/`: prompturi si instructiuni folosite pentru generare sau asistenta.
 - `style_guide/`: reguli de ton, limbaj si consistenta editoriala.
 - `memory/`: note persistente despre decizii, preferinte si context.

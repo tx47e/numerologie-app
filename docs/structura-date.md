@@ -63,6 +63,7 @@ Include:
 
 - `knowledge_base/vibratii/`: interpretari pentru vibratiile 1-9 si numerele maestre.
 - `knowledge_base/calcule/`: metode, formule, semnificatii si exemple de calcul.
+- `knowledge_base/tarot/`: interpretari pentru Arcanele Majore si analogii simbolice.
 
 Acest director trebuie tratat ca baza de cunoastere a aplicatiei, separata de
 documentatia de management a proiectului din `docs/`.
@@ -79,6 +80,56 @@ Campuri propuse:
 - `semnificatii`: calea catre interpretarea rezultatelor.
 - `exemple`: calea catre exemplele de calcul.
 - `observatii`: reguli speciale sau exceptii.
+
+## Entitate: arcana majora
+
+Campuri propuse:
+
+- `numar`: numarul arcanei.
+- `titlu_en`: numele in engleza, de exemplu `The Hierophant`.
+- `titlu_ro`: numele in romana, de exemplu `Marele Preot`.
+- `slug`: identificator stabil, de exemplu `05-marele-preot`.
+- `plusuri`: expresii constructive ale arcanei.
+- `minusuri`: expresii dezechilibrate sau imature.
+- `cheie_de_integrare`: directia de lucru cu simbolul.
+
+## Entitate: arcana minora
+
+Campuri propuse:
+
+- `suita`: una dintre `bate`, `cupe`, `sabii`, `monede`.
+- `element`: foc, apa, aer sau pamant.
+- `rang`: As, 2-10, Paj, Cavaler, Regina sau Rege.
+- `titlu`: titlul afisat.
+- `slug`: identificator stabil.
+- `plusuri`: expresii constructive ale cartii.
+- `minusuri`: expresii dezechilibrate sau imature.
+- `cheie_de_integrare`: directia de lucru cu simbolul.
+
+## Cale continut tarot
+
+Exemplu pentru Marele Preot:
+
+```text
+knowledge_base/tarot/arcane-majore/
+  README.md
+  05-marele-preot.md
+```
+
+Exemplu pentru Arcanele Minore:
+
+```text
+knowledge_base/tarot/arcane-minore/
+  README.md
+  bate/
+    README.md
+  cupe/
+    README.md
+  sabii/
+    README.md
+  monede/
+    README.md
+```
 
 ## Calcule de timp si cicluri
 

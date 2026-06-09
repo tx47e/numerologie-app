@@ -9,6 +9,7 @@ numerologic stabil trebuie pastrat aici.
 
 - `vibratii/`: interpretari pentru vibratiile de la 1 la 9.
 - `calcule/`: metode de calcul, semnificatii si exemple.
+- `tarot/`: interpretari simbolice pentru Arcanele Majore si analogii numerologice.
 
 ## Regula de lucru
 
