@@ -1,0 +1,18 @@
+﻿# Vibratia 4 - Umbra
+
+Umbra vibratiei 4 apare cand nevoia de siguranta devine control. Persoana poate
+respinge schimbarea, poate judeca sever sau poate confunda valoarea personala cu
+productivitatea.
+
+Manifestari posibile:
+
+- rigiditate;
+- perfectionism;
+- frica de risc;
+- incapatanare;
+- munca excesiva;
+- dificultate in adaptare.
+
+In umbra, 4 poate construi ziduri in loc de fundatii: se protejeaza, dar se si
+limiteaza.
+
