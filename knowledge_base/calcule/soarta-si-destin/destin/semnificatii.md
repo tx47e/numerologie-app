@@ -1,0 +1,3 @@
+# Destin - semnificatii
+
+De completat.

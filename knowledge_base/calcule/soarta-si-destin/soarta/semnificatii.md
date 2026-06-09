@@ -1,0 +1,3 @@
+# Soarta - semnificatii
+
+De completat.

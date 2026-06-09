@@ -6,7 +6,7 @@ Acest jurnal urmareste pasii importanti facuti in proiect.
 
 ### Initializare continut
 
-- A fost creat folderul `vibratii/`.
+- A fost creat folderul `vibratii/`, mutat ulterior in `knowledge_base/vibratii/`.
 - Au fost create fisierele initiale pentru vibratiile 1-9.
 - Fiecare vibratie a primit capitole de baza:
   - Esenta
@@ -30,15 +30,15 @@ Acest jurnal urmareste pasii importanti facuti in proiect.
 - Fisierele plate `vibratia-1.md` pana la `vibratia-9.md` au fost transformate
   in directoare dedicate.
 - Fiecare vibratie are acum propriul director:
-  - `vibratii/vibratia-1/`
-  - `vibratii/vibratia-2/`
-  - `vibratii/vibratia-3/`
-  - `vibratii/vibratia-4/`
-  - `vibratii/vibratia-5/`
-  - `vibratii/vibratia-6/`
-  - `vibratii/vibratia-7/`
-  - `vibratii/vibratia-8/`
-  - `vibratii/vibratia-9/`
+  - `knowledge_base/vibratii/vibratia-1/`
+  - `knowledge_base/vibratii/vibratia-2/`
+  - `knowledge_base/vibratii/vibratia-3/`
+  - `knowledge_base/vibratii/vibratia-4/`
+  - `knowledge_base/vibratii/vibratia-5/`
+  - `knowledge_base/vibratii/vibratia-6/`
+  - `knowledge_base/vibratii/vibratia-7/`
+  - `knowledge_base/vibratii/vibratia-8/`
+  - `knowledge_base/vibratii/vibratia-9/`
 - Fiecare capitol a fost separat intr-un fisier Markdown propriu.
 - Fiecare director de vibratie contine un `index.md` pentru navigare.
 - Fisierele initiale au fost pastrate temporar ca `_sursa-initiala.md`.
@@ -48,3 +48,33 @@ Acest jurnal urmareste pasii importanti facuti in proiect.
 - A fost adaugat `README.md` la radacina proiectului.
 - A fost creat directorul `docs/`.
 - Au fost adaugate documente pentru jurnal, decizii, roadmap si structura de date.
+
+### Structura calcule
+
+- A fost creat directorul `calcule/`, mutat ulterior in `knowledge_base/calcule/`.
+- Au fost adaugate rubrici pentru:
+  - vibratii personale;
+  - calcule pe baza numelui;
+  - vibratia anului si tema anului;
+  - ani importanti interiori si exteriori;
+  - cicluri de 7, 9 si 12 ani;
+  - soarta, destin si tema vietii;
+  - pinacluri;
+  - patratul lui Pitagora.
+- Fiecare calcul important are pregatite fisiere pentru metoda, semnificatii,
+  exemple si observatii, unde este cazul.
+
+### Restructurare proiect
+
+- A fost creat directorul `knowledge_base/`.
+- Directoarele `vibratii/` si `calcule/` au fost mutate in `knowledge_base/`.
+- Au fost create directoarele:
+  - `prompts/`;
+  - `style_guide/`;
+  - `memory/`;
+  - `bibliography/`;
+  - `examples/`;
+  - `scripts/`;
+  - `generated/`.
+- Scopul este separarea clara intre baza numerologica, documentatia de proiect,
+  prompturi, exemple, surse si fisiere generate.

@@ -1,6 +1,7 @@
 # Vibratii numerologice
 
-Acest folder contine baza de lucru pentru vibratiile numerologice de la 1 la 9.
+Acest folder contine baza de lucru pentru vibratiile numerologice de la 1 la 9
+si pentru numerele maestre 11, 22 si 33.
 Textele sunt formulate intr-un stil academic accesibil: conceptele sunt explicate
 clar, cu exemple concrete, dar fara a reduce simbolurile la definitii rigide.
 
@@ -37,6 +38,15 @@ fisier Markdown separat.
 - [Vibratia 7](vibratia-7/index.md)
 - [Vibratia 8](vibratia-8/index.md)
 - [Vibratia 9](vibratia-9/index.md)
+- [Vibratia 11](vibratia-11/index.md)
+- [Vibratia 22](vibratia-22/index.md)
+- [Vibratia 33](vibratia-33/index.md)
+
+## Numere maestre
+
+Numerele maestre nu anuleaza vibratia de baza la care se reduc. Ele adauga un
+strat suplimentar de intensitate, responsabilitate si potential. De exemplu, 11
+poate fi citit impreuna cu 2, 22 impreuna cu 4, iar 33 impreuna cu 6.
 
 ## Nota metodologica
 

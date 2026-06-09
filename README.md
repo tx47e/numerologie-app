@@ -8,7 +8,16 @@ generare de rapoarte.
 
 ## Structura curenta
 
-- `vibratii/`: baza de continut pentru vibratiile numerologice 1-9.
+- `knowledge_base/`: baza de cunoastere numerologica folosita de aplicatie.
+- `knowledge_base/vibratii/`: continut pentru vibratiile numerologice 1-9.
+- `knowledge_base/calcule/`: formule, metode, semnificatii si exemple pentru calculele numerologice, inclusiv ani importanti interiori si exteriori.
+- `prompts/`: prompturi si instructiuni folosite pentru generare sau asistenta.
+- `style_guide/`: reguli de ton, limbaj si consistenta editoriala.
+- `memory/`: note persistente despre decizii, preferinte si context.
+- `bibliography/`: surse, carti, articole si referinte.
+- `examples/`: exemple de input, output, profiluri si rapoarte.
+- `scripts/`: automatizari, conversii si validari.
+- `generated/`: fisiere generate automat, care pot fi regenerate.
 - `docs/`: documentatie de proiect, decizii si pasi de lucru.
 
 ## Directie de lucru
