@@ -103,3 +103,24 @@ Acest jurnal urmareste pasii importanti facuti in proiect.
   - `Lectii` a primit intrebari de lucru;
   - `Directii de dezvoltare` a primit practici utile;
   - `Exemple` a primit cate un exemplu de integrare.
+
+## 2026-06-10
+
+### Etapa 2: model de date
+
+- A fost stabilita decizia tehnica pentru continut:
+  - Markdown ramane sursa editoriala;
+  - `generated/index.json` devine artefactul consumabil de aplicatie;
+  - baza de date ramane o optiune ulterioara, nu o dependenta initiala.
+- A fost adaugat `docs/model-date.md` cu schema pentru:
+  - vibratii;
+  - capitole;
+  - calcule;
+  - exemple de calcul;
+  - inputuri canonice.
+- A fost adaugat scriptul `scripts/genereaza_index_json.py`, care construieste
+  indexul JSON din structura curenta din `knowledge_base/`.
+- Au fost eliminate backup-urile temporare `_sursa-initiala.md` din directoarele
+  vibratiilor 1-9, dupa validarea capitolelor separate.
+- A fost actualizat `docs/roadmap.md` pentru starea curenta a proiectului si
+  pentru urmatoarea etapa: motorul numerologic.

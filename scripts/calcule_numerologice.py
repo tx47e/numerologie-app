@@ -2,6 +2,8 @@ import argparse
 import sys
 import unicodedata
 
+from patratul_lui_pitagora import calculeaza_matrice_nume
+
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -151,6 +153,125 @@ def datorii_karmice(nume, zi, luna, an):
     return gasite
 
 
+def datorii_karmice_nume(nume):
+    total_nume = vibratia_numelui(nume)["total"]
+    return [total_nume] if total_nume in DATORII_KARMICE else []
+
+
+def analiza_nume(nume, zi, luna, an, nume_familie=None):
+    vibratie = vibratia_numelui(nume)
+    matrice = calculeaza_matrice_nume(nume)
+    familie = nume_familie if nume_familie else ultimul_cuvant(nume)
+    karma_neam = vibratia_numelui(familie)
+
+    return {
+        "nume": nume,
+        "nume_familie": familie,
+        "vibratie": vibratie,
+        "matrice": matrice,
+        "lectii_karmice": lectii_karmice(nume),
+        "datorii_karmice_nume": datorii_karmice_nume(nume),
+        "datorii_karmice_personale": datorii_karmice(nume, zi, luna, an),
+        "lectii_karmice_neam": lectii_karmice(familie),
+        "karma_neam": karma_neam,
+        "datorii_karmice_neam": datorii_karmice_nume(familie),
+    }
+
+
+def ultimul_cuvant(text):
+    parti = [parte for parte in text.replace("-", " ").split() if parte]
+    return parti[-1] if parti else text
+
+
+def compara_liste(inainte, dupa):
+    set_inainte = set(inainte)
+    set_dupa = set(dupa)
+    return {
+        "comune": sorted(set_inainte & set_dupa),
+        "doar_inainte": sorted(set_inainte - set_dupa),
+        "doar_dupa": sorted(set_dupa - set_inainte),
+    }
+
+
+def compara_matrici(matrice_inainte, matrice_dupa):
+    rezultat = []
+    for cifra in range(1, 10):
+        inainte = len(matrice_inainte["matrice"][cifra])
+        dupa = len(matrice_dupa["matrice"][cifra])
+        rezultat.append({
+            "cifra": cifra,
+            "inainte": inainte,
+            "dupa": dupa,
+            "diferenta": dupa - inainte,
+        })
+    return rezultat
+
+
+def afiseaza_analiza_nume(titlu, analiza):
+    print(titlu)
+    print("-" * len(titlu))
+    print(f"Nume: {analiza['nume']}")
+    print(f"Nume familie: {analiza['nume_familie']}")
+    print(
+        f"Vibratia numelui / destin: {analiza['vibratie']['rezultat']} "
+        f"(total {analiza['vibratie']['total']})"
+    )
+    print(
+        f"Karma neamului: {analiza['karma_neam']['rezultat']} "
+        f"(total {analiza['karma_neam']['total']})"
+    )
+    print()
+    afiseaza_lista("Lectii karmice nume:", analiza["lectii_karmice"])
+    afiseaza_lista("Datorii karmice din nume:", analiza["datorii_karmice_nume"])
+    afiseaza_lista("Datorii karmice personale:", analiza["datorii_karmice_personale"])
+    afiseaza_lista("Lectii karmice de neam:", analiza["lectii_karmice_neam"])
+    afiseaza_lista("Datorii karmice de neam:", analiza["datorii_karmice_neam"])
+
+    matrice = analiza["matrice"]["matrice"]
+    print("Matricea numelui:")
+    print(f"{matrice[1]:<4} | {matrice[4]:<4} | {matrice[7]:<4}")
+    print(f"{matrice[2]:<4} | {matrice[5]:<4} | {matrice[8]:<4}")
+    print(f"{matrice[3]:<4} | {matrice[6]:<4} | {matrice[9]:<4}")
+    print()
+
+
+def afiseaza_comparatie_nume(inainte, dupa):
+    print("Comparatie nume inainte / dupa casatorie")
+    print("========================================")
+    print(
+        f"Vibratia numelui: {inainte['vibratie']['rezultat']} -> "
+        f"{dupa['vibratie']['rezultat']}"
+    )
+    print(
+        f"Karma neamului: {inainte['karma_neam']['rezultat']} -> "
+        f"{dupa['karma_neam']['rezultat']}"
+    )
+    print()
+
+    lectii = compara_liste(inainte["lectii_karmice"], dupa["lectii_karmice"])
+    datorii = compara_liste(inainte["datorii_karmice_nume"], dupa["datorii_karmice_nume"])
+    lectii_neam = compara_liste(inainte["lectii_karmice_neam"], dupa["lectii_karmice_neam"])
+
+    afiseaza_lista("Lectii karmice comune:", lectii["comune"])
+    afiseaza_lista("Lectii karmice doar inainte:", lectii["doar_inainte"])
+    afiseaza_lista("Lectii karmice doar dupa:", lectii["doar_dupa"])
+    afiseaza_lista("Datorii karmice nume comune:", datorii["comune"])
+    afiseaza_lista("Datorii karmice nume doar inainte:", datorii["doar_inainte"])
+    afiseaza_lista("Datorii karmice nume doar dupa:", datorii["doar_dupa"])
+    afiseaza_lista("Lectii karmice de neam comune:", lectii_neam["comune"])
+    afiseaza_lista("Lectii karmice de neam doar inainte:", lectii_neam["doar_inainte"])
+    afiseaza_lista("Lectii karmice de neam doar dupa:", lectii_neam["doar_dupa"])
+
+    print("Comparatie matrice nume:")
+    for rand in compara_matrici(inainte["matrice"], dupa["matrice"]):
+        semn = "+" if rand["diferenta"] > 0 else ""
+        print(
+            f"{rand['cifra']}: {rand['inainte']} -> {rand['dupa']} "
+            f"({semn}{rand['diferenta']})"
+        )
+    print()
+
+
 def afiseaza_lista(titlu, valori):
     print(titlu)
     print(", ".join(str(valoare) for valoare in valori) if valori else "-")
@@ -164,6 +285,10 @@ def main():
     parser.add_argument("--an", type=int, required=True)
     parser.add_argument("--nume", required=True)
     parser.add_argument("--nume-familie", required=True)
+    parser.add_argument("--nume-inainte-casatorie")
+    parser.add_argument("--nume-dupa-casatorie")
+    parser.add_argument("--nume-familie-inainte")
+    parser.add_argument("--nume-familie-dupa")
     parser.add_argument("--an-analizat", type=int, default=2026)
     parser.add_argument("--start", type=int, default=2026)
     parser.add_argument("--stop", type=int, default=2035)
@@ -212,6 +337,20 @@ def main():
     print(f"Cicluri pentru varsta {args.varsta}:")
     for durata, rezultat in cicluri(args.varsta).items():
         print(f"{durata} ani: ciclul {rezultat['ciclu']}, pozitia {rezultat['pozitie']}")
+
+    if args.nume_inainte_casatorie or args.nume_dupa_casatorie:
+        print()
+        nume_inainte = args.nume_inainte_casatorie or args.nume
+        nume_dupa = args.nume_dupa_casatorie or args.nume
+        familie_inainte = args.nume_familie_inainte or ultimul_cuvant(nume_inainte)
+        familie_dupa = args.nume_familie_dupa or ultimul_cuvant(nume_dupa)
+
+        analiza_inainte = analiza_nume(nume_inainte, args.zi, args.luna, args.an, familie_inainte)
+        analiza_dupa = analiza_nume(nume_dupa, args.zi, args.luna, args.an, familie_dupa)
+
+        afiseaza_analiza_nume("Analiza nume inainte de casatorie", analiza_inainte)
+        afiseaza_analiza_nume("Analiza nume dupa casatorie", analiza_dupa)
+        afiseaza_comparatie_nume(analiza_inainte, analiza_dupa)
 
 
 if __name__ == "__main__":

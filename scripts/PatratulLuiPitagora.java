@@ -1,3 +1,4 @@
+import java.text.Normalizer;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -9,25 +10,37 @@ public class PatratulLuiPitagora {
         new VectorDefinitie("Scara bunastarii materiale", new int[] {3, 6, 9}),
         new VectorDefinitie("Vectorul relational si social", new int[] {2, 5, 8}),
         new VectorDefinitie("Scara bunastarii spirituale", new int[] {1, 4, 7}),
-        new VectorDefinitie("Axa personala", new int[] {3, 2, 1}),
-        new VectorDefinitie("Axa de constructie", new int[] {6, 5, 4}),
-        new VectorDefinitie("Axa superioara si sociala", new int[] {9, 8, 7}),
-        new VectorDefinitie("Vectorul scopului", new int[] {3, 5, 7}),
+        new VectorDefinitie("Axa personala", new int[] {1, 2, 3}),
+        new VectorDefinitie("Axa de constructie", new int[] {4, 5, 6}),
+        new VectorDefinitie("Axa superioara si sociala", new int[] {7, 8, 9}),
+        new VectorDefinitie("Vectorul scopului", new int[] {7, 5, 3}),
         new VectorDefinitie("Vectorul carierei", new int[] {1, 5, 9})
     };
 
     public static void main(String[] args) {
-        if (args.length != 3) {
-            System.err.println("Utilizare: java PatratulLuiPitagora <zi> <luna> <an>");
+        if (args.length != 3 && args.length != 5) {
+            System.err.println("Utilizare: java PatratulLuiPitagora <zi> <luna> <an> [--nume \"Nume Complet\"]");
             System.exit(1);
         }
 
         int zi = Integer.parseInt(args[0]);
         int luna = Integer.parseInt(args[1]);
         int an = Integer.parseInt(args[2]);
+        String nume = null;
+        if (args.length == 5) {
+            if (!"--nume".equals(args[3])) {
+                System.err.println("Optiune necunoscuta: " + args[3]);
+                System.exit(1);
+            }
+            nume = args[4];
+        }
 
         Rezultat rezultat = calculeaza(zi, luna, an);
         afiseaza(rezultat);
+        if (nume != null) {
+            RezultatNume rezultatNume = calculeazaNume(nume);
+            afiseazaNume(rezultatNume);
+        }
     }
 
     private static Rezultat calculeaza(int zi, int luna, int an) {
@@ -45,6 +58,54 @@ public class PatratulLuiPitagora {
         List<VectorInterpretare> vectori = interpreteazaVectori(matrice);
 
         return new Rezultat(data, cifreData, n1, n2, n3, n4, sirComplet, cifreMatrice, matrice, vectori);
+    }
+
+    private static RezultatNume calculeazaNume(String nume) {
+        List<ValoareLitera> valori = valoriNume(nume);
+        List<Integer> cifreMatrice = new ArrayList<>();
+        StringBuilder normalizat = new StringBuilder();
+        int total = 0;
+
+        for (ValoareLitera valoare : valori) {
+            normalizat.append(valoare.litera);
+            cifreMatrice.add(valoare.valoare);
+            total += valoare.valoare;
+        }
+
+        Map<Integer, String> matrice = grupeazaMatrice(cifreMatrice);
+        List<VectorInterpretare> vectori = interpreteazaVectori(matrice);
+
+        return new RezultatNume(nume, normalizat.toString(), valori, total, cifreMatrice, matrice, vectori);
+    }
+
+    private static List<ValoareLitera> valoriNume(String nume) {
+        String normalizat = Normalizer.normalize(nume, Normalizer.Form.NFD)
+            .replaceAll("\\p{M}", "")
+            .toUpperCase();
+        List<ValoareLitera> valori = new ArrayList<>();
+
+        for (char caracter : normalizat.toCharArray()) {
+            if (Character.isLetter(caracter)) {
+                int valoare = valoareLitera(caracter);
+                if (valoare > 0) {
+                    valori.add(new ValoareLitera(caracter, valoare));
+                }
+            }
+        }
+        return valori;
+    }
+
+    private static int valoareLitera(char litera) {
+        if ("AJS".indexOf(litera) >= 0) return 1;
+        if ("BKT".indexOf(litera) >= 0) return 2;
+        if ("CLU".indexOf(litera) >= 0) return 3;
+        if ("DMV".indexOf(litera) >= 0) return 4;
+        if ("ENW".indexOf(litera) >= 0) return 5;
+        if ("FOX".indexOf(litera) >= 0) return 6;
+        if ("GPY".indexOf(litera) >= 0) return 7;
+        if ("HQZ".indexOf(litera) >= 0) return 8;
+        if ("IR".indexOf(litera) >= 0) return 9;
+        return 0;
     }
 
     private static int sumaCifrelor(int numar) {
@@ -170,9 +231,9 @@ public class PatratulLuiPitagora {
         System.out.println();
 
         System.out.println("Patratul lui Pitagora:");
-        System.out.printf("%-4s | %-4s | %-4s%n", rezultat.matrice.get(3), rezultat.matrice.get(6), rezultat.matrice.get(9));
-        System.out.printf("%-4s | %-4s | %-4s%n", rezultat.matrice.get(2), rezultat.matrice.get(5), rezultat.matrice.get(8));
         System.out.printf("%-4s | %-4s | %-4s%n", rezultat.matrice.get(1), rezultat.matrice.get(4), rezultat.matrice.get(7));
+        System.out.printf("%-4s | %-4s | %-4s%n", rezultat.matrice.get(2), rezultat.matrice.get(5), rezultat.matrice.get(8));
+        System.out.printf("%-4s | %-4s | %-4s%n", rezultat.matrice.get(3), rezultat.matrice.get(6), rezultat.matrice.get(9));
         System.out.println();
 
         System.out.println("Vectori:");
@@ -192,6 +253,46 @@ public class PatratulLuiPitagora {
             System.out.println("Analiza comuna a vectorilor:");
             System.out.println("Vector dominant: " + vectorDominant.nume + " cu valoarea " + vectorDominant.valoare + ".");
             System.out.println("Vector cel mai slab: " + vectorSlab.nume + " cu valoarea " + vectorSlab.valoare + ".");
+        }
+    }
+
+    private static void afiseazaNume(RezultatNume rezultat) {
+        System.out.println();
+        System.out.println("Matricea numelui:");
+        System.out.println("Nume: " + rezultat.nume);
+        System.out.println("Nume normalizat: " + rezultat.numeNormalizat);
+        System.out.println();
+
+        System.out.println("Valori litere:");
+        List<String> valori = new ArrayList<>();
+        for (ValoareLitera valoare : rezultat.valori) {
+            valori.add(valoare.litera + "=" + valoare.valoare);
+        }
+        System.out.println(String.join(", ", valori));
+        System.out.println();
+
+        System.out.println("Total nume:");
+        System.out.println(rezultat.total);
+        System.out.println();
+
+        System.out.println("Cifre introduse in matricea numelui:");
+        System.out.println(join(rezultat.cifreMatrice));
+        System.out.println();
+
+        System.out.println("Patratul numelui:");
+        System.out.printf("%-4s | %-4s | %-4s%n", rezultat.matrice.get(1), rezultat.matrice.get(4), rezultat.matrice.get(7));
+        System.out.printf("%-4s | %-4s | %-4s%n", rezultat.matrice.get(2), rezultat.matrice.get(5), rezultat.matrice.get(8));
+        System.out.printf("%-4s | %-4s | %-4s%n", rezultat.matrice.get(3), rezultat.matrice.get(6), rezultat.matrice.get(9));
+        System.out.println();
+
+        System.out.println("Vectori nume:");
+        for (int index = 0; index < rezultat.vectori.size(); index++) {
+            VectorInterpretare vector = rezultat.vectori.get(index);
+            System.out.println(
+                (index + 1) + ". " + vector.nume + " (" + joinPozitii(vector.pozitii) + "): "
+                    + vector.stare + ", " + vector.pozitiiPrezente + "/3 pozitii, "
+                    + "valoare " + vector.valoare + " (" + String.join(", ", vector.analiza) + ")"
+            );
         }
     }
 
@@ -236,6 +337,16 @@ public class PatratulLuiPitagora {
         VectorDefinitie(String nume, int[] pozitii) {
             this.nume = nume;
             this.pozitii = pozitii;
+        }
+    }
+
+    private static class ValoareLitera {
+        char litera;
+        int valoare;
+
+        ValoareLitera(char litera, int valoare) {
+            this.litera = litera;
+            this.valoare = valoare;
         }
     }
 
@@ -295,6 +406,34 @@ public class PatratulLuiPitagora {
             this.n3 = n3;
             this.n4 = n4;
             this.sirComplet = sirComplet;
+            this.cifreMatrice = cifreMatrice;
+            this.matrice = matrice;
+            this.vectori = vectori;
+        }
+    }
+
+    private static class RezultatNume {
+        String nume;
+        String numeNormalizat;
+        List<ValoareLitera> valori;
+        int total;
+        List<Integer> cifreMatrice;
+        Map<Integer, String> matrice;
+        List<VectorInterpretare> vectori;
+
+        RezultatNume(
+            String nume,
+            String numeNormalizat,
+            List<ValoareLitera> valori,
+            int total,
+            List<Integer> cifreMatrice,
+            Map<Integer, String> matrice,
+            List<VectorInterpretare> vectori
+        ) {
+            this.nume = nume;
+            this.numeNormalizat = numeNormalizat;
+            this.valori = valori;
+            this.total = total;
             this.cifreMatrice = cifreMatrice;
             this.matrice = matrice;
             this.vectori = vectori;

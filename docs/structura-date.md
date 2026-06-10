@@ -51,9 +51,9 @@ knowledge_base/vibratii/vibratia-1/
 
 ## Observatii
 
-Structura este gandita pentru editare manuala acum si conversie automata ulterior.
-Cand aplicatia va avea nevoie de continut programatic, putem genera un index JSON
-din fisierele Markdown.
+Structura este gandita pentru editare manuala in Markdown si conversie automata
+in JSON. Contractul detaliat este documentat in `docs/model-date.md`, iar
+artefactul consumabil de aplicatie se genereaza in `generated/index.json`.
 
 ## Director: knowledge_base
 

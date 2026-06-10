@@ -10,6 +10,18 @@ Exemple posibile:
 - conversie continut;
 - pregatire date pentru aplicatie.
 
+## Generare model de date
+
+Indexul consumabil de aplicatie se genereaza din Markdown:
+
+```powershell
+python scripts\genereaza_index_json.py
+```
+
+Rezultatul este `generated/index.json`. Fisierul generat nu trebuie editat
+manual; sursa de adevar ramane continutul din `knowledge_base/` si contractul
+documentat in `docs/model-date.md`.
+
 ## Regula pentru calcule
 
 Fiecare calcul numerologic validat in `knowledge_base/calcule/` trebuie sa aiba
@@ -81,6 +93,12 @@ Python:
 python scripts\calcule_numerologice.py --zi 24 --luna 4 --an 1982 --nume "Ana Maria Popescu" --nume-familie "Popescu" --an-analizat 2026 --start 2026 --stop 2035 --varsta 44
 ```
 
+Cu analiza numelui inainte si dupa casatorie:
+
+```powershell
+python scripts\calcule_numerologice.py --zi 24 --luna 4 --an 1982 --nume "Ana Maria Popescu" --nume-familie "Popescu" --nume-inainte-casatorie "Ana Maria Ionescu" --nume-dupa-casatorie "Ana Maria Popescu" --nume-familie-inainte "Ionescu" --nume-familie-dupa "Popescu" --an-analizat 2026 --start 2026 --stop 2035 --varsta 44
+```
+
 Java:
 
 ```powershell
@@ -99,9 +117,16 @@ Python:
 python scripts\patratul_lui_pitagora.py 7 11 1994
 ```
 
+Cu matrice separata pentru nume:
+
+```powershell
+python scripts\patratul_lui_pitagora.py 24 4 1982 --nume "Ana Maria Popescu"
+```
+
 Java:
 
 ```powershell
 javac scripts\PatratulLuiPitagora.java
 java -cp scripts PatratulLuiPitagora 7 11 1994
+java -cp scripts PatratulLuiPitagora 24 4 1982 --nume "Ana Maria Popescu"
 ```

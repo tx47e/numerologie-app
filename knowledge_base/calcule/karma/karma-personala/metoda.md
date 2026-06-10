@@ -39,6 +39,24 @@ functie karma_personala(nume, zi, luna, an):
   return { lectii, datorii }
 ```
 
+## Nume schimbat prin casatorie
+
+Daca exista nume inainte si dupa casatorie, karma personala se calculeaza pentru
+ambele variante:
+
+```text
+karma_nume_inainte = karma_personala(nume_inainte_casatorie, zi, luna, an)
+karma_nume_dupa = karma_personala(nume_dupa_casatorie, zi, luna, an)
+```
+
+Comparatia urmareste:
+
+- lectii karmice comune;
+- lectii karmice prezente doar in numele dinainte;
+- lectii karmice prezente doar in numele de dupa;
+- datorii karmice comune;
+- datorii karmice care apar sau dispar prin schimbarea numelui.
+
 ## Observatie
 
 Lectiile karmice nu sunt tratate ca verdict. Ele indica zone care pot cere

@@ -1,5 +1,6 @@
 import argparse
 import sys
+import unicodedata
 
 
 if hasattr(sys.stdout, "reconfigure"):
@@ -10,12 +11,24 @@ VECTORI = [
     ("Scara bunastarii materiale", [3, 6, 9]),
     ("Vectorul relational si social", [2, 5, 8]),
     ("Scara bunastarii spirituale", [1, 4, 7]),
-    ("Axa personala", [3, 2, 1]),
-    ("Axa de constructie", [6, 5, 4]),
-    ("Axa superioara si sociala", [9, 8, 7]),
-    ("Vectorul scopului", [3, 5, 7]),
+    ("Axa personala", [1, 2, 3]),
+    ("Axa de constructie", [4, 5, 6]),
+    ("Axa superioara si sociala", [7, 8, 9]),
+    ("Vectorul scopului", [7, 5, 3]),
     ("Vectorul carierei", [1, 5, 9]),
 ]
+
+ALFABET = {
+    **dict.fromkeys("AJS", 1),
+    **dict.fromkeys("BKT", 2),
+    **dict.fromkeys("CLU", 3),
+    **dict.fromkeys("DMV", 4),
+    **dict.fromkeys("ENW", 5),
+    **dict.fromkeys("FOX", 6),
+    **dict.fromkeys("GPY", 7),
+    **dict.fromkeys("HQZ", 8),
+    **dict.fromkeys("IR", 9),
+}
 
 
 def suma_cifrelor(numar):
@@ -31,6 +44,20 @@ def prima_cifra_nenula(numar):
 
 def grupeaza_matrice(cifre):
     return {cifra: str(cifra) * cifre.count(cifra) for cifra in range(1, 10)}
+
+
+def normalizeaza_text(text):
+    fara_diacritice = unicodedata.normalize("NFD", text)
+    fara_diacritice = "".join(
+        caracter for caracter in fara_diacritice
+        if unicodedata.category(caracter) != "Mn"
+    )
+    return "".join(caracter for caracter in fara_diacritice.upper() if caracter.isalpha())
+
+
+def valori_nume(nume):
+    litere = normalizeaza_text(nume)
+    return [(litera, ALFABET[litera]) for litera in litere if litera in ALFABET]
 
 
 def interpreteaza_vectori(matrice):
@@ -102,6 +129,22 @@ def calculeaza_patratul_lui_pitagora(zi, luna, an):
     }
 
 
+def calculeaza_matrice_nume(nume):
+    valori = valori_nume(nume)
+    cifre_matrice = [valoare for _, valoare in valori]
+    matrice = grupeaza_matrice(cifre_matrice)
+
+    return {
+        "nume": nume,
+        "nume_normalizat": "".join(litera for litera, _ in valori),
+        "valori": valori,
+        "total": sum(cifre_matrice),
+        "cifre_matrice": cifre_matrice,
+        "matrice": matrice,
+        "vectori": interpreteaza_vectori(matrice),
+    }
+
+
 def format_suma(cifre):
     return " + ".join(str(cifra) for cifra in cifre)
 
@@ -143,9 +186,9 @@ def afiseaza_rezultat(rezultat):
     print()
 
     print("Patratul lui Pitagora:")
-    print(f"{matrice[3]:<4} | {matrice[6]:<4} | {matrice[9]:<4}")
-    print(f"{matrice[2]:<4} | {matrice[5]:<4} | {matrice[8]:<4}")
     print(f"{matrice[1]:<4} | {matrice[4]:<4} | {matrice[7]:<4}")
+    print(f"{matrice[2]:<4} | {matrice[5]:<4} | {matrice[8]:<4}")
+    print(f"{matrice[3]:<4} | {matrice[6]:<4} | {matrice[9]:<4}")
     print()
 
     print("Vectori:")
@@ -172,6 +215,45 @@ def afiseaza_rezultat(rezultat):
         )
 
 
+def afiseaza_matrice(titlu, matrice):
+    print(titlu)
+    print(f"{matrice[1]:<4} | {matrice[4]:<4} | {matrice[7]:<4}")
+    print(f"{matrice[2]:<4} | {matrice[5]:<4} | {matrice[8]:<4}")
+    print(f"{matrice[3]:<4} | {matrice[6]:<4} | {matrice[9]:<4}")
+    print()
+
+
+def afiseaza_rezultat_nume(rezultat):
+    print()
+    print("Matricea numelui:")
+    print(f"Nume: {rezultat['nume']}")
+    print(f"Nume normalizat: {rezultat['nume_normalizat']}")
+    print()
+
+    print("Valori litere:")
+    print(", ".join(f"{litera}={valoare}" for litera, valoare in rezultat["valori"]))
+    print()
+
+    print("Total nume:")
+    print(rezultat["total"])
+    print()
+
+    print("Cifre introduse in matricea numelui:")
+    print(", ".join(str(cifra) for cifra in rezultat["cifre_matrice"]))
+    print()
+
+    afiseaza_matrice("Patratul numelui:", rezultat["matrice"])
+
+    print("Vectori nume:")
+    for index, vector in enumerate(rezultat["vectori"], start=1):
+        pozitii = "-".join(str(pozitie) for pozitie in vector["pozitii"])
+        print(
+            f"{index}. {vector['nume']} ({pozitii}): "
+            f"{vector['stare']}, {vector['prezente']}/3 pozitii, "
+            f"valoare {vector['valoare']} ({', '.join(vector['analiza'])})"
+        )
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Calculeaza codul si patratul lui Pitagora dupa metoda proiectului."
@@ -179,10 +261,14 @@ def main():
     parser.add_argument("zi", type=int)
     parser.add_argument("luna", type=int)
     parser.add_argument("an", type=int)
+    parser.add_argument("--nume")
     args = parser.parse_args()
 
     rezultat = calculeaza_patratul_lui_pitagora(args.zi, args.luna, args.an)
     afiseaza_rezultat(rezultat)
+    if args.nume:
+        rezultat_nume = calculeaza_matrice_nume(args.nume)
+        afiseaza_rezultat_nume(rezultat_nume)
 
 
 if __name__ == "__main__":

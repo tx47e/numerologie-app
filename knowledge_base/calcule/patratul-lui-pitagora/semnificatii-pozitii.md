@@ -6,9 +6,9 @@ iar frecventa arata intensitatea, usurinta, tensiunea sau tema de dezvoltare.
 ## Schema pozitiei
 
 ```text
-3 | 6 | 9
-2 | 5 | 8
 1 | 4 | 7
+2 | 5 | 8
+3 | 6 | 9
 ```
 
 ## 1 - Caracter, vointa, identitate

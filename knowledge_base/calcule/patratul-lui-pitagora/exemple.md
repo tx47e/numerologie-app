@@ -56,9 +56,9 @@ Cifre introduse in matrice, fara zero:
 Matrice:
 
 ```text
-33  | 6  | 9
-222 |    | 88
 1   | 44 |
+222 |    | 88
+33  | 6  | 9
 ```
 
 Observatii rapide:
@@ -67,6 +67,55 @@ Observatii rapide:
 - 3 apare de doua ori: expresie si comunicare active.
 - 4 apare de doua ori: baza practica si disciplina prezente.
 - 5 si 7 lipsesc: centrul interior si dimensiunea de sens cer dezvoltare constienta.
+
+### Matrice separata a numelui - Ana Maria Popescu
+
+Nume complet:
+
+```text
+Ana Maria Popescu
+```
+
+Nume normalizat:
+
+```text
+ANAMARIAPOPESCU
+```
+
+Valori litere:
+
+```text
+A=1, N=5, A=1, M=4, A=1, R=9, I=9, A=1, P=7, O=6, P=7, E=5, S=1, C=3, U=3
+```
+
+Total nume:
+
+```text
+63
+```
+
+Cifre introduse in matricea numelui:
+
+```text
+1, 5, 1, 4, 1, 9, 9, 1, 7, 6, 7, 5, 1, 3, 3
+```
+
+Matricea numelui:
+
+```text
+11111 | 4 | 77
+      | 55|
+33    | 6 | 99
+```
+
+Observatii comparative:
+
+- Matricea datei are axa personala foarte accentuata prin 3, 2 si 1.
+- Matricea numelui activeaza puternic vectorul carierei 1-5-9.
+- Cifra 5 lipseste din matricea datei, dar apare de doua ori in matricea numelui.
+- Cifra 2 este puternica in data, dar lipseste din nume.
+- Cele doua matrici se citesc separat: data arata structura de nastere, numele
+  arata expresia prin identitate si comunicare.
 
 ## Exemplu 2 - 07.11.1994
 
@@ -123,9 +172,9 @@ Cifre introduse in matrice, fara zero:
 Matrice:
 
 ```text
-3    |    | 999
-2    | 5  | 8
 1111 | 4  | 7
+2    | 5  | 8
+3    |    | 999
 ```
 
 Observatii rapide:
@@ -190,9 +239,9 @@ Cifre introduse in matrice, fara zero:
 Matrice:
 
 ```text
-333  | 6 | 9
-     | 5 | 88
 1111 | 4 |
+     | 5 | 88
+333  | 6 | 9
 ```
 
 Observatii rapide:
@@ -257,9 +306,9 @@ Cifre introduse in matrice, fara zero:
 Matrice:
 
 ```text
-3    |  | 9
-222  |  | 8
 1111 | 4| 7
+222  |  | 8
+3    |  | 9
 ```
 
 Observatii rapide:
@@ -267,7 +316,7 @@ Observatii rapide:
 - 1 apare de patru ori: afirmare foarte puternica.
 - 2 apare de trei ori: energie emotionala si receptivitate accentuate.
 - 5 si 6 lipsesc: centrul si responsabilitatea practica trebuie sustinute constient.
-- Linia de jos 1-4-7 este completa: baza existentiala, corpul si sensul sunt conectate.
+- Linia de sus 1-4-7 este completa: baza existentiala, corpul si sensul sunt conectate.
 
 ## Exemplu 5 - 03.06.1975
 
@@ -324,9 +373,9 @@ Cifre introduse in matrice, fara zero:
 Matrice:
 
 ```text
-33 | 6 | 9
-2  | 55|
 11 | 4 | 77
+2  | 55|
+33 | 6 | 9
 ```
 
 Observatii rapide:
@@ -391,9 +440,9 @@ Cifre introduse in matrice, fara zero:
 Matrice:
 
 ```text
-33 |   |
-22 | 55|
 1  |   |
+22 | 55|
+33 |   |
 ```
 
 Observatii rapide:

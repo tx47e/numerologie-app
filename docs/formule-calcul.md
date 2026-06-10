@@ -6,6 +6,8 @@ Acest document centralizeaza formulele numerologice adoptate in proiect.
 
 - `vibratia numelui`: suma valorilor literelor din numele complet, redusa la 1-9.
 - `destin`: aceeasi formula ca vibratia numelui, folosita ca axa a numelui complet.
+- `nume inainte/dupa casatorie`: se calculeaza separat, apoi se compara
+  vibratia, matricea numelui, karma numelui si karma neamului.
 
 ## Data nasterii
 
@@ -39,11 +41,16 @@ Acest document centralizeaza formulele numerologice adoptate in proiect.
 - `lectii karmice`: numerele 1-9 absente din valorile literelor numelui.
 - `datorii karmice`: aparitia numerelor 13, 14, 16 sau 19 in totaluri importante.
 - `karma neamului`: aceeasi analiza karmica, aplicata pe numele de familie.
+- `karma neamului inainte/dupa casatorie`: analiza separata pe numele de familie
+  purtat inainte si dupa schimbarea numelui.
 
 ## Patratul lui Pitagora
 
 - se foloseste metoda cu patru numere de lucru din
   `knowledge_base/calcule/patratul-lui-pitagora/metoda.md`;
+- matricea datei se construieste din data nasterii si cele patru numere de lucru;
+- matricea numelui se construieste separat din valorile literelor numelui complet;
+- cele doua matrici se compara, dar nu se combina automat;
 - vectorii se calculeaza ca total de aparitii pe fiecare linie;
 - vectorii se sorteaza descrescator dupa valoare si se analizeaza la comun.
 

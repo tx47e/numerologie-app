@@ -34,3 +34,15 @@ functie karma_neamului(nume_familie):
 
 Aceasta formula este o conventie de proiect. Ea trebuie validata prin exemple si
 prin decizia editoriala finala despre cum tratam numele de familie.
+
+## Nume de familie inainte si dupa casatorie
+
+Pentru persoanele care isi schimba numele prin casatorie, karma neamului se
+calculeaza separat:
+
+- `karma_neamului_inainte`: pe numele de familie purtat inainte de casatorie;
+- `karma_neamului_dupa`: pe numele de familie purtat dupa casatorie.
+
+Comparatia nu anuleaza numele de origine. Ea arata diferenta dintre linia de neam
+din care persoana vine si linia de neam cu care intra in relatie sociala sau
+familiala dupa casatorie.

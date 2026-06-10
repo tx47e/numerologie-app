@@ -3,7 +3,7 @@
 Metoda porneste de la data nasterii si genereaza o serie de cifre care se aseaza
 in matricea 3x3.
 
-## Date necesare
+## Date necesare pentru matricea datei
 
 - ziua nasterii;
 - luna nasterii;
@@ -101,9 +101,9 @@ Cifra 0 se elimina.
 Folosim aceasta pozitionare:
 
 ```text
-3 | 6 | 9
-2 | 5 | 8
 1 | 4 | 7
+2 | 5 | 8
+3 | 6 | 9
 ```
 
 Pentru fiecare cifra aparuta, se adauga acea cifra in casuta corespunzatoare.
@@ -112,9 +112,9 @@ Daca cifra apare de mai multe ori, se repeta in aceeasi casuta.
 Exemplu:
 
 ```text
-33 | 6  | 9
-222|    | 88
 1  | 44 |
+222|    | 88
+33 | 6  | 9
 ```
 
 ## Formula pentru implementare
@@ -142,3 +142,62 @@ functie patratul_lui_pitagora(zi, luna, an):
 - Absenta conteaza: lipsa unei cifre nu este defect, ci tema de dezvoltare.
 - Numerele de lucru se interpreteaza prin cifrele lor, nu ca numere independente.
 - Matricea este instrument de citire simbolica, nu diagnostic psihologic.
+
+## Matricea numelui
+
+Matricea numelui se calculeaza separat fata de matricea datei de nastere.
+Ea arata distributia expresiei prin nume, nu structura extrasa din data.
+
+Date necesare:
+
+- numele complet;
+- alfabetul numerologic pitagoreic documentat in
+  `knowledge_base/calcule/nume/alfabet-numerologic.md`.
+
+Regula:
+
+1. Se preia numele complet.
+2. Se normalizeaza numele:
+   - se transforma literele cu diacritice in litere de baza;
+   - se ignora spatiile, cratimele si semnele de punctuatie;
+   - se pastreaza doar literele.
+3. Fiecare litera se transforma in valoarea numerologica 1-9.
+4. Valorile obtinute se aseaza in aceeasi matrice 3x3:
+
+```text
+1 | 4 | 7
+2 | 5 | 8
+3 | 6 | 9
+```
+
+Exemplu scurt:
+
+```text
+ANA -> A=1, N=5, A=1
+```
+
+Matricea numelui:
+
+```text
+11 |   |
+   | 5 |
+   |   |
+```
+
+## Citire comparativa
+
+In profilul complet se pastreaza doua matrici:
+
+- matricea datei de nastere;
+- matricea numelui.
+
+Ele se compara prin:
+
+- cifre dominante in data si in nume;
+- cifre absente in data, dar prezente in nume;
+- cifre prezente in data, dar absente in nume;
+- vectori activi in data fata de vectori activi in nume.
+
+Nu combinam automat cifrele datei cu cifrele numelui intr-o singura matrice,
+pentru ca ar amesteca doua surse simbolice diferite: structura nasterii si
+expresia prin nume.

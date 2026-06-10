@@ -6,25 +6,24 @@ o directie de manifestare.
 Schema folosita in proiect:
 
 ```text
-3 | 6 | 9
-2 | 5 | 8
 1 | 4 | 7
+2 | 5 | 8
+3 | 6 | 9
 ```
 
 ## Vectori orizontali
 
-### Vectorul 3 - 6 - 9: scara bunastarii materiale
+### Vectorul 1 - 4 - 7: scara bunastarii spirituale
 
-Acest vector arata felul in care expresia, munca si intelectul pot sustine
-constructia materiala.
+Acest vector arata legatura dintre vointa, corp si sens.
 
-- 3: comunicare, expresie, idei;
-- 6: responsabilitate, munca, organizare;
-- 9: intelect, memorie, intelegere.
+- 1: caracter, initiativa, afirmare;
+- 4: corp, disciplina, baza practica;
+- 7: sens, protectie, cautare interioara.
 
-Cand vectorul este activ, persoana poate transforma ideile in structura si poate
-folosi mintea pentru rezultate concrete. Cand este slab, pot aparea dificultati
-in disciplina mentala, continuitate sau valorificarea practica a inteligentei.
+Cand vectorul este activ, persoana are baza, directie si capacitatea de a sustine
+un drum personal. Cand este slab, pot aparea dificultati de incredere, rutina sau
+ancorare.
 
 ### Vectorul 2 - 5 - 8: vectorul relational si social
 
@@ -39,36 +38,37 @@ Cand vectorul este activ, persoana poate relationa, negocia si functiona in
 contexte sociale. Cand este slab, pot aparea fluctuatii, lipsa de centru sau
 tensiuni in raport cu mediul.
 
-### Vectorul 1 - 4 - 7: scara bunastarii spirituale
+### Vectorul 3 - 6 - 9: scara bunastarii materiale
 
-Acest vector arata legatura dintre vointa, corp si sens.
+Acest vector arata felul in care expresia, munca si intelectul pot sustine
+constructia materiala.
 
-- 1: caracter, initiativa, afirmare;
-- 4: corp, disciplina, baza practica;
-- 7: sens, protectie, cautare interioara.
+- 3: comunicare, expresie, idei;
+- 6: responsabilitate, munca, organizare;
+- 9: intelect, memorie, intelegere.
 
-Cand vectorul este activ, persoana are baza, directie si capacitatea de a sustine
-un drum personal. Cand este slab, pot aparea dificultati de incredere, rutina sau
-ancorare.
+Cand vectorul este activ, persoana poate transforma ideile in structura si poate
+folosi mintea pentru rezultate concrete. Cand este slab, pot aparea dificultati
+in disciplina mentala, continuitate sau valorificarea practica a inteligentei.
 
 ## Vectori verticali
 
-### Vectorul 3 - 2 - 1: axa personala
+### Vectorul 1 - 2 - 3: axa personala
 
-Arata cum expresia, energia si identitatea se pun in miscare.
+Arata cum identitatea, energia si expresia se pun in miscare.
 
-### Vectorul 6 - 5 - 4: axa de constructie
+### Vectorul 4 - 5 - 6: axa de constructie
 
 Arata capacitatea de a sustine efort, rutina, responsabilitate si echilibru
 practic.
 
-### Vectorul 9 - 8 - 7: axa superioara si sociala
+### Vectorul 7 - 8 - 9: axa superioara si sociala
 
 Arata raportul cu lumea larga, regulile, intelepciunea si directia spirituala.
 
 ## Vectori diagonali
 
-### Vectorul 3 - 5 - 7: vectorul scopului
+### Vectorul 7 - 5 - 3: vectorul scopului
 
 Leaga expresia, centrul si sensul. Poate arata inspiratie, intuitie si capacitatea
 de a transforma experienta in viziune.
