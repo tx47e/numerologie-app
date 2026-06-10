@@ -12,3 +12,10 @@ Directii practice:
 - acceptarea dezordinii moderate;
 - exprimarea nevoilor inainte ca ele sa devina repros.
 
+Practici utile:
+
+- stabilirea limitelor inainte de epuizare;
+- intrebarea explicita daca ajutorul este dorit;
+- impartirea responsabilitatilor in familie sau echipa;
+- cultivarea frumusetii si a odihnei, nu doar a datoriei.
+

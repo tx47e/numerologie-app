@@ -16,3 +16,11 @@ Manifestari posibile:
 In umbra, 3 poate transforma orice rana intr-un spectacol, fara a ramane suficient
 de mult cu adevarul din spatele ei.
 
+In relatii, umbra lui 3 poate aparea ca dramatizare, nevoie de atentie sau
+dificultate de a ramane cu emotii incomode. In munca, poate promite mai mult decat
+poate sustine, atras de entuziasmul inceputului si mai putin de disciplina
+continuarii.
+
+Semnul dezechilibrului este cand expresia devine masca. Persoana pare deschisa,
+dar foloseste farmecul, umorul sau povestea pentru a evita contactul sincer.
+

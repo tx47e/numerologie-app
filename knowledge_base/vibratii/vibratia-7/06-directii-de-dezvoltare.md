@@ -11,3 +11,10 @@ Directii practice:
 - activitati corporale lente;
 - verificarea tendintei de a amana actiunea prin analiza.
 
+Practici utile:
+
+- alternarea studiului cu actiunea concreta;
+- formularea concluziilor in limbaj accesibil;
+- pastrarea unor relatii in care vulnerabilitatea este posibila;
+- verificarea intuitiilor prin realitate, nu doar prin gandire.
+

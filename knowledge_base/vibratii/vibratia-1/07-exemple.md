@@ -8,3 +8,8 @@ La inceput, energia 1 il ajuta sa fie curajos si rapid. Daca ramane in lumina, v
 invata sa construiasca o echipa si sa asculte piata. Daca aluneca in umbra, poate
 respinge orice sfat, epuizandu-se prin nevoia de a controla fiecare detaliu.
 
+Exemplu de integrare: un 1 primeste conducerea unui proiect nou. Prima reactie
+este sa grabeasca deciziile si sa respinga intrebarile echipei. Cand isi observa
+impulsul, revine la scop: traseaza directia, cere feedback pe riscuri si pastreaza
+decizia finala fara a transforma colaborarea intr-o amenintare.
+

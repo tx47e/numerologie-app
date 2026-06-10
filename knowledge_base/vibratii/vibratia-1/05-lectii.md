@@ -12,3 +12,9 @@ Aceasta vibratie invata:
 - sa conduca prin exemplu;
 - sa isi foloseasca forta cu discernamant.
 
+Intrebari de lucru:
+
+- Unde confund initiativa cu nevoia de a controla?
+- Ce drum vreau sa deschid pentru ca este viu, nu doar pentru ca vreau sa castig?
+- Cum pot primi feedback fara sa simt ca imi pierd autoritatea?
+

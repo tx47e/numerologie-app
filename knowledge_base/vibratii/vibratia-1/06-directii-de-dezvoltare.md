@@ -12,3 +12,10 @@ Directii practice:
 - acceptarea mentoratului;
 - observarea diferentei dintre curaj si impulsivitate.
 
+Practici utile:
+
+- stabilirea unei directii clare inainte de actiune;
+- verificarea impactului deciziilor asupra celorlalti;
+- alternarea momentelor de conducere cu momente de ascultare;
+- transformarea competitiei in progres masurabil.
+

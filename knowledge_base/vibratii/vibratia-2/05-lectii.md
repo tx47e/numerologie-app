@@ -11,3 +11,9 @@ Aceasta vibratie invata:
 - sa diferentieze intuitia de frica;
 - sa ramana prezenta fara sa se dizolve in celalalt.
 
+Intrebari de lucru:
+
+- Unde spun da pentru a evita teama de respingere?
+- Ce simt cu adevarat inainte sa ma adaptez la celalalt?
+- Cum pot ramane bland fara sa devin invizibil?
+

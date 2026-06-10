@@ -11,3 +11,9 @@ Aceasta vibratie invata:
 - sa deosebeasca responsabilitatea de povara;
 - sa permita imperfectiunii sa existe.
 
+Intrebari de lucru:
+
+- Ce structura ma sustine si ce structura ma limiteaza?
+- Unde folosesc munca pentru a evita nesiguranta?
+- Ce pot simplifica fara sa pierd calitatea?
+

@@ -7,3 +7,8 @@ Exemplu amplu: o persoana se dedica unei cauze sociale. In lumina, isi foloseste
 empatia si viziunea pentru a crea impact real. In umbra, se epuizeaza, refuza
 limitele si ajunge sa creada ca odihna personala este o forma de egoism.
 
+
+Exemplu de integrare: un 9 simte ca o relatie si-a incheiat rolul, dar ramane din
+loialitate fata de trecut. Integrarea apare cand recunoaste ce a fost valoros,
+iertand fara sa nege realitatea prezenta. Finalul devine un act de maturitate, nu
+o tradare.

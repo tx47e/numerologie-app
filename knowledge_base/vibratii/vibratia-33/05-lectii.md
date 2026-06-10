@@ -11,3 +11,9 @@ Lectiile vibratiei 33 sunt:
 
 33 invata ca vindecarea reala nu inseamna salvare fortata, ci prezenta, adevar,
 limite si sustinere matura.
+
+Intrebari de lucru:
+
+- Ajut pentru cresterea celuilalt sau pentru a ma simti necesar?
+- Ce limita ar face iubirea mai curata?
+- Unde port dureri care nu imi apartin?

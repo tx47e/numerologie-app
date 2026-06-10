@@ -8,3 +8,8 @@ In lumina, poate construi o cariera dinamica, bazata pe proiecte si invatare
 continua. In umbra, poate evita orice aprofundare, ramanand mereu la nivelul
 inceputului entuziast.
 
+
+Exemplu de integrare: un 5 simte nevoia sa plece dintr-un proiect cand apare
+plictiseala. In loc sa rupa brusc, verifica daca problema este lipsa de sens sau
+doar lipsa de noutate. Alege sa negocieze un rol mai mobil si isi pastreaza
+angajamentul pana la finalizarea etapei.

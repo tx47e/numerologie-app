@@ -15,3 +15,11 @@ Manifestari posibile:
 In umbra, 1 poate spune "ma descurc singur" chiar si atunci cand ajutorul ar fi
 semn de maturitate, nu de slabiciune.
 
+In relatii, umbra lui 1 poate aparea ca nerabdare fata de ritmul celorlalti,
+competitie inutila sau tendinta de a transforma orice dialog intr-o proba de
+autoritate. In munca, poate porni multe lucruri fara sa accepte colaborarea
+necesara pentru finalizare.
+
+Semnul dezechilibrului este cand autonomia devine defensiva. Persoana nu mai alege
+singuratatea pentru claritate, ci o foloseste ca protectie impotriva vulnerabilitatii.
+

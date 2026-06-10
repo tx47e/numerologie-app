@@ -11,3 +11,9 @@ Aceasta vibratie invata:
 - sa transforme sensibilitatea in contributie concreta;
 - sa accepte limitele propriei influente.
 
+Intrebari de lucru:
+
+- Ce ciclu s-a incheiat, chiar daca inca ma agat de el?
+- Unde ajut din iubire si unde ajut ca sa evit durerea finalului?
+- Cum pot ierta fara sa ma intorc intr-un loc care nu mai este sanatos?
+

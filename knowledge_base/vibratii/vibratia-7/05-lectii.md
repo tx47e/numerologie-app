@@ -11,3 +11,9 @@ Aceasta vibratie invata:
 - sa imparta cunoasterea intr-un limbaj accesibil;
 - sa accepte misterul fara a-l transforma in anxietate.
 
+Intrebari de lucru:
+
+- Caut claritate sau caut o garantie imposibila?
+- Unde folosesc analiza ca sa nu simt?
+- Ce adevar pot impartasi intr-o forma simpla si folositoare?
+

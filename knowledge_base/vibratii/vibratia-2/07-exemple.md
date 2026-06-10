@@ -8,3 +8,8 @@ starea emotionala a partenerului. In lumina, invata sa sustina fara sa repare to
 In umbra, isi poate pierde propriile dorinte, transformand grija intr-o forma
 discreta de dependenta.
 
+Exemplu de integrare: un 2 observa ca accepta mereu programul celorlalti pentru a
+nu crea tensiune. In loc sa se retraga sau sa acumuleze resentiment, spune clar ce
+are nevoie si propune o varianta echilibrata. Relatia ramane vie tocmai pentru ca
+adevarul este inclus in armonie.
+

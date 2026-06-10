@@ -15,3 +15,11 @@ Calitati centrale:
 
 Un 9 integrat stie ca a iubi lumea nu inseamna a purta singur toate ranile ei.
 
+In relatii si munca, lumina lui 9 se vede prin generozitate, perspectiva larga si
+capacitatea de a integra experiente diferite intr-o intelegere mai cuprinzatoare.
+Persoana poate incheia conflicte, poate crea sens si poate contribui la binele
+unei comunitati.
+
+Semnul maturitatii este compasiunea lucida. 9 luminos ajuta fara sa devina martir
+si poate ierta fara sa nege limitele realitatii.
+

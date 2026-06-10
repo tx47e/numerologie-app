@@ -96,3 +96,10 @@ Acest jurnal urmareste pasii importanti facuti in proiect.
   - rol matur;
   - risc de umbra;
   - lectie principala de integrare.
+- Au fost extinse si celelalte capitole pentru vibratiile 1-9 si numerele
+  maestre 11, 22 si 33:
+  - `Esenta` a primit intrebarea centrala si recunoasterea in viata cotidiana;
+  - `Lumina` si `Umbra` au primit manifestari in relatii si munca;
+  - `Lectii` a primit intrebari de lucru;
+  - `Directii de dezvoltare` a primit practici utile;
+  - `Exemple` a primit cate un exemplu de integrare.

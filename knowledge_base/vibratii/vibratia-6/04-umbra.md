@@ -16,3 +16,10 @@ Manifestari posibile:
 In umbra, 6 poate spune "fac totul pentru tine", dar mesajul ascuns devine "deci
 trebuie sa fii asa cum am nevoie eu".
 
+In relatii, umbra lui 6 poate aparea ca salvare compulsiva, vinovatie, control
+prin grija sau asteptarea ca ceilalti sa raspunda exact la sacrificiul oferit. In
+munca, poate prelua prea multe sarcini si apoi poate simti ca nimeni nu apreciaza.
+
+Semnul dezechilibrului este cand ajutorul nu mai este liber. Persoana ofera, dar
+in interior strange oboseala, repros si nevoia de recunoastere.
+

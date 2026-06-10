@@ -6,3 +6,10 @@
 - Foloseste creativitatea ca forma de vindecare si educatie.
 - Ai grija de corp, odihna si resurse emotionale.
 - Pastreaza legatura cu vibratia 6: armonie, familie, responsabilitate si echilibru.
+
+Practici utile:
+
+- oferirea sprijinului doar acolo unde exista receptivitate;
+- separarea compasiunii de vinovatie;
+- pastrarea unor ritualuri personale de refacere;
+- construirea unor forme de ajutor care cresc autonomia celuilalt.

@@ -12,3 +12,10 @@ Directii practice:
 - evaluarea situatiilor in care ajutorul devine salvare compulsiva;
 - cultivarea recunostintei pentru ce a fost, fara a ramane blocat acolo.
 
+Practici utile:
+
+- numirea lucrurilor care trebuie lasate in urma;
+- transformarea durerii in creatie, invatare sau contributie;
+- alegerea cauzelor in care implicarea este sustenabila;
+- revenirea la corp si prezent cand idealul devine coplesitor.
+

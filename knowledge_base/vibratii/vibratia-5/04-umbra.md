@@ -16,3 +16,10 @@ Manifestari posibile:
 In umbra, 5 poate numi "libertate" ceea ce este, de fapt, incapacitatea de a ramane
 prezent cand lucrurile devin serioase.
 
+In relatii, umbra lui 5 poate aparea ca teama de angajament, nevoia de noutate
+continua sau iesiri impulsive din situatii care cer rabdare. In munca, poate
+incepe multe directii fara sa le stabilizeze.
+
+Semnul dezechilibrului este cand miscarea devine evitare. Persoana schimba locul,
+contextul sau oamenii, dar intalneste aceeasi neliniste interioara.
+

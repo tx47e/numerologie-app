@@ -12,3 +12,10 @@ Directii practice:
 - exercitii de toleranta la schimbare;
 - valorizarea progresului, nu doar a rezultatului perfect.
 
+Practici utile:
+
+- impartirea obiectivelor mari in pasi verificabili;
+- revizuirea regulilor care nu mai servesc scopului;
+- planificarea odihnei ca parte a constructiei;
+- acceptarea unui rezultat bun, nu doar a celui perfect.
+

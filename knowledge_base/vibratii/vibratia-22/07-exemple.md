@@ -8,3 +8,8 @@ face primul pas.
 Intr-un rol profesional, 22 poate vedea cum se pot lega oameni, resurse si procese
 intr-un sistem functional. Are nevoie de rabdare si realism, altfel poate deveni
 critic, rigid sau epuizat.
+
+Exemplu de integrare: un 22 vede potentialul unui proiect amplu, dar se simte
+coplesit de toate etapele. Integrarea apare cand defineste prima versiune
+functionala, imparte responsabilitati si transforma viziunea mare intr-un calendar
+realist.

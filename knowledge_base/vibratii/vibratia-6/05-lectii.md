@@ -11,3 +11,9 @@ Aceasta vibratie invata:
 - sa ceara ajutor;
 - sa diferentieze responsabilitatea proprie de responsabilitatea altora.
 
+Intrebari de lucru:
+
+- Ajut pentru ca este potrivit sau pentru ca nu suport disconfortul celuilalt?
+- Ce nevoie proprie ignor cand am grija de toti?
+- Unde confund responsabilitatea cu vinovatia?
+

@@ -11,3 +11,9 @@ Aceasta vibratie invata:
 - sa ramana intr-un proces dupa ce noutatea dispare;
 - sa transforme experienta in intelepciune.
 
+Intrebari de lucru:
+
+- Ce caut prin schimbarea pe care o doresc?
+- Fug de o limita moarta sau de o responsabilitate necesara?
+- Cum pot pastra libertatea fara sa rup continuitatea?
+

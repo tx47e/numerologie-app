@@ -7,7 +7,7 @@
 - [x] Documentare pasi si decizii.
 - [x] Mutare continut numerologic in `knowledge_base/`.
 - [ ] Curatare backup-uri `_sursa-initiala.md` dupa validare.
-- [ ] Extindere continut pentru fiecare capitol.
+- [x] Extindere continut pentru fiecare capitol.
 - [x] Stabilire ton editorial final.
 
 ## Etapa 2: model de date

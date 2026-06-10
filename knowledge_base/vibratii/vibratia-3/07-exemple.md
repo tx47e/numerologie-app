@@ -8,3 +8,8 @@ artistice, dar se opreste cand entuziasmul initial scade. In lumina, invata sa
 aleaga un proiect si sa il duca pana la capat. In umbra, ramane dependenta de
 inceputuri, confundand inspiratia cu implinirea.
 
+
+Exemplu de integrare: un 3 are o idee creativa, dar o abandoneaza cand nu primeste
+reactie imediata. Observand tiparul, isi stabileste un termen scurt, finalizeaza
+forma de baza si cere feedback. Bucuria expresiei devine disciplina creativa, nu
+doar nevoie de aplauze.

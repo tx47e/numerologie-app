@@ -11,3 +11,10 @@ Directii practice:
 - observarea nevoii de a impresiona;
 - cultivarea unei relatii mature cu critica.
 
+Practici utile:
+
+- alegerea unui canal creativ principal pentru o perioada definita;
+- finalizarea unor proiecte mici inainte de a deschide altele;
+- exprimarea unei emotii fara dramatizare;
+- transformarea feedbackului in rafinare, nu in rusine.
+

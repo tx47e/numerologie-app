@@ -11,3 +11,10 @@ Directii practice:
 - planuri scurte si adaptabile;
 - reflectie dupa experiente: "Ce am invatat, nu doar ce am trait?"
 
+Practici utile:
+
+- alegerea a una-doua directii principale intr-o perioada aglomerata;
+- notarea consecintelor inainte de o decizie impulsiva;
+- transformarea curiozitatii in invatare aplicata;
+- pastrarea unui ritm minim stabil, chiar in perioade de schimbare.
+

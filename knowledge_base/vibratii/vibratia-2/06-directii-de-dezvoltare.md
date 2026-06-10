@@ -11,3 +11,10 @@ Directii practice:
 - alegerea colaborarilor in care contributia este recunoscuta;
 - jurnalizarea sentimentelor pentru a separa propriile emotii de ale altora.
 
+Practici utile:
+
+- numirea propriilor nevoi inainte de negociere;
+- observarea diferentelor dintre pace reala si evitare;
+- cultivarea relatiilor in care sprijinul circula in ambele sensuri;
+- exersarea unui nu calm si clar.
+

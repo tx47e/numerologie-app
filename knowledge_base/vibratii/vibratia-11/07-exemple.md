@@ -8,3 +8,8 @@ retrage coplesita.
 Intr-un proiect creativ, 11 poate aduce ideea care da sens intregului concept.
 Are insa nevoie de oameni sau structuri care sa ajute la materializare, altfel
 inspiratia ramane doar intensitate.
+
+Exemplu de integrare: un 11 are o intuitie puternica despre o colaborare. In loc
+sa actioneze doar din tensiune, noteaza ce a simtit, verifica faptele si discuta
+clar cu persoanele implicate. Perceptia subtila devine instrument de clarificare,
+nu sursa de panica.

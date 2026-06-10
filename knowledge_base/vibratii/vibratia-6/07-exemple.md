@@ -7,3 +7,7 @@ Exemplu amplu: intr-o familie, persoana cu vibratie 6 devine centrul emotional a
 tuturor. In lumina, creeaza siguranta si comuniune. In umbra, ajunge sa controleze
 deciziile celorlalti "spre binele lor", pierzandu-si bucuria si libertatea.
 
+
+Exemplu de integrare: un 6 preia constant responsabilitati pentru cei apropiati si
+ajunge obosit. Integrarea incepe cand intreaba ce ajutor este dorit, ce tine cu
+adevarat de el si ce trebuie lasat celorlalti. Grija ramane, dar capata limite.

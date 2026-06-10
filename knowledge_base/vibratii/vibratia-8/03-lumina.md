@@ -16,3 +16,10 @@ Calitati centrale:
 Un 8 integrat nu se teme de putere, dar nici nu o idolatrizeaza. O foloseste ca
 instrument de constructie.
 
+In relatii si munca, lumina lui 8 se vede prin decizie, strategie, administrarea
+resurselor si capacitatea de a sustine presiunea fara sa devina abuziv. Persoana
+poate conduce situatii complexe si poate transforma potentialul in rezultat.
+
+Semnul maturitatii este autoritatea cu responsabilitate. 8 luminos nu foloseste
+puterea pentru validare, ci pentru constructie, protectie si eficienta.
+

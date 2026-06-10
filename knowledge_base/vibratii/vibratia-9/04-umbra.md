@@ -16,3 +16,10 @@ Manifestari posibile:
 In umbra, 9 poate suferi pentru lume intr-un mod care nu mai ajuta nici lumea, nici
 persoana.
 
+In relatii, umbra lui 9 poate aparea ca salvare, idealizare, atasament fata de
+trecut sau dificultate de a pune punct. In munca, poate ramane prins in viziuni
+mari, dar fara pasi concreti.
+
+Semnul dezechilibrului este cand compasiunea devine dizolvare. Persoana simte
+mult pentru toti, dar nu mai stie ce ii apartine si ce trebuie lasat celorlalti.
+

@@ -11,3 +11,10 @@ Directii practice:
 - cultivarea empatiei in pozitii de autoritate;
 - masurarea succesului si prin calitatea relatiilor, nu doar prin rezultate.
 
+Practici utile:
+
+- definirea criteriilor etice inainte de decizii importante;
+- verificarea costului uman al unui rezultat;
+- folosirea resurselor pentru constructie, nu doar pentru imagine;
+- exersarea vulnerabilitatii in contexte de incredere.
+

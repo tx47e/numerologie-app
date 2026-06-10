@@ -8,3 +8,8 @@ metodica. In lumina, devine un reper de incredere. In umbra, poate ajunge sa se
 epuizeze, simtind ca orice pauza este o pierdere si ca doar performanta ii justifica
 existenta.
 
+
+Exemplu de integrare: un 4 organizeaza un plan foarte strict, dar realitatea aduce
+intarzieri. Prima reactie este iritarea si nevoia de a controla fiecare detaliu.
+Integrarea apare cand pastreaza obiectivul, ajusteaza etapele si include marje de
+odihna si neprevazut.

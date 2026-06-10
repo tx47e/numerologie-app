@@ -11,3 +11,9 @@ Aceasta vibratie invata:
 - sa construiasca succes durabil;
 - sa echilibreze ambitia cu umanitatea.
 
+Intrebari de lucru:
+
+- Ce valoare serveste puterea mea?
+- Unde confund controlul cu siguranta?
+- Ce rezultat merita obtinut fara sa imi pierd integritatea?
+

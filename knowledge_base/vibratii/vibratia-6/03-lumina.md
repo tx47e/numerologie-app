@@ -16,3 +16,11 @@ Calitati centrale:
 Un 6 integrat intelege ca iubirea nu inseamna salvare continua, ci prezenta,
 respect si limite clare.
 
+In relatii si munca, lumina lui 6 se vede prin grija constanta, simt al
+responsabilitatii si capacitatea de a crea spatii in care oamenii se simt protejati
+si respectati. Persoana poate armoniza conflicte si poate observa ce are nevoie
+de reparatie.
+
+Semnul maturitatii este iubirea cu limite. 6 luminos ofera sprijin, dar nu ia
+dreptul celorlalti de a invata prin propriile alegeri.
+

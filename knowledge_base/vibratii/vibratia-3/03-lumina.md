@@ -16,3 +16,10 @@ Calitati centrale:
 Un 3 integrat nu vorbeste doar ca sa umple spatiul, ci pentru a revela ceva:
 o idee, o emotie, o posibilitate.
 
+In relatii si munca, lumina lui 3 se vede prin comunicare vie, umor sanatos si
+talentul de a transforma tensiunea in dialog. Persoana poate face un mesaj dificil
+mai accesibil fara sa ii piarda profunzimea.
+
+Semnul maturitatii este expresia asumata. 3 luminos nu cauta doar reactie, ci
+foloseste cuvantul, imaginea sau gestul pentru a crea sens.
+

@@ -8,3 +8,7 @@ intelegand sisteme complexe. In lumina, devine un ghid lucid pentru ceilalti. In
 umbra, se poate izola, simtind ca nimeni nu o intelege si evitand relatiile care ar
 cere vulnerabilitate.
 
+
+Exemplu de integrare: un 7 analizeaza mult o decizie si amana actiunea pana cand
+totul pare sigur. Observand blocajul, formuleaza ipotezele, face un pas mic si
+verifica realitatea. Cunoasterea devine sprijin pentru viata, nu inlocuitor al ei.
