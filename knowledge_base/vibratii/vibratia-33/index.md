@@ -20,3 +20,6 @@ sau ridica pe ceilalti fara sacrificiu orb.
 
 Vibratia 33 trebuie citita cu multa prudenta. Ea nu inseamna obligatia de a salva
 pe toata lumea, ci maturizarea iubirii, a grijii si a responsabilitatii.
+
+La extinderea capitolelor, se poate face referire la Arcanele Majore din tarot
+pentru a prelua, compara si nuanta diferitele calitati ale vibratiei.

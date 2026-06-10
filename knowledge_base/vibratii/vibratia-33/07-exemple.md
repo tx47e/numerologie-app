@@ -12,3 +12,11 @@ Exemplu de integrare: un 33 observa ca este cautat mereu pentru sprijin si ca nu
 mai are timp pentru sine. In loc sa se inchida sau sa se sacrifice, stabileste
 limite clare si recomanda resurse potrivite. Ajutorul ramane cald, dar nu mai
 creeaza dependenta.
+## Legatura cu tarotul
+
+Exemplele pot fi completate prin referinte la tarot, in special la cartile din
+Arcanele Majore. Aceste legaturi pot ajuta la preluarea unor calitati simbolice,
+la compararea expresiilor in lumina si in umbra si la nuantarea scenariilor
+practice asociate vibratiei. Referinta la tarot ramane orientativa: ea sustine
+interpretarea, dar nu inlocuieste analiza numerologica propriu-zisa.
+

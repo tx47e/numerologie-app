@@ -39,6 +39,23 @@ Interpretarea trebuie sa tina impreuna trei niveluri:
 Un capitol bun nu ramane doar in abstract. Dupa explicatia simbolica, el trebuie
 sa arate cum se poate recunoaste tema in viata reala.
 
+## Ton de coaching
+
+Interpretarile trebuie sa functioneze ca un proces de coaching: clarifica, oglindesc
+si orienteaza, fara sa judece persoana. Fiecare explicatie importanta trebuie sa
+arate atat partile pozitive, cat si partile negative ale unei vibratii, apoi sa
+indice o directie de maturizare.
+
+Partea pozitiva descrie resursele, calitatile si potentialul unei vibratii. Partea
+negativa descrie riscurile, excesele, mecanismele defensive sau formele imature.
+Directia de evolutie arata cum poate fi transformata energia respectiva intr-o
+expresie mai constienta, mai responsabila si mai utila pentru viata persoanei.
+
+Tonul nu trebuie sa fie moralizator. Se evita vinovatia, frica si etichetele
+fixe. Formularea recomandata este una de insotire: "aceasta tema poate fi lucrata
+prin...", "in forma matura, energia se poate transforma in...", "un pas util ar
+fi...".
+
 ## Structura capitolelor de vibratie
 
 Fiecare capitol trebuie sa aiba o functie clara:
@@ -102,6 +119,30 @@ Reguli de baza:
 - limbaj fara diacritice, conform conventiei curente a repository-ului;
 - evitarea jargonului ezoteric neexplicat;
 - evitarea tonului moralizator.
+
+## Extindere la 1000 de cuvinte
+
+Extinderea fisierelor nu se face prin umplutura sau repetitie. Fiecare fisier
+trebuie sa creasca prin idei distincte, dezvoltate in paragrafe scurte.
+
+Structura recomandata pentru un fisier extins:
+
+- idee centrala sau definitie;
+- explicatie simbolica;
+- interpretare psihologica;
+- manifestare practica;
+- expresie matura;
+- risc de umbra sau dezechilibru;
+- exemplu concret;
+- legatura cu alte concepte din baza de cunoastere;
+- avertisment privind limitele interpretarii;
+- sinteza finala.
+
+Paragrafele trebuie sa aiba, in general, intre 60 si 120 de cuvinte. O idee poate
+fi dezvoltata in unul sau doua paragrafe, dar nu trebuie amestecate prea multe
+teme in acelasi bloc. Pentru fisierele de tip `exemple.md`, accentul cade pe
+scenarii concrete si aplicatii. Pentru fisierele de tip `metoda.md`, accentul
+cade pe pasi, reguli, exceptii si validare.
 
 ## Criteriu de calitate
 

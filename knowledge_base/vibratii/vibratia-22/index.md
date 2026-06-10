@@ -20,3 +20,6 @@ materializare si presiunea de a construi ceva util dincolo de interesul personal
 
 Vibratia 22 nu este doar un 4 mai puternic. Este un 4 cu miza mai larga:
 constructie, sistem, impact si responsabilitate fata de forma concreta a viziunii.
+
+La extinderea capitolelor, se poate face referire la Arcanele Majore din tarot
+pentru a prelua, compara si nuanta diferitele calitati ale vibratiei.

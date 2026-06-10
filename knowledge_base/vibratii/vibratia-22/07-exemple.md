@@ -13,3 +13,11 @@ Exemplu de integrare: un 22 vede potentialul unui proiect amplu, dar se simte
 coplesit de toate etapele. Integrarea apare cand defineste prima versiune
 functionala, imparte responsabilitati si transforma viziunea mare intr-un calendar
 realist.
+## Legatura cu tarotul
+
+Exemplele pot fi completate prin referinte la tarot, in special la cartile din
+Arcanele Majore. Aceste legaturi pot ajuta la preluarea unor calitati simbolice,
+la compararea expresiilor in lumina si in umbra si la nuantarea scenariilor
+practice asociate vibratiei. Referinta la tarot ramane orientativa: ea sustine
+interpretarea, dar nu inlocuieste analiza numerologica propriu-zisa.
+

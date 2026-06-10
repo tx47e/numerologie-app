@@ -1,4 +1,4 @@
-﻿# Vibratia 9 - Exemple
+# Vibratia 9 - Exemple
 
 Exemplu scurt: un 9 poate asculta suferinta cuiva fara sa judece, oferind o
 perspectiva care aduce liniste si sens.
@@ -12,3 +12,11 @@ Exemplu de integrare: un 9 simte ca o relatie si-a incheiat rolul, dar ramane di
 loialitate fata de trecut. Integrarea apare cand recunoaste ce a fost valoros,
 iertand fara sa nege realitatea prezenta. Finalul devine un act de maturitate, nu
 o tradare.
+## Legatura cu tarotul
+
+Exemplele pot fi completate prin referinte la tarot, in special la cartile din
+Arcanele Majore. Aceste legaturi pot ajuta la preluarea unor calitati simbolice,
+la compararea expresiilor in lumina si in umbra si la nuantarea scenariilor
+practice asociate vibratiei. Referinta la tarot ramane orientativa: ea sustine
+interpretarea, dar nu inlocuieste analiza numerologica propriu-zisa.
+

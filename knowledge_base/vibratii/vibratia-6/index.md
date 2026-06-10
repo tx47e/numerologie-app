@@ -15,3 +15,6 @@ Acest director contine capitolele dezvoltate pentru vibratia 6.
 ## Nota de lucru
 
 Capitolele pot fi extinse independent, astfel incat baza de informatii sa poata fi folosita ulterior in aplicatie.
+
+La extinderea capitolelor, se poate face referire la Arcanele Majore din tarot
+pentru a prelua, compara si nuanta diferitele calitati ale vibratiei.

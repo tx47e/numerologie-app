@@ -20,3 +20,6 @@ si responsabilitatea de a transforma perceptia subtila in claritate.
 
 Vibratia 11 nu trebuie interpretata ca superioritate fata de 2, ci ca o forma mai
 incarcata si mai exigenta a aceleiasi familii simbolice.
+
+La extinderea capitolelor, se poate face referire la Arcanele Majore din tarot
+pentru a prelua, compara si nuanta diferitele calitati ale vibratiei.

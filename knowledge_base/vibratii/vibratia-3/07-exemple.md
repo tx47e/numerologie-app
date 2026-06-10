@@ -1,4 +1,4 @@
-﻿# Vibratia 3 - Exemple
+# Vibratia 3 - Exemple
 
 Exemplu scurt: un 3 poate explica o tema dificila printr-o poveste scurta care
 face ca oamenii sa inteleaga si sa retina informatia.
@@ -13,3 +13,11 @@ Exemplu de integrare: un 3 are o idee creativa, dar o abandoneaza cand nu primes
 reactie imediata. Observand tiparul, isi stabileste un termen scurt, finalizeaza
 forma de baza si cere feedback. Bucuria expresiei devine disciplina creativa, nu
 doar nevoie de aplauze.
+## Legatura cu tarotul
+
+Exemplele pot fi completate prin referinte la tarot, in special la cartile din
+Arcanele Majore. Aceste legaturi pot ajuta la preluarea unor calitati simbolice,
+la compararea expresiilor in lumina si in umbra si la nuantarea scenariilor
+practice asociate vibratiei. Referinta la tarot ramane orientativa: ea sustine
+interpretarea, dar nu inlocuieste analiza numerologica propriu-zisa.
+

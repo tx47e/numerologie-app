@@ -22,6 +22,7 @@ Acest document centralizeaza formulele numerologice adoptate in proiect.
 - `tema anului`: interpretarea vibratiei anului.
 - `ani importanti interiori`: ani in care vibratia anului este egala cu vibratia interioara.
 - `ani importanti exteriori`: ani in care vibratia anului este egala cu vibratia exterioara.
+- `lectii de viata`: `zi x luna x an`; cifrele produsului se aplica ciclic peste anii de viata.
 - `cicluri de 7 ani`: `floor(varsta / 7) + 1`, pozitie `varsta % 7 + 1`.
 - `cicluri de 9 ani`: `floor(varsta / 9) + 1`, pozitie `varsta % 9 + 1`.
 - `cicluri de 12 ani`: `floor(varsta / 12) + 1`, pozitie `varsta % 12 + 1`.
@@ -64,6 +65,9 @@ inca stabilite in proiect:
 - World Numerology si Numerologist.com: lectii karmice ca numere lipsa din numele complet.
 - Seventh Life Path si World Numerology: numar de expresie / destin din numele complet.
 - Astrology Future Eye, Almanac si alte surse de numerologie generala: an personal din zi, luna si anul analizat.
+- Formula `lectii de viata = zi x luna x an` este formula de lucru adoptata
+  intern in proiect si trebuie tratata separat de formulele clasice pentru
+  calea vietii / soarta.
 
 Formulele marcate ca `formula de lucru` trebuie validate editorial inainte de
 publicarea finala.

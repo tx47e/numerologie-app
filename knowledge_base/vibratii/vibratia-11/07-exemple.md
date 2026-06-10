@@ -13,3 +13,11 @@ Exemplu de integrare: un 11 are o intuitie puternica despre o colaborare. In loc
 sa actioneze doar din tensiune, noteaza ce a simtit, verifica faptele si discuta
 clar cu persoanele implicate. Perceptia subtila devine instrument de clarificare,
 nu sursa de panica.
+## Legatura cu tarotul
+
+Exemplele pot fi completate prin referinte la tarot, in special la cartile din
+Arcanele Majore. Aceste legaturi pot ajuta la preluarea unor calitati simbolice,
+la compararea expresiilor in lumina si in umbra si la nuantarea scenariilor
+practice asociate vibratiei. Referinta la tarot ramane orientativa: ea sustine
+interpretarea, dar nu inlocuieste analiza numerologica propriu-zisa.
+

@@ -22,6 +22,7 @@ INPUTS_BY_CALC = {
     "tema-anului": ["zi_nastere", "luna_nastere", "an_analizat"],
     "ani-importanti-interiori": ["zi_nastere", "luna_nastere", "interval_ani"],
     "ani-importanti-exteriori": ["zi_nastere", "luna_nastere", "interval_ani"],
+    "lectii-de-viata": ["data_nasterii", "an_de_viata"],
     "cicluri-7-ani": ["varsta"],
     "cicluri-9-ani": ["varsta"],
     "cicluri-12-ani": ["varsta"],

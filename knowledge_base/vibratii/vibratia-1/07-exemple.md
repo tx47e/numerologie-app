@@ -1,4 +1,4 @@
-﻿# Vibratia 1 - Exemple
+# Vibratia 1 - Exemple
 
 Exemplu scurt: o persoana cu vibratie 1 observa ca echipa evita o decizie dificila.
 Propune o directie, isi asuma primul pas si invita apoi colegii sa contribuie.
@@ -12,4 +12,11 @@ Exemplu de integrare: un 1 primeste conducerea unui proiect nou. Prima reactie
 este sa grabeasca deciziile si sa respinga intrebarile echipei. Cand isi observa
 impulsul, revine la scop: traseaza directia, cere feedback pe riscuri si pastreaza
 decizia finala fara a transforma colaborarea intr-o amenintare.
+## Legatura cu tarotul
+
+Exemplele pot fi completate prin referinte la tarot, in special la cartile din
+Arcanele Majore. Aceste legaturi pot ajuta la preluarea unor calitati simbolice,
+la compararea expresiilor in lumina si in umbra si la nuantarea scenariilor
+practice asociate vibratiei. Referinta la tarot ramane orientativa: ea sustine
+interpretarea, dar nu inlocuieste analiza numerologica propriu-zisa.
 
