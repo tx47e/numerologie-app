@@ -1,7 +1,5 @@
 # Ani importanti interiori - semnificatii
 
-De completat dupa validarea formulei.
-
 ## Directii de interpretare
 
 - ani de introspectie si clarificare;

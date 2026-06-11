@@ -1,4 +1,4 @@
-# Roadmap
+﻿# Roadmap
 
 ## Stare curenta
 
@@ -54,21 +54,20 @@ Obiectiv: transformarea formulelor documentate in functii testabile.
   - [ ] cratime si spatii;
   - [ ] caractere neacceptate.
 - [ ] Analiza nume inainte si dupa casatorie:
-  - [ ] vibratia numelui;
+  - [ ] numarul de exprimare;
   - [ ] matricea numelui;
   - [ ] karma numelui;
   - [ ] karma neamului;
   - [ ] comparatie intre cele doua variante.
 - [ ] Implementare calcule de baza:
-  - [ ] vibratia numelui;
+  - [ ] numarul de exprimare;
   - [ ] vibratia interioara;
   - [ ] vibratia exterioara;
   - [ ] soarta;
   - [ ] destin;
   - [ ] tema vietii.
 - [ ] Implementare calcule de timp:
-  - [ ] vibratia anului;
-  - [ ] tema anului;
+  - [ ] vibratia anului personal;
   - [ ] ani importanti interiori;
   - [ ] ani importanti exteriori;
   - [ ] cicluri de 7, 9 si 12 ani.
@@ -84,6 +83,33 @@ Obiectiv: transformarea formulelor documentate in functii testabile.
   - [ ] avertismente si limite.
 - [ ] Adaugare teste pe exemplele din `knowledge_base/`.
 - [ ] Verificare consistenta intre scripturile Python si Java existente.
+
+## Etapa 3.5: audit editorial si structural
+
+Obiectiv: verificarea completa a bazei de cunoastere inainte de inghetarea
+formulelor si pornirea aplicatiei.
+
+- [ ] Audit complet calcule:
+  - [ ] toate calculele au `README.md`, `01-metoda.md` si exemple unde este cazul;
+  - [ ] formulele din `docs/formule-calcul.md` corespund cu metodele din
+        `knowledge_base/calcule/`;
+  - [ ] denumirile sunt consecvente intre docs, knowledge base, scripturi si
+        `generated/index.json`;
+  - [ ] calculele eliminate temporar nu mai apar in structura activa;
+  - [ ] exemplele sunt separate de metode.
+- [ ] Audit complet vibratii:
+  - [ ] fiecare vibratie 1-9, 11, 22 si 33 are `README.md`;
+  - [ ] capitolele `01-esenta.md` - `07-exemple.md` sunt prezente unde sunt
+        necesare;
+  - [ ] continutul este coerent intre vibratii de baza si numere maestre;
+  - [ ] legaturile catre calcule si tarot sunt corecte.
+- [ ] Audit complet tarot:
+  - [ ] Arcanele Majore sunt complete si numerotate corect;
+  - [ ] Arcanele Minore sunt complete pe bate, cupe, sabii si monede;
+  - [ ] asocierea Arcanelor Majore cu neamul 1-22 este verificata;
+  - [ ] denumirile arcanelor sunt consecvente in toate fisierele.
+- [ ] Regenerare si verificare `generated/index.json` dupa audit.
+- [ ] Marcare finala a calculelor, vibratiilor si tarotului ca revizuite.
 
 ## Etapa 4: aplicatie
 
@@ -123,7 +149,7 @@ cuvinte, pastrand structura modulara si tonul editorial al proiectului.
   - [ ] vibratii de baza 1-9;
   - [ ] vibratii maestre 11, 22 si 33;
   - [ ] armonizare intre capitolele `01-esenta.md` - `07-exemple.md`;
-  - [ ] completare `index.md` pentru fiecare vibratie.
+  - [ ] completare `README.md` pentru fiecare vibratie.
 - [ ] Extindere `knowledge_base/tarot/`:
   - [ ] Arcane Majore;
   - [ ] Arcane Minore - bate;

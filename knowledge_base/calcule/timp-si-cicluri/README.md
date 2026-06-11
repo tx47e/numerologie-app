@@ -1,12 +1,10 @@
 # Timp si cicluri
 
-Acest director grupeaza calculele legate de timp: an personal, teme anuale si
-cicluri recurente.
+Acest director grupeaza calculele legate de timp: cicluri recurente, ani
+importanti si lectii aplicate pe perioade.
 
 ## Subdirectoare
 
-- `vibratia-anului/`
-- `tema-anului/`
 - `ani-importanti-interiori/`
 - `ani-importanti-exteriori/`
 - `lectii-de-viata/`

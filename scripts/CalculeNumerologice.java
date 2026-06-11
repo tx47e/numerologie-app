@@ -33,11 +33,14 @@ public class CalculeNumerologice {
         String numeFamilie = optiuni.getOrDefault("nume-familie", ultimulCuvant(nume));
 
         CalculNume calculNume = vibratiaNumelui(nume);
+        CalculNume numarActiv = vibratiaNumelui(primulCuvant(nume));
+        CalculNume numarEreditar = vibratiaNumelui(numeFamilie);
+        CalculNume numarEreditarKarmic = numarEreditarKarmic(numeFamilie);
         int destin = calculNume.rezultat;
         CalculNumeric calculSoarta = soarta(zi, luna, an);
         int temaVietii = reducere(calculSoarta.rezultat + destin);
         CalculNumeric anPersonal = vibratiaAnului(zi, luna, anAnalizat);
-        AniImportanti ani = aniImportanti(zi, luna, start, stop);
+        AniImportanti ani = aniImportanti(zi, luna, an, start, stop);
         CalculNume karmaNeam = vibratiaNumelui(numeFamilie);
 
         System.out.println("Calcule numerologice");
@@ -48,10 +51,13 @@ public class CalculeNumerologice {
 
         System.out.println("Vibratia interioara: " + reducere(zi));
         System.out.println("Vibratia exterioara: " + reducere(luna));
-        System.out.println("Vibratia numelui / destin: " + destin + " (total " + calculNume.total + ")");
+        System.out.println("Numar de exprimare / destin: " + destin + " (total " + calculNume.total + ")");
+        System.out.println("Numar activ: " + numarActiv.rezultat + " (total " + numarActiv.total + ")");
+        System.out.println("Numar ereditar: " + numarEreditar.rezultat + " (total " + numarEreditar.total + ")");
+        System.out.println("Numar ereditar karmic: " + numarEreditarKarmic.rezultat + " (total " + numarEreditarKarmic.total + ")");
         System.out.println("Soarta: " + calculSoarta.rezultat + " (total " + calculSoarta.total + ")");
         System.out.println("Tema vietii: " + temaVietii);
-        System.out.println("Vibratia anului " + anAnalizat + ": " + anPersonal.rezultat + " (total " + anPersonal.total + ")");
+        System.out.println("Vibratia anului personal " + anAnalizat + ": " + anPersonal.rezultat + " (total " + anPersonal.total + ")");
         System.out.println();
 
         afiseazaLista("Lectii karmice personale:", lectiiKarmice(nume));
@@ -116,14 +122,38 @@ public class CalculeNumerologice {
         return curent;
     }
 
+    private static int reducere22(int numar) {
+        int curent = numar;
+        while (curent > 22) {
+            curent -= 22;
+        }
+        return curent;
+    }
+
     private static CalculNume vibratiaNumelui(String nume) {
         int total = 0;
-        for (char litera : normalizeaza(nume).toCharArray()) {
+        for (String parte : nume.replace("-", " ").split("\\s+")) {
+            int totalComponenta = 0;
+            for (char litera : normalizeaza(parte).toCharArray()) {
+                if (ALFABET.containsKey(litera)) {
+                    totalComponenta += ALFABET.get(litera);
+                }
+            }
+            if (totalComponenta > 0) {
+                total += reducere(totalComponenta);
+            }
+        }
+        return new CalculNume(total, reducere(total));
+    }
+
+    private static CalculNume numarEreditarKarmic(String numeFamilie) {
+        int total = 0;
+        for (char litera : normalizeaza(numeFamilie).toCharArray()) {
             if (ALFABET.containsKey(litera)) {
                 total += ALFABET.get(litera);
             }
         }
-        return new CalculNume(total, reducere(total));
+        return new CalculNume(total, reducere22(total));
     }
 
     private static int[] frecventeNume(String nume) {
@@ -167,17 +197,40 @@ public class CalculeNumerologice {
         return total;
     }
 
-    private static AniImportanti aniImportanti(int zi, int luna, int start, int stop) {
+    private static AniImportanti aniImportanti(int zi, int luna, int anNastere, int start, int stop) {
         int interior = reducere(zi);
         int exterior = reducere(luna);
         AniImportanti ani = new AniImportanti();
-        for (int an = start; an <= stop; an++) {
-            int vibratie = vibratiaAnului(zi, luna, an).rezultat;
-            if (vibratie == interior) {
-                ani.interiori.add(an);
+        ani.interiori.addAll(aniImportantiInteriori(anNastere, start, stop));
+        ani.exteriori.addAll(aniImportantiExteriori(anNastere, start, stop));
+        return ani;
+    }
+
+    private static List<Integer> aniImportantiInteriori(int anNastere, int start, int stop) {
+        List<Integer> ani = new ArrayList<>();
+        int anCurent = anNastere;
+        while (true) {
+            anCurent += reducere(anCurent);
+            if (anCurent > stop) {
+                break;
             }
-            if (vibratie == exterior) {
-                ani.exteriori.add(an);
+            if (anCurent >= start) {
+                ani.add(anCurent);
+            }
+        }
+        return ani;
+    }
+
+    private static List<Integer> aniImportantiExteriori(int anNastere, int start, int stop) {
+        List<Integer> ani = new ArrayList<>();
+        int anCurent = anNastere;
+        while (true) {
+            anCurent += sumaCifre(Integer.toString(Math.abs(anCurent)));
+            if (anCurent > stop) {
+                break;
+            }
+            if (anCurent >= start) {
+                ani.add(anCurent);
             }
         }
         return ani;
@@ -240,6 +293,11 @@ public class CalculeNumerologice {
     private static String ultimulCuvant(String text) {
         String[] parti = text.trim().split("\\s+");
         return parti[parti.length - 1];
+    }
+
+    private static String primulCuvant(String text) {
+        String[] parti = text.trim().split("\\s+");
+        return parti[0];
     }
 
     private static class CalculNume {

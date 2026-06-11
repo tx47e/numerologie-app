@@ -14,7 +14,7 @@ Scopul este sa pastram separat:
 
 - `vibratii-personale/`: calcule legate de profilul personal.
 - `nume/`: calcule derivate din nume si alfabet numerologic.
-- `timp-si-cicluri/`: vibratia anului, cicluri si perioade.
+- `timp-si-cicluri/`: cicluri, ani importanti si perioade.
 - `soarta-si-destin/`: soarta, destin, tema vietii si directii majore.
 - `pinacluri/`: oportunitati, provocari si etape de viata.
 - `karma/`: karma personala si karma neamului.
@@ -24,7 +24,7 @@ Scopul este sa pastram separat:
 
 Fiecare calcul important trebuie sa aiba, pe cat posibil:
 
-- `metoda.md`: formula si pasi de calcul.
-- `semnificatii.md`: ce inseamna rezultatele posibile.
-- `exemple.md`: exemple complete de calcul.
-- `observatii.md`: reguli speciale, limite, exceptii sau note de implementare.
+- `01-metoda.md`: formula si pasi de calcul.
+- `02-exemple.md`: exemple complete de calcul.
+- `03-observatii.md`: reguli speciale, limite, exceptii sau note de implementare.
+- `04-semnificatii.md`: ce inseamna rezultatele posibile.

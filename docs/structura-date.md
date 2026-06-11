@@ -1,4 +1,4 @@
-# Structura de date
+﻿# Structura de date
 
 Acest document descrie modelul initial pentru baza de informatii numerologice.
 
@@ -39,7 +39,7 @@ Exemplu pentru vibratia 1:
 
 ```text
 knowledge_base/vibratii/vibratia-1/
-  index.md
+  README.md
   01-esenta.md
   02-arhetip.md
   03-lumina.md
@@ -135,8 +135,7 @@ knowledge_base/tarot/arcane-minore/
 
 Calcule documentate initial:
 
-- `vibratia-anului`: vibratia numerologica asociata unui an.
-- `tema-anului`: lectia sau accentul principal al unei perioade anuale.
+- `vibratia-anului-personal`: vibratia numerologica asociata unui an calendaristic pentru o persoana.
 - `ani-importanti-interiori`: ani cu accent pe procese personale si interioare.
 - `ani-importanti-exteriori`: ani cu accent pe manifestari vizibile si contexte exterioare.
 - `cicluri-7-ani`: cicluri recurente de sapte ani.

@@ -1,3 +1,0 @@
-# Pinacluri - provocari
-
-De completat.

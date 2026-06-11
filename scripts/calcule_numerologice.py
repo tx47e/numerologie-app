@@ -38,6 +38,25 @@ def valori_nume(nume):
     return [(litera, ALFABET[litera]) for litera in litere if litera in ALFABET]
 
 
+def componente_nume(nume):
+    componente = []
+    for parte in nume.replace("-", " ").split():
+        litere = normalizeaza_text(parte)
+        if litere:
+            componente.append((parte, [(litera, ALFABET[litera]) for litera in litere if litera in ALFABET]))
+    return componente
+
+
+def prima_componenta_nume(nume):
+    componente = componente_nume(nume)
+    return componente[0][0] if componente else nume
+
+
+def ultima_componenta_nume(nume):
+    componente = componente_nume(nume)
+    return componente[-1][0] if componente else nume
+
+
 def reducere(numar):
     pasi = []
     curent = numar
@@ -59,10 +78,55 @@ def vibratie_din_numar(numar):
 
 
 def vibratia_numelui(nume):
-    valori = valori_nume(nume)
-    total = sum(valoare for _, valoare in valori)
+    componente = []
+    for componenta, valori in componente_nume(nume):
+        total_componenta = sum(valoare for _, valoare in valori)
+        rezultat_componenta, pasi_componenta = reducere(total_componenta)
+        componente.append({
+            "componenta": componenta,
+            "total": total_componenta,
+            "rezultat": rezultat_componenta,
+            "pasi": pasi_componenta,
+            "valori": valori,
+        })
+
+    total = sum(componenta["rezultat"] for componenta in componente)
     rezultat, pasi = reducere(total)
-    return {"total": total, "rezultat": rezultat, "pasi": pasi, "valori": valori}
+    valori = [valoare for componenta in componente for valoare in componenta["valori"]]
+    return {
+        "total": total,
+        "rezultat": rezultat,
+        "pasi": pasi,
+        "valori": valori,
+        "componente": componente,
+    }
+
+
+def numar_activ(nume):
+    return vibratia_numelui(prima_componenta_nume(nume))
+
+
+def numar_ereditar(nume):
+    return vibratia_numelui(ultima_componenta_nume(nume))
+
+
+def reducere_22(numar):
+    curent = numar
+    while curent > 22:
+        curent -= 22
+    return curent
+
+
+def numar_ereditar_karmic(nume):
+    familie = ultima_componenta_nume(nume)
+    valori = valori_nume(familie)
+    total = sum(valoare for _, valoare in valori)
+    return {
+        "nume_familie": familie,
+        "total": total,
+        "rezultat": reducere_22(total),
+        "valori": valori,
+    }
 
 
 def frecvente_nume(nume):
@@ -91,22 +155,42 @@ def vibratia_anului(zi, luna, an_analizat):
     return {"total": total, "rezultat": rezultat, "pasi": pasi}
 
 
-def ani_importanti(zi, luna, start, stop):
+def suma_cifre_numar(numar):
+    return sum(int(cifra) for cifra in str(abs(numar)))
+
+
+def ani_importanti_exteriori(an_nastere, start, stop):
+    ani = []
+    an_curent = an_nastere
+    while True:
+        an_curent += suma_cifre_numar(an_curent)
+        if an_curent > stop:
+            break
+        if an_curent >= start:
+            ani.append(an_curent)
+    return ani
+
+
+def ani_importanti_interiori(an_nastere, start, stop):
+    ani = []
+    an_curent = an_nastere
+    while True:
+        an_curent += vibratie_din_numar(an_curent)
+        if an_curent > stop:
+            break
+        if an_curent >= start:
+            ani.append(an_curent)
+    return ani
+
+
+def ani_importanti(zi, luna, an_nastere, start, stop):
     interior = vibratie_din_numar(zi)
     exterior = vibratie_din_numar(luna)
-    ani_interiori = []
-    ani_exteriori = []
-    for an in range(start, stop + 1):
-        vibratie = vibratia_anului(zi, luna, an)["rezultat"]
-        if vibratie == interior:
-            ani_interiori.append(an)
-        if vibratie == exterior:
-            ani_exteriori.append(an)
     return {
         "vibratie_interioara": interior,
         "vibratie_exterioara": exterior,
-        "ani_interiori": ani_interiori,
-        "ani_exteriori": ani_exteriori,
+        "ani_interiori": ani_importanti_interiori(an_nastere, start, stop),
+        "ani_exteriori": ani_importanti_exteriori(an_nastere, start, stop),
     }
 
 
@@ -167,7 +251,10 @@ def analiza_nume(nume, zi, luna, an, nume_familie=None):
     return {
         "nume": nume,
         "nume_familie": familie,
-        "vibratie": vibratie,
+        "numar_exprimare": vibratie,
+        "numar_activ": numar_activ(nume),
+        "numar_ereditar": vibratia_numelui(familie),
+        "numar_ereditar_karmic": numar_ereditar_karmic(familie),
         "matrice": matrice,
         "lectii_karmice": lectii_karmice(nume),
         "datorii_karmice_nume": datorii_karmice_nume(nume),
@@ -213,8 +300,20 @@ def afiseaza_analiza_nume(titlu, analiza):
     print(f"Nume: {analiza['nume']}")
     print(f"Nume familie: {analiza['nume_familie']}")
     print(
-        f"Vibratia numelui / destin: {analiza['vibratie']['rezultat']} "
-        f"(total {analiza['vibratie']['total']})"
+        f"Numar de exprimare / destin: {analiza['numar_exprimare']['rezultat']} "
+        f"(total {analiza['numar_exprimare']['total']})"
+    )
+    print(
+        f"Numar activ: {analiza['numar_activ']['rezultat']} "
+        f"(total {analiza['numar_activ']['total']})"
+    )
+    print(
+        f"Numar ereditar: {analiza['numar_ereditar']['rezultat']} "
+        f"(total {analiza['numar_ereditar']['total']})"
+    )
+    print(
+        f"Numar ereditar karmic: {analiza['numar_ereditar_karmic']['rezultat']} "
+        f"(total {analiza['numar_ereditar_karmic']['total']})"
     )
     print(
         f"Karma neamului: {analiza['karma_neam']['rezultat']} "
@@ -239,8 +338,8 @@ def afiseaza_comparatie_nume(inainte, dupa):
     print("Comparatie nume inainte / dupa casatorie")
     print("========================================")
     print(
-        f"Vibratia numelui: {inainte['vibratie']['rezultat']} -> "
-        f"{dupa['vibratie']['rezultat']}"
+        f"Numar de exprimare: {inainte['numar_exprimare']['rezultat']} -> "
+        f"{dupa['numar_exprimare']['rezultat']}"
     )
     print(
         f"Karma neamului: {inainte['karma_neam']['rezultat']} -> "
@@ -296,11 +395,14 @@ def main():
     args = parser.parse_args()
 
     nume = vibratia_numelui(args.nume)
+    activ = numar_activ(args.nume)
+    ereditar = numar_ereditar(args.nume)
+    ereditar_karmic = numar_ereditar_karmic(args.nume)
     destin = nume["rezultat"]
     soarta_rezultat = soarta(args.zi, args.luna, args.an)
     tema_vietii = vibratie_din_numar(soarta_rezultat["rezultat"] + destin)
     an_personal = vibratia_anului(args.zi, args.luna, args.an_analizat)
-    ani = ani_importanti(args.zi, args.luna, args.start, args.stop)
+    ani = ani_importanti(args.zi, args.luna, args.an, args.start, args.stop)
     karma_neam = vibratia_numelui(args.nume_familie)
 
     print("Calcule numerologice")
@@ -311,10 +413,13 @@ def main():
 
     print(f"Vibratia interioara: {vibratie_din_numar(args.zi)}")
     print(f"Vibratia exterioara: {vibratie_din_numar(args.luna)}")
-    print(f"Vibratia numelui / destin: {destin} (total {nume['total']})")
+    print(f"Numar de exprimare / destin: {destin} (total {nume['total']})")
+    print(f"Numar activ: {activ['rezultat']} (total {activ['total']})")
+    print(f"Numar ereditar: {ereditar['rezultat']} (total {ereditar['total']})")
+    print(f"Numar ereditar karmic: {ereditar_karmic['rezultat']} (total {ereditar_karmic['total']})")
     print(f"Soarta: {soarta_rezultat['rezultat']} (total {soarta_rezultat['total']})")
     print(f"Tema vietii: {tema_vietii}")
-    print(f"Vibratia anului {args.an_analizat}: {an_personal['rezultat']} (total {an_personal['total']})")
+    print(f"Vibratia anului personal {args.an_analizat}: {an_personal['rezultat']} (total {an_personal['total']})")
     print()
 
     afiseaza_lista("Lectii karmice personale:", lectii_karmice(args.nume))

@@ -40,7 +40,7 @@ Acest jurnal urmareste pasii importanti facuti in proiect.
   - `knowledge_base/vibratii/vibratia-8/`
   - `knowledge_base/vibratii/vibratia-9/`
 - Fiecare capitol a fost separat intr-un fisier Markdown propriu.
-- Fiecare director de vibratie contine un `index.md` pentru navigare.
+- Fiecare director de vibratie contine un `README.md` pentru navigare.
 - Fisierele initiale au fost pastrate temporar ca `_sursa-initiala.md`.
 
 ### Documentare proiect
@@ -55,7 +55,7 @@ Acest jurnal urmareste pasii importanti facuti in proiect.
 - Au fost adaugate rubrici pentru:
   - vibratii personale;
   - calcule pe baza numelui;
-  - vibratia anului si tema anului;
+  - vibratia anului personal si tema anului;
   - ani importanti interiori si exteriori;
   - cicluri de 7, 9 si 12 ani;
   - soarta, destin si tema vietii;

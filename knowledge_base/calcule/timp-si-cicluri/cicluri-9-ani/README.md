@@ -5,6 +5,6 @@ renovare si relansare.
 
 ## Fisiere
 
-- [Metoda](metoda.md)
-- [Semnificatii](semnificatii.md)
-- [Exemple](exemple.md)
+- [Metoda](01-metoda.md)
+- [Semnificatii](04-semnificatii.md)
+- [Exemple](02-exemple.md)

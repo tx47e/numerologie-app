@@ -5,8 +5,6 @@ unor perioade.
 
 ## Fisiere
 
-- [Metoda](metoda.md)
-- [Oportunitati](oportunitati.md)
-- [Provocari](provocari.md)
-- [Exemple](exemple.md)
-- [Observatii](observatii.md)
+- [Metoda](01-metoda.md)
+- [Exemple](02-exemple.md)
+- [Observatii](03-observatii.md)

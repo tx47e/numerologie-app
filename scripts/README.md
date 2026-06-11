@@ -33,7 +33,7 @@ script rulabil in doua variante:
 
 Cele doua variante trebuie sa pastreze aceeasi metoda, aceleasi inputuri si
 acelasi rezultat afisat. Sursa de adevar pentru formula ramane fisierul
-`metoda.md` al calculului din `knowledge_base/calcule/`.
+`01-metoda.md` al calculului din `knowledge_base/calcule/`.
 
 Conventie nume fisiere:
 
@@ -54,12 +54,14 @@ scripts/PatratulLuiPitagora.java
 Lista initiala vine din `docs/roadmap.md` si din structura
 `knowledge_base/calcule/`:
 
-- vibratia numelui;
+- numarul de exprimare;
+- numarul activ;
+- numarul ereditar;
+- numarul ereditar karmic;
 - vibratia interioara;
 - vibratia exterioara;
 - vibratia datei nasterii;
-- vibratia anului;
-- tema anului;
+- vibratia anului personal;
 - ani importanti interiori;
 - ani importanti exteriori;
 - soarta;
@@ -77,10 +79,13 @@ Scripturile comune calculeaza intr-un singur profil:
 
 - vibratia interioara;
 - vibratia exterioara;
-- vibratia numelui / destin;
+- numarul de exprimare / destin;
+- numarul activ;
+- numarul ereditar;
+- numarul ereditar karmic;
 - soarta;
 - tema vietii;
-- vibratia anului;
+- vibratia anului personal;
 - karma personala;
 - karma neamului;
 - ani importanti interiori si exteriori;
@@ -109,7 +114,7 @@ java -cp scripts CalculeNumerologice --zi 24 --luna 4 --an 1982 --nume "Ana Mari
 ## Patratul lui Pitagora
 
 Scripturile pentru patratul lui Pitagora folosesc metoda documentata in
-`knowledge_base/calcule/patratul-lui-pitagora/metoda.md`.
+`knowledge_base/calcule/patratul-lui-pitagora/01-metoda.md`.
 
 Python:
 

@@ -12,14 +12,17 @@ OUTPUT = ROOT / "generated" / "index.json"
 MASTER_REDUCTIONS = {11: 2, 22: 4, 33: 6}
 
 INPUTS_BY_CALC = {
-    "vibratia-numelui": ["nume_complet"],
+    "numarul-de-exprimare": ["nume_complet"],
     "destin": ["nume_complet"],
     "vibratia-interioara": ["zi_nastere"],
     "vibratia-exterioara": ["luna_nastere"],
+    "vibratia-cosmica": ["an_nastere"],
+    "vibratia-globala": ["zi_nastere", "luna_nastere"],
+    "vibratia-destinului": ["zi_nastere", "luna_nastere", "an_nastere"],
+    "calea-destinului": ["data_nasterii"],
     "soarta": ["data_nasterii"],
     "tema-vietii": ["data_nasterii", "nume_complet"],
-    "vibratia-anului": ["zi_nastere", "luna_nastere", "an_analizat"],
-    "tema-anului": ["zi_nastere", "luna_nastere", "an_analizat"],
+    "vibratia-anului-personal": ["zi_nastere", "luna_nastere", "an_analizat"],
     "ani-importanti-interiori": ["zi_nastere", "luna_nastere", "interval_ani"],
     "ani-importanti-exteriori": ["zi_nastere", "luna_nastere", "interval_ani"],
     "lectii-de-viata": ["data_nasterii", "an_de_viata"],
@@ -88,7 +91,7 @@ def build_vibrations() -> list[dict]:
         vibrations.append(
             {
                 "numar": number,
-                "titlu": first_heading(directory / "index.md") or f"Vibratia {number}",
+                "titlu": first_heading(directory / "README.md") or f"Vibratia {number}",
                 "slug": directory.name,
                 "tip": "maestru" if number in MASTER_REDUCTIONS else "baza",
                 "reduce_la": MASTER_REDUCTIONS.get(number),
@@ -102,23 +105,25 @@ def build_vibrations() -> list[dict]:
 
 def calculation_files(directory: Path) -> dict:
     keys = [
-        "index",
+        "README",
         "metoda",
         "semnificatii",
         "exemple",
         "observatii",
         "oportunitati",
         "provocari",
-        "vectori",
-        "elemente-si-linii",
+        "scara-bunastarii",
         "semnificatii-frecvente",
         "semnificatii-pozitii",
     ]
     files = {}
     for key in keys:
-        path = directory / f"{key}.md"
-        if path.exists():
-            files[key] = rel(path)
+        direct_path = directory / f"{key}.md"
+        prefixed_paths = sorted(directory.glob(f"[0-9][0-9]-{key}.md"))
+        if direct_path.exists():
+            files[key] = rel(direct_path)
+        elif prefixed_paths:
+            files[key] = rel(prefixed_paths[0])
     return files
 
 
@@ -134,7 +139,7 @@ def build_calculations() -> list[dict]:
                 {
                     "slug": slug,
                     "titlu": first_heading(category_dir / "README.md")
-                    or first_heading(category_dir / "metoda.md")
+                    or first_heading(category_dir / "01-metoda.md")
                     or slug_to_title(slug),
                     "categorie": category_dir.name,
                     "cale": rel(category_dir),
@@ -151,9 +156,8 @@ def build_calculations() -> list[dict]:
             calculations.append(
                 {
                     "slug": slug,
-                    "titlu": first_heading(calc_dir / "index.md")
-                    or first_heading(calc_dir / "README.md")
-                    or first_heading(calc_dir / "metoda.md")
+                    "titlu": first_heading(calc_dir / "README.md")
+                    or first_heading(calc_dir / "01-metoda.md")
                     or slug_to_title(slug),
                     "categorie": category_dir.name,
                     "cale": rel(calc_dir),

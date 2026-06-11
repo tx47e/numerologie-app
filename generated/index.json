@@ -1310,7 +1310,7 @@
         "nume_familie"
       ],
       "fisiere": {
-        "metoda": "knowledge_base/calcule/karma/karma-neamului/metoda.md"
+        "metoda": "knowledge_base/calcule/karma/karma-neamului/01-metoda.md"
       }
     },
     {
@@ -1322,23 +1322,83 @@
         "nume_complet"
       ],
       "fisiere": {
-        "metoda": "knowledge_base/calcule/karma/karma-personala/metoda.md"
+        "metoda": "knowledge_base/calcule/karma/karma-personala/01-metoda.md"
       }
     },
     {
-      "slug": "vibratia-numelui",
-      "titlu": "Vibratia numelui",
+      "slug": "numarul-activ",
+      "titlu": "Numarul activ",
       "categorie": "nume",
-      "cale": "knowledge_base/calcule/nume/vibratia-numelui",
+      "cale": "knowledge_base/calcule/nume/numarul-activ",
+      "inputuri": [],
+      "fisiere": {
+        "README": "knowledge_base/calcule/nume/numarul-activ/README.md",
+        "metoda": "knowledge_base/calcule/nume/numarul-activ/01-metoda.md",
+        "exemple": "knowledge_base/calcule/nume/numarul-activ/02-exemple.md"
+      }
+    },
+    {
+      "slug": "numarul-de-exprimare",
+      "titlu": "Numarul de exprimare",
+      "categorie": "nume",
+      "cale": "knowledge_base/calcule/nume/numarul-de-exprimare",
       "inputuri": [
         "nume_complet"
       ],
       "fisiere": {
-        "index": "knowledge_base/calcule/nume/vibratia-numelui/index.md",
-        "metoda": "knowledge_base/calcule/nume/vibratia-numelui/metoda.md",
-        "semnificatii": "knowledge_base/calcule/nume/vibratia-numelui/semnificatii.md",
-        "exemple": "knowledge_base/calcule/nume/vibratia-numelui/exemple.md",
-        "observatii": "knowledge_base/calcule/nume/vibratia-numelui/observatii.md"
+        "README": "knowledge_base/calcule/nume/numarul-de-exprimare/README.md",
+        "metoda": "knowledge_base/calcule/nume/numarul-de-exprimare/01-metoda.md",
+        "semnificatii": "knowledge_base/calcule/nume/numarul-de-exprimare/04-semnificatii.md",
+        "exemple": "knowledge_base/calcule/nume/numarul-de-exprimare/02-exemple.md",
+        "observatii": "knowledge_base/calcule/nume/numarul-de-exprimare/03-observatii.md"
+      }
+    },
+    {
+      "slug": "numarul-de-realizare",
+      "titlu": "Numarul de realizare",
+      "categorie": "nume",
+      "cale": "knowledge_base/calcule/nume/numarul-de-realizare",
+      "inputuri": [],
+      "fisiere": {
+        "README": "knowledge_base/calcule/nume/numarul-de-realizare/README.md",
+        "metoda": "knowledge_base/calcule/nume/numarul-de-realizare/01-metoda.md",
+        "exemple": "knowledge_base/calcule/nume/numarul-de-realizare/02-exemple.md"
+      }
+    },
+    {
+      "slug": "numarul-ereditar",
+      "titlu": "Numarul ereditar",
+      "categorie": "nume",
+      "cale": "knowledge_base/calcule/nume/numarul-ereditar",
+      "inputuri": [],
+      "fisiere": {
+        "README": "knowledge_base/calcule/nume/numarul-ereditar/README.md",
+        "metoda": "knowledge_base/calcule/nume/numarul-ereditar/01-metoda.md",
+        "exemple": "knowledge_base/calcule/nume/numarul-ereditar/02-exemple.md"
+      }
+    },
+    {
+      "slug": "numarul-ereditar-karmic",
+      "titlu": "Numarul ereditar karmic",
+      "categorie": "nume",
+      "cale": "knowledge_base/calcule/nume/numarul-ereditar-karmic",
+      "inputuri": [],
+      "fisiere": {
+        "README": "knowledge_base/calcule/nume/numarul-ereditar-karmic/README.md",
+        "metoda": "knowledge_base/calcule/nume/numarul-ereditar-karmic/01-metoda.md",
+        "exemple": "knowledge_base/calcule/nume/numarul-ereditar-karmic/02-exemple.md"
+      }
+    },
+    {
+      "slug": "numarul-intim",
+      "titlu": "Numarul intim",
+      "categorie": "nume",
+      "cale": "knowledge_base/calcule/nume/numarul-intim",
+      "inputuri": [],
+      "fisiere": {
+        "README": "knowledge_base/calcule/nume/numarul-intim/README.md",
+        "metoda": "knowledge_base/calcule/nume/numarul-intim/01-metoda.md",
+        "exemple": "knowledge_base/calcule/nume/numarul-intim/02-exemple.md"
       }
     },
     {
@@ -1350,13 +1410,13 @@
         "data_nasterii"
       ],
       "fisiere": {
-        "metoda": "knowledge_base/calcule/patratul-lui-pitagora/metoda.md",
-        "exemple": "knowledge_base/calcule/patratul-lui-pitagora/exemple.md",
-        "observatii": "knowledge_base/calcule/patratul-lui-pitagora/observatii.md",
-        "vectori": "knowledge_base/calcule/patratul-lui-pitagora/vectori.md",
-        "elemente-si-linii": "knowledge_base/calcule/patratul-lui-pitagora/elemente-si-linii.md",
-        "semnificatii-frecvente": "knowledge_base/calcule/patratul-lui-pitagora/semnificatii-frecvente.md",
-        "semnificatii-pozitii": "knowledge_base/calcule/patratul-lui-pitagora/semnificatii-pozitii.md"
+        "README": "knowledge_base/calcule/patratul-lui-pitagora/README.md",
+        "metoda": "knowledge_base/calcule/patratul-lui-pitagora/01-metoda.md",
+        "exemple": "knowledge_base/calcule/patratul-lui-pitagora/02-exemple.md",
+        "observatii": "knowledge_base/calcule/patratul-lui-pitagora/03-observatii.md",
+        "scara-bunastarii": "knowledge_base/calcule/patratul-lui-pitagora/06-scara-bunastarii.md",
+        "semnificatii-frecvente": "knowledge_base/calcule/patratul-lui-pitagora/05-semnificatii-frecvente.md",
+        "semnificatii-pozitii": "knowledge_base/calcule/patratul-lui-pitagora/04-semnificatii-pozitii.md"
       }
     },
     {
@@ -1368,11 +1428,10 @@
         "data_nasterii"
       ],
       "fisiere": {
-        "metoda": "knowledge_base/calcule/pinacluri/metoda.md",
-        "exemple": "knowledge_base/calcule/pinacluri/exemple.md",
-        "observatii": "knowledge_base/calcule/pinacluri/observatii.md",
-        "oportunitati": "knowledge_base/calcule/pinacluri/oportunitati.md",
-        "provocari": "knowledge_base/calcule/pinacluri/provocari.md"
+        "README": "knowledge_base/calcule/pinacluri/README.md",
+        "metoda": "knowledge_base/calcule/pinacluri/01-metoda.md",
+        "exemple": "knowledge_base/calcule/pinacluri/02-exemple.md",
+        "observatii": "knowledge_base/calcule/pinacluri/03-observatii.md"
       }
     },
     {
@@ -1384,10 +1443,10 @@
         "nume_complet"
       ],
       "fisiere": {
-        "index": "knowledge_base/calcule/soarta-si-destin/destin/index.md",
-        "metoda": "knowledge_base/calcule/soarta-si-destin/destin/metoda.md",
-        "semnificatii": "knowledge_base/calcule/soarta-si-destin/destin/semnificatii.md",
-        "exemple": "knowledge_base/calcule/soarta-si-destin/destin/exemple.md"
+        "README": "knowledge_base/calcule/soarta-si-destin/destin/README.md",
+        "metoda": "knowledge_base/calcule/soarta-si-destin/destin/01-metoda.md",
+        "semnificatii": "knowledge_base/calcule/soarta-si-destin/destin/03-semnificatii.md",
+        "exemple": "knowledge_base/calcule/soarta-si-destin/destin/02-exemple.md"
       }
     },
     {
@@ -1399,10 +1458,10 @@
         "data_nasterii"
       ],
       "fisiere": {
-        "index": "knowledge_base/calcule/soarta-si-destin/soarta/index.md",
-        "metoda": "knowledge_base/calcule/soarta-si-destin/soarta/metoda.md",
-        "semnificatii": "knowledge_base/calcule/soarta-si-destin/soarta/semnificatii.md",
-        "exemple": "knowledge_base/calcule/soarta-si-destin/soarta/exemple.md"
+        "README": "knowledge_base/calcule/soarta-si-destin/soarta/README.md",
+        "metoda": "knowledge_base/calcule/soarta-si-destin/soarta/01-metoda.md",
+        "semnificatii": "knowledge_base/calcule/soarta-si-destin/soarta/03-semnificatii.md",
+        "exemple": "knowledge_base/calcule/soarta-si-destin/soarta/02-exemple.md"
       }
     },
     {
@@ -1415,10 +1474,10 @@
         "nume_complet"
       ],
       "fisiere": {
-        "index": "knowledge_base/calcule/soarta-si-destin/tema-vietii/index.md",
-        "metoda": "knowledge_base/calcule/soarta-si-destin/tema-vietii/metoda.md",
-        "semnificatii": "knowledge_base/calcule/soarta-si-destin/tema-vietii/semnificatii.md",
-        "exemple": "knowledge_base/calcule/soarta-si-destin/tema-vietii/exemple.md"
+        "README": "knowledge_base/calcule/soarta-si-destin/tema-vietii/README.md",
+        "metoda": "knowledge_base/calcule/soarta-si-destin/tema-vietii/01-metoda.md",
+        "semnificatii": "knowledge_base/calcule/soarta-si-destin/tema-vietii/03-semnificatii.md",
+        "exemple": "knowledge_base/calcule/soarta-si-destin/tema-vietii/02-exemple.md"
       }
     },
     {
@@ -1432,11 +1491,11 @@
         "interval_ani"
       ],
       "fisiere": {
-        "index": "knowledge_base/calcule/timp-si-cicluri/ani-importanti-exteriori/index.md",
-        "metoda": "knowledge_base/calcule/timp-si-cicluri/ani-importanti-exteriori/metoda.md",
-        "semnificatii": "knowledge_base/calcule/timp-si-cicluri/ani-importanti-exteriori/semnificatii.md",
-        "exemple": "knowledge_base/calcule/timp-si-cicluri/ani-importanti-exteriori/exemple.md",
-        "observatii": "knowledge_base/calcule/timp-si-cicluri/ani-importanti-exteriori/observatii.md"
+        "README": "knowledge_base/calcule/timp-si-cicluri/ani-importanti-exteriori/README.md",
+        "metoda": "knowledge_base/calcule/timp-si-cicluri/ani-importanti-exteriori/01-metoda.md",
+        "semnificatii": "knowledge_base/calcule/timp-si-cicluri/ani-importanti-exteriori/04-semnificatii.md",
+        "exemple": "knowledge_base/calcule/timp-si-cicluri/ani-importanti-exteriori/02-exemple.md",
+        "observatii": "knowledge_base/calcule/timp-si-cicluri/ani-importanti-exteriori/03-observatii.md"
       }
     },
     {
@@ -1450,11 +1509,11 @@
         "interval_ani"
       ],
       "fisiere": {
-        "index": "knowledge_base/calcule/timp-si-cicluri/ani-importanti-interiori/index.md",
-        "metoda": "knowledge_base/calcule/timp-si-cicluri/ani-importanti-interiori/metoda.md",
-        "semnificatii": "knowledge_base/calcule/timp-si-cicluri/ani-importanti-interiori/semnificatii.md",
-        "exemple": "knowledge_base/calcule/timp-si-cicluri/ani-importanti-interiori/exemple.md",
-        "observatii": "knowledge_base/calcule/timp-si-cicluri/ani-importanti-interiori/observatii.md"
+        "README": "knowledge_base/calcule/timp-si-cicluri/ani-importanti-interiori/README.md",
+        "metoda": "knowledge_base/calcule/timp-si-cicluri/ani-importanti-interiori/01-metoda.md",
+        "semnificatii": "knowledge_base/calcule/timp-si-cicluri/ani-importanti-interiori/04-semnificatii.md",
+        "exemple": "knowledge_base/calcule/timp-si-cicluri/ani-importanti-interiori/02-exemple.md",
+        "observatii": "knowledge_base/calcule/timp-si-cicluri/ani-importanti-interiori/03-observatii.md"
       }
     },
     {
@@ -1466,10 +1525,10 @@
         "varsta"
       ],
       "fisiere": {
-        "index": "knowledge_base/calcule/timp-si-cicluri/cicluri-12-ani/index.md",
-        "metoda": "knowledge_base/calcule/timp-si-cicluri/cicluri-12-ani/metoda.md",
-        "semnificatii": "knowledge_base/calcule/timp-si-cicluri/cicluri-12-ani/semnificatii.md",
-        "exemple": "knowledge_base/calcule/timp-si-cicluri/cicluri-12-ani/exemple.md"
+        "README": "knowledge_base/calcule/timp-si-cicluri/cicluri-12-ani/README.md",
+        "metoda": "knowledge_base/calcule/timp-si-cicluri/cicluri-12-ani/01-metoda.md",
+        "semnificatii": "knowledge_base/calcule/timp-si-cicluri/cicluri-12-ani/03-semnificatii.md",
+        "exemple": "knowledge_base/calcule/timp-si-cicluri/cicluri-12-ani/02-exemple.md"
       }
     },
     {
@@ -1481,10 +1540,10 @@
         "varsta"
       ],
       "fisiere": {
-        "index": "knowledge_base/calcule/timp-si-cicluri/cicluri-7-ani/index.md",
-        "metoda": "knowledge_base/calcule/timp-si-cicluri/cicluri-7-ani/metoda.md",
-        "semnificatii": "knowledge_base/calcule/timp-si-cicluri/cicluri-7-ani/semnificatii.md",
-        "exemple": "knowledge_base/calcule/timp-si-cicluri/cicluri-7-ani/exemple.md"
+        "README": "knowledge_base/calcule/timp-si-cicluri/cicluri-7-ani/README.md",
+        "metoda": "knowledge_base/calcule/timp-si-cicluri/cicluri-7-ani/01-metoda.md",
+        "semnificatii": "knowledge_base/calcule/timp-si-cicluri/cicluri-7-ani/03-semnificatii.md",
+        "exemple": "knowledge_base/calcule/timp-si-cicluri/cicluri-7-ani/02-exemple.md"
       }
     },
     {
@@ -1496,10 +1555,10 @@
         "varsta"
       ],
       "fisiere": {
-        "index": "knowledge_base/calcule/timp-si-cicluri/cicluri-9-ani/index.md",
-        "metoda": "knowledge_base/calcule/timp-si-cicluri/cicluri-9-ani/metoda.md",
-        "semnificatii": "knowledge_base/calcule/timp-si-cicluri/cicluri-9-ani/semnificatii.md",
-        "exemple": "knowledge_base/calcule/timp-si-cicluri/cicluri-9-ani/exemple.md"
+        "README": "knowledge_base/calcule/timp-si-cicluri/cicluri-9-ani/README.md",
+        "metoda": "knowledge_base/calcule/timp-si-cicluri/cicluri-9-ani/01-metoda.md",
+        "semnificatii": "knowledge_base/calcule/timp-si-cicluri/cicluri-9-ani/03-semnificatii.md",
+        "exemple": "knowledge_base/calcule/timp-si-cicluri/cicluri-9-ani/02-exemple.md"
       }
     },
     {
@@ -1512,45 +1571,72 @@
         "an_de_viata"
       ],
       "fisiere": {
-        "index": "knowledge_base/calcule/timp-si-cicluri/lectii-de-viata/index.md",
-        "metoda": "knowledge_base/calcule/timp-si-cicluri/lectii-de-viata/metoda.md",
-        "semnificatii": "knowledge_base/calcule/timp-si-cicluri/lectii-de-viata/semnificatii.md",
-        "exemple": "knowledge_base/calcule/timp-si-cicluri/lectii-de-viata/exemple.md",
-        "observatii": "knowledge_base/calcule/timp-si-cicluri/lectii-de-viata/observatii.md"
+        "README": "knowledge_base/calcule/timp-si-cicluri/lectii-de-viata/README.md",
+        "metoda": "knowledge_base/calcule/timp-si-cicluri/lectii-de-viata/01-metoda.md",
+        "semnificatii": "knowledge_base/calcule/timp-si-cicluri/lectii-de-viata/04-semnificatii.md",
+        "exemple": "knowledge_base/calcule/timp-si-cicluri/lectii-de-viata/02-exemple.md",
+        "observatii": "knowledge_base/calcule/timp-si-cicluri/lectii-de-viata/03-observatii.md"
       }
     },
     {
-      "slug": "tema-anului",
-      "titlu": "Tema anului",
-      "categorie": "timp-si-cicluri",
-      "cale": "knowledge_base/calcule/timp-si-cicluri/tema-anului",
+      "slug": "calea-destinului",
+      "titlu": "Calea destinului",
+      "categorie": "vibratii-personale",
+      "cale": "knowledge_base/calcule/vibratii-personale/calea-destinului",
+      "inputuri": [
+        "data_nasterii"
+      ],
+      "fisiere": {
+        "README": "knowledge_base/calcule/vibratii-personale/calea-destinului/README.md",
+        "metoda": "knowledge_base/calcule/vibratii-personale/calea-destinului/01-metoda.md",
+        "exemple": "knowledge_base/calcule/vibratii-personale/calea-destinului/02-exemple.md"
+      }
+    },
+    {
+      "slug": "vibratia-anului-personal",
+      "titlu": "Vibratia anului personal",
+      "categorie": "vibratii-personale",
+      "cale": "knowledge_base/calcule/vibratii-personale/vibratia-anului-personal",
       "inputuri": [
         "zi_nastere",
         "luna_nastere",
         "an_analizat"
       ],
       "fisiere": {
-        "index": "knowledge_base/calcule/timp-si-cicluri/tema-anului/index.md",
-        "metoda": "knowledge_base/calcule/timp-si-cicluri/tema-anului/metoda.md",
-        "semnificatii": "knowledge_base/calcule/timp-si-cicluri/tema-anului/semnificatii.md",
-        "exemple": "knowledge_base/calcule/timp-si-cicluri/tema-anului/exemple.md"
+        "README": "knowledge_base/calcule/vibratii-personale/vibratia-anului-personal/README.md",
+        "metoda": "knowledge_base/calcule/vibratii-personale/vibratia-anului-personal/01-metoda.md",
+        "semnificatii": "knowledge_base/calcule/vibratii-personale/vibratia-anului-personal/03-semnificatii.md",
+        "exemple": "knowledge_base/calcule/vibratii-personale/vibratia-anului-personal/02-exemple.md"
       }
     },
     {
-      "slug": "vibratia-anului",
-      "titlu": "Vibratia anului",
-      "categorie": "timp-si-cicluri",
-      "cale": "knowledge_base/calcule/timp-si-cicluri/vibratia-anului",
+      "slug": "vibratia-cosmica",
+      "titlu": "Vibratia cosmica",
+      "categorie": "vibratii-personale",
+      "cale": "knowledge_base/calcule/vibratii-personale/vibratia-cosmica",
+      "inputuri": [
+        "an_nastere"
+      ],
+      "fisiere": {
+        "README": "knowledge_base/calcule/vibratii-personale/vibratia-cosmica/README.md",
+        "metoda": "knowledge_base/calcule/vibratii-personale/vibratia-cosmica/01-metoda.md",
+        "exemple": "knowledge_base/calcule/vibratii-personale/vibratia-cosmica/02-exemple.md"
+      }
+    },
+    {
+      "slug": "vibratia-destinului",
+      "titlu": "Vibratia destinului",
+      "categorie": "vibratii-personale",
+      "cale": "knowledge_base/calcule/vibratii-personale/vibratia-destinului",
       "inputuri": [
         "zi_nastere",
         "luna_nastere",
-        "an_analizat"
+        "an_nastere"
       ],
       "fisiere": {
-        "index": "knowledge_base/calcule/timp-si-cicluri/vibratia-anului/index.md",
-        "metoda": "knowledge_base/calcule/timp-si-cicluri/vibratia-anului/metoda.md",
-        "semnificatii": "knowledge_base/calcule/timp-si-cicluri/vibratia-anului/semnificatii.md",
-        "exemple": "knowledge_base/calcule/timp-si-cicluri/vibratia-anului/exemple.md"
+        "README": "knowledge_base/calcule/vibratii-personale/vibratia-destinului/README.md",
+        "metoda": "knowledge_base/calcule/vibratii-personale/vibratia-destinului/01-metoda.md",
+        "exemple": "knowledge_base/calcule/vibratii-personale/vibratia-destinului/02-exemple.md"
       }
     },
     {
@@ -1562,11 +1648,26 @@
         "luna_nastere"
       ],
       "fisiere": {
-        "index": "knowledge_base/calcule/vibratii-personale/vibratia-exterioara/index.md",
-        "metoda": "knowledge_base/calcule/vibratii-personale/vibratia-exterioara/metoda.md",
-        "semnificatii": "knowledge_base/calcule/vibratii-personale/vibratia-exterioara/semnificatii.md",
-        "exemple": "knowledge_base/calcule/vibratii-personale/vibratia-exterioara/exemple.md",
-        "observatii": "knowledge_base/calcule/vibratii-personale/vibratia-exterioara/observatii.md"
+        "README": "knowledge_base/calcule/vibratii-personale/vibratia-exterioara/README.md",
+        "metoda": "knowledge_base/calcule/vibratii-personale/vibratia-exterioara/01-metoda.md",
+        "semnificatii": "knowledge_base/calcule/vibratii-personale/vibratia-exterioara/04-semnificatii.md",
+        "exemple": "knowledge_base/calcule/vibratii-personale/vibratia-exterioara/02-exemple.md",
+        "observatii": "knowledge_base/calcule/vibratii-personale/vibratia-exterioara/03-observatii.md"
+      }
+    },
+    {
+      "slug": "vibratia-globala",
+      "titlu": "Vibratia globala",
+      "categorie": "vibratii-personale",
+      "cale": "knowledge_base/calcule/vibratii-personale/vibratia-globala",
+      "inputuri": [
+        "zi_nastere",
+        "luna_nastere"
+      ],
+      "fisiere": {
+        "README": "knowledge_base/calcule/vibratii-personale/vibratia-globala/README.md",
+        "metoda": "knowledge_base/calcule/vibratii-personale/vibratia-globala/01-metoda.md",
+        "exemple": "knowledge_base/calcule/vibratii-personale/vibratia-globala/02-exemple.md"
       }
     },
     {
@@ -1578,11 +1679,11 @@
         "zi_nastere"
       ],
       "fisiere": {
-        "index": "knowledge_base/calcule/vibratii-personale/vibratia-interioara/index.md",
-        "metoda": "knowledge_base/calcule/vibratii-personale/vibratia-interioara/metoda.md",
-        "semnificatii": "knowledge_base/calcule/vibratii-personale/vibratia-interioara/semnificatii.md",
-        "exemple": "knowledge_base/calcule/vibratii-personale/vibratia-interioara/exemple.md",
-        "observatii": "knowledge_base/calcule/vibratii-personale/vibratia-interioara/observatii.md"
+        "README": "knowledge_base/calcule/vibratii-personale/vibratia-interioara/README.md",
+        "metoda": "knowledge_base/calcule/vibratii-personale/vibratia-interioara/01-metoda.md",
+        "semnificatii": "knowledge_base/calcule/vibratii-personale/vibratia-interioara/04-semnificatii.md",
+        "exemple": "knowledge_base/calcule/vibratii-personale/vibratia-interioara/02-exemple.md",
+        "observatii": "knowledge_base/calcule/vibratii-personale/vibratia-interioara/03-observatii.md"
       }
     }
   ]

@@ -1,7 +1,5 @@
 # Ani importanti exteriori - semnificatii
 
-De completat dupa validarea formulei.
-
 ## Directii de interpretare
 
 - ani de schimbare vizibila;
