@@ -117,54 +117,6 @@ de a ramane pe un obiectiv pana la final.
 Reprezinta capacitatea de a dezvolta o cariera, de a patrunde adanc intr-un
 domeniu si de a crea apropiere sufleteasca sau duhovniceasca prin munca aleasa.
 
-## Linii, coloane si diagonale
-
-Matricea se citeste nu doar prin cifre individuale, ci si prin linii. Liniile
-arata cum se leaga domeniile intre ele.
-
-### Niveluri orizontale
-
-Linia de sus `1-4-7` descrie bunastarea spirituala: orientarea, hotararea si
-legatura cu ceea ce persoana crede si tine in minte. Cand este activa, persoana
-are baza, rezistenta si directie. Cand este slaba, pot aparea dificultati de
-afirmare, rutina sau incredere in drum.
-
-Linia de mijloc `2-5-8` descrie bunastarea sociala: raportarea la familie, grup,
-societate si felul in care persoana se aseaza in relatii. Cand este activa,
-persoana poate relationa, se poate adapta si se poate organiza in contexte
-sociale. Cand este slaba, pot aparea fluctuatii, lipsa de centru sau tensiuni cu
-mediul.
-
-Linia de jos `3-6-9` descrie bunastarea materiala: adaptarea la schimbari,
-deprinderi, instincte si felul in care persoana sustine concretul. Cand este
-activa, persoana poate formula, organiza si intelege. Cand este slaba, pot
-aparea dificultati in exprimare coerenta, disciplina mentala sau sinteza.
-
-### Coloane verticale
-
-Coloana stanga `1-2-3` descrie bunastarea energetica: identitate, energie si
-expresie. Arata cum persoana se simte pe sine si cum isi pune energia in
-miscare.
-
-Coloana centrala `4-5-6` descrie bunastarea volutiva: corp, centru si
-responsabilitate. Arata capacitatea de a sustine efort, rutina si echilibru
-practic.
-
-Coloana dreapta `7-8-9` descrie bunastarea creativa: sens, societate si intelect.
-Arata raportul cu lumea larga, regulile, intelepciunea si directia spirituala.
-
-### Diagonale
-
-Diagonala `3-5-7` descrie bunastarea atingerii scopurilor. Leaga expresia,
-centrul si sensul. Poate arata inspiratie, creativitate cu sens, intuitie si
-capacitatea de a transforma experienta in viziune. Umbra ei poate fi fuga in
-idei, simboluri sau idealuri fara ancorare.
-
-Diagonala `1-5-9` descrie bunastarea in cariera. Leaga identitatea, centrul si
-intelectul. Poate arata vointa constienta, claritate, capacitate de sinteza si
-maturizare prin intelegere. Umbra ei poate fi orgoliu mental, control sau
-dificultate de a accepta alte perspective.
-
 ## Elemente de citire
 
 Pentru fiecare linie, coloana sau diagonala se observa:
