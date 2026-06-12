@@ -201,6 +201,12 @@ Matricea rezultat:
 33    | 6  | 999
 ```
 
+Descriere rezultat: numele adauga patru valori de `1` peste casuta 1 si doua
+valori de `9` peste casuta 9. Casutele `5` si `7` apar in matricea numelui, dar
+nu pot fi preluate pentru ca lipsesc din matricea datei de nastere. Casutele
+`3`, `4` si `6` sunt sustinute, dar nu primesc valori noi deoarece numele nu
+depaseste data in acele casute.
+
 ## Exemplu 2 - 07.11.1994 / Mihai Ionescu
 
 ### Matricea datei de nastere
@@ -393,6 +399,12 @@ Matricea rezultat:
 2    | 55 | 8
 33   |    | 9999
 ```
+
+Descriere rezultat: numele adauga o valoare de `3`, o valoare de `5` si o
+valoare de `9` peste matricea datei de nastere. Casuta `6` apare in matricea
+numelui, dar nu poate fi preluata pentru ca lipseste din matricea datei.
+Casutele `1`, `4` si `8` sunt sustinute, dar nu primesc valori noi deoarece
+numele nu depaseste data in acele casute.
 
 ## Exemplu 3 - 15.10.1988 / Elena Dumitrescu
 
@@ -588,3 +600,9 @@ Matricea rezultat:
      | 5555 | 88
 3333 | 6    | 99
 ```
+
+Descriere rezultat: numele adauga o valoare de `3`, o valoare de `4`, trei
+valori de `5` si o valoare de `9` peste matricea datei de nastere. Casuta `2`
+apare in matricea numelui, dar nu poate fi preluata pentru ca lipseste din
+matricea datei. Casutele `1` si `8` sunt sustinute, dar nu primesc valori noi
+deoarece numele nu depaseste data in acele casute.
