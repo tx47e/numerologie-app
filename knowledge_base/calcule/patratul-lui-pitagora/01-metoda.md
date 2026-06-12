@@ -205,10 +205,10 @@ In profilul complet se pastreaza doua matrici:
 - matricea numelui.
 
 Din matricea datei de nastere si matricea numelui rezulta o a treia matrice:
-matricea valorilor sustinute. Ea contine valorile din matricea numelui care pot
-amplifica valorile din matricea datei de nastere. O valoare din nume amplifica
-o valoare din data doar daca aceeasi casuta exista si in matricea datei; aceasta
-prezenta comuna este sustinerea.
+matricea valorilor preluate. Ea contine doar diferenta prin care valorile din
+matricea numelui depasesc valorile deja prezente in aceeasi casuta din matricea
+datei de nastere. O valoare din nume poate fi adaugata datei doar daca aceeasi
+casuta exista si in matricea datei; aceasta prezenta comuna este sustinerea.
 
 Regula de lucru:
 
@@ -216,17 +216,21 @@ Regula de lucru:
 2. Se calculeaza matricea numelui.
 3. Pentru fiecare casuta 1-9 se verifica daca exista valori in ambele matrici.
 4. Daca o casuta este prezenta in matricea numelui si prezenta in matricea
-   datei, valorile din nume se copiaza in matricea valorilor sustinute.
+   datei, se compara numarul de valori din cele doua casute.
 5. Daca o casuta este prezenta in matricea numelui, dar absenta in matricea
    datei, valorile din nume nu se copiaza in a treia matrice; sunt potential de
    nume fara suport direct in data.
-6. Daca o casuta este prezenta in ambele matrici, numarul de valori din casuta
-   numelui arata gradul de amplificare a valorii din matricea datei de nastere.
+6. Daca numele are mai multe valori decat data in aceeasi casuta, diferenta se
+   preia in matricea valorilor preluate.
+7. Daca numele are un numar egal sau mai mic de valori decat data, nu se preia
+   nimic in a treia matrice pentru acea casuta.
 
 Ele se compara prin:
 
 - cifre dominante in data si in nume;
 - casute sustinute: prezente si in data, si in nume;
+- casute amplificate: prezente in ambele matrici, cu mai multe valori in nume
+  decat in data;
 - casute nesustinute: prezente in nume, dar absente in data;
 - casute native: prezente in data, dar absente in nume;
 - vectori activi in data fata de vectori activi in nume.
@@ -238,7 +242,7 @@ expresia prin nume.
 Formula simpla pentru comparatia pe casute:
 
 ```text
-matrice_sustinuta = matrice_goala(1..9)
+matrice_preluata = matrice_goala(1..9)
 
 pentru fiecare cifra 1..9:
   data = numar_aparitii(cifra, matricea_datei_de_nastere)
@@ -246,25 +250,26 @@ pentru fiecare cifra 1..9:
 
   daca data > 0 si nume > 0:
     status = sustinuta
-    amplificare = nume
-    matrice_sustinuta[cifra] = matricea_numelui[cifra]
+    diferenta = nume - data
+    daca diferenta > 0:
+      status = amplificata
+      matrice_preluata[cifra] = cifra repetata de diferenta ori
+    altfel:
+      matrice_preluata[cifra] = gol
   daca data == 0 si nume > 0:
     status = nesustinuta
-    amplificare = 0
-    matrice_sustinuta[cifra] = gol
+    matrice_preluata[cifra] = gol
   daca data > 0 si nume == 0:
     status = nativa_neamplificata_de_nume
-    amplificare = 0
-    matrice_sustinuta[cifra] = gol
+    matrice_preluata[cifra] = gol
   daca data == 0 si nume == 0:
     status = absenta
-    amplificare = 0
-    matrice_sustinuta[cifra] = gol
+    matrice_preluata[cifra] = gol
 ```
 
 A treia matrice nu combina toate cifrele din data cu toate cifrele din nume.
-Ea pastreaza doar valorile din matricea numelui care sunt sustinute de matricea
-datei de nastere.
+Ea pastreaza doar diferenta de valori din matricea numelui care depaseste
+matricea datei de nastere in casutele sustinute.
 
 ## Metoda pentru scara bunastarii
 

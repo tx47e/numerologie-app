@@ -2,7 +2,7 @@
 
 Aceste exemple arata calculul complet pentru trei profiluri: matricea datei de
 nastere, matricea numelui, valorile pe casute, valorile vectorilor, scara
-bunastarii si matricea valorilor sustinute rezultata din comparatie.
+bunastarii si matricea valorilor preluate rezultata din comparatie.
 
 ## Exemplu 1 - 24.04.1982 / Ana Maria Popescu
 
@@ -182,22 +182,22 @@ Scara bunastarii pentru nume:
 
 | Casuta | Data nasterii | Nume | Rezultat |
 | --- | --- | --- | --- |
-| 1 | `1` | `11111` | sustinuta; `11111` intra in matricea valorilor sustinute |
+| 1 | `1` | `11111` | amplificata; diferenta `1111` se preia |
 | 2 | `222` | - | nativa, neamplificata de nume |
-| 3 | `33` | `33` | sustinuta; `33` intra in matricea valorilor sustinute |
-| 4 | `44` | `4` | sustinuta; `4` intra in matricea valorilor sustinute |
+| 3 | `33` | `33` | sustinuta, fara diferenta de preluat |
+| 4 | `44` | `4` | sustinuta, dar numele nu depaseste data |
 | 5 | - | `55` | nesustinuta; nu se preia |
-| 6 | `6` | `6` | sustinuta; `6` intra in matricea valorilor sustinute |
+| 6 | `6` | `6` | sustinuta, fara diferenta de preluat |
 | 7 | - | `77` | nesustinuta; nu se preia |
 | 8 | `88` | - | nativa, neamplificata de nume |
-| 9 | `9` | `999` | sustinuta; `999` intra in matricea valorilor sustinute |
+| 9 | `9` | `999` | amplificata; diferenta `99` se preia |
 
-Matricea valorilor sustinute:
+Matricea valorilor preluate:
 
 ```text
-11111 | 4 |
-      |   |
-33    | 6 | 999
+1111 |   |
+     |   |
+     |   | 99
 ```
 
 ## Exemplu 2 - 07.11.1994 / Mihai Ionescu
@@ -375,22 +375,22 @@ Scara bunastarii pentru nume:
 
 | Casuta | Data nasterii | Nume | Rezultat |
 | --- | --- | --- | --- |
-| 1 | `1111` | `11` | sustinuta; `11` intra in matricea valorilor sustinute |
+| 1 | `1111` | `11` | sustinuta, dar numele nu depaseste data |
 | 2 | `2` | - | nativa, neamplificata de nume |
-| 3 | `3` | `33` | sustinuta; `33` intra in matricea valorilor sustinute |
-| 4 | `4` | `4` | sustinuta; `4` intra in matricea valorilor sustinute |
-| 5 | `5` | `55` | sustinuta; `55` intra in matricea valorilor sustinute |
+| 3 | `3` | `33` | amplificata; diferenta `3` se preia |
+| 4 | `4` | `4` | sustinuta, fara diferenta de preluat |
+| 5 | `5` | `55` | amplificata; diferenta `5` se preia |
 | 6 | - | `6` | nesustinuta; nu se preia |
 | 7 | `7` | - | nativa, neamplificata de nume |
-| 8 | `8` | `8` | sustinuta; `8` intra in matricea valorilor sustinute |
-| 9 | `999` | `9999` | sustinuta; `9999` intra in matricea valorilor sustinute |
+| 8 | `8` | `8` | sustinuta, fara diferenta de preluat |
+| 9 | `999` | `9999` | amplificata; diferenta `9` se preia |
 
-Matricea valorilor sustinute:
+Matricea valorilor preluate:
 
 ```text
-11 | 4  |
-   | 55 | 8
-33 |    | 9999
+   |   |
+   | 5 |
+3  |   | 9
 ```
 
 ## Exemplu 3 - 15.10.1988 / Elena Dumitrescu
@@ -570,20 +570,20 @@ Scara bunastarii pentru nume:
 
 | Casuta | Data nasterii | Nume | Rezultat |
 | --- | --- | --- | --- |
-| 1 | `1111` | `11` | sustinuta; `11` intra in matricea valorilor sustinute |
+| 1 | `1111` | `11` | sustinuta, dar numele nu depaseste data |
 | 2 | - | `2` | nesustinuta; nu se preia |
-| 3 | `333` | `3333` | sustinuta; `3333` intra in matricea valorilor sustinute |
-| 4 | `4` | `44` | sustinuta; `44` intra in matricea valorilor sustinute |
-| 5 | `5` | `5555` | sustinuta; `5555` intra in matricea valorilor sustinute |
+| 3 | `333` | `3333` | amplificata; diferenta `3` se preia |
+| 4 | `4` | `44` | amplificata; diferenta `4` se preia |
+| 5 | `5` | `5555` | amplificata; diferenta `555` se preia |
 | 6 | `6` | - | nativa, neamplificata de nume |
 | 7 | - | - | absenta |
-| 8 | `88` | `8` | sustinuta; `8` intra in matricea valorilor sustinute |
-| 9 | `9` | `99` | sustinuta; `99` intra in matricea valorilor sustinute |
+| 8 | `88` | `8` | sustinuta, dar numele nu depaseste data |
+| 9 | `9` | `99` | amplificata; diferenta `9` se preia |
 
-Matricea valorilor sustinute:
+Matricea valorilor preluate:
 
 ```text
-11   | 44   |
-     | 5555 | 8
-3333 |      | 99
+     | 4   |
+     | 555 |
+3    |     | 9
 ```
