@@ -2,6 +2,17 @@
 
 ## Exemplul 1: Constantinescu Maria Elena, 24.04.1982
 
+### Stratul din data nasterii
+
+```text
+karma zilei = 24
+karma lunii = 4
+calea destinului karmica = 2 + 4 + 0 + 4 + 1 + 9 + 8 + 2 = 30
+datorii karmice din data = -
+```
+
+### Stratul din numele complet
+
 Valorile literelor:
 
 ```text
@@ -47,12 +58,25 @@ Datorii karmice personale:
 13
 ```
 
-Interpretare scurta: lectiile `7` si `8` arata zone care cer dezvoltare
+Interpretare scurta: data aduce un strat karmic prin ziua `24`, luna `4` si
+calea destinului `30`, iar numele adauga lectiile `7` si `8` plus datoria `13`.
+Lectiile `7` si `8` arata zone care cer dezvoltare
 constienta in raport cu intelegerea, discernamantul, raportarea la putere,
 echilibru material si responsabilitate. Datoria `13` cere disciplina,
 transformare si iesirea din inertie.
 
 ## Exemplul 2: Dițoiu Nela, 28.12.1975
+
+### Stratul din data nasterii
+
+```text
+karma zilei = 28
+karma lunii = 12
+calea destinului karmica = 2 + 8 + 1 + 2 + 1 + 9 + 7 + 5 = 35
+datorii karmice din data = -
+```
+
+### Stratul din numele complet
 
 Normalizare:
 

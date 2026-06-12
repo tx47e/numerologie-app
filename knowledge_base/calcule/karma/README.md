@@ -4,8 +4,8 @@ Acest director contine calculele karmice folosite in proiect.
 
 ## Calcule
 
-- [Karma personala](karma-personala/README.md): lectii karmice si datorii
-  karmice extrase din numele complet si din data nasterii.
+- [Karma personala](karma-personala/README.md): profil combinat din data
+  nasterii si numele complet.
 
 ## Surse bibliografice interne
 
@@ -18,8 +18,9 @@ Acest director contine calculele karmice folosite in proiect.
 - `bibliography/08 - Numele.md`: metoda pentru numarul ereditar karmic /
   numarul neamului si analiza lipsurilor din matricea numelui.
 
-In implementarea curenta, karma personala foloseste lectiile karmice din numele
-complet si datoriile 13, 14, 16, 19.
+In implementarea curenta, karma personala combina karma zilei, karma lunii si
+karma din calea destinului cu lectiile karmice si datoriile karmice extrase din
+numele complet.
 
 Termenul `karma neamului` nu mai este pastrat ca un calcul separat. El este
 mentionat ca denumire alternativa in

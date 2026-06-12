@@ -79,8 +79,9 @@ Acest document centralizeaza formulele numerologice adoptate in proiect.
 
 - [`lectii karmice`](../knowledge_base/calcule/karma/karma-personala/01-metoda.md): numerele 1-9 absente din valorile literelor numelui.
 - [`datorii karmice`](../knowledge_base/calcule/karma/karma-personala/01-metoda.md): aparitia numerelor 13, 14, 16 sau 19 in totaluri importante.
-- [`karma personala`](../knowledge_base/calcule/karma/karma-personala/01-metoda.md): lectiile karmice din numele complet si datoriile karmice
-  gasite in totalurile personale stabilite.
+- [`karma personala`](../knowledge_base/calcule/karma/karma-personala/01-metoda.md): profil combinat din data nasterii si numele complet; data aduce
+  karma zilei, karma lunii si calea destinului karmica, iar numele aduce
+  lectiile karmice si datoriile karmice din totalurile numelui.
 - [`karma neamului`](../knowledge_base/calcule/nume/numarul-ereditar-karmic/01-metoda.md): nu este calcul separat; termenul este alias pentru
   `numarul ereditar karmic / numarul neamului`.
 

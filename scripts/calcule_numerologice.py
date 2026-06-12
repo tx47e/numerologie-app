@@ -243,7 +243,18 @@ def datorii_karmice_nume(nume):
 
 
 def karma_personala(nume, zi, luna, an):
+    total_data = soarta(zi, luna, an)["total"]
     return {
+        "din_nume": {
+            "lectii": lectii_karmice(nume),
+            "datorii": datorii_karmice_nume(nume),
+        },
+        "din_data": {
+            "karma_zilei": zi,
+            "karma_lunii": luna,
+            "calea_destinului": total_data,
+            "datorii": [total_data] if total_data in DATORII_KARMICE else [],
+        },
         "lectii": lectii_karmice(nume),
         "datorii": datorii_karmice(nume, zi, luna, an),
     }
@@ -420,6 +431,11 @@ def main():
 
     afiseaza_lista("Lectii karmice personale:", karma_pers["lectii"])
     afiseaza_lista("Datorii karmice personale:", karma_pers["datorii"])
+    print("Karma personala din data nasterii:")
+    print(f"karma zilei: {karma_pers['din_data']['karma_zilei']}")
+    print(f"karma lunii: {karma_pers['din_data']['karma_lunii']}")
+    print(f"calea destinului karmica: {karma_pers['din_data']['calea_destinului']}")
+    afiseaza_lista("Datorii karmice din data:", karma_pers["din_data"]["datorii"])
 
     afiseaza_lista(f"Ani importanti interiori {args.start}-{args.stop}:", ani["ani_interiori"])
     afiseaza_lista(f"Ani importanti exteriori {args.start}-{args.stop}:", ani["ani_exteriori"])

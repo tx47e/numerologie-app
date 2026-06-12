@@ -1,11 +1,13 @@
 # Karma personala
 
-Karma personala reuneste doua verificari practice:
+Karma personala reuneste doua surse de analiza:
 
-- lectiile karmice: cifrele 1-9 care lipsesc din valorile literelor numelui
-  complet;
-- datoriile karmice: aparitia numerelor 13, 14, 16 sau 19 in totaluri
-  importante.
+- data nasterii: karma zilei, karma lunii si karma din calea destinului;
+- numele complet: lectii karmice si datorii karmice aparute in totalurile numelui.
+
+Citite impreuna, cele doua calcule dau o imagine mai completa: data arata
+programul karmic de baza, iar numele arata felul in care acest program este
+activat, sustinut sau tensionat prin identitatea purtata.
 
 ## Fisiere
 
@@ -19,5 +21,5 @@ calea destinului. Pentru calculul operational din nume, proiectul foloseste
 lectiile karmice ca cifre lipsa in numele complet si datoriile karmice clasice
 13, 14, 16, 19.
 
-Acest calcul nu inlocuieste karma zilei sau karma lunii. El este stratul karmic
-extras din nume si verificat impreuna cu data nasterii.
+Acest calcul nu izoleaza numele de data nasterii. Karma personala este profilul
+combinat al celor doua surse.
