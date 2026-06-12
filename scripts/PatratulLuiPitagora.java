@@ -7,13 +7,13 @@ import java.util.Map;
 
 public class PatratulLuiPitagora {
     private static final VectorDefinitie[] VECTORI = {
-        new VectorDefinitie("Scara bunastarii materiale", new int[] {3, 6, 9}),
-        new VectorDefinitie("Vectorul relational si social", new int[] {2, 5, 8}),
-        new VectorDefinitie("Scara bunastarii spirituale", new int[] {1, 4, 7}),
-        new VectorDefinitie("Axa personala", new int[] {1, 2, 3}),
-        new VectorDefinitie("Axa de constructie", new int[] {4, 5, 6}),
-        new VectorDefinitie("Axa superioara si sociala", new int[] {7, 8, 9}),
-        new VectorDefinitie("Vectorul scopului", new int[] {7, 5, 3}),
+        new VectorDefinitie("Bunastare materiala", new int[] {3, 6, 9}),
+        new VectorDefinitie("Bunastare sociala", new int[] {2, 5, 8}),
+        new VectorDefinitie("Bunastare spirituala", new int[] {1, 4, 7}),
+        new VectorDefinitie("Vectorul energetic", new int[] {1, 2, 3}),
+        new VectorDefinitie("Vectorul vointa", new int[] {4, 5, 6}),
+        new VectorDefinitie("Vectorul creativitatii", new int[] {7, 8, 9}),
+        new VectorDefinitie("Vectorul scopului", new int[] {3, 5, 7}),
         new VectorDefinitie("Vectorul carierei", new int[] {1, 5, 9})
     };
 
@@ -64,18 +64,32 @@ public class PatratulLuiPitagora {
         List<ValoareLitera> valori = valoriNume(nume);
         List<Integer> cifreMatrice = new ArrayList<>();
         StringBuilder normalizat = new StringBuilder();
-        int total = 0;
+        int totalLitere = 0;
 
         for (ValoareLitera valoare : valori) {
             normalizat.append(valoare.litera);
             cifreMatrice.add(valoare.valoare);
-            total += valoare.valoare;
+            totalLitere += valoare.valoare;
         }
+
+        List<Integer> componenteReduse = componenteReduse(nume);
+        int numarExprimare = reducere(componenteReduse.stream().mapToInt(Integer::intValue).sum());
+        cifreMatrice.add(numarExprimare);
 
         Map<Integer, String> matrice = grupeazaMatrice(cifreMatrice);
         List<VectorInterpretare> vectori = interpreteazaVectori(matrice);
 
-        return new RezultatNume(nume, normalizat.toString(), valori, total, cifreMatrice, matrice, vectori);
+        return new RezultatNume(
+            nume,
+            normalizat.toString(),
+            valori,
+            totalLitere,
+            componenteReduse,
+            numarExprimare,
+            cifreMatrice,
+            matrice,
+            vectori
+        );
     }
 
     private static List<ValoareLitera> valoriNume(String nume) {
@@ -93,6 +107,20 @@ public class PatratulLuiPitagora {
             }
         }
         return valori;
+    }
+
+    private static List<Integer> componenteReduse(String nume) {
+        List<Integer> componente = new ArrayList<>();
+        for (String parte : nume.replace("-", " ").split("\\s+")) {
+            int total = 0;
+            for (ValoareLitera valoare : valoriNume(parte)) {
+                total += valoare.valoare;
+            }
+            if (total > 0) {
+                componente.add(reducere(total));
+            }
+        }
+        return componente;
     }
 
     private static int valoareLitera(char litera) {
@@ -113,6 +141,14 @@ public class PatratulLuiPitagora {
             .stream()
             .mapToInt(Integer::intValue)
             .sum();
+    }
+
+    private static int reducere(int numar) {
+        int curent = numar;
+        while (curent > 9) {
+            curent = sumaCifrelor(curent);
+        }
+        return curent;
     }
 
     private static int primaCifraNenula(int numar) {
@@ -152,13 +188,15 @@ public class PatratulLuiPitagora {
         List<VectorInterpretare> interpretari = new ArrayList<>();
         for (VectorDefinitie vector : VECTORI) {
             int pozitiiPrezente = 0;
-            int aparitii = 0;
+            int valoareVector = 0;
 
             for (int pozitie : vector.pozitii) {
                 String valoare = matrice.get(pozitie);
                 if (!valoare.isEmpty()) {
                     pozitiiPrezente++;
-                    aparitii += valoare.length();
+                    for (char cifra : valoare.toCharArray()) {
+                        valoareVector += Character.getNumericValue(cifra);
+                    }
                 }
             }
 
@@ -175,14 +213,18 @@ public class PatratulLuiPitagora {
 
             List<String> analiza = new ArrayList<>();
             for (int pozitie : vector.pozitii) {
-                analiza.add(pozitie + ":" + matrice.get(pozitie).length());
+                int valoarePozitie = 0;
+                for (char cifra : matrice.get(pozitie).toCharArray()) {
+                    valoarePozitie += Character.getNumericValue(cifra);
+                }
+                analiza.add(pozitie + ":" + valoarePozitie);
             }
 
             interpretari.add(new VectorInterpretare(
                 vector.nume,
                 vector.pozitii,
                 pozitiiPrezente,
-                aparitii,
+                valoareVector,
                 stare,
                 analiza
             ));
@@ -271,8 +313,12 @@ public class PatratulLuiPitagora {
         System.out.println(String.join(", ", valori));
         System.out.println();
 
-        System.out.println("Total nume:");
+        System.out.println("Total litere nume:");
         System.out.println(rezultat.total);
+        System.out.println();
+
+        System.out.println("Numar de exprimare:");
+        System.out.println(join(rezultat.componenteReduse) + " -> " + rezultat.numarExprimare);
         System.out.println();
 
         System.out.println("Cifre introduse in matricea numelui:");
@@ -417,6 +463,8 @@ public class PatratulLuiPitagora {
         String numeNormalizat;
         List<ValoareLitera> valori;
         int total;
+        List<Integer> componenteReduse;
+        int numarExprimare;
         List<Integer> cifreMatrice;
         Map<Integer, String> matrice;
         List<VectorInterpretare> vectori;
@@ -426,6 +474,8 @@ public class PatratulLuiPitagora {
             String numeNormalizat,
             List<ValoareLitera> valori,
             int total,
+            List<Integer> componenteReduse,
+            int numarExprimare,
             List<Integer> cifreMatrice,
             Map<Integer, String> matrice,
             List<VectorInterpretare> vectori
@@ -434,6 +484,8 @@ public class PatratulLuiPitagora {
             this.numeNormalizat = numeNormalizat;
             this.valori = valori;
             this.total = total;
+            this.componenteReduse = componenteReduse;
+            this.numarExprimare = numarExprimare;
             this.cifreMatrice = cifreMatrice;
             this.matrice = matrice;
             this.vectori = vectori;

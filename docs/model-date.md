@@ -67,7 +67,7 @@ in JSON ca structura stabila pentru dezvoltarea aplicatiei.
   "cale": "knowledge_base/calcule/vibratii-personale/vibratia-interioara",
   "inputuri": ["zi_nastere"],
   "fisiere": {
-    "index": "...",
+    "README": "...",
     "metoda": "...",
     "semnificatii": "...",
     "exemple": "...",
@@ -87,7 +87,7 @@ Campuri:
 
 ## Schema: exemplu de calcul
 
-Exemplele raman in fisierele `exemple.md`, dar structura recomandata pentru
+Exemplele raman in fisierele `02-exemple.md`, dar structura recomandata pentru
 continut este:
 
 ```json

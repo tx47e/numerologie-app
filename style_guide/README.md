@@ -140,8 +140,8 @@ Structura recomandata pentru un fisier extins:
 
 Paragrafele trebuie sa aiba, in general, intre 60 si 120 de cuvinte. O idee poate
 fi dezvoltata in unul sau doua paragrafe, dar nu trebuie amestecate prea multe
-teme in acelasi bloc. Pentru fisierele de tip `exemple.md`, accentul cade pe
-scenarii concrete si aplicatii. Pentru fisierele de tip `metoda.md`, accentul
+teme in acelasi bloc. Pentru fisierele de tip `02-exemple.md`, accentul cade pe
+scenarii concrete si aplicatii. Pentru fisierele de tip `01-metoda.md`, accentul
 cade pe pasi, reguli, exceptii si validare.
 
 ## Criteriu de calitate

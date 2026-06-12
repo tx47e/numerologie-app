@@ -8,13 +8,13 @@ if hasattr(sys.stdout, "reconfigure"):
 
 
 VECTORI = [
-    ("Scara bunastarii materiale", [3, 6, 9]),
-    ("Vectorul relational si social", [2, 5, 8]),
-    ("Scara bunastarii spirituale", [1, 4, 7]),
-    ("Axa personala", [1, 2, 3]),
-    ("Axa de constructie", [4, 5, 6]),
-    ("Axa superioara si sociala", [7, 8, 9]),
-    ("Vectorul scopului", [7, 5, 3]),
+    ("Bunastare materiala", [3, 6, 9]),
+    ("Bunastare sociala", [2, 5, 8]),
+    ("Bunastare spirituala", [1, 4, 7]),
+    ("Vectorul energetic", [1, 2, 3]),
+    ("Vectorul vointa", [4, 5, 6]),
+    ("Vectorul creativitatii", [7, 8, 9]),
+    ("Vectorul scopului", [3, 5, 7]),
     ("Vectorul carierei", [1, 5, 9]),
 ]
 
@@ -33,6 +33,13 @@ ALFABET = {
 
 def suma_cifrelor(numar):
     return sum(int(cifra) for cifra in str(numar))
+
+
+def reducere(numar):
+    curent = numar
+    while curent > 9:
+        curent = suma_cifrelor(curent)
+    return curent
 
 
 def prima_cifra_nenula(numar):
@@ -60,15 +67,35 @@ def valori_nume(nume):
     return [(litera, ALFABET[litera]) for litera in litere if litera in ALFABET]
 
 
+def componente_nume(nume):
+    componente = []
+    for parte in nume.replace("-", " ").split():
+        litere = normalizeaza_text(parte)
+        valori = [(litera, ALFABET[litera]) for litera in litere if litera in ALFABET]
+        if valori:
+            total = sum(valoare for _, valoare in valori)
+            componente.append({
+                "componenta": parte,
+                "normalizat": "".join(litera for litera, _ in valori),
+                "valori": valori,
+                "total": total,
+                "redus": reducere(total),
+            })
+    return componente
+
+
 def interpreteaza_vectori(matrice):
     interpretari = []
     for vector in VECTORI:
         nume = vector[0]
         pozitii = vector[1]
         pozitii_prezente = [pozitie for pozitie in pozitii if matrice[pozitie]]
-        aparitii = sum(len(matrice[pozitie]) for pozitie in pozitii)
+        valoare = sum(
+            sum(int(cifra) for cifra in matrice[pozitie])
+            for pozitie in pozitii
+        )
         analiza = [
-            f"{pozitie}:{len(matrice[pozitie])}"
+            f"{pozitie}:{sum(int(cifra) for cifra in matrice[pozitie]) if matrice[pozitie] else 0}"
             for pozitie in pozitii
         ]
 
@@ -85,7 +112,7 @@ def interpreteaza_vectori(matrice):
             "nume": nume,
             "pozitii": pozitii,
             "prezente": len(pozitii_prezente),
-            "valoare": aparitii,
+            "valoare": valoare,
             "stare": stare,
             "analiza": analiza,
         })
@@ -130,15 +157,24 @@ def calculeaza_patratul_lui_pitagora(zi, luna, an):
 
 
 def calculeaza_matrice_nume(nume):
-    valori = valori_nume(nume)
-    cifre_matrice = [valoare for _, valoare in valori]
+    componente = componente_nume(nume)
+    valori = [valoare for componenta in componente for valoare in componenta["valori"]]
+    cifre_litere = [valoare for _, valoare in valori]
+    cifre_componente = [componenta["redus"] for componenta in componente]
+    numar_exprimare = reducere(sum(cifre_componente))
+    cifre_matrice = cifre_litere + [numar_exprimare]
     matrice = grupeaza_matrice(cifre_matrice)
 
     return {
         "nume": nume,
         "nume_normalizat": "".join(litera for litera, _ in valori),
         "valori": valori,
-        "total": sum(cifre_matrice),
+        "componente": componente,
+        "total_litere": sum(cifre_litere),
+        "total_componente": sum(cifre_componente),
+        "numar_exprimare": numar_exprimare,
+        "cifre_litere": cifre_litere,
+        "cifre_componente": cifre_componente,
         "cifre_matrice": cifre_matrice,
         "matrice": matrice,
         "vectori": interpreteaza_vectori(matrice),
@@ -234,8 +270,20 @@ def afiseaza_rezultat_nume(rezultat):
     print(", ".join(f"{litera}={valoare}" for litera, valoare in rezultat["valori"]))
     print()
 
-    print("Total nume:")
-    print(rezultat["total"])
+    print("Componente reduse:")
+    for componenta in rezultat["componente"]:
+        print(
+            f"{componenta['normalizat']}: "
+            f"{format_suma([valoare for _, valoare in componenta['valori']])} "
+            f"= {componenta['total']} -> {componenta['redus']}"
+        )
+    print()
+
+    print("Numar de exprimare:")
+    print(
+        f"{format_suma(rezultat['cifre_componente'])} = "
+        f"{rezultat['total_componente']} -> {rezultat['numar_exprimare']}"
+    )
     print()
 
     print("Cifre introduse in matricea numelui:")

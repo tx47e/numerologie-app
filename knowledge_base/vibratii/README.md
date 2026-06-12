@@ -23,24 +23,24 @@ Fiecare vibratie este dezvoltata prin aceleasi repere:
 - `Exemple`: situatii scurte sau ample prin care vibratia devine mai usor de
   recunoscut in viata cotidiana.
 
-Fiecare vibratie are propriul director. In interiorul directorului, `index.md`
+Fiecare vibratie are propriul director. In interiorul directorului, `README.md`
 functioneaza ca pagina de navigare, iar fiecare capitol este pastrat intr-un
 fisier Markdown separat.
 
 ## Lista vibratiilor
 
-- [Vibratia 1](vibratia-1/index.md)
-- [Vibratia 2](vibratia-2/index.md)
-- [Vibratia 3](vibratia-3/index.md)
-- [Vibratia 4](vibratia-4/index.md)
-- [Vibratia 5](vibratia-5/index.md)
-- [Vibratia 6](vibratia-6/index.md)
-- [Vibratia 7](vibratia-7/index.md)
-- [Vibratia 8](vibratia-8/index.md)
-- [Vibratia 9](vibratia-9/index.md)
-- [Vibratia 11](vibratia-11/index.md)
-- [Vibratia 22](vibratia-22/index.md)
-- [Vibratia 33](vibratia-33/index.md)
+- [Vibratia 1](vibratia-1/README.md)
+- [Vibratia 2](vibratia-2/README.md)
+- [Vibratia 3](vibratia-3/README.md)
+- [Vibratia 4](vibratia-4/README.md)
+- [Vibratia 5](vibratia-5/README.md)
+- [Vibratia 6](vibratia-6/README.md)
+- [Vibratia 7](vibratia-7/README.md)
+- [Vibratia 8](vibratia-8/README.md)
+- [Vibratia 9](vibratia-9/README.md)
+- [Vibratia 11](vibratia-11/README.md)
+- [Vibratia 22](vibratia-22/README.md)
+- [Vibratia 33](vibratia-33/README.md)
 
 ## Numere maestre
 

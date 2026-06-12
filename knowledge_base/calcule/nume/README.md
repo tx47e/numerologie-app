@@ -6,7 +6,10 @@ Acest director contine regulile pentru calculele numerologice bazate pe nume.
 
 - alfabetul numerologic;
 - normalizarea numelui;
-- calculul pe vocale;
-- calculul pe consoane;
-- calculul pe numele complet;
+- numarul de exprimare;
+- numarul intim;
+- numarul de realizare;
+- numarul activ;
+- numarul ereditar;
+- numarul ereditar karmic;
 - exemple complete.

@@ -11,13 +11,12 @@ intelect.
 
 ## Fisiere
 
-- [Metoda](metoda.md)
-- [Semnificatii pozitii](semnificatii-pozitii.md)
-- [Semnificatii frecvente](semnificatii-frecvente.md)
-- [Elemente si linii](elemente-si-linii.md)
-- [Vectori](vectori.md)
-- [Exemple](exemple.md)
-- [Observatii](observatii.md)
+- [Metoda](01-metoda.md)
+- [Semnificatii pozitii](04-semnificatii-pozitii.md)
+- [Semnificatii frecvente](05-semnificatii-frecvente.md)
+- [Scara bunastarii](06-scara-bunastarii.md)
+- [Exemple](02-exemple.md)
+- [Observatii](03-observatii.md)
 
 ## Matrice folosita
 
