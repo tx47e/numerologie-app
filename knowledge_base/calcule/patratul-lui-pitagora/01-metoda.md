@@ -3,7 +3,7 @@
 Metoda porneste de la data nasterii si genereaza o serie de cifre care se aseaza
 in matricea 3x3.
 
-## Date necesare pentru matricea datei
+## Date necesare pentru matricea datei de nastere
 
 - ziua nasterii;
 - luna nasterii;
@@ -96,7 +96,7 @@ Cifrele care intra in matrice sunt:
 
 Cifra 0 se elimina.
 
-## Matricea
+## Matricea datei de nastere
 
 Folosim aceasta pozitionare:
 
@@ -204,16 +204,67 @@ In profilul complet se pastreaza doua matrici:
 - matricea datei de nastere;
 - matricea numelui.
 
+Din matricea datei de nastere si matricea numelui rezulta o a treia matrice:
+matricea valorilor sustinute. Ea contine valorile din matricea numelui care pot
+amplifica valorile din matricea datei de nastere. O valoare din nume amplifica
+o valoare din data doar daca aceeasi casuta exista si in matricea datei; aceasta
+prezenta comuna este sustinerea.
+
+Regula de lucru:
+
+1. Se calculeaza matricea datei de nastere.
+2. Se calculeaza matricea numelui.
+3. Pentru fiecare casuta 1-9 se verifica daca exista valori in ambele matrici.
+4. Daca o casuta este prezenta in matricea numelui si prezenta in matricea
+   datei, valorile din nume se copiaza in matricea valorilor sustinute.
+5. Daca o casuta este prezenta in matricea numelui, dar absenta in matricea
+   datei, valorile din nume nu se copiaza in a treia matrice; sunt potential de
+   nume fara suport direct in data.
+6. Daca o casuta este prezenta in ambele matrici, numarul de valori din casuta
+   numelui arata gradul de amplificare a valorii din matricea datei de nastere.
+
 Ele se compara prin:
 
 - cifre dominante in data si in nume;
-- cifre absente in data, dar prezente in nume;
-- cifre prezente in data, dar absente in nume;
+- casute sustinute: prezente si in data, si in nume;
+- casute nesustinute: prezente in nume, dar absente in data;
+- casute native: prezente in data, dar absente in nume;
 - vectori activi in data fata de vectori activi in nume.
 
 Nu combinam automat cifrele datei cu cifrele numelui intr-o singura matrice,
 pentru ca ar amesteca doua surse simbolice diferite: structura nasterii si
 expresia prin nume.
+
+Formula simpla pentru comparatia pe casute:
+
+```text
+matrice_sustinuta = matrice_goala(1..9)
+
+pentru fiecare cifra 1..9:
+  data = numar_aparitii(cifra, matricea_datei_de_nastere)
+  nume = numar_aparitii(cifra, matricea_numelui)
+
+  daca data > 0 si nume > 0:
+    status = sustinuta
+    amplificare = nume
+    matrice_sustinuta[cifra] = matricea_numelui[cifra]
+  daca data == 0 si nume > 0:
+    status = nesustinuta
+    amplificare = 0
+    matrice_sustinuta[cifra] = gol
+  daca data > 0 si nume == 0:
+    status = nativa_neamplificata_de_nume
+    amplificare = 0
+    matrice_sustinuta[cifra] = gol
+  daca data == 0 si nume == 0:
+    status = absenta
+    amplificare = 0
+    matrice_sustinuta[cifra] = gol
+```
+
+A treia matrice nu combina toate cifrele din data cu toate cifrele din nume.
+Ea pastreaza doar valorile din matricea numelui care sunt sustinute de matricea
+datei de nastere.
 
 ## Metoda pentru scara bunastarii
 

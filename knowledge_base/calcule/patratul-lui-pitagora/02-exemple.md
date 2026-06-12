@@ -1,7 +1,8 @@
 # Patratul lui Pitagora - exemple
 
 Aceste exemple arata calculul complet: data nasterii, numerele de lucru, sirul de
-cifre si matricea finala.
+cifre, matricea datei de nastere, matricea numelui, comparatia dintre ele si
+matricea valorilor sustinute.
 
 ## Exemplu 1 - 24.04.1982
 
@@ -53,7 +54,7 @@ Cifre introduse in matrice, fara zero:
 2, 4, 4, 1, 9, 8, 2, 3, 3, 2, 6, 8
 ```
 
-Matrice:
+Matricea datei de nastere:
 
 ```text
 1   | 44 |
@@ -68,7 +69,7 @@ Observatii rapide:
 - 4 apare de doua ori: baza practica si disciplina prezente.
 - 5 si 7 lipsesc: centrul interior si dimensiunea de sens cer dezvoltare constienta.
 
-### Matrice separata a numelui - Ana Maria Popescu
+### Matricea numelui - Ana Maria Popescu
 
 Nume complet:
 
@@ -116,14 +117,45 @@ Matricea numelui:
 33    | 6 | 999
 ```
 
+### Comparatie intre matricea numelui si matricea datei de nastere
+
+Regula folosita aici: din matricea datei de nastere si matricea numelui rezulta
+o a treia matrice, matricea valorilor sustinute. In ea intra doar valorile din
+matricea numelui care pot amplifica valorile din matricea datei de nastere.
+Daca o valoare apare in nume, dar lipseste din data, ea ramane potential de nume
+nesustinut direct de structura datei si nu intra in a treia matrice.
+
+| Casuta | Data nasterii | Nume | Status | Amplificarea valorii din data |
+| --- | --- | --- | --- | --- |
+| 1 | `1` | `11111` | sustinuta | 5 valori |
+| 2 | `222` | - | nativa, neamplificata de nume | 0 |
+| 3 | `33` | `33` | sustinuta | 2 valori |
+| 4 | `44` | `4` | sustinuta | 1 valoare |
+| 5 | - | `55` | nesustinuta de data | 0 |
+| 6 | `6` | `6` | sustinuta | 1 valoare |
+| 7 | - | `77` | nesustinuta de data | 0 |
+| 8 | `88` | - | nativa, neamplificata de nume | 0 |
+| 9 | `9` | `999` | sustinuta | 3 valori |
+
+Matricea valorilor sustinute:
+
+```text
+11111 | 4 |
+      |   |
+33    | 6 | 999
+```
+
 Observatii comparative:
 
-- Matricea datei are vectorul energetic foarte accentuat prin 3, 2 si 1.
-- Matricea numelui activeaza puternic vectorul carierei 1-5-9.
-- Cifra 5 lipseste din matricea datei, dar apare de doua ori in matricea numelui.
-- Cifra 2 este puternica in data, dar lipseste din nume.
-- Cele doua matrici se citesc separat: data arata structura de nastere, numele
-  arata expresia prin identitate si comunicare.
+- Casutele `1`, `3`, `4`, `6` si `9` sunt sustinute: exista in data si sunt
+  activate si prin nume. Ele formeaza matricea valorilor sustinute.
+- Casuta `1` are cea mai mare amplificare prin nume: cele cinci valori din
+  matricea numelui amplifica valoarea nativa din data.
+- Casuta `9` este sustinuta si amplificata puternic: o valoare in data si trei
+  valori in nume.
+- Casutele `5` si `7` apar in nume, dar lipsesc din data; nu se preiau ca
+  sustineri directe ale datei de nastere si nu intra in a treia matrice.
+- Casutele `2` si `8` sunt native in data, dar nu sunt amplificate prin nume.
 
 ## Exemplu 2 - 07.11.1994
 
@@ -177,7 +209,7 @@ Cifre introduse in matrice, fara zero:
 7, 1, 1, 1, 9, 9, 4, 3, 2, 5, 1, 8, 9
 ```
 
-Matrice:
+Matricea datei de nastere:
 
 ```text
 1111 | 4  | 7
@@ -244,7 +276,7 @@ Cifre introduse in matrice, fara zero:
 1, 5, 1, 1, 9, 8, 8, 3, 3, 6, 3, 1, 4
 ```
 
-Matrice:
+Matricea datei de nastere:
 
 ```text
 1111 | 4 |
@@ -311,7 +343,7 @@ Cifre introduse in matrice, fara zero:
 2, 9, 1, 2, 2, 1, 1, 7, 8, 1, 3, 4
 ```
 
-Matrice:
+Matricea datei de nastere:
 
 ```text
 1111 | 4| 7
@@ -378,7 +410,7 @@ Cifre introduse in matrice, fara zero:
 3, 6, 1, 9, 7, 5, 3, 1, 4, 2, 5, 7
 ```
 
-Matrice:
+Matricea datei de nastere:
 
 ```text
 11 | 4 | 77
@@ -445,7 +477,7 @@ Cifre introduse in matrice, fara zero:
 1, 2, 2, 5, 5, 3, 3
 ```
 
-Matrice:
+Matricea datei de nastere:
 
 ```text
 1  |   |
@@ -479,7 +511,7 @@ Cifre introduse in matrice, fara zero:
 2, 4, 4, 1, 9, 8, 2, 3, 3, 2, 6, 8
 ```
 
-Matrice:
+Matricea datei de nastere:
 
 ```text
 1   | 44 |
