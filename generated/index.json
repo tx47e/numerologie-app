@@ -1302,17 +1302,45 @@
   ],
   "calcule": [
     {
-      "slug": "karma-personala",
-      "titlu": "Karma personala",
+      "slug": "karma-din-calea-destinului",
+      "titlu": "Karma din calea destinului",
       "categorie": "karma",
-      "cale": "knowledge_base/calcule/karma/karma-personala",
+      "cale": "knowledge_base/calcule/karma/karma-din-calea-destinului",
       "inputuri": [
-        "nume_complet"
+        "data_nasterii"
       ],
       "fisiere": {
-        "README": "knowledge_base/calcule/karma/karma-personala/README.md",
-        "metoda": "knowledge_base/calcule/karma/karma-personala/01-metoda.md",
-        "exemple": "knowledge_base/calcule/karma/karma-personala/02-exemple.md"
+        "README": "knowledge_base/calcule/karma/karma-din-calea-destinului/README.md",
+        "metoda": "knowledge_base/calcule/karma/karma-din-calea-destinului/01-metoda.md",
+        "exemple": "knowledge_base/calcule/karma/karma-din-calea-destinului/02-exemple.md"
+      }
+    },
+    {
+      "slug": "karma-lunii-de-nastere",
+      "titlu": "Karma lunii de nastere",
+      "categorie": "karma",
+      "cale": "knowledge_base/calcule/karma/karma-lunii-de-nastere",
+      "inputuri": [
+        "luna_nastere"
+      ],
+      "fisiere": {
+        "README": "knowledge_base/calcule/karma/karma-lunii-de-nastere/README.md",
+        "metoda": "knowledge_base/calcule/karma/karma-lunii-de-nastere/01-metoda.md",
+        "exemple": "knowledge_base/calcule/karma/karma-lunii-de-nastere/02-exemple.md"
+      }
+    },
+    {
+      "slug": "karma-zilei-de-nastere",
+      "titlu": "Karma zilei de nastere",
+      "categorie": "karma",
+      "cale": "knowledge_base/calcule/karma/karma-zilei-de-nastere",
+      "inputuri": [
+        "zi_nastere"
+      ],
+      "fisiere": {
+        "README": "knowledge_base/calcule/karma/karma-zilei-de-nastere/README.md",
+        "metoda": "knowledge_base/calcule/karma/karma-zilei-de-nastere/01-metoda.md",
+        "exemple": "knowledge_base/calcule/karma/karma-zilei-de-nastere/02-exemple.md"
       }
     },
     {

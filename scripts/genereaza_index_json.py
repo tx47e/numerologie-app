@@ -30,7 +30,9 @@ INPUTS_BY_CALC = {
     "cicluri-9-ani": ["varsta"],
     "cicluri-12-ani": ["varsta"],
     "pinacluri": ["data_nasterii"],
-    "karma-personala": ["nume_complet"],
+    "karma-zilei-de-nastere": ["zi_nastere"],
+    "karma-lunii-de-nastere": ["luna_nastere"],
+    "karma-din-calea-destinului": ["data_nasterii"],
     "patratul-lui-pitagora": ["data_nasterii"],
 }
 

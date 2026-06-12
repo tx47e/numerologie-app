@@ -59,8 +59,17 @@ public class CalculeNumerologice {
         System.out.println("Vibratia anului personal " + anAnalizat + ": " + anPersonal.rezultat + " (total " + anPersonal.total + ")");
         System.out.println();
 
-        afiseazaLista("Lectii karmice personale:", lectiiKarmice(nume));
-        afiseazaLista("Datorii karmice personale:", datoriiKarmice(nume, zi, luna, an));
+        afiseazaLista("Lectii karmice din nume:", lectiiKarmice(nume));
+        afiseazaLista("Datorii karmice din nume:", datoriiKarmice(nume, zi, luna, an));
+        System.out.println("Karma zilei de nastere:");
+        System.out.println(zi + " (Arcana " + arcanaKarmaZilei(zi) + ", karma implinita " + procentKarmaZi(zi) + ")");
+        System.out.println();
+        System.out.println("Karma lunii de nastere:");
+        System.out.println(luna + " - " + temaKarmaLunii(luna));
+        System.out.println();
+        System.out.println("Karma din calea destinului:");
+        System.out.println(calculSoarta.total + " - " + categorieCaleKarmica(calculSoarta.total));
+        System.out.println();
 
         afiseazaLista("Ani importanti interiori " + start + "-" + stop + ":", ani.interiori);
         afiseazaLista("Ani importanti exteriori " + start + "-" + stop + ":", ani.exteriori);
@@ -183,6 +192,73 @@ public class CalculeNumerologice {
         String cod = String.format("%02d%02d%04d", zi, luna, anAnalizat);
         int total = sumaCifre(cod);
         return new CalculNumeric(total, reducere(total));
+    }
+
+    private static int arcanaKarmaZilei(int zi) {
+        return zi == 22 ? 0 : ((zi - 1) % 22) + 1;
+    }
+
+    private static String procentKarmaZi(int zi) {
+        if (zi <= 9) {
+            return "spre 100%";
+        }
+        if (zi <= 19) {
+            return "spre 80%";
+        }
+        if (zi <= 29) {
+            return "spre 60%";
+        }
+        return "spre 40%";
+    }
+
+    private static String temaKarmaLunii(int luna) {
+        switch (luna) {
+            case 1:
+                return "karma fata de frate sau sora";
+            case 2:
+                return "karma bunatatii, bunicilor si femeilor";
+            case 3:
+                return "karma independentei fata de mama";
+            case 4:
+                return "karma fata de tata";
+            case 5:
+                return "karma fata de mama";
+            case 6:
+                return "karma armoniei dintre mama si tata";
+            case 7:
+                return "karma mobilitatii";
+            case 8:
+                return "karma modelarii lumii parintilor";
+            case 9:
+                return "karma talentului neamului";
+            case 10:
+                return "karma capitalului neamului";
+            case 11:
+                return "karma statutului neamului";
+            case 12:
+                return "karma fata de sine";
+            default:
+                return "luna invalida";
+        }
+    }
+
+    private static String categorieCaleKarmica(int cale) {
+        if (cale >= 4 && cale <= 9) {
+            return "0 - prezenta, centrare, aliniere in prezent";
+        }
+        if (cale <= 19) {
+            return "1 - desavarsirea sinelui";
+        }
+        if (cale <= 29) {
+            return "2 - prelucrarea karmei";
+        }
+        if (cale <= 39) {
+            return "3 - influenta, relationare, transmitere de intelepciune";
+        }
+        if (cale <= 48) {
+            return "4 - stapanirea resurselor materiale si umane";
+        }
+        return "in afara intervalului documentat 4-48";
     }
 
     private static int sumaCifre(String text) {

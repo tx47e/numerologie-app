@@ -17,7 +17,8 @@ Scopul este sa pastram separat:
 - `timp-si-cicluri/`: cicluri, ani importanti si perioade.
 - `soarta-si-destin/`: soarta, destin, tema vietii si directii majore.
 - `pinacluri/`: oportunitati, provocari si etape de viata.
-- `karma/`: karma personala; termenul `karma neamului` este tratat ca alias la
+- `karma/`: karma zilei de nastere, karma lunii de nastere si karma din calea
+  destinului; termenul `karma neamului` este tratat ca alias la
   `nume/numarul-ereditar-karmic/`.
 - `patratul-lui-pitagora/`: matrice numerologica pe baza datei de nastere.
 

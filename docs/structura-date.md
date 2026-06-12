@@ -141,7 +141,9 @@ Calcule documentate initial:
 - `cicluri-7-ani`: cicluri recurente de sapte ani.
 - `cicluri-9-ani`: cicluri recurente de noua ani.
 - `cicluri-12-ani`: cicluri recurente de doisprezece ani.
-- `karma-personala`: profil combinat din data nasterii si numele complet.
+- `karma-zilei-de-nastere`: program karmic din ziua nasterii.
+- `karma-lunii-de-nastere`: datorie karmica din luna nasterii.
+- `karma-din-calea-destinului`: suma cifrelor datei citita karmic.
 - `numarul-ereditar-karmic`: numarul neamului 1-22; termenul `karma
   neamului` este doar alias pentru acest calcul.
 

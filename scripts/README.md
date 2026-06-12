@@ -86,7 +86,9 @@ Scripturile comune calculeaza intr-un singur profil:
 - soarta;
 - tema vietii;
 - vibratia anului personal;
-- karma personala;
+- karma zilei de nastere;
+- karma lunii de nastere;
+- karma din calea destinului;
 - numarul ereditar karmic / numarul neamului;
 - ani importanti interiori si exteriori;
 - pinacluri si provocari;

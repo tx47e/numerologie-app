@@ -23,6 +23,21 @@ ALFABET = {
 
 DATORII_KARMICE = {13, 14, 16, 19}
 
+KARMA_LUNII_TEME = {
+    1: "karma fata de frate sau sora",
+    2: "karma bunatatii, bunicilor si femeilor",
+    3: "karma independentei fata de mama",
+    4: "karma fata de tata",
+    5: "karma fata de mama",
+    6: "karma armoniei dintre mama si tata",
+    7: "karma mobilitatii",
+    8: "karma modelarii lumii parintilor",
+    9: "karma talentului neamului",
+    10: "karma capitalului neamului",
+    11: "karma statutului neamului",
+    12: "karma fata de sine",
+}
+
 
 def normalizeaza_text(text):
     fara_diacritice = unicodedata.normalize("NFD", text)
@@ -242,21 +257,55 @@ def datorii_karmice_nume(nume):
     return [total_nume] if total_nume in DATORII_KARMICE else []
 
 
-def karma_personala(nume, zi, luna, an):
-    total_data = soarta(zi, luna, an)["total"]
+def arcana_karma_zilei(zi):
+    return 0 if zi == 22 else ((zi - 1) % 22) + 1
+
+
+def procent_karma_zi(zi):
+    if zi <= 9:
+        return "spre 100%"
+    if zi <= 19:
+        return "spre 80%"
+    if zi <= 29:
+        return "spre 60%"
+    return "spre 40%"
+
+
+def categorie_cale_karmica(cale):
+    if 4 <= cale <= 9:
+        return "0 - prezenta, centrare, aliniere in prezent"
+    if 10 <= cale <= 19:
+        return "1 - desavarsirea sinelui"
+    if 20 <= cale <= 29:
+        return "2 - prelucrarea karmei"
+    if 30 <= cale <= 39:
+        return "3 - influenta, relationare, transmitere de intelepciune"
+    if 40 <= cale <= 48:
+        return "4 - stapanirea resurselor materiale si umane"
+    return "in afara intervalului documentat 4-48"
+
+
+def karma_din_calea_destinului(zi, luna, an):
+    cale = soarta(zi, luna, an)["total"]
     return {
-        "din_nume": {
-            "lectii": lectii_karmice(nume),
-            "datorii": datorii_karmice_nume(nume),
-        },
-        "din_data": {
-            "karma_zilei": zi,
-            "karma_lunii": luna,
-            "calea_destinului": total_data,
-            "datorii": [total_data] if total_data in DATORII_KARMICE else [],
-        },
-        "lectii": lectii_karmice(nume),
-        "datorii": datorii_karmice(nume, zi, luna, an),
+        "calea_destinului": cale,
+        "categorie_cale": categorie_cale_karmica(cale),
+        "datorii": [cale] if cale in DATORII_KARMICE else [],
+    }
+
+
+def karma_zilei_de_nastere(zi):
+    return {
+        "karma_zilei": zi,
+        "arcana_zilei": arcana_karma_zilei(zi),
+        "procent_karma_zi": procent_karma_zi(zi),
+    }
+
+
+def karma_lunii_de_nastere(luna):
+    return {
+        "karma_lunii": luna,
+        "tema_lunii": KARMA_LUNII_TEME.get(luna, "luna invalida"),
     }
 
 
@@ -264,7 +313,6 @@ def analiza_nume(nume, zi, luna, an, nume_familie=None):
     vibratie = vibratia_numelui(nume)
     matrice = calculeaza_matrice_nume(nume)
     familie = nume_familie if nume_familie else ultimul_cuvant(nume)
-    karma_pers = karma_personala(nume, zi, luna, an)
 
     return {
         "nume": nume,
@@ -274,10 +322,9 @@ def analiza_nume(nume, zi, luna, an, nume_familie=None):
         "numar_ereditar": vibratia_numelui(familie),
         "numar_ereditar_karmic": numar_ereditar_karmic(familie),
         "matrice": matrice,
-        "karma_personala": karma_pers,
-        "lectii_karmice": karma_pers["lectii"],
+        "lectii_karmice": lectii_karmice(nume),
         "datorii_karmice_nume": datorii_karmice_nume(nume),
-        "datorii_karmice_personale": karma_pers["datorii"],
+        "datorii_karmice_personale": datorii_karmice(nume, zi, luna, an),
     }
 
 
@@ -334,7 +381,7 @@ def afiseaza_analiza_nume(titlu, analiza):
     print()
     afiseaza_lista("Lectii karmice nume:", analiza["lectii_karmice"])
     afiseaza_lista("Datorii karmice din nume:", analiza["datorii_karmice_nume"])
-    afiseaza_lista("Datorii karmice personale:", analiza["datorii_karmice_personale"])
+    afiseaza_lista("Datorii karmice din nume si data:", analiza["datorii_karmice_personale"])
 
     matrice = analiza["matrice"]["matrice"]
     print("Matricea numelui:")
@@ -410,7 +457,9 @@ def main():
     tema_vietii = vibratie_din_numar(soarta_rezultat["rezultat"] + destin)
     an_personal = vibratia_anului(args.zi, args.luna, args.an_analizat)
     ani = ani_importanti(args.zi, args.luna, args.an, args.start, args.stop)
-    karma_pers = karma_personala(args.nume, args.zi, args.luna, args.an)
+    karma_zi = karma_zilei_de_nastere(args.zi)
+    karma_luna = karma_lunii_de_nastere(args.luna)
+    karma_cale = karma_din_calea_destinului(args.zi, args.luna, args.an)
 
     print("Calcule numerologice")
     print("====================")
@@ -429,13 +478,27 @@ def main():
     print(f"Vibratia anului personal {args.an_analizat}: {an_personal['rezultat']} (total {an_personal['total']})")
     print()
 
-    afiseaza_lista("Lectii karmice personale:", karma_pers["lectii"])
-    afiseaza_lista("Datorii karmice personale:", karma_pers["datorii"])
-    print("Karma personala din data nasterii:")
-    print(f"karma zilei: {karma_pers['din_data']['karma_zilei']}")
-    print(f"karma lunii: {karma_pers['din_data']['karma_lunii']}")
-    print(f"calea destinului karmica: {karma_pers['din_data']['calea_destinului']}")
-    afiseaza_lista("Datorii karmice din data:", karma_pers["din_data"]["datorii"])
+    afiseaza_lista("Lectii karmice din nume:", lectii_karmice(args.nume))
+    afiseaza_lista("Datorii karmice din nume:", datorii_karmice_nume(args.nume))
+    print("Karma zilei de nastere:")
+    print(
+        f"{karma_zi['karma_zilei']} "
+        f"(Arcana {karma_zi['arcana_zilei']}, "
+        f"karma implinita {karma_zi['procent_karma_zi']})"
+    )
+    print()
+    print("Karma lunii de nastere:")
+    print(
+        f"{karma_luna['karma_lunii']} - "
+        f"{karma_luna['tema_lunii']}"
+    )
+    print()
+    print("Karma din calea destinului:")
+    print(
+        f"{karma_cale['calea_destinului']} - "
+        f"{karma_cale['categorie_cale']}"
+    )
+    afiseaza_lista("Datorii karmice din calea destinului:", karma_cale["datorii"])
 
     afiseaza_lista(f"Ani importanti interiori {args.start}-{args.stop}:", ani["ani_interiori"])
     afiseaza_lista(f"Ani importanti exteriori {args.start}-{args.stop}:", ani["ani_exteriori"])
