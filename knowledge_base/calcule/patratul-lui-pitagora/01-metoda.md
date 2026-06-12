@@ -205,10 +205,11 @@ In profilul complet se pastreaza doua matrici:
 - matricea numelui.
 
 Din matricea datei de nastere si matricea numelui rezulta o a treia matrice:
-matricea valorilor preluate. Ea contine doar diferenta prin care valorile din
-matricea numelui depasesc valorile deja prezente in aceeasi casuta din matricea
-datei de nastere. O valoare din nume poate fi adaugata datei doar daca aceeasi
-casuta exista si in matricea datei; aceasta prezenta comuna este sustinerea.
+matricea rezultat. Ea porneste de la matricea datei de nastere si adauga doar
+diferenta prin care valorile din matricea numelui depasesc valorile deja prezente
+in aceeasi casuta din matricea datei de nastere. O valoare din nume poate fi
+adaugata datei doar daca aceeasi casuta exista si in matricea datei; aceasta
+prezenta comuna este sustinerea.
 
 Regula de lucru:
 
@@ -221,7 +222,7 @@ Regula de lucru:
    datei, valorile din nume nu se copiaza in a treia matrice; sunt potential de
    nume fara suport direct in data.
 6. Daca numele are mai multe valori decat data in aceeasi casuta, diferenta se
-   preia in matricea valorilor preluate.
+   adauga peste valorile datei in matricea rezultat.
 7. Daca numele are un numar egal sau mai mic de valori decat data, nu se preia
    nimic in a treia matrice pentru acea casuta.
 
@@ -242,7 +243,7 @@ expresia prin nume.
 Formula simpla pentru comparatia pe casute:
 
 ```text
-matrice_preluata = matrice_goala(1..9)
+matrice_rezultat = copie(matricea_datei_de_nastere)
 
 pentru fiecare cifra 1..9:
   data = numar_aparitii(cifra, matricea_datei_de_nastere)
@@ -253,23 +254,24 @@ pentru fiecare cifra 1..9:
     diferenta = nume - data
     daca diferenta > 0:
       status = amplificata
-      matrice_preluata[cifra] = cifra repetata de diferenta ori
+      matrice_rezultat[cifra] = matricea_datei_de_nastere[cifra] + cifra repetata de diferenta ori
     altfel:
-      matrice_preluata[cifra] = gol
+      matrice_rezultat[cifra] = matricea_datei_de_nastere[cifra]
   daca data == 0 si nume > 0:
     status = nesustinuta
-    matrice_preluata[cifra] = gol
+    matrice_rezultat[cifra] = gol
   daca data > 0 si nume == 0:
     status = nativa_neamplificata_de_nume
-    matrice_preluata[cifra] = gol
+    matrice_rezultat[cifra] = matricea_datei_de_nastere[cifra]
   daca data == 0 si nume == 0:
     status = absenta
-    matrice_preluata[cifra] = gol
+    matrice_rezultat[cifra] = gol
 ```
 
-A treia matrice nu combina toate cifrele din data cu toate cifrele din nume.
-Ea pastreaza doar diferenta de valori din matricea numelui care depaseste
-matricea datei de nastere in casutele sustinute.
+Matricea rezultat nu afiseaza separat valorile preluate. Ea afiseaza direct
+matricea datei de nastere dupa adaugarea diferentelor sustinute din matricea
+numelui. Valorile din nume care nu sunt sustinute de data nu intra in matricea
+rezultat.
 
 ## Metoda pentru scara bunastarii
 

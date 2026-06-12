@@ -2,7 +2,8 @@
 
 Aceste exemple arata calculul complet pentru trei profiluri: matricea datei de
 nastere, matricea numelui, valorile pe casute, valorile vectorilor, scara
-bunastarii si matricea valorilor preluate rezultata din comparatie.
+bunastarii si matricea rezultat obtinuta prin preluarea diferentelor sustinute
+din matricea numelui.
 
 ## Exemplu 1 - 24.04.1982 / Ana Maria Popescu
 
@@ -182,7 +183,7 @@ Scara bunastarii pentru nume:
 
 | Casuta | Data nasterii | Nume | Rezultat |
 | --- | --- | --- | --- |
-| 1 | `1` | `11111` | amplificata; diferenta `1111` se preia |
+| 1 | `1` | `11111` | amplificata; diferenta `1111` se adauga datei |
 | 2 | `222` | - | nativa, neamplificata de nume |
 | 3 | `33` | `33` | sustinuta, fara diferenta de preluat |
 | 4 | `44` | `4` | sustinuta, dar numele nu depaseste data |
@@ -190,14 +191,14 @@ Scara bunastarii pentru nume:
 | 6 | `6` | `6` | sustinuta, fara diferenta de preluat |
 | 7 | - | `77` | nesustinuta; nu se preia |
 | 8 | `88` | - | nativa, neamplificata de nume |
-| 9 | `9` | `999` | amplificata; diferenta `99` se preia |
+| 9 | `9` | `999` | amplificata; diferenta `99` se adauga datei |
 
-Matricea valorilor preluate:
+Matricea rezultat:
 
 ```text
-1111 |   |
-     |   |
-     |   | 99
+11111 | 44 |
+222   |    | 88
+33    | 6  | 999
 ```
 
 ## Exemplu 2 - 07.11.1994 / Mihai Ionescu
@@ -377,20 +378,20 @@ Scara bunastarii pentru nume:
 | --- | --- | --- | --- |
 | 1 | `1111` | `11` | sustinuta, dar numele nu depaseste data |
 | 2 | `2` | - | nativa, neamplificata de nume |
-| 3 | `3` | `33` | amplificata; diferenta `3` se preia |
+| 3 | `3` | `33` | amplificata; diferenta `3` se adauga datei |
 | 4 | `4` | `4` | sustinuta, fara diferenta de preluat |
-| 5 | `5` | `55` | amplificata; diferenta `5` se preia |
+| 5 | `5` | `55` | amplificata; diferenta `5` se adauga datei |
 | 6 | - | `6` | nesustinuta; nu se preia |
 | 7 | `7` | - | nativa, neamplificata de nume |
 | 8 | `8` | `8` | sustinuta, fara diferenta de preluat |
-| 9 | `999` | `9999` | amplificata; diferenta `9` se preia |
+| 9 | `999` | `9999` | amplificata; diferenta `9` se adauga datei |
 
-Matricea valorilor preluate:
+Matricea rezultat:
 
 ```text
-   |   |
-   | 5 |
-3  |   | 9
+1111 | 4  | 7
+2    | 55 | 8
+33   |    | 9999
 ```
 
 ## Exemplu 3 - 15.10.1988 / Elena Dumitrescu
@@ -572,18 +573,18 @@ Scara bunastarii pentru nume:
 | --- | --- | --- | --- |
 | 1 | `1111` | `11` | sustinuta, dar numele nu depaseste data |
 | 2 | - | `2` | nesustinuta; nu se preia |
-| 3 | `333` | `3333` | amplificata; diferenta `3` se preia |
-| 4 | `4` | `44` | amplificata; diferenta `4` se preia |
-| 5 | `5` | `5555` | amplificata; diferenta `555` se preia |
+| 3 | `333` | `3333` | amplificata; diferenta `3` se adauga datei |
+| 4 | `4` | `44` | amplificata; diferenta `4` se adauga datei |
+| 5 | `5` | `5555` | amplificata; diferenta `555` se adauga datei |
 | 6 | `6` | - | nativa, neamplificata de nume |
 | 7 | - | - | absenta |
 | 8 | `88` | `8` | sustinuta, dar numele nu depaseste data |
-| 9 | `9` | `99` | amplificata; diferenta `9` se preia |
+| 9 | `9` | `99` | amplificata; diferenta `9` se adauga datei |
 
-Matricea valorilor preluate:
+Matricea rezultat:
 
 ```text
-     | 4   |
-     | 555 |
-3    |     | 9
+1111 | 44   |
+     | 5555 | 88
+3333 | 6    | 99
 ```
