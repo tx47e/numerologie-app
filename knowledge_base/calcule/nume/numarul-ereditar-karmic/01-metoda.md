@@ -6,6 +6,15 @@ Formula adoptata pentru proiect:
 numarul ereditar karmic = reducere_22(suma valorilor literelor din numele de familie)
 ```
 
+Termeni echivalenti folositi in bibliografie sau in lucru:
+
+```text
+numarul ereditar karmic = numarul neamului = karma neamului
+```
+
+In proiect nu se pastreaza un calcul separat numit `karma neamului`, deoarece
+formula este aceeasi.
+
 Unde:
 
 ```text
@@ -49,3 +58,14 @@ Interpretarile pentru neamurile 1-22 sunt documentate separat in
   noului nume creste treptat;
 - numele de neam ramane relevant toata viata pentru mosteniri fizice, mentale,
   energetice si emotionale.
+
+## Nume de familie inainte si dupa casatorie
+
+Daca numele de familie se schimba prin casatorie, se pot calcula separat:
+
+- numarul ereditar karmic de origine, pe numele de familie purtat inainte;
+- numarul ereditar karmic preluat, pe numele de familie purtat dupa casatorie.
+
+Comparatia nu anuleaza numele de origine. Ea arata diferenta dintre linia de
+neam din care persoana vine si linia de neam cu care intra in relatie sociala
+sau familiala dupa casatorie.

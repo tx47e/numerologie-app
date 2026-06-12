@@ -1,8 +1,12 @@
 # Numarul ereditar karmic
 
-Numarul ereditar karmic, numit si numarul neamului, este calculul din numele de
-familie pastrat in intervalul 1-22. El se citeste in relatie cu Arcanele Majore:
-1-21 corespund arcanelor 1-21, iar 22 corespunde Arcanei 0.
+Numarul ereditar karmic, numit si numarul neamului sau karma neamului, este
+calculul din numele de familie pastrat in intervalul 1-22. El se citeste in
+relatie cu Arcanele Majore: 1-21 corespund arcanelor 1-21, iar 22 corespunde
+Arcanei 0.
+
+In proiect, `karma neamului` nu este un calcul separat. Termenul este pastrat ca
+denumire alternativa pentru numarul ereditar karmic / numarul neamului.
 
 ## Fisiere
 

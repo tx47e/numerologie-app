@@ -1302,27 +1302,17 @@
   ],
   "calcule": [
     {
-      "slug": "karma-neamului",
-      "titlu": "Karma neamului - metoda",
-      "categorie": "karma",
-      "cale": "knowledge_base/calcule/karma/karma-neamului",
-      "inputuri": [
-        "nume_familie"
-      ],
-      "fisiere": {
-        "metoda": "knowledge_base/calcule/karma/karma-neamului/01-metoda.md"
-      }
-    },
-    {
       "slug": "karma-personala",
-      "titlu": "Karma personala - metoda",
+      "titlu": "Karma personala",
       "categorie": "karma",
       "cale": "knowledge_base/calcule/karma/karma-personala",
       "inputuri": [
         "nume_complet"
       ],
       "fisiere": {
-        "metoda": "knowledge_base/calcule/karma/karma-personala/01-metoda.md"
+        "README": "knowledge_base/calcule/karma/karma-personala/README.md",
+        "metoda": "knowledge_base/calcule/karma/karma-personala/01-metoda.md",
+        "exemple": "knowledge_base/calcule/karma/karma-personala/02-exemple.md"
       }
     },
     {

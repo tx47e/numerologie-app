@@ -242,11 +242,18 @@ def datorii_karmice_nume(nume):
     return [total_nume] if total_nume in DATORII_KARMICE else []
 
 
+def karma_personala(nume, zi, luna, an):
+    return {
+        "lectii": lectii_karmice(nume),
+        "datorii": datorii_karmice(nume, zi, luna, an),
+    }
+
+
 def analiza_nume(nume, zi, luna, an, nume_familie=None):
     vibratie = vibratia_numelui(nume)
     matrice = calculeaza_matrice_nume(nume)
     familie = nume_familie if nume_familie else ultimul_cuvant(nume)
-    karma_neam = vibratia_numelui(familie)
+    karma_pers = karma_personala(nume, zi, luna, an)
 
     return {
         "nume": nume,
@@ -256,12 +263,10 @@ def analiza_nume(nume, zi, luna, an, nume_familie=None):
         "numar_ereditar": vibratia_numelui(familie),
         "numar_ereditar_karmic": numar_ereditar_karmic(familie),
         "matrice": matrice,
-        "lectii_karmice": lectii_karmice(nume),
+        "karma_personala": karma_pers,
+        "lectii_karmice": karma_pers["lectii"],
         "datorii_karmice_nume": datorii_karmice_nume(nume),
-        "datorii_karmice_personale": datorii_karmice(nume, zi, luna, an),
-        "lectii_karmice_neam": lectii_karmice(familie),
-        "karma_neam": karma_neam,
-        "datorii_karmice_neam": datorii_karmice_nume(familie),
+        "datorii_karmice_personale": karma_pers["datorii"],
     }
 
 
@@ -315,16 +320,10 @@ def afiseaza_analiza_nume(titlu, analiza):
         f"Numar ereditar karmic: {analiza['numar_ereditar_karmic']['rezultat']} "
         f"(total {analiza['numar_ereditar_karmic']['total']})"
     )
-    print(
-        f"Karma neamului: {analiza['karma_neam']['rezultat']} "
-        f"(total {analiza['karma_neam']['total']})"
-    )
     print()
     afiseaza_lista("Lectii karmice nume:", analiza["lectii_karmice"])
     afiseaza_lista("Datorii karmice din nume:", analiza["datorii_karmice_nume"])
     afiseaza_lista("Datorii karmice personale:", analiza["datorii_karmice_personale"])
-    afiseaza_lista("Lectii karmice de neam:", analiza["lectii_karmice_neam"])
-    afiseaza_lista("Datorii karmice de neam:", analiza["datorii_karmice_neam"])
 
     matrice = analiza["matrice"]["matrice"]
     print("Matricea numelui:")
@@ -342,14 +341,14 @@ def afiseaza_comparatie_nume(inainte, dupa):
         f"{dupa['numar_exprimare']['rezultat']}"
     )
     print(
-        f"Karma neamului: {inainte['karma_neam']['rezultat']} -> "
-        f"{dupa['karma_neam']['rezultat']}"
+        f"Numar ereditar karmic / numarul neamului: "
+        f"{inainte['numar_ereditar_karmic']['rezultat']} -> "
+        f"{dupa['numar_ereditar_karmic']['rezultat']}"
     )
     print()
 
     lectii = compara_liste(inainte["lectii_karmice"], dupa["lectii_karmice"])
     datorii = compara_liste(inainte["datorii_karmice_nume"], dupa["datorii_karmice_nume"])
-    lectii_neam = compara_liste(inainte["lectii_karmice_neam"], dupa["lectii_karmice_neam"])
 
     afiseaza_lista("Lectii karmice comune:", lectii["comune"])
     afiseaza_lista("Lectii karmice doar inainte:", lectii["doar_inainte"])
@@ -357,9 +356,6 @@ def afiseaza_comparatie_nume(inainte, dupa):
     afiseaza_lista("Datorii karmice nume comune:", datorii["comune"])
     afiseaza_lista("Datorii karmice nume doar inainte:", datorii["doar_inainte"])
     afiseaza_lista("Datorii karmice nume doar dupa:", datorii["doar_dupa"])
-    afiseaza_lista("Lectii karmice de neam comune:", lectii_neam["comune"])
-    afiseaza_lista("Lectii karmice de neam doar inainte:", lectii_neam["doar_inainte"])
-    afiseaza_lista("Lectii karmice de neam doar dupa:", lectii_neam["doar_dupa"])
 
     print("Comparatie matrice nume:")
     for rand in compara_matrici(inainte["matrice"], dupa["matrice"]):
@@ -396,14 +392,14 @@ def main():
 
     nume = vibratia_numelui(args.nume)
     activ = numar_activ(args.nume)
-    ereditar = numar_ereditar(args.nume)
-    ereditar_karmic = numar_ereditar_karmic(args.nume)
+    ereditar = vibratia_numelui(args.nume_familie)
+    ereditar_karmic = numar_ereditar_karmic(args.nume_familie)
     destin = nume["rezultat"]
     soarta_rezultat = soarta(args.zi, args.luna, args.an)
     tema_vietii = vibratie_din_numar(soarta_rezultat["rezultat"] + destin)
     an_personal = vibratia_anului(args.zi, args.luna, args.an_analizat)
     ani = ani_importanti(args.zi, args.luna, args.an, args.start, args.stop)
-    karma_neam = vibratia_numelui(args.nume_familie)
+    karma_pers = karma_personala(args.nume, args.zi, args.luna, args.an)
 
     print("Calcule numerologice")
     print("====================")
@@ -422,11 +418,8 @@ def main():
     print(f"Vibratia anului personal {args.an_analizat}: {an_personal['rezultat']} (total {an_personal['total']})")
     print()
 
-    afiseaza_lista("Lectii karmice personale:", lectii_karmice(args.nume))
-    afiseaza_lista("Datorii karmice personale:", datorii_karmice(args.nume, args.zi, args.luna, args.an))
-    afiseaza_lista("Lectii karmice de neam:", lectii_karmice(args.nume_familie))
-    print(f"Karma neamului: {karma_neam['rezultat']} (total {karma_neam['total']})")
-    print()
+    afiseaza_lista("Lectii karmice personale:", karma_pers["lectii"])
+    afiseaza_lista("Datorii karmice personale:", karma_pers["datorii"])
 
     afiseaza_lista(f"Ani importanti interiori {args.start}-{args.stop}:", ani["ani_interiori"])
     afiseaza_lista(f"Ani importanti exteriori {args.start}-{args.stop}:", ani["ani_exteriori"])

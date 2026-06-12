@@ -87,7 +87,7 @@ Scripturile comune calculeaza intr-un singur profil:
 - tema vietii;
 - vibratia anului personal;
 - karma personala;
-- karma neamului;
+- numarul ereditar karmic / numarul neamului;
 - ani importanti interiori si exteriori;
 - pinacluri si provocari;
 - cicluri de 7, 9 si 12 ani.

@@ -23,7 +23,8 @@ Ambele variante se calculeaza separat:
 - matricea numelui in Patratul lui Pitagora;
 - lectiile karmice ale numelui;
 - datoriile karmice ale numelui;
-- karma neamului pentru numele de familie asociat variantei respective.
+- numarul ereditar karmic / numarul neamului pentru numele de familie asociat
+  variantei respective.
 
 ## Comparatie intre nume
 
@@ -35,7 +36,7 @@ Cand exista doua variante de nume, comparatia urmareste:
 - ce cifre dispar sau devin mai slabe;
 - ce lectii karmice raman constante;
 - ce lectii karmice apar sau se reduc;
-- diferenta dintre karma neamului de origine si karma neamului preluat.
+- diferenta dintre numarul neamului de origine si numarul neamului preluat.
 
 Numele dinainte de casatorie nu este sters din analiza. El ramane stratul de
 origine al identitatii numerologice. Numele de dupa casatorie arata stratul

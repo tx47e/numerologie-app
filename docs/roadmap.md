@@ -57,7 +57,7 @@ Obiectiv: transformarea formulelor documentate in functii testabile.
   - [ ] numarul de exprimare;
   - [ ] matricea numelui;
   - [ ] karma numelui;
-  - [ ] karma neamului;
+  - [ ] numarul ereditar karmic / numarul neamului;
   - [ ] comparatie intre cele doua variante.
 - [ ] Implementare calcule de baza:
   - [ ] numarul de exprimare;

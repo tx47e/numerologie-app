@@ -41,7 +41,6 @@ public class CalculeNumerologice {
         int temaVietii = reducere(calculSoarta.rezultat + destin);
         CalculNumeric anPersonal = vibratiaAnului(zi, luna, anAnalizat);
         AniImportanti ani = aniImportanti(zi, luna, an, start, stop);
-        CalculNume karmaNeam = vibratiaNumelui(numeFamilie);
 
         System.out.println("Calcule numerologice");
         System.out.println("====================");
@@ -62,9 +61,6 @@ public class CalculeNumerologice {
 
         afiseazaLista("Lectii karmice personale:", lectiiKarmice(nume));
         afiseazaLista("Datorii karmice personale:", datoriiKarmice(nume, zi, luna, an));
-        afiseazaLista("Lectii karmice de neam:", lectiiKarmice(numeFamilie));
-        System.out.println("Karma neamului: " + karmaNeam.rezultat + " (total " + karmaNeam.total + ")");
-        System.out.println();
 
         afiseazaLista("Ani importanti interiori " + start + "-" + stop + ":", ani.interiori);
         afiseazaLista("Ani importanti exteriori " + start + "-" + stop + ":", ani.exteriori);
