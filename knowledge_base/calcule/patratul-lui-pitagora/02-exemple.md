@@ -1,45 +1,26 @@
 # Patratul lui Pitagora - exemple
 
-Aceste exemple arata calculul complet: data nasterii, numerele de lucru, sirul de
-cifre, matricea datei de nastere, matricea numelui, comparatia dintre ele si
-matricea valorilor sustinute.
+Aceste exemple arata calculul complet pentru trei profiluri: matricea datei de
+nastere, matricea numelui, valorile pe casute, valorile vectorilor, scara
+bunastarii si matricea valorilor sustinute rezultata din comparatie.
 
-## Exemplu 1 - 24.04.1982
+## Exemplu 1 - 24.04.1982 / Ana Maria Popescu
 
-Data nasterii:
+### Matricea datei de nastere
 
-```text
-24.04.1982
-```
-
-Data scrisa numeric:
+Cod extras din data nasterii:
 
 ```text
 24041982
 ```
 
-Numarul 1 de lucru:
+Numere de lucru:
 
 ```text
-2 + 4 + 0 + 4 + 1 + 9 + 8 + 2 = 30
-```
-
-Numarul 2 de lucru:
-
-```text
-3 + 0 = 3
-```
-
-Numarul 3 de lucru:
-
-```text
-30 - (2 x 2) = 26
-```
-
-Numarul 4 de lucru:
-
-```text
-2 + 6 = 8
+N1 = 2 + 4 + 0 + 4 + 1 + 9 + 8 + 2 = 30
+N2 = 3 + 0 = 3
+N3 = 30 - (2 x 2) = 26
+N4 = 2 + 6 = 8
 ```
 
 Sir complet:
@@ -48,7 +29,7 @@ Sir complet:
 24041982 + 30 + 3 + 26 + 8
 ```
 
-Cifre introduse in matrice, fara zero:
+Cifre introduse in matricea datei de nastere:
 
 ```text
 2, 4, 4, 1, 9, 8, 2, 3, 3, 2, 6, 8
@@ -57,25 +38,60 @@ Cifre introduse in matrice, fara zero:
 Matricea datei de nastere:
 
 ```text
-1   | 44 |
+1   | 44 | 
 222 |    | 88
 33  | 6  | 9
 ```
 
-Observatii rapide:
+Descriere scurta: vectorul dominant este vectorul creativitatii, iar zona cea
+mai putin activa este vectorul scopului. Matricea datei sustine puternic zona
+sociala, materiala si creativa, dar are goluri pe 5 si 7.
 
-- 2 apare de trei ori: sensibilitate si energie relationara puternica.
-- 3 apare de doua ori: expresie si comunicare active.
-- 4 apare de doua ori: baza practica si disciplina prezente.
-- 5 si 7 lipsesc: centrul interior si dimensiunea de sens cer dezvoltare constienta.
+Valorile pe casute:
 
-### Matricea numelui - Ana Maria Popescu
+| Casuta | Continut | Valoare |
+| --- | --- | --- |
+| 1 | `1` | 1 |
+| 2 | `222` | 6 |
+| 3 | `33` | 6 |
+| 4 | `44` | 8 |
+| 5 | - | 0 |
+| 6 | `6` | 6 |
+| 7 | - | 0 |
+| 8 | `88` | 16 |
+| 9 | `9` | 9 |
 
-Nume complet:
+Valorile vectorilor:
+
+| Vector | Denumire | Calcul | Valoare | Stare |
+| --- | --- | --- | --- | --- |
+| 3-6-9 | Bunastare materiala | 6 + 6 + 9 | 21 | activ |
+| 2-5-8 | Bunastare sociala | 6 + 0 + 16 | 22 | partial activ |
+| 1-4-7 | Bunastare spirituala | 1 + 8 + 0 | 9 | partial activ |
+| 1-2-3 | Vectorul energetic | 1 + 6 + 6 | 13 | activ |
+| 4-5-6 | Vectorul vointa | 8 + 0 + 6 | 14 | partial activ |
+| 7-8-9 | Vectorul creativitatii | 0 + 16 + 9 | 25 | partial activ |
+| 3-5-7 | Vectorul scopului | 6 + 0 + 0 | 6 | slab |
+| 1-5-9 | Vectorul carierei | 1 + 0 + 9 | 10 | partial activ |
+
+Scara bunastarii:
 
 ```text
-Ana Maria Popescu
+25: 7-8-9 creativitate
+22: 2-5-8 social
+21: 3-6-9 material
+16: casuta 8
+14: 4-5-6 vointa
+13: 1-2-3 energetic
+10: 1-5-9 cariera
+9: casuta 9; 1-4-7 spiritual
+8: casuta 4
+6: casuta 2; casuta 3; casuta 6; 3-5-7 scop
+1: casuta 1
+0: casuta 5; casuta 7
 ```
+
+### Matricea numelui
 
 Nume normalizat:
 
@@ -92,15 +108,10 @@ A=1, N=5, A=1, M=4, A=1, R=9, I=9, A=1, P=7, O=6, P=7, E=5, S=1, C=3, U=3
 Componente reduse:
 
 ```text
-ANA = 1 + 5 + 1 = 7
+ANA = 1 + 5 + 1 = 7 -> 7
 MARIA = 4 + 1 + 9 + 9 + 1 = 24 -> 6
 POPESCU = 7 + 6 + 7 + 5 + 1 + 3 + 3 = 32 -> 5
-```
-
-Numar de exprimare:
-
-```text
-7 + 6 + 5 = 18 -> 9
+numar de exprimare = 7 + 6 + 5 = 18 -> 9
 ```
 
 Cifre introduse in matricea numelui:
@@ -112,30 +123,74 @@ Cifre introduse in matricea numelui:
 Matricea numelui:
 
 ```text
-11111 | 4 | 77
-      | 55|
-33    | 6 | 999
+11111 | 4  | 77
+      | 55 |
+33    | 6  | 999
 ```
 
-### Comparatie intre matricea numelui si matricea datei de nastere
+Descriere scurta: numele activeaza puternic vectorul carierei, vectorul
+creativitatii si bunastarea materiala. Casutele 5 si 7 apar in nume, dar nu sunt
+sustinute de matricea datei de nastere.
 
-Regula folosita aici: din matricea datei de nastere si matricea numelui rezulta
-o a treia matrice, matricea valorilor sustinute. In ea intra doar valorile din
-matricea numelui care pot amplifica valorile din matricea datei de nastere.
-Daca o valoare apare in nume, dar lipseste din data, ea ramane potential de nume
-nesustinut direct de structura datei si nu intra in a treia matrice.
+Valorile pe casute:
 
-| Casuta | Data nasterii | Nume | Status | Amplificarea valorii din data |
+| Casuta | Continut | Valoare |
+| --- | --- | --- |
+| 1 | `11111` | 5 |
+| 2 | - | 0 |
+| 3 | `33` | 6 |
+| 4 | `4` | 4 |
+| 5 | `55` | 10 |
+| 6 | `6` | 6 |
+| 7 | `77` | 14 |
+| 8 | - | 0 |
+| 9 | `999` | 27 |
+
+Valorile vectorilor:
+
+| Vector | Denumire | Calcul | Valoare | Stare |
 | --- | --- | --- | --- | --- |
-| 1 | `1` | `11111` | sustinuta | 5 valori |
-| 2 | `222` | - | nativa, neamplificata de nume | 0 |
-| 3 | `33` | `33` | sustinuta | 2 valori |
-| 4 | `44` | `4` | sustinuta | 1 valoare |
-| 5 | - | `55` | nesustinuta de data | 0 |
-| 6 | `6` | `6` | sustinuta | 1 valoare |
-| 7 | - | `77` | nesustinuta de data | 0 |
-| 8 | `88` | - | nativa, neamplificata de nume | 0 |
-| 9 | `9` | `999` | sustinuta | 3 valori |
+| 3-6-9 | Bunastare materiala | 6 + 6 + 27 | 39 | activ |
+| 2-5-8 | Bunastare sociala | 0 + 10 + 0 | 10 | slab |
+| 1-4-7 | Bunastare spirituala | 5 + 4 + 14 | 23 | activ |
+| 1-2-3 | Vectorul energetic | 5 + 0 + 6 | 11 | partial activ |
+| 4-5-6 | Vectorul vointa | 4 + 10 + 6 | 20 | activ |
+| 7-8-9 | Vectorul creativitatii | 14 + 0 + 27 | 41 | partial activ |
+| 3-5-7 | Vectorul scopului | 6 + 10 + 14 | 30 | activ |
+| 1-5-9 | Vectorul carierei | 5 + 10 + 27 | 42 | activ |
+
+Scara bunastarii pentru nume:
+
+```text
+42: 1-5-9 cariera
+41: 7-8-9 creativitate
+39: 3-6-9 material
+30: 3-5-7 scop
+27: casuta 9
+23: 1-4-7 spiritual
+20: 4-5-6 vointa
+14: casuta 7
+11: 1-2-3 energetic
+10: casuta 5; 2-5-8 social
+6: casuta 3; casuta 6
+5: casuta 1
+4: casuta 4
+0: casuta 2; casuta 8
+```
+
+### Comparatia dintre matrici
+
+| Casuta | Data nasterii | Nume | Rezultat |
+| --- | --- | --- | --- |
+| 1 | `1` | `11111` | sustinuta; `11111` intra in matricea valorilor sustinute |
+| 2 | `222` | - | nativa, neamplificata de nume |
+| 3 | `33` | `33` | sustinuta; `33` intra in matricea valorilor sustinute |
+| 4 | `44` | `4` | sustinuta; `4` intra in matricea valorilor sustinute |
+| 5 | - | `55` | nesustinuta; nu se preia |
+| 6 | `6` | `6` | sustinuta; `6` intra in matricea valorilor sustinute |
+| 7 | - | `77` | nesustinuta; nu se preia |
+| 8 | `88` | - | nativa, neamplificata de nume |
+| 9 | `9` | `999` | sustinuta; `999` intra in matricea valorilor sustinute |
 
 Matricea valorilor sustinute:
 
@@ -145,56 +200,23 @@ Matricea valorilor sustinute:
 33    | 6 | 999
 ```
 
-Observatii comparative:
+## Exemplu 2 - 07.11.1994 / Mihai Ionescu
 
-- Casutele `1`, `3`, `4`, `6` si `9` sunt sustinute: exista in data si sunt
-  activate si prin nume. Ele formeaza matricea valorilor sustinute.
-- Casuta `1` are cea mai mare amplificare prin nume: cele cinci valori din
-  matricea numelui amplifica valoarea nativa din data.
-- Casuta `9` este sustinuta si amplificata puternic: o valoare in data si trei
-  valori in nume.
-- Casutele `5` si `7` apar in nume, dar lipsesc din data; nu se preiau ca
-  sustineri directe ale datei de nastere si nu intra in a treia matrice.
-- Casutele `2` si `8` sunt native in data, dar nu sunt amplificate prin nume.
+### Matricea datei de nastere
 
-## Exemplu 2 - 07.11.1994
-
-Data nasterii:
-
-```text
-07.11.1994
-```
-
-Data scrisa numeric:
+Cod extras din data nasterii:
 
 ```text
 07111994
 ```
 
-Numarul 1 de lucru:
+Numere de lucru:
 
 ```text
-0 + 7 + 1 + 1 + 1 + 9 + 9 + 4 = 32
-```
-
-Numarul 2 de lucru:
-
-```text
-3 + 2 = 5
-```
-
-Numarul 3 de lucru:
-
-Prima cifra nenula din ziua nasterii este 7.
-
-```text
-32 - (2 x 7) = 18
-```
-
-Numarul 4 de lucru:
-
-```text
-1 + 8 = 9
+N1 = 0 + 7 + 1 + 1 + 1 + 9 + 9 + 4 = 32
+N2 = 3 + 2 = 5
+N3 = 32 - (2 x 7) = 18
+N4 = 1 + 8 = 9
 ```
 
 Sir complet:
@@ -203,7 +225,7 @@ Sir complet:
 07111994 + 32 + 5 + 18 + 9
 ```
 
-Cifre introduse in matrice, fara zero:
+Cifre introduse in matricea datei de nastere:
 
 ```text
 7, 1, 1, 1, 9, 9, 4, 3, 2, 5, 1, 8, 9
@@ -212,56 +234,182 @@ Cifre introduse in matrice, fara zero:
 Matricea datei de nastere:
 
 ```text
-1111 | 4  | 7
-2    | 5  | 8
-3    |    | 999
+1111 | 4 | 7
+2    | 5 | 8
+3    |   | 999
 ```
 
-Observatii rapide:
+Descriere scurta: data are vectorul creativitatii si vectorul carierei foarte
+puternice. Singura casuta absenta este 6, deci responsabilitatea practica este
+zona care cere sustinere constienta.
 
-- 1 apare de patru ori: vointa si caracter foarte accentuate.
-- 9 apare de trei ori: intelect, memorie si sinteza puternice.
-- 6 lipseste: responsabilitatea practica sau raportul cu munca/familia trebuie citit atent.
-- 5 este prezent: exista un centru de integrare care poate echilibra extremele.
+Valorile pe casute:
 
-## Exemplu 3 - 15.10.1988
+| Casuta | Continut | Valoare |
+| --- | --- | --- |
+| 1 | `1111` | 4 |
+| 2 | `2` | 2 |
+| 3 | `3` | 3 |
+| 4 | `4` | 4 |
+| 5 | `5` | 5 |
+| 6 | - | 0 |
+| 7 | `7` | 7 |
+| 8 | `8` | 8 |
+| 9 | `999` | 27 |
 
-Data nasterii:
+Valorile vectorilor:
+
+| Vector | Denumire | Calcul | Valoare | Stare |
+| --- | --- | --- | --- | --- |
+| 3-6-9 | Bunastare materiala | 3 + 0 + 27 | 30 | partial activ |
+| 2-5-8 | Bunastare sociala | 2 + 5 + 8 | 15 | activ |
+| 1-4-7 | Bunastare spirituala | 4 + 4 + 7 | 15 | activ |
+| 1-2-3 | Vectorul energetic | 4 + 2 + 3 | 9 | activ |
+| 4-5-6 | Vectorul vointa | 4 + 5 + 0 | 9 | partial activ |
+| 7-8-9 | Vectorul creativitatii | 7 + 8 + 27 | 42 | activ |
+| 3-5-7 | Vectorul scopului | 3 + 5 + 7 | 15 | activ |
+| 1-5-9 | Vectorul carierei | 4 + 5 + 27 | 36 | activ |
+
+Scara bunastarii:
 
 ```text
-15.10.1988
+42: 7-8-9 creativitate
+36: 1-5-9 cariera
+30: 3-6-9 material
+27: casuta 9
+15: 1-4-7 spiritual; 2-5-8 social; 3-5-7 scop
+9: 1-2-3 energetic; 4-5-6 vointa
+8: casuta 8
+7: casuta 7
+5: casuta 5
+4: casuta 1; casuta 4
+3: casuta 3
+2: casuta 2
+0: casuta 6
 ```
 
-Data scrisa numeric:
+### Matricea numelui
+
+Nume normalizat:
+
+```text
+MIHAIIONESCU
+```
+
+Valori litere:
+
+```text
+M=4, I=9, H=8, A=1, I=9, I=9, O=6, N=5, E=5, S=1, C=3, U=3
+```
+
+Componente reduse:
+
+```text
+MIHAI = 4 + 9 + 8 + 1 + 9 = 31 -> 4
+IONESCU = 9 + 6 + 5 + 5 + 1 + 3 + 3 = 32 -> 5
+numar de exprimare = 4 + 5 = 9 -> 9
+```
+
+Cifre introduse in matricea numelui:
+
+```text
+4, 9, 8, 1, 9, 9, 6, 5, 5, 1, 3, 3, 9
+```
+
+Matricea numelui:
+
+```text
+11 | 4  |
+   | 55 | 8
+33 | 6  | 9999
+```
+
+Descriere scurta: numele amplifica puternic zona materiala, cariera si
+creativitatea prin 9. Casuta 6 apare in nume, dar nu este sustinuta de data.
+
+Valorile pe casute:
+
+| Casuta | Continut | Valoare |
+| --- | --- | --- |
+| 1 | `11` | 2 |
+| 2 | - | 0 |
+| 3 | `33` | 6 |
+| 4 | `4` | 4 |
+| 5 | `55` | 10 |
+| 6 | `6` | 6 |
+| 7 | - | 0 |
+| 8 | `8` | 8 |
+| 9 | `9999` | 36 |
+
+Valorile vectorilor:
+
+| Vector | Denumire | Calcul | Valoare | Stare |
+| --- | --- | --- | --- | --- |
+| 3-6-9 | Bunastare materiala | 6 + 6 + 36 | 48 | activ |
+| 2-5-8 | Bunastare sociala | 0 + 10 + 8 | 18 | partial activ |
+| 1-4-7 | Bunastare spirituala | 2 + 4 + 0 | 6 | partial activ |
+| 1-2-3 | Vectorul energetic | 2 + 0 + 6 | 8 | partial activ |
+| 4-5-6 | Vectorul vointa | 4 + 10 + 6 | 20 | activ |
+| 7-8-9 | Vectorul creativitatii | 0 + 8 + 36 | 44 | partial activ |
+| 3-5-7 | Vectorul scopului | 6 + 10 + 0 | 16 | partial activ |
+| 1-5-9 | Vectorul carierei | 2 + 10 + 36 | 48 | activ |
+
+Scara bunastarii pentru nume:
+
+```text
+48: 1-5-9 cariera; 3-6-9 material
+44: 7-8-9 creativitate
+36: casuta 9
+20: 4-5-6 vointa
+18: 2-5-8 social
+16: 3-5-7 scop
+10: casuta 5
+8: casuta 8; 1-2-3 energetic
+6: casuta 3; casuta 6; 1-4-7 spiritual
+4: casuta 4
+2: casuta 1
+0: casuta 2; casuta 7
+```
+
+### Comparatia dintre matrici
+
+| Casuta | Data nasterii | Nume | Rezultat |
+| --- | --- | --- | --- |
+| 1 | `1111` | `11` | sustinuta; `11` intra in matricea valorilor sustinute |
+| 2 | `2` | - | nativa, neamplificata de nume |
+| 3 | `3` | `33` | sustinuta; `33` intra in matricea valorilor sustinute |
+| 4 | `4` | `4` | sustinuta; `4` intra in matricea valorilor sustinute |
+| 5 | `5` | `55` | sustinuta; `55` intra in matricea valorilor sustinute |
+| 6 | - | `6` | nesustinuta; nu se preia |
+| 7 | `7` | - | nativa, neamplificata de nume |
+| 8 | `8` | `8` | sustinuta; `8` intra in matricea valorilor sustinute |
+| 9 | `999` | `9999` | sustinuta; `9999` intra in matricea valorilor sustinute |
+
+Matricea valorilor sustinute:
+
+```text
+11 | 4  |
+   | 55 | 8
+33 |    | 9999
+```
+
+## Exemplu 3 - 15.10.1988 / Elena Dumitrescu
+
+### Matricea datei de nastere
+
+Cod extras din data nasterii:
 
 ```text
 15101988
 ```
 
-Numarul 1 de lucru:
+Numere de lucru:
 
 ```text
-1 + 5 + 1 + 0 + 1 + 9 + 8 + 8 = 33
-```
-
-Numarul 2 de lucru:
-
-```text
-3 + 3 = 6
-```
-
-Numarul 3 de lucru:
-
-Prima cifra nenula din ziua nasterii este 1.
-
-```text
-33 - (2 x 1) = 31
-```
-
-Numarul 4 de lucru:
-
-```text
-3 + 1 = 4
+N1 = 1 + 5 + 1 + 0 + 1 + 9 + 8 + 8 = 33
+N2 = 3 + 3 = 6
+N3 = 33 - (2 x 1) = 31
+N4 = 3 + 1 = 4
 ```
 
 Sir complet:
@@ -270,7 +418,7 @@ Sir complet:
 15101988 + 33 + 6 + 31 + 4
 ```
 
-Cifre introduse in matrice, fara zero:
+Cifre introduse in matricea datei de nastere:
 
 ```text
 1, 5, 1, 1, 9, 8, 8, 3, 3, 6, 3, 1, 4
@@ -279,312 +427,163 @@ Cifre introduse in matrice, fara zero:
 Matricea datei de nastere:
 
 ```text
-1111 | 4 |
+1111 | 4 | 
      | 5 | 88
 333  | 6 | 9
 ```
 
-Observatii rapide:
+Descriere scurta: matricea datei sustine expresia, creativitatea si materialul.
+Lipsesc 2 si 7, deci relationarea sensibila si dimensiunea de incredere/sens nu
+sunt canale native directe.
 
-- 1 apare de patru ori: afirmare, vointa si identitate puternice.
-- 3 apare de trei ori: expresie, comunicare si creativitate accentuate.
-- 8 apare de doua ori: raport social si gestionarea resurselor sunt importante.
-- 2 si 7 lipsesc: sensibilitatea relationala si increderea in sens pot cere lucru constient.
+Valorile pe casute:
 
-## Exemplu 4 - 29.12.2001
+| Casuta | Continut | Valoare |
+| --- | --- | --- |
+| 1 | `1111` | 4 |
+| 2 | - | 0 |
+| 3 | `333` | 9 |
+| 4 | `4` | 4 |
+| 5 | `5` | 5 |
+| 6 | `6` | 6 |
+| 7 | - | 0 |
+| 8 | `88` | 16 |
+| 9 | `9` | 9 |
 
-Data nasterii:
+Valorile vectorilor:
 
-```text
-29.12.2001
-```
+| Vector | Denumire | Calcul | Valoare | Stare |
+| --- | --- | --- | --- | --- |
+| 3-6-9 | Bunastare materiala | 9 + 6 + 9 | 24 | activ |
+| 2-5-8 | Bunastare sociala | 0 + 5 + 16 | 21 | partial activ |
+| 1-4-7 | Bunastare spirituala | 4 + 4 + 0 | 8 | partial activ |
+| 1-2-3 | Vectorul energetic | 4 + 0 + 9 | 13 | partial activ |
+| 4-5-6 | Vectorul vointa | 4 + 5 + 6 | 15 | activ |
+| 7-8-9 | Vectorul creativitatii | 0 + 16 + 9 | 25 | partial activ |
+| 3-5-7 | Vectorul scopului | 9 + 5 + 0 | 14 | partial activ |
+| 1-5-9 | Vectorul carierei | 4 + 5 + 9 | 18 | activ |
 
-Data scrisa numeric:
-
-```text
-29122001
-```
-
-Numarul 1 de lucru:
-
-```text
-2 + 9 + 1 + 2 + 2 + 0 + 0 + 1 = 17
-```
-
-Numarul 2 de lucru:
-
-```text
-1 + 7 = 8
-```
-
-Numarul 3 de lucru:
-
-Prima cifra nenula din ziua nasterii este 2.
+Scara bunastarii:
 
 ```text
-17 - (2 x 2) = 13
+25: 7-8-9 creativitate
+24: 3-6-9 material
+21: 2-5-8 social
+18: 1-5-9 cariera
+16: casuta 8
+15: 4-5-6 vointa
+14: 3-5-7 scop
+13: 1-2-3 energetic
+9: casuta 3; casuta 9
+8: 1-4-7 spiritual
+6: casuta 6
+5: casuta 5
+4: casuta 1; casuta 4
+0: casuta 2; casuta 7
 ```
 
-Numarul 4 de lucru:
+### Matricea numelui
+
+Nume normalizat:
 
 ```text
-1 + 3 = 4
+ELENADUMITRESCU
 ```
 
-Sir complet:
+Valori litere:
 
 ```text
-29122001 + 17 + 8 + 13 + 4
+E=5, L=3, E=5, N=5, A=1, D=4, U=3, M=4, I=9, T=2, R=9, E=5, S=1, C=3, U=3
 ```
 
-Cifre introduse in matrice, fara zero:
+Componente reduse:
 
 ```text
-2, 9, 1, 2, 2, 1, 1, 7, 8, 1, 3, 4
+ELENA = 5 + 3 + 5 + 5 + 1 = 19 -> 1
+DUMITRESCU = 4 + 3 + 4 + 9 + 2 + 9 + 5 + 1 + 3 + 3 = 43 -> 7
+numar de exprimare = 1 + 7 = 8 -> 8
 ```
 
-Matricea datei de nastere:
+Cifre introduse in matricea numelui:
 
 ```text
-1111 | 4| 7
-222  |  | 8
-3    |  | 9
+5, 3, 5, 5, 1, 4, 3, 4, 9, 2, 9, 5, 1, 3, 3, 8
 ```
 
-Observatii rapide:
-
-- 1 apare de patru ori: afirmare foarte puternica.
-- 2 apare de trei ori: energie emotionala si receptivitate accentuate.
-- 5 si 6 lipsesc: centrul si responsabilitatea practica trebuie sustinute constient.
-- Linia de sus 1-4-7 este completa: baza existentiala, corpul si sensul sunt conectate.
-
-## Exemplu 5 - 03.06.1975
-
-Data nasterii:
+Matricea numelui:
 
 ```text
-03.06.1975
+11   | 44   |
+2    | 5555 | 8
+3333 |      | 99
 ```
 
-Data scrisa numeric:
+Descriere scurta: numele amplifica foarte mult centrul 5, expresia prin 3 si
+cariera prin 1-5-9. Casuta 2 apare in nume, dar nu este sustinuta de data.
+
+Valorile pe casute:
+
+| Casuta | Continut | Valoare |
+| --- | --- | --- |
+| 1 | `11` | 2 |
+| 2 | `2` | 2 |
+| 3 | `3333` | 12 |
+| 4 | `44` | 8 |
+| 5 | `5555` | 20 |
+| 6 | - | 0 |
+| 7 | - | 0 |
+| 8 | `8` | 8 |
+| 9 | `99` | 18 |
+
+Valorile vectorilor:
+
+| Vector | Denumire | Calcul | Valoare | Stare |
+| --- | --- | --- | --- | --- |
+| 3-6-9 | Bunastare materiala | 12 + 0 + 18 | 30 | partial activ |
+| 2-5-8 | Bunastare sociala | 2 + 20 + 8 | 30 | activ |
+| 1-4-7 | Bunastare spirituala | 2 + 8 + 0 | 10 | partial activ |
+| 1-2-3 | Vectorul energetic | 2 + 2 + 12 | 16 | activ |
+| 4-5-6 | Vectorul vointa | 8 + 20 + 0 | 28 | partial activ |
+| 7-8-9 | Vectorul creativitatii | 0 + 8 + 18 | 26 | partial activ |
+| 3-5-7 | Vectorul scopului | 12 + 20 + 0 | 32 | partial activ |
+| 1-5-9 | Vectorul carierei | 2 + 20 + 18 | 40 | activ |
+
+Scara bunastarii pentru nume:
 
 ```text
-03061975
+40: 1-5-9 cariera
+32: 3-5-7 scop
+30: 2-5-8 social; 3-6-9 material
+28: 4-5-6 vointa
+26: 7-8-9 creativitate
+20: casuta 5
+18: casuta 9
+16: 1-2-3 energetic
+12: casuta 3
+10: 1-4-7 spiritual
+8: casuta 4; casuta 8
+2: casuta 1; casuta 2
+0: casuta 6; casuta 7
 ```
 
-Numarul 1 de lucru:
+### Comparatia dintre matrici
 
-```text
-0 + 3 + 0 + 6 + 1 + 9 + 7 + 5 = 31
-```
-
-Numarul 2 de lucru:
-
-```text
-3 + 1 = 4
-```
-
-Numarul 3 de lucru:
-
-Prima cifra nenula din ziua nasterii este 3.
-
-```text
-31 - (2 x 3) = 25
-```
-
-Numarul 4 de lucru:
-
-```text
-2 + 5 = 7
-```
-
-Sir complet:
-
-```text
-03061975 + 31 + 4 + 25 + 7
-```
-
-Cifre introduse in matrice, fara zero:
-
-```text
-3, 6, 1, 9, 7, 5, 3, 1, 4, 2, 5, 7
-```
-
-Matricea datei de nastere:
-
-```text
-11 | 4 | 77
-2  | 55|
-33 | 6 | 9
-```
-
-Observatii rapide:
-
-- Matricea este bogata si relativ echilibrata.
-- 5 apare de doua ori: centru si adaptare puternice.
-- 7 apare de doua ori: sens, incredere si protectie accentuate.
-- 8 lipseste: raportul cu socialul, regulile sau resursele trebuie dezvoltat constient.
-
-## Exemplu 6 - 10.02.2000
-
-Data nasterii:
-
-```text
-10.02.2000
-```
-
-Data scrisa numeric:
-
-```text
-10022000
-```
-
-Numarul 1 de lucru:
-
-```text
-1 + 0 + 0 + 2 + 2 + 0 + 0 + 0 = 5
-```
-
-Numarul 2 de lucru:
-
-```text
-5 = 5
-```
-
-Numarul 3 de lucru:
-
-Prima cifra nenula din ziua nasterii este 1.
-
-```text
-5 - (2 x 1) = 3
-```
-
-Numarul 4 de lucru:
-
-```text
-3 = 3
-```
-
-Sir complet:
-
-```text
-10022000 + 5 + 5 + 3 + 3
-```
-
-Cifre introduse in matrice, fara zero:
-
-```text
-1, 2, 2, 5, 5, 3, 3
-```
-
-Matricea datei de nastere:
-
-```text
-1  |   |
-22 | 55|
-33 |   |
-```
-
-Observatii rapide:
-
-- 2, 3 si 5 sunt dominante: sensibilitate, expresie si centru.
-- 4, 6, 7, 8 si 9 lipsesc: corpul, responsabilitatea, sensul, socialul si intelectul superior cer dezvoltare.
-- Data are multe zerouri: potentialul trebuie construit prin alegeri, nu prin frecventa directa in matrice.
-
-## Exemplu 7 - scara bunastarii pentru 24.04.1982
-
-Data nasterii:
-
-```text
-24.04.1982
-```
-
-Sirul de lucru pentru Patratul lui Pitagora:
-
-```text
-24041982 + 30 + 3 + 26 + 8
-```
-
-Cifre introduse in matrice, fara zero:
-
-```text
-2, 4, 4, 1, 9, 8, 2, 3, 3, 2, 6, 8
-```
-
-Matricea datei de nastere:
-
-```text
-1   | 44 |
-222 |    | 88
-33  | 6  | 9
-```
-
-### Valorile casutelor
-
-| Casuta | Continut | Calcul | Valoare |
+| Casuta | Data nasterii | Nume | Rezultat |
 | --- | --- | --- | --- |
-| 1 | `1` | 1 | 1 |
-| 2 | `222` | 2 + 2 + 2 | 6 |
-| 3 | `33` | 3 + 3 | 6 |
-| 4 | `44` | 4 + 4 | 8 |
-| 5 | - | 0 | 0 |
-| 6 | `6` | 6 | 6 |
-| 7 | - | 0 | 0 |
-| 8 | `88` | 8 + 8 | 16 |
-| 9 | `9` | 9 | 9 |
+| 1 | `1111` | `11` | sustinuta; `11` intra in matricea valorilor sustinute |
+| 2 | - | `2` | nesustinuta; nu se preia |
+| 3 | `333` | `3333` | sustinuta; `3333` intra in matricea valorilor sustinute |
+| 4 | `4` | `44` | sustinuta; `44` intra in matricea valorilor sustinute |
+| 5 | `5` | `5555` | sustinuta; `5555` intra in matricea valorilor sustinute |
+| 6 | `6` | - | nativa, neamplificata de nume |
+| 7 | - | - | absenta |
+| 8 | `88` | `8` | sustinuta; `8` intra in matricea valorilor sustinute |
+| 9 | `9` | `99` | sustinuta; `99` intra in matricea valorilor sustinute |
 
-### Valorile vectorilor
-
-| Vector | Denumire | Calcul | Valoare |
-| --- | --- | --- | --- |
-| 1-2-3 | Bunastare energetica | 1 + 6 + 6 | 13 |
-| 4-5-6 | Bunastare volutiva | 8 + 0 + 6 | 14 |
-| 7-8-9 | Bunastare creativa | 0 + 16 + 9 | 25 |
-| 1-4-7 | Bunastare spirituala | 1 + 8 + 0 | 9 |
-| 2-5-8 | Bunastare sociala | 6 + 0 + 16 | 22 |
-| 3-6-9 | Bunastare materiala | 6 + 6 + 9 | 21 |
-| 1-5-9 | Bunastare in cariera | 1 + 0 + 9 | 10 |
-| 3-5-7 | Bunastarea atingerii scopurilor | 6 + 0 + 0 | 6 |
-
-### Tabel descrescator
-
-| Ordine | Element | Tip | Valoare |
-| --- | --- | --- | --- |
-| 1 | 7-8-9 - bunastare creativa | vector | 25 |
-| 2 | 2-5-8 - bunastare sociala | vector | 22 |
-| 3 | 3-6-9 - bunastare materiala | vector | 21 |
-| 4 | 8 | casuta | 16 |
-| 5 | 4-5-6 - bunastare volutiva | vector | 14 |
-| 6 | 1-2-3 - bunastare energetica | vector | 13 |
-| 7 | 1-5-9 - bunastare in cariera | vector | 10 |
-| 8 | 9 | casuta | 9 |
-| 9 | 1-4-7 - bunastare spirituala | vector | 9 |
-| 10 | 4 | casuta | 8 |
-| 11 | 2 | casuta | 6 |
-| 12 | 3 | casuta | 6 |
-| 13 | 6 | casuta | 6 |
-| 14 | 3-5-7 - atingerea scopurilor | vector | 6 |
-| 15 | 1 | casuta | 1 |
-| 16 | 5 | casuta | 0 |
-| 17 | 7 | casuta | 0 |
-
-### Scara rezultata
+Matricea valorilor sustinute:
 
 ```text
-0 - 5, 7 // 1; 6,6,6,6; 8; 9,9; 10; 13; 14; 16; 21; 22; 25
+11   | 44   |
+     | 5555 | 8
+3333 |      | 99
 ```
-
-### Citire rapida
-
-Cea mai inalta treapta este `25`, bunastarea creativa. Persoana are nevoie de
-solutii, inspiratie si capacitate de rezolvare pentru a simti ca functioneaza
-bine.
-
-Urmatoarele trepte sunt bunastarea sociala `22` si bunastarea materiala `21`,
-ceea ce arata ca relatia cu ceilalti si stabilitatea concreta sustin puternic
-starea de bine.
-
-Casutele `5` si `7` sunt pe zero. Centrul, increderea, libertatea interioara,
-intuitia si sensul au nevoie de sprijin constient. Saltul de la `16` la `21`
-este mare, deci trecerea de la resursele sociale sau autoritate catre bunastarea
-materiala cere strategie, efort sau un context potrivit.
