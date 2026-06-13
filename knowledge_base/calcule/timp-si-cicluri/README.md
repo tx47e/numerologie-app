@@ -11,3 +11,7 @@ importanti si lectii aplicate pe perioade.
 - `cicluri-7-ani/`
 - `cicluri-9-ani/`
 - `cicluri-12-ani/`
+
+## Surse bibliografice interne
+
+- Nu sunt documentate surse bibliografice interne.

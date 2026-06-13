@@ -1,4 +1,4 @@
-﻿# Vibratia 11
+# Vibratia 11
 
 Acest director contine capitolele dezvoltate pentru vibratia maestra 11.
 
@@ -23,3 +23,7 @@ incarcata si mai exigenta a aceleiasi familii simbolice.
 
 La extinderea capitolelor, se poate face referire la Arcanele Majore din tarot
 pentru a prelua, compara si nuanta diferitele calitati ale vibratiei.
+
+## Surse bibliografice interne
+
+- Nu sunt documentate surse bibliografice interne.

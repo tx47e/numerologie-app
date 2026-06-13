@@ -32,3 +32,7 @@ vibratia exterioara = reducere_numerologica(luna nasterii)
 - [Semnificatii](04-semnificatii.md)
 - [Exemple](02-exemple.md)
 - [Observatii](03-observatii.md)
+
+## Surse bibliografice interne
+
+- Nu sunt documentate surse bibliografice interne.

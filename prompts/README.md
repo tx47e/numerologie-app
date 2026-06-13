@@ -9,3 +9,7 @@ Exemple posibile:
 - prompt pentru sumarizarea unui profil;
 - prompt pentru adaptarea tonului;
 - prompt pentru explicatii scurte versus explicatii ample.
+
+## Surse bibliografice interne
+
+- Nu sunt documentate surse bibliografice interne.

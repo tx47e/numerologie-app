@@ -18,3 +18,7 @@ Fiecare suita contine:
 - cartile numerale: As, 2, 3, 4, 5, 6, 7, 8, 9, 10;
 - cartile de curte: Paj, Cavaler, Regina, Rege;
 - interpretari pentru plusuri, minusuri si chei de integrare.
+
+## Surse bibliografice interne
+
+- Nu sunt documentate surse bibliografice interne.

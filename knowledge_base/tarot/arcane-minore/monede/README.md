@@ -37,3 +37,7 @@ ritm, valoare si materializare.
 - [Cavaler de Monede](cavaler.md)
 - [Regina de Monede](regina.md)
 - [Rege de Monede](rege.md)
+
+## Surse bibliografice interne
+
+- Nu sunt documentate surse bibliografice interne.

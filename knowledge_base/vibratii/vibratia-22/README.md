@@ -1,4 +1,4 @@
-﻿# Vibratia 22
+# Vibratia 22
 
 Acest director contine capitolele dezvoltate pentru vibratia maestra 22.
 
@@ -23,3 +23,7 @@ constructie, sistem, impact si responsabilitate fata de forma concreta a viziuni
 
 La extinderea capitolelor, se poate face referire la Arcanele Majore din tarot
 pentru a prelua, compara si nuanta diferitele calitati ale vibratiei.
+
+## Surse bibliografice interne
+
+- Nu sunt documentate surse bibliografice interne.

@@ -1,4 +1,4 @@
-﻿# Vibratia 9
+# Vibratia 9
 
 Acest director contine capitolele dezvoltate pentru vibratia 9.
 
@@ -18,3 +18,7 @@ Capitolele pot fi extinse independent, astfel incat baza de informatii sa poata 
 
 La extinderea capitolelor, se poate face referire la Arcanele Majore din tarot
 pentru a prelua, compara si nuanta diferitele calitati ale vibratiei.
+
+## Surse bibliografice interne
+
+- Nu sunt documentate surse bibliografice interne.

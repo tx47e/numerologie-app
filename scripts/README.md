@@ -137,3 +137,7 @@ javac scripts\PatratulLuiPitagora.java
 java -cp scripts PatratulLuiPitagora 7 11 1994
 java -cp scripts PatratulLuiPitagora 24 4 1982 --nume "Ana Maria Popescu"
 ```
+
+## Surse bibliografice interne
+
+- Nu sunt documentate surse bibliografice interne.

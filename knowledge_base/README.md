@@ -16,3 +16,7 @@ numerologic stabil trebuie pastrat aici.
 Continutul din `knowledge_base/` este sursa principala pentru aplicatie. Codul,
 prompturile si fisierele generate pot consuma acest continut, dar nu trebuie sa
 devina sursa principala a metodei numerologice.
+
+## Surse bibliografice interne
+
+- Nu sunt documentate surse bibliografice interne.

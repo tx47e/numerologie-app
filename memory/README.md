@@ -24,3 +24,7 @@ Scopul este sa pastram lucrurile care trebuie amintite intre etape:
   lucrarea sa i se puna la dispozitie o decizie constienta si sfaturi practice.
   Interpretarea trebuie sa ajute omul sa vada optiunile, consecintele posibile si
   pasii concreti prin care poate lucra cu energia descrisa.
+
+## Surse bibliografice interne
+
+- Nu sunt documentate surse bibliografice interne.

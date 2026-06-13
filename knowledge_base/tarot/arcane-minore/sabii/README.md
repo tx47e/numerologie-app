@@ -37,3 +37,7 @@ analiza si adevar mental.
 - [Cavaler de Sabii](cavaler.md)
 - [Regina de Sabii](regina.md)
 - [Rege de Sabii](rege.md)
+
+## Surse bibliografice interne
+
+- Nu sunt documentate surse bibliografice interne.

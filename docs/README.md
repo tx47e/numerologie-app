@@ -8,3 +8,7 @@ Acest director pastreaza contextul de lucru pentru proiectul de numerologie.
 - `decizii.md`: decizii de structura si directie.
 - `roadmap.md`: urmatoarele etape pentru aplicatie.
 - `structura-date.md`: modelul initial al bazei de informatii.
+
+## Surse bibliografice interne
+
+- Nu sunt documentate surse bibliografice interne.

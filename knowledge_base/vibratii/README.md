@@ -54,3 +54,7 @@ Interpretarile numerologice sunt cel mai utile atunci cand sunt folosite ca
 instrumente de reflectie, nu ca verdicte. O vibratie poate fi traita diferit in
 functie de context, educatie, maturitate emotionala, valori personale si alegeri.
 De aceea, fiecare text include atat potentialul luminos, cat si riscul de umbra.
+
+## Surse bibliografice interne
+
+- Nu sunt documentate surse bibliografice interne.

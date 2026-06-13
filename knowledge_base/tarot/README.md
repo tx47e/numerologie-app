@@ -20,3 +20,7 @@ calcul si sa pastram tarotul ca sursa comuna de analogii.
 
 Tarotul nu inlocuieste calculul numerologic. El adauga un strat arhetipal:
 imagine, rol, plusuri, minusuri si chei de integrare.
+
+## Surse bibliografice interne
+
+- Nu sunt documentate surse bibliografice interne.

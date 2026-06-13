@@ -32,3 +32,7 @@ generare de rapoarte.
 ## Repo GitHub
 
 Repository: `tx47e/numerologie-app`
+
+## Surse bibliografice interne
+
+- Nu sunt documentate surse bibliografice interne.

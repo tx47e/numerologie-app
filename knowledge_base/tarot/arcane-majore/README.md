@@ -32,3 +32,7 @@ analogii simbolice pentru vibratii.
 
 Numerotarea folosita aici este cea uzuala in sistemul Rider-Waite-Smith pentru
 Arcanele Majore.
+
+## Surse bibliografice interne
+
+- Nu sunt documentate surse bibliografice interne.

@@ -37,3 +37,7 @@ afectiva, iubire, vindecare si imaginatie.
 - [Cavaler de Cupe](cavaler.md)
 - [Regina de Cupe](regina.md)
 - [Rege de Cupe](rege.md)
+
+## Surse bibliografice interne
+
+- Nu sunt documentate surse bibliografice interne.

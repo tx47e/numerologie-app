@@ -13,3 +13,7 @@ Acest director contine regulile pentru calculele numerologice bazate pe nume.
 - numarul ereditar;
 - numarul ereditar karmic;
 - exemple complete.
+
+## Surse bibliografice interne
+
+- Nu sunt documentate surse bibliografice interne.

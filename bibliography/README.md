@@ -10,3 +10,7 @@ Pot fi incluse:
 - sisteme numerologice comparate;
 - note de lectura;
 - linkuri si observatii despre credibilitatea surselor.
+
+## Surse bibliografice interne
+
+- Nu sunt documentate surse bibliografice interne.

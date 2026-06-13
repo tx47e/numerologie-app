@@ -7,3 +7,7 @@ influenta directa a numelui de zi cu zi asupra comportamentului curent.
 
 - [Metoda](01-metoda.md)
 - [Exemple](02-exemple.md)
+
+## Surse bibliografice interne
+
+- Nu sunt documentate surse bibliografice interne.

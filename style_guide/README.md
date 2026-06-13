@@ -151,3 +151,7 @@ Un text este gata cand cititorul poate raspunde la trei intrebari:
 - ce reprezinta vibratia;
 - cum se manifesta matur si imatur;
 - ce poate face concret pentru a o integra mai bine.
+
+## Surse bibliografice interne
+
+- Nu sunt documentate surse bibliografice interne.

@@ -13,3 +13,7 @@ denumire alternativa pentru numarul ereditar karmic / numarul neamului.
 - [Metoda](01-metoda.md)
 - [Exemple](02-exemple.md)
 - [Interpretari neam](03-interpretari-neam.md)
+
+## Surse bibliografice interne
+
+- Nu sunt documentate surse bibliografice interne.

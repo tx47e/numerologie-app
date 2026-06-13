@@ -1,4 +1,4 @@
-﻿# Vibratia 3
+# Vibratia 3
 
 Acest director contine capitolele dezvoltate pentru vibratia 3.
 
@@ -18,3 +18,7 @@ Capitolele pot fi extinse independent, astfel incat baza de informatii sa poata 
 
 La extinderea capitolelor, se poate face referire la Arcanele Majore din tarot
 pentru a prelua, compara si nuanta diferitele calitati ale vibratiei.
+
+## Surse bibliografice interne
+
+- Nu sunt documentate surse bibliografice interne.

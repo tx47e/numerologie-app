@@ -37,3 +37,7 @@ creativitate si energie vitala.
 - [Cavaler de Bate](cavaler.md)
 - [Regina de Bate](regina.md)
 - [Rege de Bate](rege.md)
+
+## Surse bibliografice interne
+
+- Nu sunt documentate surse bibliografice interne.

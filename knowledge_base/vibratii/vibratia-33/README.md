@@ -1,4 +1,4 @@
-﻿# Vibratia 33
+# Vibratia 33
 
 Acest director contine capitolele dezvoltate pentru vibratia maestra 33.
 
@@ -23,3 +23,7 @@ pe toata lumea, ci maturizarea iubirii, a grijii si a responsabilitatii.
 
 La extinderea capitolelor, se poate face referire la Arcanele Majore din tarot
 pentru a prelua, compara si nuanta diferitele calitati ale vibratiei.
+
+## Surse bibliografice interne
+
+- Nu sunt documentate surse bibliografice interne.

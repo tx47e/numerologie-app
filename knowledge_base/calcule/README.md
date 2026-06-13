@@ -16,7 +16,11 @@ Scopul este sa pastram separat:
 - `nume/`: calcule derivate din nume si alfabet numerologic.
 - `timp-si-cicluri/`: cicluri, ani importanti si perioade.
 - `soarta-si-destin/`: soarta, destin, tema vietii si directii majore.
+- `aplicabilitate-profesionala/`: Arcane Majore pentru obstacole, ajutoare si
+  directii profesionale.
 - `pinacluri/`: oportunitati, provocari si etape de viata.
+- `ezoterism/`: inclinatii ezoterice, cod principal si domenii secundare pe
+  baza datei de nastere.
 - `karma/`: karma zilei de nastere, karma lunii de nastere si karma din calea
   destinului; termenul `karma neamului` este tratat ca alias la
   `nume/numarul-ereditar-karmic/`.
@@ -30,3 +34,7 @@ Fiecare calcul important trebuie sa aiba, pe cat posibil:
 - `02-exemple.md`: exemple complete de calcul.
 - `03-observatii.md`: reguli speciale, limite, exceptii sau note de implementare.
 - `04-semnificatii.md`: ce inseamna rezultatele posibile.
+
+## Surse bibliografice interne
+
+- Nu sunt documentate surse bibliografice interne.

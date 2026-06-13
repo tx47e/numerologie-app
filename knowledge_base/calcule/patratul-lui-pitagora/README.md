@@ -44,3 +44,7 @@ de matricea datei de nastere.
 - raportul dintre zonele matricei;
 - cifrele rezultate din metoda de calcul, nu doar cifrele brute din data nasterii.
 - diferenta dintre matricea datei si matricea numelui, fara a le combina automat.
+
+## Surse bibliografice interne
+
+- Nu sunt documentate surse bibliografice interne.
