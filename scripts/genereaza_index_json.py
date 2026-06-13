@@ -13,7 +13,7 @@ MASTER_REDUCTIONS = {11: 2, 22: 4, 33: 6}
 
 INPUTS_BY_CALC = {
     "numarul-de-exprimare": ["nume_complet"],
-    "destin": ["nume_complet"],
+    "destin": ["data_nasterii"],
     "vibratia-interioara": ["zi_nastere"],
     "vibratia-exterioara": ["luna_nastere"],
     "vibratia-cosmica": ["an_nastere"],
@@ -21,7 +21,7 @@ INPUTS_BY_CALC = {
     "vibratia-destinului": ["zi_nastere", "luna_nastere", "an_nastere"],
     "calea-destinului": ["data_nasterii"],
     "soarta": ["data_nasterii"],
-    "tema-vietii": ["data_nasterii", "nume_complet"],
+    "soarta-si-destin": ["data_nasterii"],
     "vibratia-anului-personal": ["zi_nastere", "luna_nastere", "an_analizat"],
     "ani-importanti-interiori": ["zi_nastere", "luna_nastere", "interval_ani"],
     "ani-importanti-exteriori": ["zi_nastere", "luna_nastere", "interval_ani"],

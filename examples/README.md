@@ -26,7 +26,9 @@ Exemple posibile:
 - [Template lucrare numerologie](Template-lucrare-numerologie.md)
 - [Lucrare exercitiu - 1984-11-06 - SZABO Mihai Gabriel](1984-11-06-szabo-mihai-gabriel/lucrare-exercitiu.md)
 - [Lucrare exercitiu V2 - 1984-11-06 - SZABO Mihai Gabriel](1984-11-06-szabo-mihai-gabriel/lucrare-exercitiu-v2.md)
+- [Lucrare numerologica V3 conversational - 1984-11-06 - SZABO Mihai Gabriel](1984-11-06-szabo-mihai-gabriel/lucrare-numerologica-v3-conversational.md)
 - [Lucrare numerologica V1 - 1984-04-17 - SZABO Sabina](1984-04-17-szabo-sabina/lucrare-numerologica-v1.md)
+- [Lucrare numerologica V2 conversational - 1984-04-17 - SZABO Sabina](1984-04-17-szabo-sabina/lucrare-numerologica-v2-conversational.md)
 
 ## Surse bibliografice interne
 

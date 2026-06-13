@@ -23,7 +23,7 @@ Se folosesc valorile reduse ale zilei, lunii si anului:
 zi = reducere_numerologica(ziua nasterii)
 luna = reducere_numerologica(luna nasterii)
 an = reducere_numerologica(anul nasterii)
-soarta = reducere_numerologica(data nasterii completa)
+vibratia_destinului = reducere_numerologica(data nasterii completa)
 ```
 
 ## Oportunitati
@@ -53,18 +53,18 @@ Provocarile pot avea si valoarea 0.
 ## Pinacluri
 
 Pinaclurile arata perioada de viata in care se citeste fiecare pereche
-oportunitate-provocare. Primul interval depinde de soarta, iar urmatoarele doua
-pinacluri dureaza cate 9 ani. Al patrulea pinaclu incepe dupa finalul celui de-al
-treilea si ramane activ pana la finalul vietii.
+oportunitate-provocare. Primul interval depinde de vibratia destinului, iar
+urmatoarele doua pinacluri dureaza cate 9 ani. Al patrulea pinaclu incepe dupa
+finalul celui de-al treilea si ramane activ pana la finalul vietii.
 
 ```text
-sfarsit pinaclu 1 = 36 - soarta
+sfarsit pinaclu 1 = 36 - vibratia_destinului
 sfarsit pinaclu 2 = sfarsit pinaclu 1 + 9
 sfarsit pinaclu 3 = sfarsit pinaclu 2 + 9
 pinaclu 4 = de la anul urmator pana la finalul vietii
 ```
 
-Exemplu pentru `soarta = 3`:
+Exemplu pentru `vibratia_destinului = 3`:
 
 ```text
 pinaclu 1: 0-33 ani

@@ -66,7 +66,7 @@ Lista initiala vine din `docs/roadmap.md` si din structura
 - ani importanti exteriori;
 - soarta;
 - destin;
-- tema vietii;
+- soarta si destin / tema vietii;
 - pinacluri;
 - cicluri de 7 ani;
 - cicluri de 9 ani;
@@ -84,7 +84,7 @@ Scripturile comune calculeaza intr-un singur profil:
 - numarul ereditar;
 - numarul ereditar karmic;
 - soarta;
-- tema vietii;
+- soarta si destin / tema vietii;
 - vibratia anului personal;
 - karma zilei de nastere;
 - karma lunii de nastere;

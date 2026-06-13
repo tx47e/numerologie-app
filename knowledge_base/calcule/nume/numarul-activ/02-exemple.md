@@ -28,37 +28,37 @@ Rezultat:
 numarul activ = 1
 ```
 
-## Exemplu - Bianca / Bibi
+## Exemplu - Bianca Maria
 
-Prenume oficial:
+Prenume complet:
+
+```text
+Bianca Maria
+```
+
+Prenume activ declarat:
 
 ```text
 Bianca
 ```
 
-Porecla folosita efectiv:
+Pentru numarul activ se calculeaza prenumele activ declarat.
+
+Valori pentru prenumele activ:
 
 ```text
-Bibi
-```
-
-Pentru numarul activ se poate calcula forma folosita in viata de zi cu zi.
-
-Valori pentru porecla:
-
-```text
-B=2, I=9, B=2, I=9
+B=2, I=9, A=1, N=5, C=3, A=1
 ```
 
 Calcul:
 
 ```text
-2 + 9 + 2 + 9 = 22
-2 + 2 = 4
+2 + 9 + 1 + 5 + 3 + 1 = 21
+2 + 1 = 3
 ```
 
 Rezultat:
 
 ```text
-numarul activ pentru Bibi = 4
+numarul activ pentru Bianca = 3
 ```

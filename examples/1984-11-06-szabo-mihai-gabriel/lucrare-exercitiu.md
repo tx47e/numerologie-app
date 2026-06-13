@@ -252,22 +252,19 @@ soarta = 3
 
 | Formula | Rezultat | Zona de confort |
 | --- | --- | --- |
-| 0 + 6 + 1 + 1 + 1 + 9 + 8 + 4 = 30 -> 3 | 3 | de completat dacă se reprezintă grafic |
+| 0611 x 1984 | 1212224 | 1+2+1+2+2+2+4 = 14; 14 / 7 = 2 |
 
 ### Calcul destin
 
-În această structură, destinul pe nume folosește același calcul ca numărul de
-exprimare.
-
 | Formula | Rezultat | Zona de confort |
 | --- | --- | --- |
-| SZABO 9 + MIHAI 4 + GABRIEL 9 = 22 -> 4 | 4 | de completat dacă se reprezintă grafic |
+| 1611 x 1984 | 3196224 | 3+1+9+6+2+2+4 = 27; 27 / 7 = 3,86 |
 
-### Tema vieții
+### Soarta si destin / tema vietii
 
 | Formula | Rezultat |
 | --- | --- |
-| soarta 3 + destin 4 = 7 | 7 |
+| comparatie intre `1212224` si `3196224` | trecere de la cooperare si cadru primit la expresie, asumare si constructie |
 
 ### Interpretare grafică
 
@@ -411,10 +408,10 @@ A doua împărțire:
 
 ### Aplicabilitate profesională - Tarot
 
-| Calcul | Arcană Tarot | Valență constructivă | Valență de umbră |
-| --- | --- | --- | --- |
-| Obstacole/ajutoare: 30 - 22 = 8 | 8 - Puterea | forță, rezistență, caracter, energie | presiune, exces, control |
-| Aplicabilitate: 11 + 22 - 22 = 11 | 11 - Dreptatea | onestitate, fapte, echilibru, cauză-efect | rigiditate, judecată excesivă |
+| Aplicabil | Calcul | Arcană Tarot | Valență constructivă | Valență de umbră |
+| --- | --- | --- | --- | --- |
+| Nu | Obstacole/ajutoare: 30 - 22 = 8 | 8 - Puterea | forță, rezistență, caracter, energie | presiune, exces, control |
+| Da | Aplicabilitate: 11 + 22 - 22 = 11 | 11 - Dreptatea | onestitate, fapte, echilibru, cauză-efect | rigiditate, judecată excesivă |
 
 | Tip direcție | Arcană | Profesii / direcții |
 | --- | --- | --- |

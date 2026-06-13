@@ -377,32 +377,31 @@ destinul arată direcția care cere asumare.
 
 ### Calcul soartă
 
-| Formula | Rezultat | Zona de confort |
+| Formula | Numar grafic | Zona de confort |
 | --- | --- | --- |
-| 0 + 6 + 1 + 1 + 1 + 9 + 8 + 4 = 30 -> 3 | 3 | comunicare, expresie, adaptare, creativitate |
+| 0611 x 1984 | 1212224 | 1+2+1+2+2+2+4 = 14; 14 / 7 = 2 |
 
-Soarta `3` arată că persoana se simte vie când exprimă, explică, schimbă idei și
-aduce mișcare într-un spațiu. Riscul este dispersia: multe direcții, multe
-posibilități, prea puțină formă.
+Soarta `1212224` arată un cadru primit în care relația, răbdarea și construcția
+treptată apar repetat. Zona de confort `2` indică sensibilitate la context,
+nevoie de cooperare și ritm atent.
 
 ### Calcul destin
 
-| Formula | Rezultat | Zona de confort |
+| Formula | Numar grafic | Zona de confort |
 | --- | --- | --- |
-| SZABO 9 + MIHAI 4 + GABRIEL 9 = 22 -> 4 | 4 | structură, muncă, ordine, construcție |
+| 1611 x 1984 | 3196224 | 3+1+9+6+2+2+4 = 27; 27 / 7 = 3,86 |
 
-Destinul pe nume `4` cere să dea formă expresiei. Dacă `3` deschide conversația,
-`4` cere concluzie. Dacă `3` creează posibilități, `4` alege metoda. Împreună,
-cele două pot da o expresie structurată: comunicare cu utilitate, creativitate cu
-disciplină, adaptare cu responsabilitate.
+Destinul `3196224` ridică linia spre expresie, asumare și construcție concretă.
+Tema vieții, ca denumire alternativă pentru această comparație, arată trecerea de
+la sensibilitate și adaptare la formă, metodă și direcție vizibilă.
 
 ### Interpretare grafică
 
 - Ciclul folosit: de stabilit, 10 ani / 12 ani.
 - Puncte de întâlnire: de completat după reprezentarea grafică.
 - Puncte de răscruce: de completat după reprezentarea grafică.
-- Zone de confort: `3` și `4` ca expresie structurată.
-- Zone de efort: trecerea de la idee la execuție consecventă.
+- Zone de confort: relationare, rabdare si constructie treptata.
+- Zone de efort: exprimare mai clara, finalizare si asumarea unei forme concrete.
 
 ## 8. Lecții de viață și cicluri
 
@@ -553,10 +552,10 @@ observație, susținere și metodă.
 
 ### Aplicabilitate profesională - Tarot
 
-| Calcul | Arcană Tarot | Valență constructivă | Valență de umbră |
-| --- | --- | --- | --- |
-| Obstacole/ajutoare: 30 - 22 = 8 | 8 - Puterea | forță, rezistență, caracter, energie | presiune, exces, control |
-| Aplicabilitate: 11 + 22 - 22 = 11 | 11 - Dreptatea | onestitate, fapte, echilibru, cauză-efect | rigiditate, judecată excesivă |
+| Aplicabil | Calcul | Arcană Tarot | Valență constructivă | Valență de umbră |
+| --- | --- | --- | --- | --- |
+| Nu | Obstacole/ajutoare: 30 - 22 = 8 | 8 - Puterea | forță, rezistență, caracter, energie | presiune, exces, control |
+| Da | Aplicabilitate: 11 + 22 - 22 = 11 | 11 - Dreptatea | onestitate, fapte, echilibru, cauză-efect | rigiditate, judecată excesivă |
 
 | Tip direcție | Arcană | Profesii / direcții |
 | --- | --- | --- |

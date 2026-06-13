@@ -58,7 +58,7 @@ Acest jurnal urmareste pasii importanti facuti in proiect.
   - vibratia anului personal si tema anului;
   - ani importanti interiori si exteriori;
   - cicluri de 7, 9 si 12 ani;
-  - soarta, destin si tema vietii;
+  - soarta, destin si interpretarea comparativa `soarta si destin` / `tema vietii`;
   - pinacluri;
   - patratul lui Pitagora.
 - Fiecare calcul important are pregatite fisiere pentru metoda, semnificatii,

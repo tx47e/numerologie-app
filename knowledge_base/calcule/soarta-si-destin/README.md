@@ -1,13 +1,19 @@
-# Destin, soarta si tema vietii
+# Soarta si destin
 
-Acest director grupeaza calculele majore care descriu directia de viata.
+Acest director documenteaza calculul si interpretarea comparativa dintre soarta
+si destin.
 
-## Subdirectoare
+## Denumire alternativa
 
-- `soarta/`
-- `destin/`
-- `tema-vietii/`
+Interpretarea comparativa dintre soarta si destin poate fi numita si `tema
+vietii`, atunci cand accentul cade pe concluzia de sinteza din lucrare.
+
+## Fisiere
+
+- [Metoda](01-metoda.md)
+- [Exemple](02-exemple.md)
+- [Semnificatii](03-semnificatii.md)
 
 ## Surse bibliografice interne
 
-- Nu sunt documentate surse bibliografice interne.
+- `bibliography/10 - Soarta si destin.md`

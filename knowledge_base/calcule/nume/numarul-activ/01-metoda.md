@@ -8,16 +8,15 @@ numarul activ = reducere_numerologica(suma valorilor literelor din prenumele fol
 
 ## Date necesare
 
-- prenumele folosit cel mai des;
-- optional, porecla sau forma de apel folosita efectiv;
+- prenumele activ declarat pentru analiza;
 - alfabetul numerologic pitagoreic documentat in
   `knowledge_base/calcule/nume/01-alfabet-numerologic.md`.
 
 ## Pasi de calcul
 
-1. Se stabileste prenumele folosit efectiv in viata de zi cu zi.
-2. Daca persoana foloseste constant o porecla sau o forma scurta, se poate
-   calcula separat si acea forma.
+1. Se stabileste prenumele activ declarat in fisa persoanei.
+2. Daca prenumele activ nu este declarat, se foloseste primul prenume din numele
+   complet introdus.
 3. Se normalizeaza textul.
 4. Fiecare litera se transforma in valoarea numerologica.
 5. Se aduna valorile literelor.
@@ -26,5 +25,5 @@ numarul activ = reducere_numerologica(suma valorilor literelor din prenumele fol
 ## Observatii
 
 Numarul activ are influenta asupra comportamentului de zi cu zi. Pentru profilul
-de baza, daca nu exista o alta forma de apel declarata, folosim primul prenume
-din numele complet introdus.
+de baza, folosim prenumele activ. In lucrarile conversationale, adresarea directa
+se face tot cu prenumele activ.

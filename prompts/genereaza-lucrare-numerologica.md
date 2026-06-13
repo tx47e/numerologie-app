@@ -11,7 +11,6 @@ Date persoana:
 - Nume de familie:
 - Prenume:
 - Prenume activ, daca este cunoscut:
-- Porecla / nume uzual / cum este chemata persoana in viata de zi cu zi:
 - Data nasterii:
 - Nume anterior / schimbat, daca exista:
 - Nume inainte de casatorie, daca exista:
@@ -54,11 +53,11 @@ Reguli de redactare:
   dar practic si aplicabil. Cititorul trebuie sa se simta ghidat de-a lungul
   lucrarii, nu pierdut in concepte sau judecati.
 - Respecta stilul de adresare cerut. Pentru `conversational`, scrie ca o
-  discutie directa cu persoana analizata, folosind numele uzual, porecla sau
-  prenumele activ, daca este cunoscut, si persoana a doua singular: `Mihai,
-  aceasta vibratie iti arata...`. Pentru `formal`, scrie ca o analiza despre
-  persoana, la persoana a treia, pastrand tonul cald, clar si respectuos. Daca
-  stilul nu este specificat, foloseste `formal`.
+  discutie directa cu persoana analizata, folosind prenumele activ, daca este
+  cunoscut, si persoana a doua singular: `Mihai, aceasta vibratie iti arata...`.
+  Pentru `formal`, scrie ca o analiza despre persoana, la persoana a treia,
+  pastrand tonul cald, clar si respectuos. Daca stilul nu este specificat,
+  foloseste `formal`.
 - Evita verdictul fatalist. Formuleaza rezultatele ca directii de constientizare,
   maturizare si lucru practic.
 - Daca o informatie lipseste, marcheaz-o discret ca `de completat` si continua cu

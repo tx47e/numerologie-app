@@ -17,5 +17,6 @@ vibratia destinului = reducere_numerologica(ziua nasterii + luna nasterii + anul
 ## Observatii
 
 Vibratia destinului este un calcul derivat din data de nastere. In proiect,
-trebuie deosebita de `destinul` derivat din nume, care foloseste numarul de
-exprimare.
+trebuie deosebita de `destinul` din capitolul grafic `Soarta si destin`, care se
+calculeaza prin formula `ZZLL ajustat x AAAA ajustat`. De asemenea, nu se
+confunda cu `numarul de exprimare`, care este calculul numelui complet.

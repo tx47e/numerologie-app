@@ -3,6 +3,9 @@
 Vibratia destinului se calculeaza din ziua, luna si anul nasterii adunate ca
 numere. Ea descrie directia majora derivata din data de nastere.
 
+Acest calcul este diferit de `destinul` din capitolul grafic `Soarta si destin`,
+unde se foloseste formula `ZZLL ajustat x AAAA ajustat`.
+
 ## Formula
 
 ```text

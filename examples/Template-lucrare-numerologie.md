@@ -91,7 +91,6 @@ Textul interpretarii...
 - Nume complet folosit in analiza:
 - Nume de familie folosit in analiza:
 - Prenume folosite in analiza:
-- Porecla / nume uzual / cum este chemata persoana in viata de zi cu zi:
 - Nume inainte de casatorie, daca exista: nu este cazul / de completat
 - Data realizarii lucrarii: `AAAA-LL-ZZ HH:MM`
 - Status: de revizuit
@@ -379,7 +378,6 @@ se duce mai departe prin neam.
 - Nume complet:
 - Nume de familie:
 - Prenume:
-- Porecla / nume uzual / cum este chemata persoana in viata de zi cu zi:
 - Nume folosit curent:
 - Context lingvistic:
 - Nume anterior / inainte de casatorie / adoptie / schimbare, daca exista:
@@ -546,21 +544,25 @@ de provocari.
 
 ## 8. Soarta si destinul
 
-Soarta si destinul se citesc impreuna. Soarta arata o zona de confort sau un fel
-natural de a intra in viata; destinul arata directia care cere asumare. Intre ele
-se vede adesea diferenta dintre ceea ce vine usor si ceea ce trebuie construit.
+Soarta si destinul se citesc impreuna ca doua linii grafice. Soarta arata cadrul
+primit si linia de conditionare, calculata prin `ZZLL x AAAA`. Destinul arata
+directia de implinire, calculata din aceeasi structura, dar cu zerourile
+inlocuite cu `1`. Intre ele se observa apropierea, departarea, zona de confort,
+punctele de intalnire si punctele de rascruce. Aceasta interpretare comparativa
+poate fi numita si `tema vietii`, atunci cand in lucrare se formuleaza concluzia
+de sinteza dintre cadrul primit si directia de implinire.
 
 ### Calcul soarta
 
-| Formula | Rezultat | Zona de confort |
+| Formula | Numar grafic | Zona de confort |
 | --- | --- | --- |
-|  |  |  |
+| `ZZLL x AAAA` |  |  |
 
 ### Calcul destin
 
-| Formula | Rezultat | Zona de confort |
+| Formula | Numar grafic | Zona de confort |
 | --- | --- | --- |
-|  |  |  |
+| `ZZLL ajustat x AAAA ajustat` |  |  |
 
 ### Interpretare grafica
 
@@ -661,6 +663,11 @@ responsabila a informatiei.
 
 Data scrisa ca un singur numar:
 
+Pentru calculul ezoteric, ziua si luna se scriu fara zerourile de completare din
+fata. De exemplu, `06.11.1984` devine `6111984`, iar `17.04.1984` devine
+`1741984`. Zerourile care fac parte din valoarea reala a zilei, lunii sau anului
+se pastreaza.
+
 ```text
 ```
 
@@ -676,9 +683,10 @@ A doua impartire:
 
 ### Aplicabilitate profesionala - Tarot
 
-| Calcul | Arcana Tarot | Valenta constructiva | Valenta de umbra |
-| --- | --- | --- | --- |
-|  |  |  |  |
+| Aplicabil | Calcul | Arcana Tarot | Valenta constructiva | Valenta de umbra |
+| --- | --- | --- | --- | --- |
+| Nu |  |  |  |  |
+| Da |  |  |  |  |
 
 | Tip directie | Arcana | Profesii / directii |
 | --- | --- | --- |

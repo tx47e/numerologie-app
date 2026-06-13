@@ -15,7 +15,7 @@ Scopul este sa pastram separat:
 - `vibratii-personale/`: calcule legate de profilul personal.
 - `nume/`: calcule derivate din nume si alfabet numerologic.
 - `timp-si-cicluri/`: cicluri, ani importanti si perioade.
-- `soarta-si-destin/`: soarta, destin, tema vietii si directii majore.
+- `soarta-si-destin/`: soarta, destin si interpretarea comparativa `soarta si destin`, numita alternativ `tema vietii`.
 - `aplicabilitate-profesionala/`: Arcane Majore pentru obstacole, ajutoare si
   directii profesionale.
 - `pinacluri/`: oportunitati, provocari si etape de viata.

@@ -18,7 +18,6 @@ Acest document centralizeaza formulele numerologice adoptate in proiect.
 - [`numarul ereditar karmic`](../knowledge_base/calcule/nume/numarul-ereditar-karmic/01-metoda.md): numele de familie se transforma in valori
   numerologice, valorile se aduna, iar daca rezultatul este mai mare de 22 se
   scade 22 pana cand ramane un numar intre 1 si 22.
-- [`destin`](../knowledge_base/calcule/soarta-si-destin/destin/01-metoda.md): aceeasi formula ca numarul de exprimare, folosita ca axa a numelui complet.
 - [`normalizare nume`](../knowledge_base/calcule/nume/02-normalizare-nume.md) pentru `nume inainte/dupa casatorie`: se calculeaza separat, apoi se compara
   numarul de exprimare, matricea numelui, karma numelui si numarul ereditar
   karmic / numarul neamului.
@@ -31,9 +30,7 @@ Acest document centralizeaza formulele numerologice adoptate in proiect.
 - [`vibratia globala`](../knowledge_base/calcule/vibratii-personale/vibratia-globala/01-metoda.md): ziua + luna, reduse la 1-9.
 - [`vibratia destinului`](../knowledge_base/calcule/vibratii-personale/vibratia-destinului/01-metoda.md): ziua + luna + anul, reduse la 1-9.
 - [`calea destinului`](../knowledge_base/calcule/vibratii-personale/calea-destinului/01-metoda.md): suma tuturor cifrelor datei, pastrata neredusa complet.
-- [`soarta`](../knowledge_base/calcule/soarta-si-destin/soarta/01-metoda.md): calcul istoric din proiect, echivalent operational cu reducerea
-  caii destinului; de revizuit fata de denumirea `vibratia destinului`.
-- [`tema vietii`](../knowledge_base/calcule/soarta-si-destin/tema-vietii/01-metoda.md): suma dintre soarta si destin, redusa la 1-9.
+- [`soarta si destin`](../knowledge_base/calcule/soarta-si-destin/01-metoda.md): metoda comasata pentru `soarta = ZZLL x AAAA`, `destin = ZZLL ajustat x AAAA ajustat` si interpretarea comparativa dintre cele doua linii, numita alternativ `tema vietii`; rezultatele se pastreaza ca numere grafice de 7 cifre.
 
 ## Timp si cicluri
 
@@ -70,7 +67,7 @@ Acest document centralizeaza formulele numerologice adoptate in proiect.
 - [`provocare 2`](../knowledge_base/calcule/pinacluri/01-metoda.md): diferenta absoluta dintre ziua redusa si anul redus.
 - [`provocare 3`](../knowledge_base/calcule/pinacluri/01-metoda.md): diferenta absoluta dintre provocare 1 si provocare 2.
 - [`provocare 4`](../knowledge_base/calcule/pinacluri/01-metoda.md): diferenta absoluta dintre luna redusa si anul redus.
-- [`sfarsit pinaclu 1`](../knowledge_base/calcule/pinacluri/01-metoda.md): `36 - soarta`.
+- [`sfarsit pinaclu 1`](../knowledge_base/calcule/pinacluri/01-metoda.md): `36 - vibratia destinului`.
 - [`sfarsit pinaclu 2`](../knowledge_base/calcule/pinacluri/01-metoda.md): `sfarsit pinaclu 1 + 9`.
 - [`sfarsit pinaclu 3`](../knowledge_base/calcule/pinacluri/01-metoda.md): `sfarsit pinaclu 2 + 9`.
 - [`pinaclul 4`](../knowledge_base/calcule/pinacluri/01-metoda.md) incepe dupa finalul pinaclului 3 si ramane activ pana la finalul vietii.

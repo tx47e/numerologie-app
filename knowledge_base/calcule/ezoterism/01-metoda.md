@@ -25,17 +25,26 @@ Data se scrie ca un singur numar, in ordinea:
 zi-luna-an
 ```
 
-Se elimina punctele, spatiile si separatoarele.
+Se elimina punctele, spatiile si separatoarele. Ziua si luna se scriu ca valori
+calendaristice, fara zerouri de completare in fata. Daca ziua sau luna este mai
+mica decat `10`, cifra `0` pusa doar pentru formatul calendaristic nu intra in
+sirul de calcul.
+
+Zerourile care fac parte din valoarea reala a zilei, lunii sau anului se
+pastreaza. De exemplu, in `30` si `10`, cifra `0` ramane, pentru ca nu este un
+zero de completare, ci parte din numarul calendaristic.
 
 Exemple:
 
 ```text
 30.10.1963 -> 30101963
 06.11.1984 -> 6111984
+07.04.1984 -> 741984
 ```
 
-Zero-urile nu se interpreteaza separat in aceasta etapa. Ele pot aparea in
-forma calendaristica, dar numarul rezultat se foloseste ca valoare numerica.
+Zero-urile nu se interpreteaza separat in aceasta etapa. Ele se pastreaza numai
+cand apartin numarului calendaristic propriu-zis si se elimina cand sunt doar
+zerouri de completare in fata zilei sau lunii.
 
 ## 2. Impartirea principala la 7
 

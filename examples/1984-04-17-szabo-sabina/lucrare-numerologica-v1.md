@@ -382,29 +382,30 @@ destinul arată direcția care cere asumare.
 
 | Formula | Rezultat | Zona de confort |
 | --- | --- | --- |
-| 1 + 7 + 0 + 4 + 1 + 9 + 8 + 4 = 34 -> 7 | 7 | analiză, profunzime, cercetare, înțelegere |
+| 1704 x 1984 | 3380736 | 3+3+8+0+7+3+6 = 30; 30 / 7 = 4,29 |
 
-Soarta `7` arată că Sabina are nevoie de profunzime. Nu totul poate fi trăit la
-suprafață. Există o nevoie de a înțelege, de a căuta sens, de a observa atent
-înainte de a se deschide complet.
+Soarta `3380736` arată un cadru primit în care expresia, profunzimea, pauzele de
+reașezare și responsabilitatea apar împreună. Zona de confort `4,29` indică
+nevoia de structură, așezare și construcție interioară.
 
 ### Calcul destin
 
 | Formula | Rezultat | Zona de confort |
 | --- | --- | --- |
-| SZABO 9 + SABINA 1 = 10 -> 1 | 1 | început personal, inițiativă, asumare |
+| 1714 x 1984 | 3400576 | 3+4+0+0+5+7+6 = 25; 25 / 7 = 3,57 |
 
-Destinul prin nume actual `1` cere afirmare. Dacă soarta `7` caută, observă și
-analizează, numele `1` cere să iasă din observație și să pornească. Împreună,
-acestea spun: înțelege adânc, apoi alege limpede.
+Destinul `3400576` coboară spre o zonă de confort `3,57`, mai apropiată de
+comunicare, adaptare și mișcare. Tema vieții, ca denumire alternativă pentru
+această comparație, arată trecerea de la controlul formei spre curajul de a
+exprima mai viu ce a fost înțeles.
 
 ### Interpretare grafică
 
 - Ciclul folosit: de stabilit, 10 ani / 12 ani.
 - Puncte de întâlnire: de completat după reprezentarea grafică.
 - Puncte de răscruce: de completat după reprezentarea grafică.
-- Zone de confort: `7` și `1`, căutare urmată de inițiativă.
-- Zone de efort: ieșirea din analiză atunci când este timpul pentru acțiune.
+- Zone de confort: structură, înțelegere profundă, răbdare, responsabilitate.
+- Zone de efort: exprimare mai liberă, schimbare, ieșire din rigiditate.
 
 ## 9. Lecții de viață și cicluri
 
@@ -510,36 +511,35 @@ a lucra cu informația subtilă, nu o etichetă fixă.
 ### Cod ezoteric
 
 ```text
-17.04.1984 -> 17041984
+17.04.1984 -> 1741984
 ```
 
 | Calcul | Cod | Tip de ezoterism | Esența codului |
 | --- | --- | --- | --- |
-| 17041984 / 7 = 2434569,142857... | 1 | ezoterism științific | metafizică, sisteme, principii ascunse |
+| 1741984 / 7 = 248854,857142... | 8 | ezoterism spiritual | legi karmice, ghidare, orientare de destin |
 
 A doua împărțire:
 
 ```text
-2434569 / 7 = 347795,571428...
+248854 / 7 = 35550,571428...
 ```
 
 | Calcul | Cod secundar | Rezultat | Domenii deschise |
 | --- | --- | --- | --- |
-| 2434569 / 7 | 5 | ezoterism științific | chiromanție, citire de semne |
+| 248854 / 7 | 5 | ezoterism spiritual | alchimie, transformare interioara |
 
-Codul principal `1` indică ezoterism științific, cu accent pe metafizică,
-principii, sisteme și înțelegerea legilor subtile. În contextul destinului `7`,
-această zonă trebuie citită ca o înclinație spre cercetare și înțelegere, nu ca
-impuls de a trage concluzii rapide. Codul secundar `5` aduce citirea de semne:
-observarea detaliilor, a simbolurilor, a chipului, a gesturilor sau a felului în
-care viața lasă indicii.
+Codul principal `8` indică ezoterism spiritual, cu accent pe legi karmice,
+ghidare și orientare de destin. Această zonă trebuie citită ca o înclinație spre
+cercetare și înțelegere, nu ca impuls de a trage concluzii rapide. Codul secundar
+`5` aduce tema alchimiei: transformarea experiențelor grele în claritate,
+maturizare și înțelegere practică.
 
 ### Aplicabilitate profesională - Tarot
 
-| Calcul | Arcană Tarot | Valență constructivă | Valență de umbră |
-| --- | --- | --- | --- |
-| Obstacole/ajutoare: 34 - 22 = 12 | 12 - Spânzuratul | răbdare, schimbare de perspectivă, lucru cu sens | blocaj, sacrificiu inutil, amânare |
-| Aplicabilitate: 4 + 22 - 22 = 4 | 4 - Împăratul | organizare, autoritate, structură, administrare | rigiditate, control, autoritate rece |
+| Aplicabil | Calcul | Arcană Tarot | Valență constructivă | Valență de umbră |
+| --- | --- | --- | --- | --- |
+| Nu | Obstacole/ajutoare: 34 - 22 = 12 | 12 - Spânzuratul | răbdare, schimbare de perspectivă, lucru cu sens | blocaj, sacrificiu inutil, amânare |
+| Da | Aplicabilitate: 4 + 22 - 22 = 4 | 4 - Împăratul | organizare, autoritate, structură, administrare | rigiditate, control, autoritate rece |
 
 | Tip direcție | Arcană | Profesii / direcții |
 | --- | --- | --- |
@@ -558,7 +558,7 @@ ordine fără închidere.
 
 Direcția principală a Sabinei este transformarea forței în înțelepciune și a
 structurii în drum personal. Are mult `4` și `8`, deci poate construi și duce.
-Dar destinul `7` și numele actual `1` spun că viața nu îi cere doar să susțină
+Dar vibratia destinului `7` si numele actual `1` spun ca viata nu ii cere doar sa sustina
 greutăți, ci să înțeleagă sensul lor și să pornească dintr-o alegere proprie.
 
 ### Ce are de cultivat

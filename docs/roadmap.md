@@ -65,16 +65,23 @@ Obiectiv: transformarea formulelor documentate in functii testabile.
   - [ ] vibratia exterioara;
   - [ ] soarta;
   - [ ] destin;
-  - [ ] tema vietii.
+  - [ ] revizuire calcul, soarta si destin;
+  - [ ] metoda de reducere si interpretarea reducerii punctelor si caii de destin;
+  - [ ] soarta si destin, cu `tema vietii` ca denumire alternativa.
 - [ ] Implementare calcule de timp:
   - [ ] vibratia anului personal;
   - [ ] ani importanti interiori;
   - [ ] ani importanti exteriori;
+  - [ ] revizuire tabel ani importanti: eliminare coloana `ordine` si verificare coloana `observatie`;
   - [ ] cicluri de 7, 9 si 12 ani.
 - [ ] Implementare calcule avansate:
   - [ ] pinacluri;
   - [ ] provocari;
-  - [ ] patratul lui Pitagora;
+  - [ ] patratul lui Pitagora:
+    - [ ] matricea datei de nastere;
+    - [ ] matricea numelui;
+    - [ ] interpretarea casutelor din matrice;
+    - [ ] compararea matricei datei de nastere cu matricea numelui;
   - [ ] lectii karmice si datorii karmice.
 - [ ] Definire profil combinat:
   - [ ] rezultate numerice;
