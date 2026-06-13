@@ -16,7 +16,7 @@ generare de rapoarte.
 - `style_guide/`: reguli de ton, limbaj si consistenta editoriala.
 - `memory/`: note persistente despre decizii, preferinte si context.
 - `bibliography/`: surse, carti, articole si referinte.
-- `examples/`: exemple de input, output, profiluri si rapoarte.
+- `examples/`: exemple de input, output, profiluri si rapoarte; lucrarile pe persoane se pastreaza in directoare dedicate, denumite dupa data nasterii si nume.
 - `scripts/`: automatizari, conversii si validari.
 - `generated/`: fisiere generate automat, care pot fi regenerate.
 - `docs/`: documentatie de proiect, decizii si pasi de lucru.

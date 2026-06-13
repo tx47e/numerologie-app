@@ -10,6 +10,10 @@ Exemple posibile:
 - prompt pentru adaptarea tonului;
 - prompt pentru explicatii scurte versus explicatii ample.
 
+## Fisiere
+
+- [Genereaza lucrare numerologica](genereaza-lucrare-numerologica.md)
+
 ## Surse bibliografice interne
 
 - Nu sunt documentate surse bibliografice interne.

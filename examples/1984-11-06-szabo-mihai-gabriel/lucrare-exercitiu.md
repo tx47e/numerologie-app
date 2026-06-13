@@ -1,7 +1,7 @@
 # Lucrare exercițiu numerologie - SZABO Mihai Gabriel
 
 Această lucrare este generată ca exercițiu de lucru pe baza template-ului din
-`examples/template-lucrare-numerologie.md`.
+`../Template-lucrare-numerologie.md`.
 
 ## Date lucrare
 
@@ -42,14 +42,6 @@ ordinea și construcția practică devin instrumente importante pentru manifesta
   interpretarea relațiilor, centrării și intuiției.
 
 ## 2. Date de bază și calcule inițiale
-
-### Data nașterii
-
-| Element | Valoare | Calcul | Rezultat |
-| --- | --- | --- | --- |
-| Ziua | 6 | 6 | 6 |
-| Luna | 11 | 1 + 1 | 2 |
-| Anul | 1984 | 1 + 9 + 8 + 4 | 22 -> 4 |
 
 ### Vibrații esențiale
 

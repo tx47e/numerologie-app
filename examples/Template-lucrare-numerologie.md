@@ -1,139 +1,264 @@
-﻿# Template lucrare numerologie
+# Template lucrare numerologie
 
-Acest template este folosit pentru generarea unei lucrări numerologice pe baza documentației finisate.
+Acest template este folosit pentru generarea unei lucrari numerologice pe baza
+documentatiei finisate din `knowledge_base/`.
+
+## Regula de redactare
+
+Lucrarea trebuie sa fie clara pentru un cititor obisnuit, dar formulata ingrijit.
+Descrierile ample se folosesc doar acolo unde apare un concept, un calcul sau o
+metoda care are nevoie de explicatie: vibratii, karma, matrice, scara bunastarii,
+nume, punti, pinacluri, cicluri, ezoterism si aplicabilitate.
+
+Nu se adauga descrieri ample la date simple de intrare, liste administrative sau
+rubrici evidente. Tabelele sunt suport de calcul; dupa tabelele importante se
+scrie interpretare cursiva, in paragrafe firesti. Tonul trebuie sa fie academic
+si accesibil: ideile se explica limpede, cu legaturi intre concepte, iar unde se
+potriveste se poate folosi o formulare discret poetica, legata de viata de zi cu
+zi.
+
+Toate tabelele din lucrare trebuie incadrate si asezate cu grija. Textul din
+celule, mai ales din capul de tabel, nu trebuie rupt sau despartit in mod
+nefiresc. Daca o coloana poate fi redusa fara sa intrerupa textul, se reduce;
+daca o coloana are nevoie de mai mult spatiu, se mareste si se ajusteaza
+celelalte coloane. Prioritatea este lizibilitatea: denumirile, formulele si
+observatiile trebuie sa ramana clare, compacte si usor de urmarit.
+
+Interpretarea nu trebuie sa fie o insiruire mecanica de semnificatii. Fiecare
+rezultat se leaga de restul lucrarii si se traduce in termeni practici: cum se
+vede in relatii, munca, decizii, ritm personal, maturizare si directie de viata.
+
+## Regula pentru exprimari reutilizabile
+
+Cand se interpreteaza un calcul, o vibratie sau un termen numerologic recurent,
+se verifica mai intai `knowledge_base/exprimari/`. Daca exista deja o exprimare
+potrivita pentru rezultatul calculat, aceasta se foloseste ca baza si se adapteaza
+la persoana analizata, la nivelul de detaliere si la stilul cerut in prompt.
+
+Pot exista mai multe exprimari pentru acelasi rezultat, acelasi stil, acelasi
+nivel de detaliere si acelasi context scurt. Cand se lucreaza cu mai multe
+persoane apropiate, de exemplu membri ai aceleiasi familii, se evita repetarea
+aceleiasi exprimari la fiecare persoana. Se alege o varianta diferita, daca
+exista, sau se genereaza o formulare noua cand biblioteca nu are destula
+varietate.
+
+Se genereaza o exprimare noua daca variantele existente nu se potrivesc
+contextului, stilului, nivelului de detaliere, legaturii cu restul lucrarii sau
+nevoii de varietate intre lucrari apropiate. Daca noua formulare este valoroasa
+si poate fi refolosita, ea se salveaza in fisierul temei potrivite din
+`knowledge_base/exprimari/`.
+
+Fiecare exprimare salvata trebuie sa aiba index numeric, stil, nivel de
+detaliere, context scurt si lista lucrarilor in care a fost folosita. Formatul
+minim este:
+
+```markdown
+### Varianta 001
+
+- Stil: formal / conversational
+- Nivel de detaliere: scurt / mediu / amplu / foarte amplu
+- Context scurt:
+- Lucrari unde a fost folosita:
+  - `cale/catre/lucrare.md` - persoana / data / observatie scurta
+- Data adaugarii: AAAA-LL-ZZ
+
+Textul interpretarii...
+```
 
 ## Cuprins
 
-1. Sinteză scurtă
-2. Date de bază și calcule inițiale
-3. Matricea numerologică
-4. Karma din data nașterii
-5. Numele
-6. Oportunități, provocări și pinacluri
-7. Soarta și destinul
-8. Lecții de viață și cicluri
-9. Scara bunăstării
-10. Ezoterism și aplicabilitate
-11. Concluzie finală
-12. Rubrici de test pentru prima lucrare
-13. Notă despre persoane
-14. Hartă documentație folosită
+1. Sinteza scurta
+2. Date de baza si calcule initiale
+3. Karma din data nasterii
+4. Matricea numerologica
+5. Scara bunastarii
+6. Numele
+7. Oportunitati, provocari si pinacluri
+8. Soarta si destinul
+9. Lectii de viata si cicluri
+10. Ezoterism si aplicabilitate
+11. Concluzie finala
+12. Rubrici de test
+13. Nota despre persoane
+14. Harta documentatie folosita
 
 ## Date lucrare
 
-- Persoană analizată:
-- Data adăugării în lista de persoane:
-- Data nașterii:
+- Persoana analizata:
+- Data adaugarii in lista de persoane:
+- Data nasterii:
 - Tip template folosit: template complet / maxim
-- Nume complet folosit în analiză:
-- Nume de familie folosit în analiză:
-- Prenume folosite în analiză:
-- Data realizării lucrării: `AAAA-LL-ZZ HH:MM`
+- Nume complet folosit in analiza:
+- Nume de familie folosit in analiza:
+- Prenume folosite in analiza:
+- Porecla / nume uzual / cum este chemata persoana in viata de zi cu zi:
+- Nume inainte de casatorie, daca exista: nu este cazul / de completat
+- Data realizarii lucrarii: `AAAA-LL-ZZ HH:MM`
 - Status: de revizuit
 
-## 1. Sinteză scurtă
+## 1. Sinteza scurta
 
-Text scurt, 5-8 rânduri, cu cele mai importante direcții care se repetă în calcule.
+Scrie 3-5 paragrafe care prezinta firul principal al lucrarii. Sinteza nu trebuie
+sa enumere toate calculele, ci sa arate ce se repeta, ce se intareste si ce tema
+pare sa organizeze viata persoanei.
 
 ### Teme dominante
 
-- 
-- 
-- 
+-
+-
+-
 
-### Atenționări principale
+Dupa lista, explica in cateva paragrafe de ce aceste teme sunt dominante si cum
+se pot vedea in viata de zi cu zi.
 
-- 
-- 
-- 
+### Atentionari principale
 
-## 2. Date de bază și calcule inițiale
+-
+-
+-
 
-### Data nașterii
+Formuleaza atentionarile ca directii de constientizare, nu ca verdict. Arata ce
+se poate dezechilibra si ce ajuta la maturizare.
 
-| Element | Valoare | Calcul | Rezultat |
-| --- | --- | --- | --- |
-| Ziua |  |  |  |
-| Luna |  |  |  |
-| Anul |  |  |  |
+## 2. Date de baza si calcule initiale
 
-### Vibrații esențiale
+Datele de baza stabilesc fundatia numerica a lucrarii. Aici se extrage structura
+de baza din data nasterii: interiorul, exteriorul, componenta cosmica, destinul
+si puntile dintre ele.
 
-| Vibrație | Formulă | Calcul | Rezultat | Descriere scurtă |
+### Vibratii esentiale
+
+Vibratiile esentiale sunt primele repere ale lucrarii. Ele functioneaza ca o
+harta de baza: ziua arata nucleul interior, luna arata modul de manifestare in
+relatie cu lumea, iar anul adauga fundalul mai larg in care persoana isi traieste
+drumul. Destinul si calea destinului arata directia in care aceste forte tind sa
+se adune.
+
+| Vibratie | Formula | Calcul | Rezultat | Descriere scurta |
 | --- | --- | --- | --- | --- |
-| Vibrația interioară | ziua redusă |  |  | Caracterul, lumea interioară, lutul. |
-| Vibrația exterioară | luna redusă |  |  | Comportamentul, rolul social, vasul. |
-| Vibrația cosmică fixă | primele două cifre ale anului |  |  | Componenta subtilă și constantă. |
-| Vibrația cosmică variabilă | ultimele două cifre ale anului, reduse |  |  | Ce poate face omul concret în viață. |
-| Vibrația cosmică totală | toate cifrele anului, reduse |  |  | Raportarea la totalitate/univers. |
-| Vibrația globală | vibrația interioară + vibrația exterioară |  |  | Contextul de creștere și tensiunile. |
-| Vibrația destinului | suma cifrelor datei, redusă |  |  | Vocația, menirea, rezultatul. |
-| Calea destinului | suma tuturor cifrelor datei, neredusă |  |  | Ce și cum are de făcut. |
+| Vibratia interioara | ziua redusa |  |  | Caracterul, lumea interioara, lutul. |
+| Vibratia exterioara | luna redusa |  |  | Comportamentul, rolul social, vasul. |
+| Vibratia cosmica fixa | primele doua cifre ale anului |  |  | Componenta subtila si constanta. |
+| Vibratia cosmica variabila | ultimele doua cifre ale anului, reduse |  |  | Ce poate face omul concret in viata. |
+| Vibratia cosmica totala | toate cifrele anului, reduse |  |  | Raportarea la totalitate/univers. |
+| Vibratia globala | vibratia interioara + vibratia exterioara |  |  | Contextul de crestere si tensiunile. |
+| Vibratia destinului | suma cifrelor datei, redusa |  |  | Vocatia, menirea, rezultatul. |
+| Calea destinului | suma tuturor cifrelor datei, neredusa |  |  | Ce si cum are de facut. |
 
-### Ordinea calculelor din data nașterii
+Dupa tabel, scrie cate o descriere ampla pentru fiecare vibratie calculata in
+tabel: 8 descrieri in total. Fiecare descriere trebuie sa aiba minimum 100 de
+cuvinte si sa explice atat rezultatul final, cat si treptele de calcul care au
+dus la el. Daca, de exemplu, vibratia interioara se calculeaza `1 + 7 = 8`,
+descrierea nu vorbeste doar despre `8`, ci si despre contributia lui `1`,
+contributia lui `7` si felul in care ele se aduna in `8`.
 
-1. Se stabilește data nașterii folosită în lucrare.
-2. Se calculează vibrația interioară din zi.
-3. Se calculează vibrația exterioară din lună.
-4. Se calculează vibrația cosmică fixă, variabilă și totală din an.
-5. Se calculează vibrația globală.
-6. Se calculează vibrația destinului.
-7. Se calculează calea destinului, fără reducere finală la o singură cifră.
-8. Se calculează punțile.
-9. Se calculează aspectele de îndreptat și vibrația soluției.
+Pentru fiecare vibratie, urmareste aceasta ordine:
 
-### Aspecte de îndreptat și soluția
+1. numeste calculul si treptele lui;
+2. explica pe scurt semnificatia fiecarei trepte;
+3. explica rezultatul final;
+4. arata cum se poate vedea aceasta vibratie in viata de zi cu zi;
+5. leaga vibratia de restul profilului, fara sa repeti mecanic aceleasi idei.
 
-Calcule premergătoare necesare:
+La finalul celor 8 descrieri, scrie o interpretare integrata a vibratiilor. Arata
+cum lucreaza impreuna ziua, luna si anul, unde exista armonie si unde apare
+tensiune.
 
-- calea destinului;
-- prima cifră din ziua nașterii;
-- data nașterii completă, verificată.
+### Aspecte de indreptat si solutia
+
+Aspectele de indreptat indica o zona de lucru constient. Nu arata o greseala a
+persoanei, ci o tema care cere rafinare. Vibratia solutiei arata prin ce calitate
+poate fi transformata tensiunea.
 
 | Element | Calcul | Rezultat |
 | --- | --- | --- |
-| Calea destinului | suma tuturor cifrelor din data nașterii |  |
-| Prima cifră din ziua nașterii |  |  |
-| Aspecte de îndreptat | calea destinului - 2 x prima cifră din zi |  |
-| Vibrația soluției | reducerea rezultatului |  |
+| Calea destinului | suma tuturor cifrelor din data nasterii |  |
+| Prima cifra din ziua nasterii |  |  |
+| Aspecte de indreptat | calea destinului - 2 x prima cifra din zi |  |
+| Vibratia solutiei | reducerea rezultatului |  |
 
-### Punți
+Dupa tabel, scrie descrieri ample doar pentru aceste 3 elemente: calea destinului,
+aspectele de indreptat si vibratia solutiei. Fiecare descriere trebuie sa aiba
+minimum 100 de cuvinte.
 
-| Punte | Calcul | Rezultat | Ce ajută să împace |
+Prima cifra din ziua nasterii nu primeste descriere separata. Ea este doar element
+tehnic folosit in formula pentru aspectele de indreptat.
+
+Pentru aspectele de indreptat, explica trecerea completa: calea destinului,
+scaderea dublului primei cifre din zi si rezultatul obtinut. Pentru vibratia
+solutiei, explica reducerea rezultatului si felul in care solutia poate deveni
+comportament practic, nu doar idee simbolica.
+
+### Punti
+
+Puntile arata distanta dintre straturi ale persoanei. Ele nu separa omul in
+bucati, ci arata ce calitate poate impaca interiorul cu exteriorul, firea cu
+destinul si valorile cu directia de viata.
+
+| Punte | Calcul | Rezultat | Ce ajuta sa impace |
 | --- | --- | --- | --- |
 | Interior - exterior |  |  | Caracterul cu rolul social. |
-| Interior - destin |  |  | Firea profundă cu vocația. |
-| Exterior - destin |  |  | Comportamentul social cu vocația. |
+| Interior - destin |  |  | Firea profunda cu vocatia. |
+| Exterior - destin |  |  | Comportamentul social cu vocatia. |
 | Cosmic - destin |  |  | Valorile cu drumul final. |
 
-### Interpretare integrată a punților
+Dupa tabel, scrie cate o interpretare ampla pentru fiecare punte din tabel: 4
+interpretari in total. Fiecare interpretare trebuie sa explice calculul, sensul
+rezultatului si felul concret in care puntea poate fi folosita in viata zilnica.
+Nu adauga o sectiune separata de interpretare integrata a puntilor.
 
-Scrie aici o interpretare amplă care leagă toate cele patru punți. Nu se citesc
-doar separat; se urmărește firul comun dintre interior, exterior, destin și
-componenta cosmică.
+## 3. Karma din data nasterii
 
-## 3. Matricea numerologică
+Karma din data nasterii se citeste ca tema de transformare. Ea nu se formuleaza
+ca pedeapsa sau verdict, ci ca memorie, lectie si directie de maturizare.
+
+### Karma zilei de nastere
+
+| Zi / Arcana | Tema karmica | Ce trebuie transformat | Solutie |
+| --- | --- | --- | --- |
+|  |  |  |  |
+
+### Karma lunii de nastere
+
+| Luna | Tema karmica | Relatie-cheie | Directie de lucru |
+| --- | --- | --- | --- |
+|  |  |  |  |
+
+### Karma din calea destinului
+
+| Calea karmica | Categorie | Ajutoare / obstacole | Recomandare |
+| --- | --- | --- | --- |
+|  |  |  |  |
+
+Dupa tabele, scrie o sinteza karmica. Leaga ziua, luna si calea destinului intr-o
+idee coerenta: ce se cere vindecat, maturizat, dus mai departe sau folosit mai
+constient.
+
+## 4. Matricea numerologica
+
+Matricea numerologica organizeaza cifrele in pozitii simbolice. Ea arata unde
+energia este concentrata, unde lipseste sprijinul si cum se poate compensa un gol
+prin constienta, ritm si exercitiu.
 
 ### Cod numerologic personal
 
-| Operație | Formulă | Calcul | Rezultat | Descriere scurtă |
+| Operatie | Formula | Calcul | Rezultat | Descriere scurta |
 | --- | --- | --- | --- | --- |
-| Operația 1 | suma tuturor cifrelor datei |  |  | Baza codului numerologic personal. |
-| Operația 2 | reducerea Operației 1 |  |  | Esența redusă a primei sume. |
-| Operația 3 | Operația 1 - 2 x prima cifră nenulă din zi |  |  | Aspecte de îndreptat / corectat în matrice. |
-| Operația 4 | reducerea Operației 3 |  |  | Vibrația soluției sau a corectării. |
+| Operatia 1 | suma tuturor cifrelor datei |  |  | Baza codului numerologic personal. |
+| Operatia 2 | reducerea Operatiei 1 |  |  | Esenta redusa a primei sume. |
+| Operatia 3 | Operatia 1 - 2 x prima cifra nenula din zi |  |  | Aspecte de indreptat / corectat in matrice. |
+| Operatia 4 | reducerea Operatiei 3 |  |  | Vibratia solutiei sau a corectarii. |
 
-### Șir complet de cifre - data nașterii
+### Sir complet de cifre - data nasterii
 
-Se notează șirul complet folosit pentru matrice, ca listă simplă de cifre,
-inclusiv cifrele din data de naștere și cifrele din numerele de lucru. Cifra `0`
-se păstrează în șirul explicativ, dar nu se introduce în matrice.
+Se noteaza sirul complet folosit pentru matrice. Cifra `0` se pastreaza in sirul
+explicativ, dar nu se introduce in matrice.
 
 ```text
 
 ```
 
-### Matricea datei de naștere
+### Matricea datei de nastere
 
 | 1 | 4 | 7 |
 | --- | --- | --- |
@@ -145,112 +270,183 @@ se păstrează în șirul explicativ, dar nu se introduce în matrice.
 
 ### Citirea matricei
 
-- Căsuțe dominante:
-- Căsuțe lipsă:
+- Casute dominante:
+- Casute lipsa:
 - Element predominant:
 - Elemente slabe:
-- Trasee informaționale importante:
-- Observații despre paritate:
+- Trasee informationale importante:
+- Observatii despre paritate:
 
 ### Interpretare
 
-Scrie aici interpretarea pe baza cifrelor 1-9, a geometriei numerelor și a regulilor matricei.
+Scrie interpretarea matricei ca sistem. Explica pe intelesul cititorului ce
+inseamna cifrele dominante, ce inseamna cifrele lipsa si cum se pot vedea aceste
+lucruri in ritmul zilnic, in relatii, munca si decizii.
 
-## 4. Karma din data nașterii
+## 5. Scara bunastarii
 
-### Karma zilei de naștere
+Scara bunastarii se asaza imediat dupa matricea numerologica, pentru ca foloseste
+valorile casutelor si vectorilor din matrice. Ea arata unde persoana are resurse
+naturale si unde apar goluri care cer grija, exercitiu sau sprijin.
 
-| Zi / Arcană | Temă karmică | Ce trebuie transformat | Soluție |
-| --- | --- | --- | --- |
-|  |  |  |  |
+### Valorile casutelor
 
-### Karma lunii de naștere
+| Casuta | Cantitatea cifrelor | Formula valorii totale | Valoare totala | Explicatie simpla |
+| --- | --- | --- | --- | --- |
+| 1 |  | 1 x cantitatea |  |  |
+| 2 |  | 2 x cantitatea |  |  |
+| 3 |  | 3 x cantitatea |  |  |
+| 4 |  | 4 x cantitatea |  |  |
+| 5 |  | 5 x cantitatea |  |  |
+| 6 |  | 6 x cantitatea |  |  |
+| 7 |  | 7 x cantitatea |  |  |
+| 8 |  | 8 x cantitatea |  |  |
+| 9 |  | 9 x cantitatea |  |  |
 
-| Lună | Temă karmică | Relație-cheie | Direcție de lucru |
-| --- | --- | --- | --- |
-|  |  |  |  |
+Dupa tabel, scrie o explicatie cursiva pentru valorile casutelor. Explica pe
+scurt cantitatea fiecarei cifre importante, valoarea totala care rezulta si ce
+inseamna diferenta dintre o casuta goala, o casuta prezenta discret si o casuta
+dominanta. Interpretarea trebuie sa fie simpla si aplicabila: ce resursa arata
+casuta, unde poate aparea excesul si ce poate face persoana in viata de zi cu zi
+pentru a folosi echilibrat acea energie.
 
-### Karma din calea destinului
+### Valorile vectorilor
 
-| Calea karmică | Categorie | Ajutoare / obstacole | Recomandare |
-| --- | --- | --- | --- |
-|  |  |  |  |
+| Vector | Casute incluse | Cantitatea cifrelor pe casute | Formula valorii totale | Valoare totala | Sens |
+| --- | --- | --- | --- | --- | --- |
+| 123 | 1, 2, 3 |  | valoare 1 + valoare 2 + valoare 3 |  | Bunastare energetica |
+| 456 | 4, 5, 6 |  | valoare 4 + valoare 5 + valoare 6 |  | Bunastare volutiva |
+| 789 | 7, 8, 9 |  | valoare 7 + valoare 8 + valoare 9 |  | Bunastare creativa |
+| 147 | 1, 4, 7 |  | valoare 1 + valoare 4 + valoare 7 |  | Bunastare spirituala |
+| 258 | 2, 5, 8 |  | valoare 2 + valoare 5 + valoare 8 |  | Bunastare sociala |
+| 369 | 3, 6, 9 |  | valoare 3 + valoare 6 + valoare 9 |  | Bunastare materiala |
+| 159 | 1, 5, 9 |  | valoare 1 + valoare 5 + valoare 9 |  | Bunastare in cariera |
+| 357 | 3, 5, 7 |  | valoare 3 + valoare 5 + valoare 7 |  | Atingerea scopurilor |
 
-## 5. Numele
+Dupa tabel, scrie cate o interpretare mai ampla pentru fiecare vector: 8
+interpretari in total. Pentru fiecare vector, explica mai intai cantitatea
+cifrelor din casutele care il formeaza, apoi valoarea totala rezultata si sensul
+ei. Arata daca vectorul este sustinut de toate cele trei casute sau daca se
+sprijina mai mult pe una singura, pentru ca aceasta diferenta schimba felul in
+care se traieste bunastarea respectiva. Interpretarea trebuie sa lege calculul
+de comportamente concrete: energie, vointa, creativitate, relatii, munca,
+materialitate, cariera si atingerea scopurilor.
+
+### Scara rezultata
+
+```text
+```
+
+### Tabel descrescator al treptelor
+
+| Ordine | Tip | Cantitate | Valoare totala | Observatie |
+| --- | --- | --- | --- | --- |
+| 1 | vector / casuta |  |  |  |
+| 2 | vector / casuta |  |  |  |
+| 3 | vector / casuta |  |  |  |
+| 4 | vector / casuta |  |  |  |
+| 5 | vector / casuta |  |  |  |
+| 6 | vector / casuta |  |  |  |
+| 7 | vector / casuta |  |  |  |
+| 8 | vector / casuta |  |  |  |
+| 9 | vector / casuta |  |  |  |
+| 10 | vector / casuta |  |  |  |
+| 11 | vector / casuta |  |  |  |
+| 12 | vector / casuta |  |  |  |
+| 13 | vector / casuta |  |  |  |
+| 14 | vector / casuta |  |  |  |
+| 15 | vector / casuta |  |  |  |
+| 16 | vector / casuta |  |  |  |
+| 17 | vector / casuta |  |  |  |
+
+### Interpretare
+
+- Cea mai inalta treapta:
+- Trepte lipsa / zero:
+- Salturi mari:
+- Trepte egale care se sustin:
+- Directie practica:
+
+## 6. Numele
+
+Numele arata felul in care persoana se exprima in lume si cum primeste o anumita
+forma sociala. In lucrare, numele nu se trateaza ca simpla eticheta, ci ca strat
+de manifestare: ce se arata, ce se mosteneste, ce se activeaza prin prenume si ce
+se duce mai departe prin neam.
 
 ### Nume analizat
 
 - Nume complet:
 - Nume de familie:
 - Prenume:
+- Porecla / nume uzual / cum este chemata persoana in viata de zi cu zi:
 - Nume folosit curent:
 - Context lingvistic:
-- Nume anterior / înainte de căsătorie / adopție / schimbare, dacă există:
-- Nume actual diferit, dacă există:
-- Data aproximativă a schimbării numelui, dacă există:
+- Nume anterior / inainte de casatorie / adoptie / schimbare, daca exista:
+- Nume inainte de casatorie, daca exista: nu este cazul / de completat
+- Nume actual diferit, daca exista:
+- Data aproximativa a schimbarii numelui, daca exista:
 
 ### Regula de lucru pentru nume
 
-- Folosește exact forma din fișa persoanei.
-- Dacă fișa folosește `Nume, Prenume`, păstrează forma aceea în lucrare.
-- Calculează separat numele de familie, prenumele și numele complet.
-- Nu folosi o formă scurtă sau prescurtată dacă nu apare explicit în fișa persoanei.
-- Dacă numele s-a schimbat prin căsătorie, divorț, adopție sau altă situație, se analizează în paralel numele anterior și numele actual.
-- Pentru numărul neamului, se păstrează atenția pe numele de familie de la naștere, dacă documentația cere linia de sânge.
-- Secțiunile despre nume înainte/după căsătorie se includ doar dacă există în datele de intrare un nume anterior, un nume actual diferit sau un al doilea nume de comparat.
+- Foloseste exact forma din fisa persoanei.
+- Daca fisa foloseste `Nume, Prenume`, pastreaza forma aceea in lucrare.
+- Calculeaza separat numele de familie, prenumele si numele complet.
+- Nu folosi o forma scurta sau prescurtata daca nu apare explicit in fisa persoanei.
+- Daca numele s-a schimbat, se analizeaza in paralel numele anterior si numele actual.
+- Pentru numarul neamului, se pastreaza atentia pe numele de familie de la nastere, daca documentatia cere linia de sange.
 
-### Numărul de exprimare
+### Numarul de exprimare
 
 | Calcul | Rezultat | Interpretare |
 | --- | --- | --- |
 |  |  |  |
 
-### Analiză paralelă pentru nume schimbat (opțional)
+### Analiza paralela pentru nume schimbat (optional)
 
-Se include numai dacă există nume înainte/după căsătorie, adopție, divorț sau
-altă schimbare explicită de nume.
+Se include numai daca exista nume inainte/dupa casatorie, adoptie, divort sau
+alta schimbare explicita de nume.
 
-| Strat analizat | Nume înainte de căsătorie / schimbare | Nume după căsătorie / schimbare | Diferență observată |
+| Strat analizat | Nume inainte de casatorie / schimbare | Nume dupa casatorie / schimbare | Diferenta observata |
 | --- | --- | --- | --- |
-| Numărul de exprimare |  |  |  |
-| Numărul intim |  |  |  |
-| Numărul de realizare |  |  |  |
-| Numărul activ |  |  |  |
-| Numărul ereditar |  |  |  |
-| Numărul neamului |  |  |  |
+| Numarul de exprimare |  |  |  |
+| Numarul intim |  |  |  |
+| Numarul de realizare |  |  |  |
+| Numarul activ |  |  |  |
+| Numarul ereditar |  |  |  |
+| Numarul neamului |  |  |  |
 
-### Comparație între cele două nume (opțional)
+### Comparatie intre cele doua nume (optional)
 
-Se include numai dacă există două forme de nume de comparat.
-
-- Ce întărește numele înainte de căsătorie / schimbare:
-- Ce întărește numele după căsătorie / schimbare:
-- Ce se pierde sau se slăbește prin schimbarea numelui:
-- Ce se activează nou prin schimbarea numelui:
-- Cum se raportează numele actual la matrița de bază:
-- Observație despre perioada de acomodare cu numele nou:
-
-### Calcul recomandat pentru nume
-
-1. Calculează numele de familie.
-2. Calculează prenumele.
-3. Calculează numele complet.
-4. Notează forma exactă folosită în analiză ca să eviți confuziile de ortografie sau ordine.
-5. Dacă există nume anterior și nume actual, repetă calculul pentru ambele și compară rezultatele.
+- Ce intareste numele inainte de schimbare:
+- Ce intareste numele dupa schimbare:
+- Ce se pierde sau se slabeste:
+- Ce se activeaza nou:
+- Cum se raporteaza numele actual la matricea de baza:
 
 ### Numere derivate din nume
 
-| Număr | Calcul | Rezultat | Interpretare |
+| Numar | Calcul | Rezultat | Interpretare |
 | --- | --- | --- | --- |
-| Numărul intim | vocale |  |  |
-| Numărul de realizare | consoane |  |  |
-| Numărul activ | prenume folosit |  |  |
-| Numărul ereditar | nume de familie |  |  |
-| Numărul neamului | nume ereditar karmic |  |  |
+| Numarul intim | vocale |  |  |
+| Numarul de realizare | consoane |  |  |
+| Numarul activ | prenume folosit |  |  |
+| Numarul ereditar | nume de familie |  |  |
+| Numarul neamului | nume ereditar karmic |  |  |
+
+Dupa tabel, scrie cate o descriere ampla pentru fiecare dintre cele 5 numere
+derivate din nume: numarul intim, numarul de realizare, numarul activ, numarul
+ereditar si numarul neamului. Fiecare descriere trebuie sa aiba minimum 100 de
+cuvinte si sa explice calculul, treptele de reducere si sensul rezultatului.
+
+Pentru fiecare numar, arata ce strat al persoanei descrie: interiorul dorintelor,
+felul de realizare, energia prenumelui activ, mostenirea numelui de familie sau
+tema de neam. Leaga rezultatul de numarul de exprimare, de vibratiile din data
+nasterii si de matricea numelui, fara sa repeti mecanic aceeasi interpretare.
 
 ### Matricea numelor
 
-Șir complet de cifre din nume:
+Sir complet de cifre din nume:
 
 ```text
 
@@ -264,42 +460,97 @@ Se include numai dacă există două forme de nume de comparat.
 | 3 | 6 | 9 |
 |  |  |  |
 
-### Comparare nume - matrice de bază
+### Comparare nume - matrice de baza
 
-- Cifre pe care numele le întărește:
-- Cifre pe care numele le lasă descoperite:
-- Cifre în exces:
-- Cifre lipsă:
-- Influența generală a numelui:
+Comparatia dintre matricea datei de nastere si matricea numelui se face dupa
+metoda de citire comparativa din Patratul lui Pitagora. Se pastreaza separat
+matricea datei si matricea numelui, apoi se calculeaza matricea rezultat: o copie
+a matricei datei de nastere in care se adauga doar diferentele sustinute din
+nume. O cifra din nume poate fi adaugata numai daca aceeasi casuta exista deja in
+matricea datei; daca cifra apare in nume, dar lipseste din data, ea ramane
+potential de nume fara suport direct in structura nasterii.
 
-## 6. Oportunități, provocări și pinacluri
+| Cifra | Cantitate in matricea datei | Cantitate in matricea numelui | Diferenta sustinuta | Status comparativ | Observatie |
+| --- | --- | --- | --- | --- | --- |
+| 1 |  |  |  | sustinuta / amplificata / nesustinuta / nativa / absenta |  |
+| 2 |  |  |  | sustinuta / amplificata / nesustinuta / nativa / absenta |  |
+| 3 |  |  |  | sustinuta / amplificata / nesustinuta / nativa / absenta |  |
+| 4 |  |  |  | sustinuta / amplificata / nesustinuta / nativa / absenta |  |
+| 5 |  |  |  | sustinuta / amplificata / nesustinuta / nativa / absenta |  |
+| 6 |  |  |  | sustinuta / amplificata / nesustinuta / nativa / absenta |  |
+| 7 |  |  |  | sustinuta / amplificata / nesustinuta / nativa / absenta |  |
+| 8 |  |  |  | sustinuta / amplificata / nesustinuta / nativa / absenta |  |
+| 9 |  |  |  | sustinuta / amplificata / nesustinuta / nativa / absenta |  |
+
+### Matricea rezultat: data sustinuta de nume
+
+Aceasta matrice porneste de la matricea datei de nastere si adauga doar
+diferentele sustinute din matricea numelui. Nu se introduc in ea cifrele care
+apar numai in nume si lipsesc din data.
+
+| 1 | 4 | 7 |
+| --- | --- | --- |
+|  |  |  |
+| 2 | 5 | 8 |
+|  |  |  |
+| 3 | 6 | 9 |
+|  |  |  |
+
+### Interpretare comparativa
+
+- Cifre dominante in data si in nume:
+- Casute sustinute, prezente in ambele matrici:
+- Casute amplificate, unde numele aduce mai multe valori decat data:
+- Casute nesustinute, prezente in nume dar absente in data:
+- Casute native, prezente in data dar neamplificate de nume:
+- Vectori activi in data fata de vectori activi in nume:
+- Influenta generala a numelui asupra structurii de baza:
+
+Scrie o concluzie despre relatia dintre nume si data nasterii: ce completeaza
+numele, ce amplifica, ce ramane potential nesustinut si ce cere atentie. Nu
+formula comparatia ca verdict; explica felul in care numele poate intari,
+modela sau rafina structura primita prin data nasterii.
+
+## 7. Oportunitati, provocari si pinacluri
+
+Pinaclurile descriu etape de viata, nu intamplari fixe. Ele arata ce tip de
+energie devine mai vizibil intr-o perioada si ce calitate trebuie exersata pentru
+ca acea etapa sa fie traita matur.
 
 ### Pinacluri
 
-| Pinaclu | Perioadă | Oportunitate | Provocare | Interpretare |
+| Pinaclu | Perioada | Oportunitate | Provocare | Interpretare |
 | --- | --- | --- | --- | --- |
 | 1 |  |  |  |  |
 | 2 |  |  |  |  |
 | 3 |  |  |  |  |
 | 4 |  |  |  |  |
 
-### Oportunități
+### Oportunitati
 
 - O1:
 - O2:
 - O3:
 - O4:
 
-### Provocări
+### Provocari
 
 - P1:
 - P2:
 - P3:
 - P4:
 
-## 7. Soarta și destinul
+Scrie interpretarea ca parcurs: cum se schimba accentul de la o etapa la alta si
+ce poate face persoana concret pentru a folosi oportunitatile fara sa fie condusa
+de provocari.
 
-### Calcul soartă
+## 8. Soarta si destinul
+
+Soarta si destinul se citesc impreuna. Soarta arata o zona de confort sau un fel
+natural de a intra in viata; destinul arata directia care cere asumare. Intre ele
+se vede adesea diferenta dintre ceea ce vine usor si ceea ce trebuie construit.
+
+### Calcul soarta
 
 | Formula | Rezultat | Zona de confort |
 | --- | --- | --- |
@@ -311,201 +562,199 @@ Se include numai dacă există două forme de nume de comparat.
 | --- | --- | --- |
 |  |  |  |
 
-### Interpretare grafică
+### Interpretare grafica
 
 - Ciclul folosit: 10 ani / 12 ani
-- Puncte de întâlnire:
-- Puncte de răscruce:
+- Puncte de intalnire:
+- Puncte de rascruce:
 - Zone de confort:
 - Zone de efort:
 
-## 8. Lecții de viață și cicluri
+## 9. Lectii de viata si cicluri
 
-### Lecții de viață
+Ciclurile arata ritmul in care anumite teme revin. Ele nu inlocuiesc libertatea
+omului, ci ofera o harta a momentelor in care viata poate cere inceput, rabdare,
+clarificare, incheiere sau reconstructie.
+
+### Lectii de viata
 
 Formula de calcul: `ziua x luna x anul`.
 
-Exemplu: `6 x 11 x 1984 = 130944`, deci șirul lecțiilor este `1, 3, 0, 9, 4, 4`. Șirul se suprapune peste tabelul cu ani și se repetă dacă tabelul este mai lung decât numărul de cifre rezultat.
-
-| Lecție | Perioadă / an | Ce verifică viața | Recomandare |
+| Lectie | Perioada / an | Ce verifica viata | Recomandare |
 | --- | --- | --- | --- |
 |  |  |  |  |
 
 ### Ciclul de 9 ani
 
-Regulă de calcul pentru anul personal: anul personal `1` începe la data nașterii persoanei. De la următoarea aniversare începe anul personal `2`, apoi `3`, `4`, `5`, `6`, `7`, `8`, `9`, după care ciclul se reia de la `1`. Anul personal se citește de la ziua și luna nașterii până la aceeași zi și lună din anul următor, conform documentului `11 - Lecții de viață și ciclul de 9 ani.md`.
+Regula de calcul pentru anul personal: anul personal `1` incepe la data nasterii
+persoanei. De la urmatoarea aniversare incepe anul personal `2`, apoi ciclul
+continua pana la `9` si se reia.
 
-| An | Vibrația cosmică | An personal | Lecție suprapusă | Interpretare |
-| --- | --- | --- | --- | --- |
-|  |  |  |  |  |
+Tabelul se completeaza pentru 15 ani in total: 5 ani inainte de anul curent, anul
+curent si 9 ani dupa anul curent.
 
-### Ani importanți
-
-- Ani importanți interiori: se pornește de la anul nașterii + vibrația redusă a anului nașterii. Exemplu: `1984 -> 1+9+8+4=22=4`, deci primul an important interior este `1984 + 4 = 1988`. Apoi se continuă prin vibrația anului obținut.
-- Ani importanți exteriori: se pornește de la anul nașterii + suma cifrelor anului nașterii, fără reducere la o singură cifră. Exemplu: `1984 -> 1+9+8+4=22`, deci primul an important exterior este `1984 + 22 = 2006`. Apoi se continuă cu suma cifrelor anului obținut.
-
-Notă de lucru: la întrebări despre ani importanți, răspunsul se dă doar după verificarea documentului `Documentație/Documentație finisată/11 - Lecții de viață și ciclul de 9 ani.md`. Dacă nu există referință clară în documentație, se menționează explicit că formula nu este confirmată.
-
-## 9. Scara bunăstării
-
-### Valorile căsuțelor
-
-| Căsuță | Valoare |
-| --- | --- |
-| 1 |  |
-| 2 |  |
-| 3 |  |
-| 4 |  |
-| 5 |  |
-| 6 |  |
-| 7 |  |
-| 8 |  |
-| 9 |  |
-
-### Valorile vectorilor
-
-| Vector | Valoare | Sens |
-| --- | --- | --- |
-| 123 |  | Bunăstare energetică |
-| 456 |  | Bunăstare volutivă |
-| 789 |  | Bunăstare creativă |
-| 147 |  | Bunăstare spirituală |
-| 258 |  | Bunăstare socială |
-| 369 |  | Bunăstare materială |
-| 159 |  | Bunăstare în carieră |
-| 357 |  | Atingerea scopurilor |
-
-### Scara rezultată
-
-Scrie aici ordonarea treptelor:
-
-```text
-```
-
-### Tabel descrescător al treptelor
-
-După calcularea scării, se trec în tabel toate valorile căsuțelor și toate
-valorile vectorilor, ordonate descrescător după valoare. Valorile `0` se păstrează
-la final sau într-un bloc separat de trepte lipsă.
-
-| Ordine | Tip | Element | Sens | Valoare | Observație |
+| An | Varsta | Vibratia cosmica | An personal | Lectie suprapusa | Interpretare |
 | --- | --- | --- | --- | --- | --- |
-| 1 | vector / căsuță |  |  |  |  |
-| 2 | vector / căsuță |  |  |  |  |
-| 3 | vector / căsuță |  |  |  |  |
-| 4 | vector / căsuță |  |  |  |  |
-| 5 | vector / căsuță |  |  |  |  |
-| 6 | vector / căsuță |  |  |  |  |
-| 7 | vector / căsuță |  |  |  |  |
-| 8 | vector / căsuță |  |  |  |  |
-| 9 | vector / căsuță |  |  |  |  |
-| 10 | vector / căsuță |  |  |  |  |
-| 11 | vector / căsuță |  |  |  |  |
-| 12 | vector / căsuță |  |  |  |  |
-| 13 | vector / căsuță |  |  |  |  |
-| 14 | vector / căsuță |  |  |  |  |
-| 15 | vector / căsuță |  |  |  |  |
-| 16 | vector / căsuță |  |  |  |  |
-| 17 | vector / căsuță |  |  |  |  |
+| anul curent - 5 |  |  |  |  |  |
+| anul curent - 4 |  |  |  |  |  |
+| anul curent - 3 |  |  |  |  |  |
+| anul curent - 2 |  |  |  |  |  |
+| anul curent - 1 |  |  |  |  |  |
+| anul curent |  |  |  |  |  |
+| anul curent + 1 |  |  |  |  |  |
+| anul curent + 2 |  |  |  |  |  |
+| anul curent + 3 |  |  |  |  |  |
+| anul curent + 4 |  |  |  |  |  |
+| anul curent + 5 |  |  |  |  |  |
+| anul curent + 6 |  |  |  |  |  |
+| anul curent + 7 |  |  |  |  |  |
+| anul curent + 8 |  |  |  |  |  |
+| anul curent + 9 |  |  |  |  |  |
 
-### Interpretare
+### Ani importanti
 
-- Cea mai înaltă treaptă:
-- Trepte lipsă / zero:
-- Salturi mari:
-- Trepte egale care se susțin:
-- Direcție practică:
+Anii importanti interiori si exteriori se noteaza intr-un singur tabel cronologic
+de 30 de randuri. Pentru fiecare an, marcheaza daca este important interior,
+exterior sau ambele.
 
-## 10. Ezoterism și aplicabilitate
+| Ordine | An | Varsta | Important interior | Important exterior | Observatie |
+| --- | --- | --- | --- | --- | --- |
+| 1 |  |  |  |  |  |
+| 2 |  |  |  |  |  |
+| 3 |  |  |  |  |  |
+| 4 |  |  |  |  |  |
+| 5 |  |  |  |  |  |
+| 6 |  |  |  |  |  |
+| 7 |  |  |  |  |  |
+| 8 |  |  |  |  |  |
+| 9 |  |  |  |  |  |
+| 10 |  |  |  |  |  |
+| 11 |  |  |  |  |  |
+| 12 |  |  |  |  |  |
+| 13 |  |  |  |  |  |
+| 14 |  |  |  |  |  |
+| 15 |  |  |  |  |  |
+| 16 |  |  |  |  |  |
+| 17 |  |  |  |  |  |
+| 18 |  |  |  |  |  |
+| 19 |  |  |  |  |  |
+| 20 |  |  |  |  |  |
+| 21 |  |  |  |  |  |
+| 22 |  |  |  |  |  |
+| 23 |  |  |  |  |  |
+| 24 |  |  |  |  |  |
+| 25 |  |  |  |  |  |
+| 26 |  |  |  |  |  |
+| 27 |  |  |  |  |  |
+| 28 |  |  |  |  |  |
+| 29 |  |  |  |  |  |
+| 30 |  |  |  |  |  |
+
+## 10. Ezoterism si aplicabilitate
+
+Rubrica de ezoterism se scrie cu prudenta. Codurile ezoterice indica tipuri de
+inclinatie, sensibilitate sau interes, nu certitudini despre persoana. Ele trebuie
+legate de restul lucrarii si traduse in directii de studiu, protectie si folosire
+responsabila a informatiei.
 
 ### Cod ezoteric
 
-Data scrisă ca un singur număr:
+Data scrisa ca un singur numar:
 
 ```text
 ```
 
-| Calcul | Cod | Tip de ezoterism | Esența codului |
+| Calcul | Cod | Tip de ezoterism | Esenta codului |
 | --- | --- | --- | --- |
 |  |  |  |  |
 
-A doua împărțire:
-
-Regulă: a doua împărțire se face doar dacă prima împărțire la 7 nu este exactă. Dacă restul este `0`, codul este `0`, iar a doua împărțire nu se mai face.
+A doua impartire:
 
 | Calcul | Cod secundar | Rezultat | Domenii deschise |
 | --- | --- | --- | --- |
 |  |  |  |  |
 
-### Aplicabilitate profesională - Tarot
+### Aplicabilitate profesionala - Tarot
 
-| Calcul | Arcană Tarot | Valență constructivă | Valență de umbră |
+| Calcul | Arcana Tarot | Valenta constructiva | Valenta de umbra |
 | --- | --- | --- | --- |
 |  |  |  |  |
 
-| Tip direcție | Arcană | Profesii / direcții |
+| Tip directie | Arcana | Profesii / directii |
 | --- | --- | --- |
-| De evitat ca direcție profesională principală |  |  |
+| De evitat ca directie profesionala principala |  |  |
 | De aplicat / potrivite personal |  |  |
 
-## 11. Concluzie finală
+## 11. Concluzie finala
 
-### Direcția principală
+### Directia principala
 
-Scrie aici direcția de viață care apare cel mai des.
+Scrie directia de viata care apare cel mai des.
 
 ### Ce are de cultivat
 
-- 
-- 
-- 
+-
+-
+-
 
 ### Ce are de evitat
 
-- 
-- 
-- 
+-
+-
+-
 
-### Recomandare practică
+### Recomandare practica
 
-Text scurt, concret, orientat spre acțiune.
+Scrie o recomandare concreta, legata de viata zilnica. Ea trebuie sa rezulte din
+intreaga lucrare, nu dintr-un singur calcul.
 
-## 12. Rubrici de test pentru prima lucrare
+## 12. Rubrici de test
 
-Pentru prima testare a template-ului, se completează doar aceste rubrici:
+Pentru prima testare a template-ului, se completeaza doar aceste rubrici:
 
-1. Date de bază și vibrații esențiale.
-2. Matricea numerologică.
-3. Karma zilei și karma lunii de naștere.
-4. Numele: numărul de exprimare și numărul neamului.
-5. Oportunități și provocări.
-6. Concluzie finală.
+1. Date de baza si vibratii esentiale.
+2. Karma din data nasterii.
+3. Matricea numerologica.
+4. Scara bunastarii.
+5. Numele: numarul de exprimare si numarul neamului.
+6. Oportunitati si provocari.
+7. Concluzie finala.
 
-Restul rubricilor rămân pregătite pentru extindere.
+Restul rubricilor raman pregatite pentru extindere.
 
-## 13. Notă despre persoane
+## 13. Nota despre persoane
 
-- Fiecare fișă de persoană trebuie să includă data adăugării în lista de persoane.
-- În lucrări, numele trebuie preluat din fișa de persoană, nu din memorie.
-- Dacă apar diferențe de ortografie, se corectează înainte de calcule.
+- Fiecare fisa de persoana trebuie sa includa data adaugarii in lista de persoane.
+- In lucrari, numele trebuie preluat din fisa de persoana, nu din memorie.
+- Daca apar diferente de ortografie, se corecteaza inainte de calcule.
 
-## 14. Hartă documentație folosită
+## 14. Harta documentatie folosita
 
-| Rubrică din lucrare | Documentație sursă |
+Se folosesc in primul rand fisierele consolidate din `knowledge_base/`. Fisierele
+din `bibliography/` raman surse primare si se consulta doar cand o rubrica nu
+este inca detaliata suficient in documentatia de lucru.
+
+Pentru formulari deja validate, se verifica si `knowledge_base/exprimari/`.
+Aceste fisiere nu inlocuiesc metoda de calcul, ci ofera texte reutilizabile
+pentru interpretari recurente: destin, vibratii, punti, scara bunastarii, nume si
+alte rubrici similare.
+
+| Rubrica din lucrare | Documentatie de lucru |
 | --- | --- |
-| Cifre și interpretări de bază | `01 - Cifrele 1-9.md`, `02 - Geometria numerelor.md` |
-| Vibrații esențiale, globală, destin | `03 - Vibrația interioară, exterioară și cosmică.md` |
-| Punți | `knowledge_base/calcule/vibratii-personale/punti/`, `03 - Vibrația interioară, exterioară și cosmică.md` |
-| Aspecte de îndreptat | `knowledge_base/calcule/vibratii-personale/aspecte-de-indreptat/`, `knowledge_base/calcule/vibratii-personale/calea-destinului/` |
-| Matrice / pătrat / cod personal | `04 - Matricea numerologică.md` |
-| Karma zilei | `05 - Karma zilei de naștere.md` |
-| Karma lunii | `06 - Karma lunii de naștere.md` |
-| Karma căii destinului | `07 - Karma din calea destinului.md` |
-| Nume, exprimare, matricea numelui | `08 - Numele.md` |
-| Oportunități, provocări, pinacluri | `09 - Oportunități și provocări.md` |
-| Soarta și destin | `10 - Soarta și destin.md` |
-| Lecții de viață și cicluri | `11 - Lecții de viață și ciclul de 9 ani.md` |
-| Scara bunăstării și vectorii | `12 - Scara bunăstării și vectorii.md` |
-| Ezoterism | `knowledge_base/calcule/ezoterism/`, `13 - Ezoterism.md` |
-| Aplicabilitate profesională | `14 - Aplicabilitate DA.md` |
-
+| Cifre si interpretari de baza | `knowledge_base/vibratii/`, `knowledge_base/calcule/patratul-lui-pitagora/04-semnificatii-pozitii.md` |
+| Formulari validate pentru interpretari recurente | `knowledge_base/exprimari/` |
+| Vibratii esentiale, globala, destin | `knowledge_base/calcule/vibratii-personale/` |
+| Punti | `knowledge_base/calcule/vibratii-personale/punti/` |
+| Aspecte de indreptat | `knowledge_base/calcule/vibratii-personale/aspecte-de-indreptat/`, `knowledge_base/calcule/vibratii-personale/calea-destinului/` |
+| Karma zilei | `knowledge_base/calcule/karma/karma-zilei-de-nastere/` |
+| Karma lunii | `knowledge_base/calcule/karma/karma-lunii-de-nastere/` |
+| Karma caii destinului | `knowledge_base/calcule/karma/karma-din-calea-destinului/` |
+| Matrice / patrat / cod personal | `knowledge_base/calcule/patratul-lui-pitagora/` |
+| Citire comparativa matrice data - matrice nume | `knowledge_base/calcule/patratul-lui-pitagora/01-metoda.md`, sectiunea `Citire comparativa` |
+| Scara bunastarii si vectorii | `knowledge_base/calcule/patratul-lui-pitagora/06-scara-bunastarii.md` |
+| Nume, exprimare, matricea numelui | `knowledge_base/calcule/nume/` |
+| Oportunitati, provocari, pinacluri | `knowledge_base/calcule/pinacluri/`; pentru oportunitati si provocari, verifica si `bibliography/09 - Oportunitati si provocari.md` |
+| Soarta si destin | `knowledge_base/calcule/soarta-si-destin/` |
+| Lectii de viata si cicluri | `knowledge_base/calcule/timp-si-cicluri/` |
+| Ezoterism | `knowledge_base/calcule/ezoterism/` |
+| Aplicabilitate profesionala | `knowledge_base/calcule/aplicabilitate-profesionala/` |

@@ -105,6 +105,10 @@ Aceasta este baza simbolica a codurilor folosite in metoda.
 | 4, 7 | ezoterism practic |
 | 0 | cod special |
 
+Pentru interpretarea ampla a fiecarui cod principal, a codului `0` si a
+domeniilor secundare, se foloseste documentul
+[`04-semnificatii.md`](04-semnificatii.md).
+
 ## 5. Domeniile care se deschid mai usor
 
 Dupa stabilirea codului principal, se poate calcula si o orientare secundara.
