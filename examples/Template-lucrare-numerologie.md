@@ -73,7 +73,7 @@ Textul interpretarii...
 4. Matricea numerologica
 5. Scara bunastarii
 6. Numele
-7. Oportunitati, provocari si pinacluri
+7. Pinacluri, oportunitati si provocari
 8. Soarta si destinul
 9. Lectii de viata si cicluri
 10. Ezoterism si aplicabilitate
@@ -85,13 +85,17 @@ Textul interpretarii...
 ## Date lucrare
 
 - Persoana analizata:
-- Data adaugarii in lista de persoane:
+- Gen persoana: masculin / feminin
 - Data nasterii:
-- Tip template folosit: template complet / maxim
 - Nume complet folosit in analiza:
 - Nume de familie folosit in analiza:
-- Prenume folosite in analiza:
+- Prenume folosit in analiza:
 - Nume inainte de casatorie, daca exista: nu este cazul / de completat
+- Intrebare personala sau tema principala:
+- Data adaugarii in lista de persoane:
+- Tip template folosit: template complet / maxim
+- Nivel de detaliere: amplu / mediu / scurt
+- Stil de adresare: formal / conversational
 - Data realizarii lucrarii: `AAAA-LL-ZZ HH:MM`
 - Status: de revizuit
 
@@ -194,16 +198,37 @@ Puntile arata distanta dintre straturi ale persoanei. Ele nu separa omul in
 bucati, ci arata ce calitate poate impaca interiorul cu exteriorul, firea cu
 destinul si valorile cu directia de viata.
 
-| Punte | Calcul | Rezultat | Ce ajuta sa impace |
-| --- | --- | --- | --- |
-| Interior - exterior |  |  | Caracterul cu rolul social. |
-| Interior - destin |  |  | Firea profunda cu vocatia. |
-| Exterior - destin |  |  | Comportamentul social cu vocatia. |
-| Cosmic - destin |  |  | Valorile cu drumul final. |
+In tabel, completeaza calculul numeric explicit si rezultatul obtinut. Puntea se
+calculeaza ca diferenta absoluta intre doua vibratii. Calculul arata cifrele
+concrete ale persoanei, de exemplu `|8 - 4|`. Rezultatul este cifra obtinuta
+prin scaderea celor doua valori si este cifra care se interpreteaza.
+
+| Punte | Calcul | Rezultat |
+| --- | --- | --- |
+| Interior - exterior | vibratia interioara - vibratia exterioara | cifra rezultata |
+| Interior - destin | vibratia interioara - vibratia destinului | cifra rezultata |
+| Exterior - destin | vibratia exterioara - vibratia destinului | cifra rezultata |
+| Cosmic - destin | vibratia cosmica totala - vibratia destinului | cifra rezultata |
 
 Dupa tabel, scrie cate o interpretare ampla pentru fiecare punte din tabel: 4
-interpretari in total. Fiecare interpretare trebuie sa explice calculul, sensul
-rezultatului si felul concret in care puntea poate fi folosita in viata zilnica.
+interpretari in total. Metoda de interpretare este aceeasi pentru toate puntile:
+puntea nu inlocuieste cele doua vibratii comparate si nu le anuleaza, ci arata
+calitatea prin care ele pot fi armonizate. Mai intai explica ce reprezinta prima
+vibratie, apoi ce reprezinta a doua vibratie, apoi arata ca cifra rezultata prin
+scadere este energia prin care cele doua concepte pot colabora.
+
+Pentru fiecare punte, foloseste aceasta logica:
+
+1. Interior - exterior: explica felul in care cine este omul in interior se
+   armonizeaza cu felul in care se manifesta in exterior, prin cifra puntii.
+2. Interior - destin: explica felul in care cine este omul la interior se
+   armonizeaza cu ceea ce are de devenit, prin cifra puntii.
+3. Exterior - destin: explica felul in care comportamentul exterior si imaginea
+   sociala se armonizeaza cu ceea ce are omul de devenit, prin cifra puntii.
+4. Cosmic - destin: explica felul in care vibratia cosmica, adica ceea ce cere
+   Universul sau fundalul mai larg al vietii, se armonizeaza cu ceea ce are omul
+   de devenit, prin cifra puntii.
+
 Nu adauga o sectiune separata de interpretare integrata a puntilor.
 
 ## 3. Karma din data nasterii
@@ -336,35 +361,40 @@ materialitate, cariera si atingerea scopurilor.
 ```text
 ```
 
-### Tabel descrescator al treptelor
+### Scara bunastarii
 
-| Ordine | Tip | Cantitate | Valoare totala | Observatie |
-| --- | --- | --- | --- | --- |
-| 1 | vector / casuta |  |  |  |
-| 2 | vector / casuta |  |  |  |
-| 3 | vector / casuta |  |  |  |
-| 4 | vector / casuta |  |  |  |
-| 5 | vector / casuta |  |  |  |
-| 6 | vector / casuta |  |  |  |
-| 7 | vector / casuta |  |  |  |
-| 8 | vector / casuta |  |  |  |
-| 9 | vector / casuta |  |  |  |
-| 10 | vector / casuta |  |  |  |
-| 11 | vector / casuta |  |  |  |
-| 12 | vector / casuta |  |  |  |
-| 13 | vector / casuta |  |  |  |
-| 14 | vector / casuta |  |  |  |
-| 15 | vector / casuta |  |  |  |
-| 16 | vector / casuta |  |  |  |
-| 17 | vector / casuta |  |  |  |
+In coloana `Cantitate`, nu trece doar numarul de aparitii. Afiseaza cifrele
+prezente efectiv in fiecare vector sau casuta: `77 / 8 / 9`, `444 / 5 / -`,
+`33 / - / 9`. Cifrele repetate se scriu lipit, fara minus intre ele. Foloseste
+`-` numai acolo unde o cifra lipseste.
 
-### Interpretare
+| Ordine | Tip | Denumire | Cantitate | Valoare totala | Observatie |
+| --- | --- | --- | --- | --- | --- |
+| 1 | vector / casuta |  |  |  |  |
+| 2 | vector / casuta |  |  |  |  |
+| 3 | vector / casuta |  |  |  |  |
+| 4 | vector / casuta |  |  |  |  |
+| 5 | vector / casuta |  |  |  |  |
+| 6 | vector / casuta |  |  |  |  |
+| 7 | vector / casuta |  |  |  |  |
+| 8 | vector / casuta |  |  |  |  |
+| 9 | vector / casuta |  |  |  |  |
+| 10 | vector / casuta |  |  |  |  |
+| 11 | vector / casuta |  |  |  |  |
+| 12 | vector / casuta |  |  |  |  |
+| 13 | vector / casuta |  |  |  |  |
+| 14 | vector / casuta |  |  |  |  |
+| 15 | vector / casuta |  |  |  |  |
+| 16 | vector / casuta |  |  |  |  |
+| 17 | vector / casuta |  |  |  |  |
 
-- Cea mai inalta treapta:
-- Trepte lipsa / zero:
-- Salturi mari:
-- Trepte egale care se sustin:
-- Directie practica:
+Dupa scara bunastarii, treci direct la interpretare, fara subtitlu separat.
+Interpreteaza fiecare pozitie din tabel independent, in ordinea descrescatoare a
+treptelor. Textul trebuie sa fie conversational, adresat direct persoanei. Prima
+pozitie arata unde omul se simte cel mai bine si cel mai fericit in aceasta
+viata. Explica apoi de ce are nevoie acea treapta pentru a se manifesta: fiecare
+vector sau casuta de mai jos sustine treapta de deasupra. Arata interdependenta
+progresiva a scarii, dar pastreaza si citirea separata a fiecarui rand.
 
 ## 6. Numele
 
@@ -393,8 +423,21 @@ se duce mai departe prin neam.
 - Nu folosi o forma scurta sau prescurtata daca nu apare explicit in fisa persoanei.
 - Daca numele s-a schimbat, se analizeaza in paralel numele anterior si numele actual.
 - Pentru numarul neamului, se pastreaza atentia pe numele de familie de la nastere, daca documentatia cere linia de sange.
+- Pentru gen feminin, daca persoana s-a casatorit si exista nume de familie
+  inainte si dupa casatorie, pastreaza ambele nume in analiza. Explica faptul ca
+  pana la casatorie persoana a facut parte din neamul de origine, dupa casatorie
+  a intrat social si familial in neamul nou, iar numarul ereditar karmic de sange
+  ramane prezent intreaga viata.
 
 ### Numarul de exprimare
+
+Numarul de exprimare se citeste ca personalitatea formata prin nume si ca
+echivalent pe nume al vibratiei destinului din data de nastere. Dupa calcul,
+compara rezultatul cu vibratia destinului deja calculata in capitolul de vibratii
+esentiale: ideal este sa fie aceeasi cifra. Daca sunt cifre diferite, observa
+daca ambele sunt pare sau ambele impare; aceasta arata o compatibilitate de ritm.
+Daca una este para si cealalta impara, noteaza ca armonizarea dintre nume si
+directia de destin poate cere mai mult efort constient.
 
 | Calcul | Rezultat | Interpretare |
 | --- | --- | --- |
@@ -432,6 +475,26 @@ alta schimbare explicita de nume.
 | Numarul ereditar | nume de familie |  |  |
 | Numarul neamului | nume ereditar karmic |  |  |
 
+Pentru numarul intim, interpretarea se face intotdeauna in concordanta cu
+vibratia interioara calculata din ziua nasterii. Compara ce isi doreste omul in
+structura lui nativa cu ce amplifica numarul intim prin vocalele numelui. Arata
+daca numele modifica, mentine sau amplifica eul ascuns, aspiratiile intime si
+dorinte profunde ale persoanei.
+
+Pentru numarul de realizare, interpretarea se face intotdeauna in concordanta cu
+vibratia exterioara calculata din luna nasterii. Compara felul in care omul se
+manifesta in exterior prin structura lui nativa cu felul in care numele sustine
+sau franeaza realizarea concreta prin consoanele numelui. Arata daca numele
+amplifica, mentine, modifica sau franeaza eul exterior si realizarile sociale sau
+profesionale.
+
+Pentru numarul neamului / numarul ereditar karmic, foloseste interpretarile din
+`knowledge_base/calcule/nume/numarul-ereditar-karmic/03-interpretari-neam.md` ca
+baza traditionala, dar cand scrii analiza persoanei adapteaza ocupatiile si
+rolurile la societatea actuala. Nu modifica definitia traditionala, ci traduce-o
+in forme moderne: de exemplu, mestesugar poate deveni specialist tehnic, designer,
+producator, creator, artizan modern sau profesionist practic, dupa context.
+
 Dupa tabel, scrie cate o descriere ampla pentru fiecare dintre cele 5 numere
 derivate din nume: numarul intim, numarul de realizare, numarul activ, numarul
 ereditar si numarul neamului. Fiecare descriere trebuie sa aiba minimum 100 de
@@ -462,60 +525,84 @@ Sir complet de cifre din nume:
 
 Comparatia dintre matricea datei de nastere si matricea numelui se face dupa
 metoda de citire comparativa din Patratul lui Pitagora. Se pastreaza separat
-matricea datei si matricea numelui, apoi se calculeaza matricea rezultat: o copie
-a matricei datei de nastere in care se adauga doar diferentele sustinute din
-nume. O cifra din nume poate fi adaugata numai daca aceeasi casuta exista deja in
-matricea datei; daca cifra apare in nume, dar lipseste din data, ea ramane
-potential de nume fara suport direct in structura nasterii.
+matricea datei si matricea numelui. Nu se mai calculeaza o a treia matrice.
 
-| Cifra | Cantitate in matricea datei | Cantitate in matricea numelui | Diferenta sustinuta | Status comparativ | Observatie |
+Pentru fiecare cifra, compara cantitatea din matricea numelui cu aceeasi casuta
+din matricea datei. Daca numele depaseste data cu doua sau mai multe unitati,
+cifra este in exces in nume. Excesul arata ca posesorul numelui isi poate dori,
+in interior, sa fie mai mult pe tema acelei cifre decat ii este dat prin datele
+native. Daca cifra exista in matricea datei, dar lipseste din matricea numelui,
+ea se noteaza ca lipsa in nume; aceasta arata impresia interioara ca omul are
+mai putin din acea caracteristica decat ii este dat prin datele native.
+
+| Cifra | Cantitate in matricea datei | Cantitate in matricea numelui | Diferenta nume - data | Status comparativ | Observatie |
 | --- | --- | --- | --- | --- | --- |
-| 1 |  |  |  | sustinuta / amplificata / nesustinuta / nativa / absenta |  |
-| 2 |  |  |  | sustinuta / amplificata / nesustinuta / nativa / absenta |  |
-| 3 |  |  |  | sustinuta / amplificata / nesustinuta / nativa / absenta |  |
-| 4 |  |  |  | sustinuta / amplificata / nesustinuta / nativa / absenta |  |
-| 5 |  |  |  | sustinuta / amplificata / nesustinuta / nativa / absenta |  |
-| 6 |  |  |  | sustinuta / amplificata / nesustinuta / nativa / absenta |  |
-| 7 |  |  |  | sustinuta / amplificata / nesustinuta / nativa / absenta |  |
-| 8 |  |  |  | sustinuta / amplificata / nesustinuta / nativa / absenta |  |
-| 9 |  |  |  | sustinuta / amplificata / nesustinuta / nativa / absenta |  |
-
-### Matricea rezultat: data sustinuta de nume
-
-Aceasta matrice porneste de la matricea datei de nastere si adauga doar
-diferentele sustinute din matricea numelui. Nu se introduc in ea cifrele care
-apar numai in nume si lipsesc din data.
-
-| 1 | 4 | 7 |
-| --- | --- | --- |
-|  |  |  |
-| 2 | 5 | 8 |
-|  |  |  |
-| 3 | 6 | 9 |
-|  |  |  |
+| 1 |  |  |  | exces / sustinuta / lipsa in nume / potential de nume / absenta |  |
+| 2 |  |  |  | exces / sustinuta / lipsa in nume / potential de nume / absenta |  |
+| 3 |  |  |  | exces / sustinuta / lipsa in nume / potential de nume / absenta |  |
+| 4 |  |  |  | exces / sustinuta / lipsa in nume / potential de nume / absenta |  |
+| 5 |  |  |  | exces / sustinuta / lipsa in nume / potential de nume / absenta |  |
+| 6 |  |  |  | exces / sustinuta / lipsa in nume / potential de nume / absenta |  |
+| 7 |  |  |  | exces / sustinuta / lipsa in nume / potential de nume / absenta |  |
+| 8 |  |  |  | exces / sustinuta / lipsa in nume / potential de nume / absenta |  |
+| 9 |  |  |  | exces / sustinuta / lipsa in nume / potential de nume / absenta |  |
 
 ### Interpretare comparativa
 
 - Cifre dominante in data si in nume:
 - Casute sustinute, prezente in ambele matrici:
-- Casute amplificate, unde numele aduce mai multe valori decat data:
-- Casute nesustinute, prezente in nume dar absente in data:
-- Casute native, prezente in data dar neamplificate de nume:
+- Casute in exces, unde numele depaseste data cu doua sau mai multe unitati:
+- Casute lipsa in nume, prezente in data dar absente in nume:
+- Casute potential de nume, prezente in nume dar absente in data:
 - Vectori activi in data fata de vectori activi in nume:
 - Influenta generala a numelui asupra structurii de baza:
 
 Scrie o concluzie despre relatia dintre nume si data nasterii: ce completeaza
-numele, ce amplifica, ce ramane potential nesustinut si ce cere atentie. Nu
-formula comparatia ca verdict; explica felul in care numele poate intari,
-modela sau rafina structura primita prin data nasterii.
+numele, ce apare in exces, ce lipseste din nume si ce ramane potential fara suport
+nativ. Nu formula comparatia ca verdict; explica felul in care numele poate crea
+dorinte, impresii de lipsa, presiuni sau directii de exprimare fata de structura
+primita prin data nasterii.
 
-## 7. Oportunitati, provocari si pinacluri
+In concluzie, formuleaza explicit diferenta dintre exces si lipsa: cifrele in
+exces arata ca persoana isi poate dori sa fie mai mult pe tema acelei cifre decat
+poate sustine in realitate prin structura nativa, iar cifrele lipsa in nume arata
+doar senzatia ca persoana are mai putin din acea caracteristica decat are de fapt.
+Cand cifra exista in matricea datei, calitatea exista nativ; numele doar o face
+mai putin vizibila sau mai greu de accesat interior.
+
+## 7. Pinacluri, oportunitati si provocari
 
 Pinaclurile descriu etape de viata, nu intamplari fixe. Ele arata ce tip de
 energie devine mai vizibil intr-o perioada si ce calitate trebuie exersata pentru
 ca acea etapa sa fie traita matur.
 
-### Pinacluri
+Valorile folosite pentru calcul sunt: zi ``, luna ``, an ``, vibratia
+destinului ``.
+
+### Calculul oportunitatilor si provocarilor
+
+Oportunitatile arata resursa de crestere din fiecare etapa, iar provocarile
+arata lectia care trebuie maturizata in aceeasi perioada.
+
+| Etapa | Calcul oportunitate | Rezultat | Calcul provocare | Rezultat |
+| --- | --- | --- | --- | --- |
+| O1 / P1 | `luna + zi = ...` |  | `|zi - luna| = ...` |  |
+| O2 / P2 | `zi + an = ...` |  | `|zi - an| = ...` |  |
+| O3 / P3 | `O1 + O2 = ...` |  | `|P1 - P2| = ...` |  |
+| O4 / P4 | `luna + an = ...` |  | `|luna - an| = ...` |  |
+
+### Calculul pinaclurilor
+
+Perioadele pinaclurilor se stabilesc pornind de la vibratia destinului.
+
+| Pinaclu | Calcul perioada | Perioada rezultata | Oportunitate | Provocare |
+| --- | --- | --- | --- | --- |
+| Pinaclul 1 | `36 - vibratia destinului = ...` |  |  |  |
+| Pinaclul 2 | `sfarsit pinaclu 1 + 9 = ...` |  |  |  |
+| Pinaclul 3 | `sfarsit pinaclu 2 + 9 = ...` |  |  |  |
+| Pinaclul 4 | dupa finalul pinaclului 3 |  |  |  |
+
+### Tabel sinteza
 
 | Pinaclu | Perioada | Oportunitate | Provocare | Interpretare |
 | --- | --- | --- | --- | --- |
@@ -524,21 +611,11 @@ ca acea etapa sa fie traita matur.
 | 3 |  |  |  |  |
 | 4 |  |  |  |  |
 
-### Oportunitati
-
-- O1:
-- O2:
-- O3:
-- O4:
-
-### Provocari
-
-- P1:
-- P2:
-- P3:
-- P4:
-
-Scrie interpretarea ca parcurs: cum se schimba accentul de la o etapa la alta si
+Scrie interpretarea ca parcurs, dar incepe cu perioada actuala a persoanei:
+calculeaza varsta la data lucrarii, spune explicit in ce pinaclu este acum, in
+ce interval de varsta se afla si care sunt oportunitatea si provocarea active.
+Apoi explica pe scurt cum primele pinacluri au pregatit etapa prezenta si ce
+urmeaza in pinaclul urmator. Textul trebuie sa ramana conversational si aplicat:
 ce poate face persoana concret pentru a folosi oportunitatile fara sa fie condusa
 de provocari.
 
@@ -582,6 +659,11 @@ clarificare, incheiere sau reconstructie.
 
 Formula de calcul: `ziua x luna x anul`.
 
+Pastreaza zerourile si repetitiile din sirul rezultat. Daca aceeasi lectie apare
+in doi ani consecutivi, mentioneaza ca repetitia poate aduce un plus de cariera,
+faima si bani, deoarece persoana sta mai mult in acea lectie si o invata mai
+profund.
+
 | Lectie | Perioada / an | Ce verifica viata | Recomandare |
 | --- | --- | --- | --- |
 |  |  |  |  |
@@ -595,62 +677,39 @@ continua pana la `9` si se reia.
 Tabelul se completeaza pentru 15 ani in total: 5 ani inainte de anul curent, anul
 curent si 9 ani dupa anul curent.
 
-| An | Varsta | Vibratia cosmica | An personal | Lectie suprapusa | Interpretare |
-| --- | --- | --- | --- | --- | --- |
-| anul curent - 5 |  |  |  |  |  |
-| anul curent - 4 |  |  |  |  |  |
-| anul curent - 3 |  |  |  |  |  |
-| anul curent - 2 |  |  |  |  |  |
-| anul curent - 1 |  |  |  |  |  |
-| anul curent |  |  |  |  |  |
-| anul curent + 1 |  |  |  |  |  |
-| anul curent + 2 |  |  |  |  |  |
-| anul curent + 3 |  |  |  |  |  |
-| anul curent + 4 |  |  |  |  |  |
-| anul curent + 5 |  |  |  |  |  |
-| anul curent + 6 |  |  |  |  |  |
-| anul curent + 7 |  |  |  |  |  |
-| anul curent + 8 |  |  |  |  |  |
-| anul curent + 9 |  |  |  |  |  |
+| An | Varsta | An personal | Lectie de viata | Interpretare |
+| --- | --- | --- | --- | --- |
+| anul curent - 5 |  |  |  |  |
+| anul curent - 4 |  |  |  |  |
+| anul curent - 3 |  |  |  |  |
+| anul curent - 2 |  |  |  |  |
+| anul curent - 1 |  |  |  |  |
+| anul curent |  |  |  |  |
+| anul curent + 1 |  |  |  |  |
+| anul curent + 2 |  |  |  |  |
+| anul curent + 3 |  |  |  |  |
+| anul curent + 4 |  |  |  |  |
+| anul curent + 5 |  |  |  |  |
+| anul curent + 6 |  |  |  |  |
+| anul curent + 7 |  |  |  |  |
+| anul curent + 8 |  |  |  |  |
+| anul curent + 9 |  |  |  |  |
 
 ### Ani importanti
 
 Anii importanti interiori si exteriori se noteaza intr-un singur tabel cronologic
-de 30 de randuri. Pentru fiecare an, marcheaza daca este important interior,
-exterior sau ambele.
+care incepe cu anul nasterii si merge pana la 10 ani peste anul curent al
+lucrarii. Pentru fiecare an important rezultat in acest interval, marcheaza daca
+este important interior, exterior sau ambele. Anul nasterii se trece ca punct de
+pornire pentru ambele siruri.
 
 | Ordine | An | Varsta | Important interior | Important exterior | Observatie |
 | --- | --- | --- | --- | --- | --- |
-| 1 |  |  |  |  |  |
+| 1 | anul nasterii | 0 | punct de pornire | punct de pornire | inceputul celor doua siruri |
 | 2 |  |  |  |  |  |
 | 3 |  |  |  |  |  |
 | 4 |  |  |  |  |  |
-| 5 |  |  |  |  |  |
-| 6 |  |  |  |  |  |
-| 7 |  |  |  |  |  |
-| 8 |  |  |  |  |  |
-| 9 |  |  |  |  |  |
-| 10 |  |  |  |  |  |
-| 11 |  |  |  |  |  |
-| 12 |  |  |  |  |  |
-| 13 |  |  |  |  |  |
-| 14 |  |  |  |  |  |
-| 15 |  |  |  |  |  |
-| 16 |  |  |  |  |  |
-| 17 |  |  |  |  |  |
-| 18 |  |  |  |  |  |
-| 19 |  |  |  |  |  |
-| 20 |  |  |  |  |  |
-| 21 |  |  |  |  |  |
-| 22 |  |  |  |  |  |
-| 23 |  |  |  |  |  |
-| 24 |  |  |  |  |  |
-| 25 |  |  |  |  |  |
-| 26 |  |  |  |  |  |
-| 27 |  |  |  |  |  |
-| 28 |  |  |  |  |  |
-| 29 |  |  |  |  |  |
-| 30 |  |  |  |  |  |
+| ... |  |  |  |  |  |
 
 ## 10. Ezoterism si aplicabilitate
 
@@ -725,7 +784,7 @@ Pentru prima testare a template-ului, se completeaza doar aceste rubrici:
 3. Matricea numerologica.
 4. Scara bunastarii.
 5. Numele: numarul de exprimare si numarul neamului.
-6. Oportunitati si provocari.
+6. Pinacluri, oportunitati si provocari.
 7. Concluzie finala.
 
 Restul rubricilor raman pregatite pentru extindere.
