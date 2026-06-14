@@ -239,6 +239,12 @@ Vibrația căii destinului este suma tuturor cifrelor din zi, lună și an, păs
 
 Ea povestește despre ce și cum are omul de făcut prin viață pentru a-și realiza destinul.
 
+Calea destinului este echivalentă, în această documentație, cu `vibrația căii destinului`. Numărul cel mai mic posibil este `4`, iar cel mai mare este `48`. Această scară nu este o scară ierarhică. Un număr mai mic nu înseamnă un om mai puțin evoluat, iar un număr mai mare nu înseamnă superioritate. Diferența arată mai ales raportul dintre perioada de antrenament pentru viață, șanse, ajutoare și obstacole.
+
+Cu cât numărul căii destinului este mai mic, cu atât omul poate primi mai multe șanse, pentru că are nevoie de ele ca să facă ce are de făcut. Cu cât numărul este mai mare, cu atât șansele pot fi mai puține sau mai greu de observat, nu ca pedeapsă, ci pentru că omul are deja o perioadă mai lungă de antrenament interior. Calea destinului poate arăta și vârsta simbolică la care omul intră cu adevărat în viață.
+
+Calea destinului reprezintă și o ciclicitate importantă. Pentru mulți oameni, mai ales pentru cei născuți înainte de anul 2000, ea poate puncta momente importante ale vieții. În interpretare, se citește atât prima cifră, cât și a doua cifră, numărul întreg și vibrația destinului către care omul merge.
+
 Regulă de citire:
 
 - prima cifră răspunde la întrebarea `ce`;
@@ -258,6 +264,61 @@ Data `3.2.1980`:
 
 Calea destinului este `23`:  
 `2` arată ce are de cultivat, iar `3` arată cum poate face asta.
+
+### Categorii ale căii destinului
+
+Există cinci categorii mari de căi ale destinului, citite după prima cifră:
+
+| Interval | Prima cifră | Direcție de lucru |
+| --- | ---: | --- |
+| 4-9 | 0 implicit | Prezență, centrare, atenție la ceea ce vine. |
+| 10-19 | 1 | Desăvârșire de sine pe plan psihic, emoțional, fizic, relațional, financiar și volitiv. |
+| 20-29 | 2 | Relație cu planurile subtile, prelucrare karmică, înțelegerea continuității spiritului. |
+| 30-39 | 3 | Relaționare, influență asupra mediului, transmiterea înțelepciunii și rol de dascăl asumat. |
+| 40-48 | 4 | Stăpânirea resurselor materiale și umane, înțelegerea profundă a materiei și a creației. |
+
+### Calea destinului 4-9, cu 0 în față
+
+Pentru căile `4-9`, se poate considera că există un `0` implicit în față. Omul tinde să întâlnească foarte puține obstacole și ajutoare prescrise, dar uneori poate întâlni o infinitate de posibilități sau contexte speciale pentru evoluția lui. Direcția principală este prezența: să fie centrat, aliniat în momentul prezent și atent la ceea ce vine.
+
+În raport cu ezoterismul, indicația este aceeași: atenție la ceea ce vine. Nu se forțează concluziile; se observă.
+
+### Calea destinului 10-19, cu 1 în față
+
+Pentru căile `10-19`, omul întâlnește obstacole și ajutoare de tip `1`. Direcția este desăvârșirea de sine pe toate planurile: psihic, emoțional, fizic, volitiv, relațional și financiar. Atenția este pusă pe sine, dar nu în sens egoist, ci ca formare a unui centru sănătos.
+
+O lecție importantă este să realizeze că el este o parte din lume și lumea este o parte din el. Lumea se reflectă în el, iar el se reflectă în lume. Ezoterismul nu este neapărat contraindicat, dar prioritare rămân aspectele concrete ale vieții. Dacă este abordat, se recomandă prudență, ghidare, mentori și supraveghere.
+
+### Calea destinului 20-29, cu 2 în față
+
+Pentru căile `20-29`, omul întâlnește obstacole și ajutoare de tip `2`. Direcția este relația cu planurile subtile și cu propria continuitate spirituală. Tema este prelucrarea karmei: ce a fost rău să nu fie repetat și să fie plătit, iar ce a fost bun să fie recunoscut și dezvoltat.
+
+Omul are de realizat că este spirit, nu doar corp sau emoție. Trupurile succesive pot fi înțelese ca învelișuri necesare etapelor diferite de existență. Ezoterismul poate fi abordat, dar cu prudență, atenție, ajutor și supraveghere.
+
+### Calea destinului 30-39, cu 3 în față
+
+Pentru căile `30-39`, omul întâlnește obstacole și ajutoare de tip `3`. Direcția este relaționarea și influența asupra mediului, mai ales asupra oamenilor. Persoana este chemată să transmită din înțelepciunea acumulată, ajutându-i pe ceilalți să se înțeleagă între ei și să înțeleagă viața, universul și mecanismele lor într-un mod corect și constructiv.
+
+Lecția este să accepte că poate deveni un fel de dascăl asumat, drept și responsabil. Ezoterismul este indicat și poate fi practicat cu succes, de preferat în comunități sau împreună cu alții.
+
+### Calea destinului 40-48, cu 4 în față
+
+Pentru căile `40-48`, omul întâlnește obstacole și ajutoare de tip `4`. Direcția este stăpânirea resurselor materiale și umane, în sensul înțelegerii profunde a rostului acestora în univers. Omul este chemat să cunoască bazele creației și să înțeleagă materia nu doar practic, ci și filozofic.
+
+Lecția este să devină un fel de filozof al materiei dense, pentru a putea înțelege apoi materia fină. În raport cu ezoterismul, practica poate fi într-un fel contraindicată sau secundară, pentru că dimensiunea subtilă este deja în el însuși. Observarea și contemplarea devin calea principală.
+
+### Structură de interpretare
+
+Pentru fiecare cale karmică a destinului se pot observa:
+
+- tipul de ajutoare și obstacole întâlnite;
+- proporția dintre șanse, încercări și antrenamentul interior;
+- prima cifră, care arată categoria mare de lucru;
+- a doua cifră, care arată modul de împlinire;
+- numărul întreg, care dă nuanța karmică;
+- vibrația destinului, care arată către ce rezultat merge omul.
+
+Metafora bilelor albe și negre poate fi folosită ca limbaj pedagogic: omul vine cu efecte ale unor cauze trecute, unele benefice, altele dificile. Scopul nu este doar să își achite datoriile, ci să genereze în această viață cauze cât mai benefice pentru viitor.
 
 ## 12. Aspecte de îndreptat și soluția
 
@@ -356,3 +417,4 @@ Pentru lucrările de numerologie, documentul se folosește ca schemă de calcul 
 Sinteză extrasă din:
 
 - `Documentație arhivată/V nterioara- V exterioara- Vcosmica pdf.pdf`
+- `bibliography/docs/calea destinului.md`

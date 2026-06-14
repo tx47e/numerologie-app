@@ -29,7 +29,7 @@ Acest document centralizeaza formulele numerologice adoptate in proiect.
 - [`vibratia cosmica`](../knowledge_base/calcule/vibratii-personale/vibratia-cosmica/01-metoda.md): anul nasterii redus la 1-9.
 - [`vibratia globala`](../knowledge_base/calcule/vibratii-personale/vibratia-globala/01-metoda.md): ziua + luna, reduse la 1-9.
 - [`vibratia destinului`](../knowledge_base/calcule/vibratii-personale/vibratia-destinului/01-metoda.md): ziua + luna + anul, reduse la 1-9.
-- [`calea destinului`](../knowledge_base/calcule/vibratii-personale/calea-destinului/01-metoda.md): suma tuturor cifrelor datei, pastrata neredusa complet.
+- [`calea destinului`](../knowledge_base/calcule/vibratii-personale/calea-destinului/01-metoda.md): suma tuturor cifrelor datei, pastrata neredusa complet; echivalenta cu `vibratia caii destinului`. Se interpreteaza prin regula `ce/cum`: prima cifra arata ce are omul de facut, a doua cifra arata cum face; pentru o singura cifra, aceeasi cifra raspunde la ambele intrebari.
 - [`soarta si destin`](../knowledge_base/calcule/soarta-si-destin/01-metoda.md): metoda comasata pentru `soarta = ZZLL x AAAA`, `destin = ZZLL ajustat x AAAA ajustat` si interpretarea comparativa dintre cele doua linii, numita alternativ `tema vietii`; rezultatele se pastreaza ca numere grafice de 7 cifre.
 
 ## Timp si cicluri

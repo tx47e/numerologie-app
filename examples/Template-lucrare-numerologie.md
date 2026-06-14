@@ -90,7 +90,7 @@ Textul interpretarii...
 - Nume complet folosit in analiza:
 - Nume de familie folosit in analiza:
 - Prenume folosit in analiza:
-- Nume inainte de casatorie, daca exista: nu este cazul / de completat
+- Nume anterior / schimbat, daca exista: nu este cazul / de completat
 - Intrebare personala sau tema principala:
 - Data adaugarii in lista de persoane:
 - Tip template folosit: template complet / maxim
@@ -167,6 +167,23 @@ La finalul celor 8 descrieri, scrie o interpretare integrata a vibratiilor. Arat
 cum lucreaza impreuna ziua, luna si anul, unde exista armonie si unde apare
 tensiune.
 
+Pentru `Calea destinului`, foloseste regula `ce` si `cum`. Calea destinului
+povesteste ce si cum are omul de facut prin viata ca sa isi realizeze destinul.
+Inainte de interpretarea celor doua cifre, citeste categoria mare a caii
+destinului: `4-9` cu `0` implicit in fata, `10-19` cu `1` in fata, `20-29` cu
+`2` in fata, `30-39` cu `3` in fata, `40-48` cu `4` in fata. Explica pe scurt ce
+tip de sanse, ajutoare, obstacole sau antrenament interior sugereaza categoria.
+Nu prezenta categoria ca scara ierarhica; un numar mai mare nu inseamna
+superioritate, ci alta proportie intre antrenament, sanse si obstacole.
+
+Daca rezultatul este format din doua cifre, prima cifra raspunde la intrebarea
+`ce are de facut?`, iar a doua cifra raspunde la intrebarea `cum face?`. Pentru
+intrebarea `ce`, explica ce calitati ale primei cifre trebuie cultivate si ce
+aspecte negative ale acelei cifre trebuie invinse. Pentru intrebarea `cum`,
+explica polaritatea pozitiva a celei de-a doua cifre, fara caracteristicile de
+polaritate minus. Daca rezultatul are o singura cifra, aceeasi cifra raspunde si
+la `ce`, si la `cum`.
+
 ### Aspecte de indreptat si solutia
 
 Aspectele de indreptat indica o zona de lucru constient. Nu arata o greseala a
@@ -182,7 +199,8 @@ poate fi transformata tensiunea.
 
 Dupa tabel, scrie descrieri ample doar pentru aceste 3 elemente: calea destinului,
 aspectele de indreptat si vibratia solutiei. Fiecare descriere trebuie sa aiba
-minimum 100 de cuvinte.
+minimum 100 de cuvinte. La calea destinului, repeta explicit interpretarea prin
+categoria mare si prin intrebarile `ce?` si `cum?`, folosind regula de mai sus.
 
 Prima cifra din ziua nasterii nu primeste descriere separata. Ea este doar element
 tehnic folosit in formula pentru aspectele de indreptat.
@@ -410,8 +428,7 @@ se duce mai departe prin neam.
 - Prenume:
 - Nume folosit curent:
 - Context lingvistic:
-- Nume anterior / inainte de casatorie / adoptie / schimbare, daca exista:
-- Nume inainte de casatorie, daca exista: nu este cazul / de completat
+- Nume anterior / schimbat, daca exista:
 - Nume actual diferit, daca exista:
 - Data aproximativa a schimbarii numelui, daca exista:
 
@@ -423,11 +440,11 @@ se duce mai departe prin neam.
 - Nu folosi o forma scurta sau prescurtata daca nu apare explicit in fisa persoanei.
 - Daca numele s-a schimbat, se analizeaza in paralel numele anterior si numele actual.
 - Pentru numarul neamului, se pastreaza atentia pe numele de familie de la nastere, daca documentatia cere linia de sange.
-- Pentru gen feminin, daca persoana s-a casatorit si exista nume de familie
-  inainte si dupa casatorie, pastreaza ambele nume in analiza. Explica faptul ca
-  pana la casatorie persoana a facut parte din neamul de origine, dupa casatorie
-  a intrat social si familial in neamul nou, iar numarul ereditar karmic de sange
-  ramane prezent intreaga viata.
+- Pentru gen feminin, daca exista un nume anterior / schimbat si un nume actual,
+  pastreaza ambele nume in analiza. Explica faptul ca numele anterior poate
+  pastra linia de origine, iar numele actual poate arata linia sociala si
+  familiala activa; numarul ereditar karmic de sange ramane prezent intreaga
+  viata.
 
 ### Numarul de exprimare
 
@@ -445,10 +462,10 @@ directia de destin poate cere mai mult efort constient.
 
 ### Analiza paralela pentru nume schimbat (optional)
 
-Se include numai daca exista nume inainte/dupa casatorie, adoptie, divort sau
-alta schimbare explicita de nume.
+Se include numai daca exista nume anterior / schimbat, adoptie, divort sau alta
+schimbare explicita de nume.
 
-| Strat analizat | Nume inainte de casatorie / schimbare | Nume dupa casatorie / schimbare | Diferenta observata |
+| Strat analizat | Nume anterior / schimbat | Nume actual | Diferenta observata |
 | --- | --- | --- | --- |
 | Numarul de exprimare |  |  |  |
 | Numarul intim |  |  |  |
@@ -505,7 +522,7 @@ felul de realizare, energia prenumelui activ, mostenirea numelui de familie sau
 tema de neam. Leaga rezultatul de numarul de exprimare, de vibratiile din data
 nasterii si de matricea numelui, fara sa repeti mecanic aceeasi interpretare.
 
-### Matricea numelor
+### Matricea numelui
 
 Sir complet de cifre din nume:
 
@@ -521,22 +538,26 @@ Sir complet de cifre din nume:
 | 3 | 6 | 9 |
 |  |  |  |
 
-### Comparare nume - matrice de baza
+### Comparare matricea numelui - matricea datei de nastere
 
 Comparatia dintre matricea datei de nastere si matricea numelui se face dupa
 metoda de citire comparativa din Patratul lui Pitagora. Se pastreaza separat
 matricea datei si matricea numelui. Nu se mai calculeaza o a treia matrice.
 
-Pentru fiecare cifra, compara cantitatea din matricea numelui cu aceeasi casuta
-din matricea datei. Daca numele depaseste data cu doua sau mai multe unitati,
-cifra este in exces in nume. Excesul arata ca posesorul numelui isi poate dori,
-in interior, sa fie mai mult pe tema acelei cifre decat ii este dat prin datele
-native. Daca cifra exista in matricea datei, dar lipseste din matricea numelui,
-ea se noteaza ca lipsa in nume; aceasta arata impresia interioara ca omul are
-mai putin din acea caracteristica decat ii este dat prin datele native.
+Pentru fiecare cifra, compara casuta din matricea numelui cu aceeasi casuta din
+matricea datei. In coloanele `Data` si `Nume`, nu scrie doar cantitatea numerica,
+ci cifrele efective prezente in casuta: `1111`, `44`, `9`; daca cifra lipseste,
+scrie `-`. Diferenta ramane numerica si se calculeaza ca nume minus data.
 
-| Cifra | Cantitate in matricea datei | Cantitate in matricea numelui | Diferenta nume - data | Status comparativ | Observatie |
-| --- | --- | --- | --- | --- | --- |
+Daca numele depaseste data cu doua sau mai multe unitati, cifra este in exces in
+nume. Excesul arata ca posesorul numelui isi poate dori, in interior, sa fie mai
+mult pe tema acelei cifre decat ii este dat prin datele native. Daca cifra exista
+in matricea datei, dar lipseste din matricea numelui, ea se noteaza ca lipsa in
+nume; aceasta arata impresia interioara ca omul are mai putin din acea
+caracteristica decat ii este dat prin datele native.
+
+| Cifra | Data | Nume | Diferenta | Status comparativ | Observatie |
+| --- | --- | --- | ---: | --- | --- |
 | 1 |  |  |  | exces / sustinuta / lipsa in nume / potential de nume / absenta |  |
 | 2 |  |  |  | exces / sustinuta / lipsa in nume / potential de nume / absenta |  |
 | 3 |  |  |  | exces / sustinuta / lipsa in nume / potential de nume / absenta |  |

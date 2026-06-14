@@ -11,7 +11,6 @@ prenumele activ `Sabina`. Nivelul de detaliere folosit este `amplu`.
 - Nume complet folosit in analiza: SZABO SABINA
 - Nume de familie folosit in analiza: SZABO
 - Prenume folosit in analiza: SABINA
-- Nume inainte de casatorie: MIRESCU
 - Intrebare personala sau tema principala: de completat
 - Data adaugarii in lista de persoane: de completat
 - Tip template folosit: template complet / maxim
@@ -140,10 +139,22 @@ analiza, cautare si profunzime. Destinul tau cere sa nu ramai doar in eficienta.
 Ai nevoie sa intrebi, sa studiezi, sa observi, sa simti adevarul din spatele
 formei. In viata de zi cu zi, `7` poate cere momente de retragere si clarificare.
 
-**Calea destinului `34`.** Calea neredusa `34` arata felul drumului. `3` spune ca
-exprimarea este importanta, iar `4` spune ca exprimarea trebuie asezata intr-o
-forma concreta. Sabina, calea `34` sugereaza stabilitate dupa incercari. Nu toate
-rezultatele vin repede, dar ceea ce trece prin proba poate deveni solid.
+**Calea destinului `34`.** Calea neredusa `34` arata ce si cum ai de facut prin
+viata ca sa iti realizezi destinul. Ea intra in categoria `30-39`, adica in
+categoria cailor cu `3` in fata: relationare, influenta asupra mediului,
+transmiterea intelepciunii si asumarea unui rol de ghidare sau de explicare
+pentru ceilalti. In cazul tau, prima cifra, `3`, raspunde la intrebarea: ce ai de
+facut? Ai de cultivat expresia, comunicarea, creativitatea, adaptarea si
+capacitatea de a da forma vie experientei. In acelasi timp, ai de invins umbrele
+lui `3`: imprastierea, vorbirea fara directie, nefinalizarea sau tendinta de a
+fugi din profunzime prin agitatie.
+
+A doua cifra, `4`, raspunde la intrebarea: cum faci acest lucru? Prin polaritatea
+pozitiva a lui `4`: structura, disciplina, rabdare, metoda si constructie pas cu
+pas. Sabina, nu este suficient doar sa exprimi ce simti sau ce intelegi; calea ta
+cere sa asezi expresia intr-o forma care poate ramane. Umbra de evitat este
+polaritatea minus a lui `4`: rigiditatea, controlul, blocajul sau transformarea
+ordinii intr-o presiune.
 
 ### Aspecte de indreptat si solutia
 
@@ -154,10 +165,18 @@ rezultatele vin repede, dar ceea ce trece prin proba poate deveni solid.
 | Aspecte de indreptat | `34 - 2 x 1` | `32` |
 | Vibratia solutiei | `3 + 2` | `5` |
 
-**Calea destinului `34`.** Sabina, `34` te invita sa transformi expresia `3` in
-structura `4`. Asta inseamna ca ideile, emotiile si intuitiile tale au nevoie de
-forma. Nu este suficient sa simti corect; profilul cere sa asezi ceea ce simti
-intr-un gest, intr-o decizie, intr-o metoda sau intr-o directie concreta.
+**Calea destinului `34`.** Sabina, `34` se citeste mai intai prin categoria lui
+mare: `30-39`, cu `3` in fata. Asta arata ca drumul tau trece prin relationare,
+influenta asupra mediului, transmitere si capacitatea de a-i ajuta pe oameni sa
+inteleaga mai limpede ce traiesc. Apoi `34` se citeste prin doua intrebari
+simple: ce ai de facut si cum ai de facut. `3` raspunde la `ce`: ai de cultivat
+comunicarea, expresia, creativitatea si capacitatea de a transmite viu ceea ce ai
+inteles. Tot aici ai de invins partea de umbra a lui `3`: imprastierea,
+superficialitatea, vorbirea fara forma sau tendinta de a incepe multe fara sa
+duci suficient la capat. `4` raspunde la `cum`: prin disciplina, structura,
+rabdare, metoda si constructie concreta. Ideile, emotiile si intuitiile tale au
+nevoie de forma: gest, decizie, metoda sau directie. Cheia este sa folosesti
+polaritatea pozitiva a lui `4`, fara rigiditate, control sau blocaj.
 
 **Aspectele de indreptat `32`.** Calculul `34 - 2 x 1 = 32` arata o tema intre
 comunicare si relatie. `3` vrea sa spuna, sa se exprime, sa se miste; `2` cere
@@ -507,7 +526,7 @@ design, arhitectura, alimentatie, obiecte utile si confort creat pentru oameni.
 Numele preluat nu anuleaza neamul de origine, ci adauga un context nou de familie
 si manifestare.
 
-### Matricea numelui actual
+### Matricea numelui
 
 Sir complet de cifre din nume, cu numarul de exprimare final `1` introdus in
 matrice:
@@ -524,19 +543,19 @@ matrice:
 | 3 | 6 | 9 |
 |  | 6 | 9 |
 
-### Comparare nume - matrice de baza
+### Comparare matricea numelui - matricea datei de nastere
 
-| Cifra | Data | Nume | Diferenta nume - data | Status comparativ | Observatie |
-| --- | ---: | ---: | ---: | --- | --- |
-| 1 | 2 | 6 | 4 | exces in nume | dorinta de a fi mai lider, mai autoritara si mai dominanta decat sustine structura nativa |
-| 2 | 1 | 2 | 1 | sustinuta | sensibilitatea este nuantata de nume, fara exces major |
-| 3 | 2 | 0 | -2 | lipsa in nume | poti avea senzatia ca ai mai putina flexibilitate si expresie decat ai de fapt |
-| 4 | 3 | 0 | -3 | lipsa in nume | poti avea senzatia ca ai mai putina organizare si stabilitate decat iti da matricea datei |
-| 5 | 1 | 1 | 0 | sustinuta | centrul si adaptarea sunt confirmate |
-| 6 | 0 | 1 | 1 | potential de nume | numele aduce armonie si familie ca potential fara suport nativ direct |
-| 7 | 2 | 0 | -2 | lipsa in nume | poti avea senzatia ca esti mai putin inteleasa sau ca iti exprimi mai greu analiza |
-| 8 | 1 | 1 | 0 | sustinuta | forta este confirmata |
-| 9 | 1 | 1 | 0 | sustinuta | sensul este confirmat |
+| Cifra | Data | Nume | Diferenta | Status comparativ | Observatie |
+| --- | --- | --- | ---: | --- | --- |
+| 1 | `11` | `111111` | 4 | exces in nume | dorinta de a fi mai lider, mai autoritara si mai dominanta decat sustine structura nativa |
+| 2 | `2` | `22` | 1 | sustinuta | sensibilitatea este nuantata de nume, fara exces major |
+| 3 | `33` | `-` | -2 | lipsa in nume | poti avea senzatia ca ai mai putina flexibilitate si expresie decat ai de fapt |
+| 4 | `444` | `-` | -3 | lipsa in nume | poti avea senzatia ca ai mai putina organizare si stabilitate decat iti da matricea datei |
+| 5 | `5` | `5` | 0 | sustinuta | centrul si adaptarea sunt confirmate |
+| 6 | `-` | `6` | 1 | potential de nume | numele aduce armonie si familie ca potential fara suport nativ direct |
+| 7 | `77` | `-` | -2 | lipsa in nume | poti avea senzatia ca esti mai putin inteleasa sau ca iti exprimi mai greu analiza |
+| 8 | `8` | `8` | 0 | sustinuta | forta este confirmata |
+| 9 | `9` | `9` | 0 | sustinuta | sensul este confirmat |
 
 Comparatia se face intre cele doua matrici, fara a calcula o a treia matrice.
 Numele actual are exces puternic de `1`: prin nume, poti simti dorinta de a fi mai
@@ -787,7 +806,6 @@ ezoterism si concluzie.
 - Prenumele activ folosit: Sabina.
 - Nume anterior / schimbat: Mirescu.
 - Forma anterioara calculata: Mirescu Sabina.
-- Nume inainte de casatorie: de completat.
 - Tema personala principala: de completat.
 
 ## 14. Harta documentatie folosita
@@ -812,8 +830,6 @@ ezoterism si concluzie.
 
 - Data adaugarii in lista de persoane: de completat.
 - Intrebarea personala sau tema principala: de completat.
-- Nume inainte de casatorie: trebuie confirmat daca este `Mirescu` sau daca
-  `Mirescu` este doar nume anterior / schimbat.
 - Reprezentarea grafica pentru soarta si destin: de completat daca se alege
   ciclul de 10 ani sau 12 ani.
 - Lectiile de viata pe perioade exacte: necesita mapare separata.
