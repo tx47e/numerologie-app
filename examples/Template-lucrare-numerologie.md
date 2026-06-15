@@ -41,6 +41,7 @@ tabelul, graficul, interpretarea, lista sau blocul de calcul:
 
 ```html
 <small>Index: COD-LUCRARE-TIP-NNN</small>
+
 ```
 
 Unde:
@@ -55,14 +56,15 @@ Unde:
 
 Reguli de aplicare:
 
-- Titlul principal al lucrarii primeste index de tip `CAP` pe linia imediat
-  anterioara titlului.
+- Titlul principal al lucrarii primeste index de tip `CAP` pe linie separata,
+  cu o linie goala intre index si titlu.
 - Fiecare capitol `##` primeste index de tip `CAP` pe linia imediat anterioara
-  capitolului.
+  capitolului, cu o linie goala intre index si capitol.
 - Fiecare subtitlu `###` primeste index de tip `SUB` pe linia imediat anterioara
-  subtitlului.
+  subtitlului, cu o linie goala intre index si subtitlu.
 - Fiecare paragraf cursiv primeste index de tip `P` pe linia imediat anterioara
-  paragrafului, cu exceptia liniilor din tabele si a listelor scurte.
+  paragrafului, cu o linie goala intre index si paragraf, cu exceptia liniilor
+  din tabele si a listelor scurte.
 - Fiecare tabel primeste o linie de index imediat inaintea tabelului, de tip
   `T`.
 - Fiecare grafic sau reprezentare vizuala primeste index de tip `G`.
@@ -71,7 +73,7 @@ Reguli de aplicare:
   orice paragraf interpretativ. Nu se foloseste un tip separat pentru
   interpretare.
 - Indexurile nu inlocuiesc titlurile si nu schimba continutul interpretarii; ele
-  sunt repere de citare si raman intotdeauna pe rand separat.
+  sunt repere de citare si raman intotdeauna pe rand separat, ca bloc propriu.
 
 ## Regula pentru exprimari reutilizabile
 

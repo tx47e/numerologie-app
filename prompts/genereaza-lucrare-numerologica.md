@@ -41,11 +41,12 @@ Reguli de redactare:
 - Indexeaza lucrarea ca document de referinta: fiecare capitol, subtitlu,
   paragraf, tabel, grafic si bloc de calcul trebuie sa aiba un
   cod afisat ca text mic pe linia separata de dinaintea elementului, de forma
-  `<small>Index: COD-LUCRARE-TIP-NNN</small>`. Nu pune indexul pe acelasi rand
-  cu titlul, paragraful, tabelul sau orice alt element indexat. Interpretarile
-  se indexeaza ca paragrafe, cu tipul `P`; nu folosi un tip separat `I`.
-  Foloseste regula completa din `examples/Template-lucrare-numerologie.md`,
-  sectiunea `Regula de indexare editoriala`.
+  `<small>Index: COD-LUCRARE-TIP-NNN</small>`, urmat de o linie goala. Nu pune
+  indexul pe acelasi rand cu titlul, paragraful, tabelul sau orice alt element
+  indexat. Interpretarile se indexeaza ca paragrafe, cu tipul `P`; nu folosi un
+  tip separat `I`. Foloseste regula completa din
+  `examples/Template-lucrare-numerologie.md`, sectiunea `Regula de indexare
+  editoriala`.
 - Aseaza tabelele ingrijit: textul din celule, mai ales capul de tabel, nu
   trebuie rupt nefiresc. Redu coloanele care permit asta si largeste coloanele
   care au nevoie de spatiu, pastrand tabelul clar si usor de citit.
