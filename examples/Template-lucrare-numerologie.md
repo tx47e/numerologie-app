@@ -28,6 +28,46 @@ Interpretarea nu trebuie sa fie o insiruire mecanica de semnificatii. Fiecare
 rezultat se leaga de restul lucrarii si se traduce in termeni practici: cum se
 vede in relatii, munca, decizii, ritm personal, maturizare si directie de viata.
 
+## Regula de indexare editoriala
+
+Fiecare lucrare trebuie sa poata fi citata ca un document de norme. De aceea,
+fiecare element important primeste un cod de index vizibil si stabil, astfel incat
+se poate face trimitere exacta la un capitol, subtitlu, paragraf, tabel, grafic
+sau interpretare.
+
+Formatul recomandat este:
+
+```text
+[IDX:COD-LUCRARE-TIP-NNN]
+```
+
+Unde:
+
+- `COD-LUCRARE` identifica persoana si versiunea lucrarii, de exemplu
+  `SAB-19840417-V3`.
+- `TIP` identifica elementul: `CAP` pentru capitol, `SUB` pentru subtitlu,
+  `P` pentru paragraf, `T` pentru tabel, `G` pentru grafic, `I` pentru
+  interpretare, `L` pentru lista, `C` pentru bloc de cod sau calcul.
+- `NNN` este numarul curent al elementului in lucrare, cu trei cifre:
+  `001`, `002`, `003`.
+
+Reguli de aplicare:
+
+- Titlul principal al lucrarii primeste index de tip `CAP`.
+- Fiecare capitol `##` primeste index de tip `CAP`.
+- Fiecare subtitlu `###` primeste index de tip `SUB`.
+- Fiecare paragraf cursiv primeste index de tip `P`, cu exceptia liniilor din
+  tabele si a listelor scurte.
+- Fiecare tabel primeste o linie de index imediat inaintea tabelului, de tip
+  `T`.
+- Fiecare grafic sau reprezentare vizuala primeste index de tip `G`.
+- Fiecare bloc de calcul sau bloc de cod primeste index de tip `C`.
+- Fiecare interpretare explicita de dupa tabel primeste index de tip `I`; daca
+  interpretarea are mai multe paragrafe, fiecare paragraf poate primi si index
+  de tip `P`, dar primul paragraf trebuie sa aiba obligatoriu index `I`.
+- Indexurile nu inlocuiesc titlurile si nu schimba continutul interpretarii; ele
+  sunt repere de citare.
+
 ## Regula pentru exprimari reutilizabile
 
 Cand se interpreteaza un calcul, o vibratie sau un termen numerologic recurent,
