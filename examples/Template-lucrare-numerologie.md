@@ -650,17 +650,23 @@ punctele de intalnire si punctele de rascruce. Aceasta interpretare comparativa
 poate fi numita si `tema vietii`, atunci cand in lucrare se formuleaza concluzia
 de sinteza dintre cadrul primit si directia de implinire.
 
+Atentie: in aceasta rubrica, soarta si destinul nu se reduc la o cifra si nu se
+inlocuiesc cu vibratia destinului din data nasterii. Se pastreaza numarul grafic
+de 7 cifre. Daca rezultatul inmultirii are mai putin de 7 cifre, se completeaza
+cu zerouri in fata. Zona de confort se calculeaza ca suma cifrelor numarului
+grafic impartita la 7.
+
 ### Calcul soarta
 
 | Formula | Numar grafic | Zona de confort |
 | --- | --- | --- |
-| `ZZLL x AAAA` |  |  |
+| `ZZLL x AAAA` | numar de 7 cifre, fara reducere numerologica | `suma cifrelor / 7` |
 
 ### Calcul destin
 
 | Formula | Numar grafic | Zona de confort |
 | --- | --- | --- |
-| `ZZLL ajustat x AAAA ajustat` |  |  |
+| `ZZLL ajustat x AAAA ajustat` | numar de 7 cifre, fara reducere numerologica | `suma cifrelor / 7` |
 
 ### Interpretare grafica
 

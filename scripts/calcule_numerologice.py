@@ -184,6 +184,42 @@ def soarta(zi, luna, an):
     return {"total": total, "rezultat": rezultat, "pasi": pasi}
 
 
+def inlocuieste_zero_cu_unu(text):
+    return text.replace("0", "1")
+
+
+def zona_confort_grafica(numar_grafic):
+    cifre = [int(cifra) for cifra in numar_grafic]
+    return {
+        "suma": sum(cifre),
+        "zona": sum(cifre) / len(cifre),
+        "cifre": cifre,
+    }
+
+
+def soarta_si_destin_grafic(zi, luna, an):
+    zzll = f"{zi:02d}{luna:02d}"
+    aaaa = f"{an:04d}"
+    soarta_numar = int(zzll) * int(aaaa)
+    zzll_destin = inlocuieste_zero_cu_unu(zzll)
+    aaaa_destin = inlocuieste_zero_cu_unu(aaaa)
+    destin_numar = int(zzll_destin) * int(aaaa_destin)
+    soarta_grafica = f"{soarta_numar:07d}"
+    destin_grafic = f"{destin_numar:07d}"
+    return {
+        "soarta": {
+            "formula": f"{zzll} x {aaaa}",
+            "numar": soarta_grafica,
+            "zona_confort": zona_confort_grafica(soarta_grafica),
+        },
+        "destin": {
+            "formula": f"{zzll_destin} x {aaaa_destin}",
+            "numar": destin_grafic,
+            "zona_confort": zona_confort_grafica(destin_grafic),
+        },
+    }
+
+
 def vibratia_anului(zi, luna, an_analizat):
     cifre = [int(cifra) for cifra in f"{zi:02d}{luna:02d}{an_analizat:04d}"]
     total = sum(cifre)
@@ -495,6 +531,7 @@ def main():
     ereditar_karmic = numar_ereditar_karmic(args.nume_familie)
     destin = nume["rezultat"]
     soarta_rezultat = soarta(args.zi, args.luna, args.an)
+    grafic = soarta_si_destin_grafic(args.zi, args.luna, args.an)
     tema_vietii = vibratie_din_numar(soarta_rezultat["rezultat"] + destin)
     an_personal = vibratia_anului(args.zi, args.luna, args.an_analizat)
     ani = ani_importanti(args.zi, args.luna, args.an, args.start, args.stop)
@@ -516,7 +553,15 @@ def main():
     print(f"Numar activ: {activ['rezultat']} (total {activ['total']})")
     print(f"Numar ereditar: {ereditar['rezultat']} (total {ereditar['total']})")
     print(f"Numar ereditar karmic: {ereditar_karmic['rezultat']} (total {ereditar_karmic['total']})")
-    print(f"Soarta: {soarta_rezultat['rezultat']} (total {soarta_rezultat['total']})")
+    print(f"Vibratia datei / destin: {soarta_rezultat['rezultat']} (cale {soarta_rezultat['total']})")
+    print(
+        f"Soarta grafica: {grafic['soarta']['numar']} "
+        f"({grafic['soarta']['formula']}, zona {grafic['soarta']['zona_confort']['zona']:.2f})"
+    )
+    print(
+        f"Destin grafic: {grafic['destin']['numar']} "
+        f"({grafic['destin']['formula']}, zona {grafic['destin']['zona_confort']['zona']:.2f})"
+    )
     print(f"Tema vietii: {tema_vietii}")
     print(f"Vibratia anului personal {args.an_analizat}: {an_personal['rezultat']} (total {an_personal['total']})")
     print()

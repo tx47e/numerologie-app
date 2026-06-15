@@ -215,12 +215,22 @@ La data lucrarii, persoana are 73 de ani si se afla in pinaclul 4, activ de la 5
 
 ## 8. Soarta si destinul
 
-| Calcul | Rezultat |
-| --- | --- |
-| Soarta, total 28 | 1 |
-| Tema vietii | 3 |
+| Calcul | Formula | Rezultat | Zona de confort |
+| --- | --- | ---: | --- |
+| Soarta | `1208 x 1952` | 2358016 | `2+3+5+8+0+1+6 = 25`; `25 / 7 = 3,57` |
+| Destin | `1218 x 1952` | 2377536 | `2+3+7+7+5+3+6 = 33`; `33 / 7 = 4,71` |
 
-Soarta 1 confirma tema independentei si a initierii. Tema vietii 3 arata ca aceasta independenta nu este muta, ci trebuie exprimata, povestita, transmisa. Omul nu vine doar sa faca, ci si sa dea sens prin cuvant, exemplu si intelegere.
+Linia sortii `2358016` arata un cadru primit in care comunicarea, schimbarea, forta practica, pauzele de reasezare si initiativa apar impreuna. Zona de confort `3,57` sugereaza ca persoana functioneaza mai firesc atunci cand poate explica, adapta si misca lucrurile fara a le rigidiza excesiv. Cifra `8` din mijlocul liniei confirma tema responsabilitatii si a administrarii concrete, dar prezenta lui `0` arata ca exista si momente de gol, oprire sau resetare care trebuie acceptate ca parte din ritmul vietii.
+
+Linia destinului `2377536` ridica zona de confort la `4,71`, ceea ce arata o directie de implinire mai structurata, mai solicitanta si mai orientata spre constructie. Apar doua cifre `7`, inexistente in linia sortii, ceea ce indica faptul ca destinul grafic cere mai multa intelepciune, analiza, interiorizare si incredere in sensul profund al experientelor. Tema vietii, ca sinteza dintre cele doua linii, arata trecerea de la adaptarea sociala si responsabilitatea practica spre o forma de maturitate in care decizia este sprijinita de reflectie.
+
+### Interpretare grafica
+
+- Ciclul folosit: de completat dupa alegerea reprezentarii, 10 ani / 12 ani.
+- Puncte de intalnire: cifrele `2`, `3` si `6` arata teme comune de relatie, expresie si responsabilitate.
+- Puncte de rascruce: trecerea de la `5` si `8` in soarta la `7`, `7` si `5` in destin cere ca experienta si puterea practica sa fie filtrate prin intelepciune.
+- Zone de confort: comunicare aplicata, adaptare, responsabilitate si constructie.
+- Zone de efort: incredere profunda, retragere selectiva, analiza si renuntarea la controlul excesiv.
 
 ## 9. Lectii de viata si cicluri
 

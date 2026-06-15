@@ -245,12 +245,22 @@ La data lucrarii, persoana are 69 de ani si se afla in pinaclul 4, activ de la 4
 
 ## 8. Soarta si destinul
 
-| Calcul | Rezultat |
-| --- | --- |
-| Soarta, total 24 | 6 |
-| Tema vietii | 3 |
+| Calcul | Formula | Rezultat | Zona de confort |
+| --- | --- | ---: | --- |
+| Soarta | `0111 x 1956` | 0217116 | `0+2+1+7+1+1+6 = 18`; `18 / 7 = 2,57` |
+| Destin | `1111 x 1956` | 2173116 | `2+1+7+3+1+1+6 = 21`; `21 / 7 = 3,00` |
 
-Soarta 6 si destinul 6 arata o repetare puternica a temei de grija, familie, responsabilitate si armonizare. Tema vietii 3 spune insa ca aceasta grija trebuie exprimata viu. Nu este suficient ca persoana sa faca; este important sa spuna, sa creeze, sa lase caldura sa fie vizibila.
+Linia sortii `0217116` pastreaza zeroul initial pentru ca metoda cere numar grafic de 7 cifre. Acest cadru primit arata o viata in care sensibilitatea, relatia, cautarea de sens si responsabilitatea afectiva sunt prezente de la inceput. Zona de confort `2,57` este relativ joasa si indica o functionare fireasca prin relatie, rabdare, receptivitate si adaptare. Cifra `7` din centru arata ca, dincolo de rolurile familiale sau sociale, exista o nevoie de inteles, credinta si maturizare interioara.
+
+Linia destinului `2173116` se obtine prin inlocuirea zeroului din `0111` cu `1`, devenind `1111 x 1956`. Zona de confort urca la `3,00`, ceea ce arata ca directia de implinire cere mai multa exprimare, clarificare si comunicare decat cadrul primit. Destinul grafic pastreaza `2`, `1`, `7`, `1`, `1` si `6`, dar introduce `3` in locul unuia dintre accentele de inchidere, semn ca viata cere transformarea sensibilitatii si responsabilitatii in cuvant, creativitate si prezenta mai vizibila.
+
+### Interpretare grafica
+
+- Ciclul folosit: de completat dupa alegerea reprezentarii, 10 ani / 12 ani.
+- Puncte de intalnire: cifrele `2`, `1`, `7`, `1`, `1` si `6` arata teme comune de relatie, identitate, cautare si responsabilitate.
+- Puncte de rascruce: trecerea de la `0` in soarta la `2` in destin si aparitia lui `3` in destin cer iesirea din pasivitate sau tacere prin exprimare clara.
+- Zone de confort: relatie, sensibilitate, grija, responsabilitate si cautare de sens.
+- Zone de efort: exprimare personala, vizibilitate, formularea nevoilor si transformarea responsabilitatii in comunicare vie.
 
 ## 9. Lectii de viata si cicluri
 
