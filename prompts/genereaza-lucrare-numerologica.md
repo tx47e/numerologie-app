@@ -40,10 +40,11 @@ Reguli de redactare:
   firesti.
 - Indexeaza lucrarea ca document de referinta: fiecare capitol, subtitlu,
   paragraf, tabel, grafic, interpretare si bloc de calcul trebuie sa aiba un
-  cod afisat ca text mic pe linia de dinaintea elementului, de forma
-  `<small>Index: COD-LUCRARE-TIP-NNN</small>`. Foloseste regula completa din
-  `examples/Template-lucrare-numerologie.md`, sectiunea `Regula de indexare
-  editoriala`.
+  cod afisat ca text mic pe linia separata de dinaintea elementului, de forma
+  `<small>Index: COD-LUCRARE-TIP-NNN</small>`. Nu pune indexul pe acelasi rand
+  cu titlul, paragraful, interpretarea, tabelul sau orice alt element indexat.
+  Foloseste regula completa din `examples/Template-lucrare-numerologie.md`,
+  sectiunea `Regula de indexare editoriala`.
 - Aseaza tabelele ingrijit: textul din celule, mai ales capul de tabel, nu
   trebuie rupt nefiresc. Redu coloanele care permit asta si largeste coloanele
   care au nevoie de spatiu, pastrand tabelul clar si usor de citit.

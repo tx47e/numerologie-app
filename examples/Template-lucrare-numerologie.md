@@ -35,7 +35,9 @@ fiecare element important primeste un cod de index vizibil si stabil, astfel inc
 se poate face trimitere exacta la un capitol, subtitlu, paragraf, tabel, grafic
 sau interpretare.
 
-Formatul recomandat este text mic pe linia de dinaintea elementului:
+Formatul obligatoriu este text mic pe linia separata de dinaintea elementului.
+Indexul nu se scrie niciodata pe acelasi rand cu titlul, subtitlul, paragraful,
+tabelul, graficul, interpretarea, lista sau blocul de calcul:
 
 ```html
 <small>Index: COD-LUCRARE-TIP-NNN</small>
@@ -69,7 +71,7 @@ Reguli de aplicare:
   interpretarea are mai multe paragrafe, fiecare paragraf poate primi si index
   de tip `P`, dar primul paragraf trebuie sa aiba obligatoriu index `I`.
 - Indexurile nu inlocuiesc titlurile si nu schimba continutul interpretarii; ele
-  sunt repere de citare.
+  sunt repere de citare si raman intotdeauna pe rand separat.
 
 ## Regula pentru exprimari reutilizabile
 
