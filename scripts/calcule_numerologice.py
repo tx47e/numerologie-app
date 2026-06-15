@@ -22,6 +22,7 @@ ALFABET = {
 }
 
 DATORII_KARMICE = {13, 14, 16, 19}
+VOCALE = set("AEIOU")
 
 KARMA_LUNII_TEME = {
     1: "karma fata de frate sau sora",
@@ -115,6 +116,26 @@ def vibratia_numelui(nume):
         "valori": valori,
         "componente": componente,
     }
+
+
+def vibratie_litere(nume, pastreaza):
+    valori = [(litera, valoare) for litera, valoare in valori_nume(nume) if pastreaza(litera)]
+    total = sum(valoare for _, valoare in valori)
+    rezultat, pasi = reducere(total)
+    return {
+        "total": total,
+        "rezultat": rezultat,
+        "pasi": pasi,
+        "valori": valori,
+    }
+
+
+def numar_intim(nume):
+    return vibratie_litere(nume, lambda litera: litera in VOCALE)
+
+
+def numar_de_realizare(nume):
+    return vibratie_litere(nume, lambda litera: litera not in VOCALE)
 
 
 def numar_activ(nume):
@@ -318,6 +339,8 @@ def analiza_nume(nume, zi, luna, an, nume_familie=None):
         "nume": nume,
         "nume_familie": familie,
         "numar_exprimare": vibratie,
+        "numar_intim": numar_intim(nume),
+        "numar_de_realizare": numar_de_realizare(nume),
         "numar_activ": numar_activ(nume),
         "numar_ereditar": vibratia_numelui(familie),
         "numar_ereditar_karmic": numar_ereditar_karmic(familie),
@@ -367,6 +390,14 @@ def afiseaza_analiza_nume(titlu, analiza):
         f"(total {analiza['numar_exprimare']['total']})"
     )
     print(
+        f"Numar intim: {analiza['numar_intim']['rezultat']} "
+        f"(total {analiza['numar_intim']['total']})"
+    )
+    print(
+        f"Numar de realizare: {analiza['numar_de_realizare']['rezultat']} "
+        f"(total {analiza['numar_de_realizare']['total']})"
+    )
+    print(
         f"Numar activ: {analiza['numar_activ']['rezultat']} "
         f"(total {analiza['numar_activ']['total']})"
     )
@@ -397,6 +428,14 @@ def afiseaza_comparatie_nume(inainte, dupa):
     print(
         f"Numar de exprimare: {inainte['numar_exprimare']['rezultat']} -> "
         f"{dupa['numar_exprimare']['rezultat']}"
+    )
+    print(
+        f"Numar intim: {inainte['numar_intim']['rezultat']} -> "
+        f"{dupa['numar_intim']['rezultat']}"
+    )
+    print(
+        f"Numar de realizare: {inainte['numar_de_realizare']['rezultat']} -> "
+        f"{dupa['numar_de_realizare']['rezultat']}"
     )
     print(
         f"Numar ereditar karmic / numarul neamului: "
@@ -449,6 +488,8 @@ def main():
     args = parser.parse_args()
 
     nume = vibratia_numelui(args.nume)
+    intim = numar_intim(args.nume)
+    realizare = numar_de_realizare(args.nume)
     activ = numar_activ(args.nume)
     ereditar = vibratia_numelui(args.nume_familie)
     ereditar_karmic = numar_ereditar_karmic(args.nume_familie)
@@ -470,6 +511,8 @@ def main():
     print(f"Vibratia interioara: {vibratie_din_numar(args.zi)}")
     print(f"Vibratia exterioara: {vibratie_din_numar(args.luna)}")
     print(f"Numar de exprimare / destin: {destin} (total {nume['total']})")
+    print(f"Numar intim: {intim['rezultat']} (total {intim['total']})")
+    print(f"Numar de realizare: {realizare['rezultat']} (total {realizare['total']})")
     print(f"Numar activ: {activ['rezultat']} (total {activ['total']})")
     print(f"Numar ereditar: {ereditar['rezultat']} (total {ereditar['total']})")
     print(f"Numar ereditar karmic: {ereditar_karmic['rezultat']} (total {ereditar_karmic['total']})")
