@@ -1,0 +1,4 @@
+interface:
+  display_name: "Numerology Agent"
+  short_description: "Use the local numerology vault to produce readings"
+  default_prompt: "Use -agent to create a numerology reading from the local vault."
