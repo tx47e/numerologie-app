@@ -39,10 +39,11 @@ Reguli de redactare:
 - Dupa fiecare tabel important, scrie o interpretare cursiva, in paragrafe
   firesti.
 - Indexeaza lucrarea ca document de referinta: fiecare capitol, subtitlu,
-  paragraf, tabel, grafic, interpretare si bloc de calcul trebuie sa aiba un
+  paragraf, tabel, grafic si bloc de calcul trebuie sa aiba un
   cod afisat ca text mic pe linia separata de dinaintea elementului, de forma
   `<small>Index: COD-LUCRARE-TIP-NNN</small>`. Nu pune indexul pe acelasi rand
-  cu titlul, paragraful, interpretarea, tabelul sau orice alt element indexat.
+  cu titlul, paragraful, tabelul sau orice alt element indexat. Interpretarile
+  se indexeaza ca paragrafe, cu tipul `P`; nu folosi un tip separat `I`.
   Foloseste regula completa din `examples/Template-lucrare-numerologie.md`,
   sectiunea `Regula de indexare editoriala`.
 - Aseaza tabelele ingrijit: textul din celule, mai ales capul de tabel, nu

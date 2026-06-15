@@ -110,7 +110,7 @@ dialog mai bland cu propria sensibilitate.
 | Destin | suma cifrelor datei | `1 + 7 + 0 + 4 + 1 + 9 + 8 + 4 = 34 -> 7` | `7` | cautare, analiza, profunzime |
 | Calea destinului | suma neredusa | `1 + 7 + 0 + 4 + 1 + 9 + 8 + 4` | `34` | drum de maturizare si stabilizare |
 
-<small>Index: SAB-19840417-V3-I-001</small>
+<small>Index: SAB-19840417-V3-P-008</small>
 **Vibratia interioara `8`.** Sabina, calculul porneste de la ziua `17`, adica
 `1 + 7 = 8`. `1` aduce initiativa si verticalitate, iar `7` aduce analiza,
 introspectie si nevoie de sens. Cand aceste doua trepte se aduna in `8`, energia
@@ -119,7 +119,7 @@ asta se poate vedea prin felul in care iti asumi lucrurile importante si prin
 nevoia de a simti ca situatia este sub control. Cheia este sa folosesti `8` ca
 putere matura, nu ca presiune continua asupra ta.
 
-<small>Index: SAB-19840417-V3-P-008</small>
+<small>Index: SAB-19840417-V3-P-009</small>
 **Vibratia exterioara `4`.** Luna nasterii este `4`, deci vibratia exterioara nu
 are nevoie de reducere. `4` arata felul in care poti fi perceputa in lume:
 practica, serioasa, responsabila, orientata spre lucruri concrete. Sabina, acest
@@ -127,7 +127,7 @@ practica, serioasa, responsabila, orientata spre lucruri concrete. Sabina, acest
 lui buna, `4` construieste, organizeaza si protejeaza. In umbra, poate deveni
 rigid, obosit sau prea concentrat pe ce trebuie facut.
 
-<small>Index: SAB-19840417-V3-P-009</small>
+<small>Index: SAB-19840417-V3-P-010</small>
 **Vibratia cosmica fixa `19`.** Primele doua cifre ale anului sunt `19`. `1`
 aduce inceput, iar `9` aduce finalizare, memorie si perspectiva. Impreuna, `19`
 poate arata o tema subtila de demnitate, lumina si invatare prin experienta.
@@ -135,7 +135,7 @@ Sabina, aceasta vibratie poate lucra in tine ca o nevoie de a intelege nu doar c
 se intampla, ci si ce inseamna. Nu este o energie superficiala; ea cauta firul
 mai mare al evenimentelor.
 
-<small>Index: SAB-19840417-V3-P-010</small>
+<small>Index: SAB-19840417-V3-P-011</small>
 **Vibratia cosmica variabila `3`.** Ultimele doua cifre ale anului sunt `84`.
 Calculul este `8 + 4 = 12`, apoi `1 + 2 = 3`. `8` aduce forta, `4` aduce forma,
 `12` cere schimbare de perspectiva, iar `3` devine expresie. Sabina, asta arata
@@ -143,28 +143,28 @@ ca in plan concret poti transforma experienta grea in comunicare, explicatie,
 adaptare si solutie. Cand nu ramai inchisa in presiune, poti gasi cuvinte si
 forme prin care lucrurile se misca.
 
-<small>Index: SAB-19840417-V3-P-011</small>
+<small>Index: SAB-19840417-V3-P-012</small>
 **Vibratia cosmica totala `22/4`.** Anul `1984` da `1 + 9 + 8 + 4 = 22`, iar
 `22` se reduce practic la `4`. Aceasta combinatie intareste foarte mult tema
 constructiei. `22` este o energie mare de arhitectura, iar `4` o aduce in
 realitate prin metoda, munca si rabdare. Sabina, aici apare una dintre lectiile
 tale: sa construiesti solid, dar fara sa te inchizi in control.
 
-<small>Index: SAB-19840417-V3-P-012</small>
+<small>Index: SAB-19840417-V3-P-013</small>
 **Vibratia globala `3`.** Vibratia globala vine din `8 + 4 = 12 -> 3`. `8` si
 `4` sunt serioase, dense, orientate spre responsabilitate; `3` vine ca o gura de
 aer. El spune ca dezvoltarea ta nu se face numai prin a duce si a ordona, ci si
 prin a comunica, a te adapta, a spune, a crea si a lasa viata sa circule. Sabina,
 `3` este puntea care iti aminteste ca structura are nevoie de viata in ea.
 
-<small>Index: SAB-19840417-V3-P-013</small>
+<small>Index: SAB-19840417-V3-P-014</small>
 **Vibratia destinului `7`.** Data completa da `34`, apoi `3 + 4 = 7`. `3` aduce
 expresie, iar `4` aduce constructie; impreuna ajung la `7`, adica intelegere,
 analiza, cautare si profunzime. Destinul tau cere sa nu ramai doar in eficienta.
 Ai nevoie sa intrebi, sa studiezi, sa observi, sa simti adevarul din spatele
 formei. In viata de zi cu zi, `7` poate cere momente de retragere si clarificare.
 
-<small>Index: SAB-19840417-V3-P-014</small>
+<small>Index: SAB-19840417-V3-P-015</small>
 **Calea destinului `34`.** Calea neredusa `34` arata ce si cum ai de facut prin
 viata ca sa iti realizezi destinul. Ea intra in categoria `30-39`, adica in
 categoria cailor cu `3` in fata: relationare, influenta asupra mediului,
@@ -175,7 +175,7 @@ capacitatea de a da forma vie experientei. In acelasi timp, ai de invins umbrele
 lui `3`: imprastierea, vorbirea fara directie, nefinalizarea sau tendinta de a
 fugi din profunzime prin agitatie.
 
-<small>Index: SAB-19840417-V3-P-015</small>
+<small>Index: SAB-19840417-V3-P-016</small>
 A doua cifra, `4`, raspunde la intrebarea: cum faci acest lucru? Prin polaritatea
 pozitiva a lui `4`: structura, disciplina, rabdare, metoda si constructie pas cu
 pas. Sabina, nu este suficient doar sa exprimi ce simti sau ce intelegi; calea ta
@@ -194,7 +194,7 @@ ordinii intr-o presiune.
 | Aspecte de indreptat | `34 - 2 x 1` | `32` |
 | Vibratia solutiei | `3 + 2` | `5` |
 
-<small>Index: SAB-19840417-V3-I-002</small>
+<small>Index: SAB-19840417-V3-P-017</small>
 **Calea destinului `34`.** Sabina, `34` se citeste mai intai prin categoria lui
 mare: `30-39`, cu `3` in fata. Asta arata ca drumul tau trece prin relationare,
 influenta asupra mediului, transmitere si capacitatea de a-i ajuta pe oameni sa
@@ -208,14 +208,14 @@ rabdare, metoda si constructie concreta. Ideile, emotiile si intuitiile tale au
 nevoie de forma: gest, decizie, metoda sau directie. Cheia este sa folosesti
 polaritatea pozitiva a lui `4`, fara rigiditate, control sau blocaj.
 
-<small>Index: SAB-19840417-V3-P-016</small>
+<small>Index: SAB-19840417-V3-P-018</small>
 **Aspectele de indreptat `32`.** Calculul `34 - 2 x 1 = 32` arata o tema intre
 comunicare si relatie. `3` vrea sa spuna, sa se exprime, sa se miste; `2` cere
 ascultare, cooperare si nuanta. Sabina, aici poate aparea lectia de a spune ce ai
 de spus fara sa ranesti, dar si fara sa te anulezi. Este o zona in care vocea si
 sensibilitatea trebuie sa invete sa stea la aceeasi masa.
 
-<small>Index: SAB-19840417-V3-P-017</small>
+<small>Index: SAB-19840417-V3-P-019</small>
 **Vibratia solutiei `5`.** Solutia vine din `3 + 2 = 5`. `5` aduce libertate,
 respiratie, miscare si flexibilitate. Pentru tine, solutia nu este inca o regula
 in plus, ci capacitatea de a gasi cale de mijloc. Cand simti ca trebuie sa alegi
@@ -233,7 +233,7 @@ mai adevarata, mai respirabila.
 | Exterior - destin | 4 - 7 | 3 |
 | Cosmic - destin | 4 - 7 | 3 |
 
-<small>Index: SAB-19840417-V3-I-003</small>
+<small>Index: SAB-19840417-V3-P-020</small>
 Puntea nu inlocuieste cele doua vibratii pe care le compara si nu le anuleaza.
 Ea arata calitatea prin care ele pot fi armonizate. In cazul tau, Sabina, puntea
 dintre interior si exterior este `4`: interiorul `8`, puternic, intens si orientat
@@ -242,7 +242,7 @@ ordine, disciplina si constructie. Puntea `4` confirma ca impacarea dintre cine
 esti in interior si felul in care te manifesti social se face prin structura,
 ritm, metoda si responsabilitate concreta.
 
-<small>Index: SAB-19840417-V3-P-018</small>
+<small>Index: SAB-19840417-V3-P-021</small>
 Pentru a armoniza cine esti la interior cu ceea ce ai de devenit, apare puntea
 `1`. Interiorul `8` are forta, vointa si capacitate de conducere, iar destinul
 `7` cere profunzime, analiza, cautare de sens si incredere in ritmul interior.
@@ -250,7 +250,7 @@ Puntea `1` spune ca legatura dintre aceste doua planuri se face prin alegere
 personala, initiativa si asumarea propriei directii. Nu este suficient sa duci
 mult sau sa controlezi bine; este nevoie sa alegi constient incotro mergi.
 
-<small>Index: SAB-19840417-V3-P-019</small>
+<small>Index: SAB-19840417-V3-P-022</small>
 Intre exterior si destin, puntea este `3`. Exteriorul `4` arata un comportament
 serios, asezat, orientat spre ordine si utilitate, iar destinul `7` cere intelegere,
 discernamant si sens. Puntea `3` armonizeaza aceste doua planuri prin comunicare,
@@ -258,7 +258,7 @@ expresie si capacitatea de a formula ceea ce intelegi. Cu alte cuvinte, ceea ce
 construiesti in exterior are nevoie sa fie explicat, impartasit si transformat
 intr-un limbaj viu.
 
-<small>Index: SAB-19840417-V3-P-020</small>
+<small>Index: SAB-19840417-V3-P-023</small>
 Intre vibratia cosmica totala si destin apare tot puntea `3`. Vibratia cosmica
 `4` arata ce cere fundalul mai larg al vietii: constructie, ordine, stabilitate
 si maturizare prin forma. Destinul `7` cere cautare, rafinare interioara si
@@ -277,7 +277,7 @@ capacitatea de a da sens experientei.
 | --- | --- | --- | --- |
 | `17` / Steaua | talent, speranta, vizibilitate | neincrederea, orgoliul ranit, teama de expunere | stralucire asumata cu smerenie |
 
-<small>Index: SAB-19840417-V3-I-004</small>
+<small>Index: SAB-19840417-V3-P-024</small>
 Sabina, ziua `17` poarta tema Stelei. Aceasta nu este o lumina zgomotoasa, ci o
 lumina care se vede prin constanta, inspiratie si curatenie a intentiei. Lectia
 este sa iti recunosti valoarea fara sa te ascunzi, dar si fara sa cauti validare
@@ -291,7 +291,7 @@ excesiva. Steaua lumineaza cel mai bine cand nu forteaza cerul.
 | --- | --- | --- | --- |
 | `4` | karma fata de tata | tata, autoritate, linie paterna | structura constienta, nu rigiditate mostenita |
 
-<small>Index: SAB-19840417-V3-I-005</small>
+<small>Index: SAB-19840417-V3-P-025</small>
 Luna `4` aduce o tema legata de autoritate, tata si felul in care se construieste
 ordinea in viata. Sabina, nu este obligatoriu ca aceasta tema sa fie grea in mod
 vizibil, dar ea cere maturizare: ce autoritate respecti, ce autoritate porti, ce
@@ -306,13 +306,13 @@ transforma structura mostenita in structura proprie.
 | --- | --- | --- | --- |
 | `34` | stabilitate dupa incercari | rabdare, constructie, proba timpului | nu grabi stabilizarea; construieste dupa adevar |
 
-<small>Index: SAB-19840417-V3-I-006</small>
+<small>Index: SAB-19840417-V3-P-026</small>
 Calea `34` vorbeste despre stabilitate castigata, nu primita fara proba. Sabina,
 viata poate cere sa verifici fundatia inainte sa ridici forma. Cand ceva se
 construieste greu, nu inseamna ca este gresit; uneori inseamna ca trebuie sa
 devina suficient de solid ca sa ramana.
 
-<small>Index: SAB-19840417-V3-P-021</small>
+<small>Index: SAB-19840417-V3-P-027</small>
 Sinteza karmica leaga Steaua, autoritatea si stabilitatea. Ai de invatat sa iti
 lasi lumina sa se vada, dar intr-o forma asezata, matura si demna. Forta ta nu
 trebuie sa fie demonstratie; poate deveni prezenta linistita.
@@ -365,7 +365,7 @@ trebuie sa fie demonstratie; poate deveni prezenta linistita.
 - Elemente puternice: structura, analiza, expresie, centru, forta.
 - Tema de lucru: armonia afectiva si blandetea lui `6`.
 
-<small>Index: SAB-19840417-V3-I-007</small>
+<small>Index: SAB-19840417-V3-P-028</small>
 Sabina, matricea ta are multa substanta. `444` arata un raport puternic cu
 ordinea, munca, corpul, resursele si structura. `77` sustine destinul `7`, deci
 nu este doar o cautare teoretica; exista baza reala pentru analiza, intuitie si
@@ -393,7 +393,7 @@ obligatie.
 | 8 | 1 | `8 x 1` | 8 | forta si responsabilitate |
 | 9 | 1 | `9 x 1` | 9 | sens, memorie, finalizare |
 
-<small>Index: SAB-19840417-V3-I-008</small>
+<small>Index: SAB-19840417-V3-P-029</small>
 Sabina, valoarea cea mai mare pe casute este `4`, cu total `12`. Asta confirma
 nevoia de structura, ordine si metoda. `7` are valoarea `14`, ceea ce sustine
 destinul tau de cautare si analiza. Lipsa lui `6` este vizibila: armonia nu
@@ -415,7 +415,7 @@ odihna si frumos.
 | 159 | 1,5,9 | `2/1/1` | `2 + 5 + 9` | 16 | bunastare in cariera |
 | 357 | 3,5,7 | `2/1/2` | `6 + 5 + 14` | 25 | atingerea scopurilor |
 
-<small>Index: SAB-19840417-V3-I-009</small>
+<small>Index: SAB-19840417-V3-P-030</small>
 Vectorul `789`, bunastarea creativa, este cel mai inalt, cu valoarea `31`. Sabina,
 creativitatea ta nu este doar fantezie; ea vine din analiza `7`, forta `8` si
 sens `9`. Vectorul `147`, cu valoarea `28`, arata o bunastare spirituala puternica:
@@ -469,7 +469,7 @@ lucreaza impreuna.
 | 16 | casuta 2 | sensibilitate relationala | `2` | 2 | cooperare |
 | 17 | casuta 6 | armonie afectiva | `-` | 0 | armonie de cultivat |
 
-<small>Index: SAB-19840417-V3-I-010</small>
+<small>Index: SAB-19840417-V3-P-031</small>
 Sabina, prima treapta a scarii tale este vectorul `789`, cu valoarea `31`. Asta
 inseamna ca tu te simti cel mai bine, cea mai vie si cel mai aproape de
 fericirea ta atunci cand esti in bunastare creativa. Pentru tine, fericirea nu
@@ -478,7 +478,7 @@ conteaza, dar varful tau se activeaza cand poti sa intelegi o situatie, sa vezi
 ce nu vad ceilalti si sa gasesti o solutie proprie, uneori chiar in afara
 sabloanelor.
 
-<small>Index: SAB-19840417-V3-P-022</small>
+<small>Index: SAB-19840417-V3-P-032</small>
 La acest vector ne uitam si la cantitatea cifrelor: ai `7` de doua ori, `8` o
 data si `9` o data. Deci nu vorbim despre o creativitate superficiala, de moment,
 ci despre o creativitate care porneste din `7`. Tu ai nevoie mai intai sa
@@ -486,7 +486,7 @@ observi, sa analizezi, sa simti mecanismul din spate si sa intelegi de ce se
 intampla lucrurile asa cum se intampla. De acolo vine solutia. La tine, ideea
 buna apare dupa ce ai patruns suficient de adanc intr-o situatie.
 
-<small>Index: SAB-19840417-V3-P-023</small>
+<small>Index: SAB-19840417-V3-P-033</small>
 `8` vine apoi si iti da forta sa sustii ceea ce ai inteles. Iti da
 responsabilitate, putere de organizare si capacitatea de a transforma o idee
 intr-un lucru care poate sta in picioare. Pentru ca `8` este prezent o singura
@@ -494,14 +494,14 @@ data, ai nevoie de un cadru clar, de o miza concreta sau de o responsabilitate
 asumata. Cand stii pentru ce faci un lucru, forta ta se strange si lucreaza mult
 mai bine.
 
-<small>Index: SAB-19840417-V3-P-024</small>
+<small>Index: SAB-19840417-V3-P-034</small>
 `9` aduce sensul si finalizarea. Sabina, nu iti ajunge doar sa gasesti o solutie
 inteligenta; ai nevoie sa simti ca acea solutie duce undeva, ca inchide un cerc,
 ca are rost. De aceea, cand `7`, `8` si `9` lucreaza impreuna, tu poti sa vezi
 problema, sa-i simti directia, sa-ti asumi partea practica si sa duci lucrul
 catre o concluzie cu sens.
 
-<small>Index: SAB-19840417-V3-P-025</small>
+<small>Index: SAB-19840417-V3-P-035</small>
 Asa se activeaza bunastarea ta creativa: cand ai voie sa gandesti liber, sa
 cauti variante, sa iesi dintr-o formula rigida si sa transformi ceea ce ai
 inteles intr-o rezolvare concreta. Daca esti pusa doar sa executi, fara spatiu de
@@ -509,7 +509,7 @@ gandire si fara sens, acest vector se strange. Daca ai provocari reale, libertat
 de interpretare si posibilitatea de a veni cu solutia ta, atunci se aprinde
 varful scarii tale.
 
-<small>Index: SAB-19840417-V3-P-026</small>
+<small>Index: SAB-19840417-V3-P-036</small>
 Iar de aici citim scara ca pe o constructie vie. Vectorul de sus nu sta singur.
 El are nevoie de treapta de dedesubt, iar treapta de dedesubt are nevoie, la
 randul ei, de ce se afla sub ea. Pentru ca bunastarea creativa sa se manifeste,
@@ -518,7 +518,7 @@ si claritate interioara. Iar pentru ca aceasta directie spirituala sa fie vie,
 ea are nevoie de vectorul `357`, bunastarea atingerii scopurilor: obiective
 asumate, motivatie si placerea de a merge pana la capat.
 
-<small>Index: SAB-19840417-V3-P-027</small>
+<small>Index: SAB-19840417-V3-P-037</small>
 De aceea, Sabina, fiecare rand din scara se citeste separat, dar si in relatie
 cu randul de deasupra. Ce este mai jos sustine ce este mai sus. Daca o treapta de
 jos este slabita, si treapta de sus se activeaza mai greu. Scopurile sustin
@@ -549,14 +549,14 @@ scari.
 | SZABO SABINA | `SZABO 18 -> 9`, `SABINA 19 -> 1`, `9 + 1 = 10 -> 1` | `1` | initiativa, identitate, inceput personal |
 | MIRESCU SABINA | `MIRESCU 34 -> 7`, `SABINA 19 -> 1`, `7 + 1 = 8` | `8` | forta, responsabilitate, asumare |
 
-<small>Index: SAB-19840417-V3-I-011</small>
+<small>Index: SAB-19840417-V3-P-038</small>
 Sabina, numarul de exprimare `1` descrie personalitatea formata prin numele
 actual si cheia catre ceea ce poti deveni prin felul in care te prezinti in lume.
 El aduce initiativa, autonomie, afirmare si capacitatea de a porni directii noi.
 Prin `SZABO SABINA`, numele nu te aseaza doar intr-un rol de sustinere, ci te
 invita sa spui mai clar: eu aleg, eu incep, eu imi asum directia.
 
-<small>Index: SAB-19840417-V3-P-028</small>
+<small>Index: SAB-19840417-V3-P-039</small>
 Acest `1` trebuie citit impreuna cu vibratia destinului `7`. Destinul `7` cere
 profunzime, analiza, discernamant si cautare de sens, iar numarul de exprimare
 `1` iti da cheia prin care aceasta cautare poate deveni directie personala. Cele
@@ -567,7 +567,7 @@ atunci cand `1` vrea sa decida repede, iar `7` are nevoie sa inteleaga profund
 inainte de a se deschide. Armonizarea lor cere initiativa, dar nu initiativa
 grabita; alegere personala, dar sustinuta de reflectie.
 
-<small>Index: SAB-19840417-V3-P-029</small>
+<small>Index: SAB-19840417-V3-P-040</small>
 Numele anterior aducea `8`, deci intarea foarte mult forta, responsabilitatea si
 capacitatea de a duce. Trecerea de la `8` la `1` poate fi citita ca o mutare de
 accent: de la a purta sarcina la a alege directia, de la puterea care sustine la
@@ -585,7 +585,7 @@ puterea care porneste.
 | Numarul ereditar | `SZABO = 18 -> 9` | 9 | mostenire de sens si finalizare |
 | Numarul neamului | `MIRESCU = 34 -> 12`; `SZABO = 18` | 12 / 18 | neam de sange si neam preluat prin casatorie |
 
-<small>Index: SAB-19840417-V3-I-012</small>
+<small>Index: SAB-19840417-V3-P-041</small>
 Numarul intim `9` se citeste impreuna cu vibratia interioara `8`. Interiorul tau
 nativ `8` cauta forta, control, responsabilitate si capacitatea de a duce lucruri
 grele, iar numarul intim `9` arata ca numele actual amplifica in eul ascuns o
@@ -595,7 +595,7 @@ incheiere matura. Aceasta combinatie poate modifica si rafina eul ascuns: nu est
 vorba doar despre a fi puternica, ci despre a folosi puterea pentru ceva care are
 rost.
 
-<small>Index: SAB-19840417-V3-P-030</small>
+<small>Index: SAB-19840417-V3-P-042</small>
 Numarul de realizare `1` se citeste impreuna cu vibratia exterioara `4`.
 Exteriorul tau nativ `4` se manifesta prin ordine, metoda, munca si structura, iar
 realizarea `1` arata ca numele impinge aceasta manifestare spre initiativa,
@@ -604,11 +604,11 @@ cand structura lui `4` primeste curajul lui `1`, dar le poate si grabi daca
 initiativa nu ramane asezata. Sabina, cheia este sa folosesti directia lui `1`
 fara sa pierzi disciplina lui `4`.
 
-<small>Index: SAB-19840417-V3-P-031</small>
+<small>Index: SAB-19840417-V3-P-043</small>
 Prenumele activ `SABINA` repeta `1`, deci adresarea directa prin prenume iti
 activeaza aceeasi tema: incepe, alege, afirma.
 
-<small>Index: SAB-19840417-V3-P-032</small>
+<small>Index: SAB-19840417-V3-P-044</small>
 La numarul neamului, pentru ca esti femeie si exista nume inainte si dupa
 casatorie, se pastreaza ambele linii. Prin `MIRESCU`, neamul de sange este `12`,
 linie care ramane prezenta intreaga viata si vorbeste despre suport psihologic,
@@ -621,7 +621,7 @@ si manifestare.
 <small>Index: SAB-19840417-V3-SUB-020</small>
 ### Matricea numelui
 
-<small>Index: SAB-19840417-V3-P-033</small>
+<small>Index: SAB-19840417-V3-P-045</small>
 Sir complet de cifre din nume, cu numarul de exprimare final `1` introdus in
 matrice:
 
@@ -655,7 +655,7 @@ matrice:
 | 8 | `8` | `8` | 0 | sustinuta | forta este confirmata |
 | 9 | `9` | `9` | 0 | sustinuta | sensul este confirmat |
 
-<small>Index: SAB-19840417-V3-I-013</small>
+<small>Index: SAB-19840417-V3-P-046</small>
 Comparatia se face intre cele doua matrici, fara a calcula o a treia matrice.
 Numele actual are exces puternic de `1`: prin nume, poti simti dorinta de a fi mai
 autoritar, mai vizibil, mai hotarat si mai conducator decat iti este dat nativ in
@@ -663,7 +663,7 @@ aceeasi masura. Acest exces nu este o greseala, ci o presiune de exprimare:
 numele impinge catre afirmare, dar cere masura ca initiativa sa nu devina
 rigiditate sau ego.
 
-<small>Index: SAB-19840417-V3-P-034</small>
+<small>Index: SAB-19840417-V3-P-047</small>
 Cifrele `3`, `4` si `7` sunt prezente in matricea datei, dar lipsesc din matricea
 numelui. Asta nu inseamna ca nu ai expresie, organizare sau analiza; dimpotriva,
 ele exista nativ. Lipsa lor din nume poate crea doar senzatia interioara ca ai
@@ -671,7 +671,7 @@ mai putin din aceste calitati decat ai de fapt. De aici pot aparea indoieli de
 tipul: as fi putut formula mai bine, as fi putut organiza mai bine, as fi putut
 explica mai profund ce inteleg.
 
-<small>Index: SAB-19840417-V3-P-035</small>
+<small>Index: SAB-19840417-V3-P-048</small>
 Cifra `6` apare numai in matricea numelui, deci ramane potential de nume fara
 suport nativ direct. Ea poate aduce dorinta de armonie, familie si grija, dar are
 nevoie sa fie construita constient. In concluzie, excesul arata dorinta de a fi
@@ -681,14 +681,14 @@ arata doar senzatia ca ai mai putin din acea caracteristica decat ai de fapt.
 <small>Index: SAB-19840417-V3-CAP-009</small>
 ## 7. Pinacluri, oportunitati si provocari
 
-<small>Index: SAB-19840417-V3-P-036</small>
+<small>Index: SAB-19840417-V3-P-049</small>
 Valorile folosite pentru calcul sunt: zi `8`, luna `4`, an `4`, vibratia
 destinului `7`.
 
 <small>Index: SAB-19840417-V3-SUB-022</small>
 ### Calculul oportunitatilor si provocarilor
 
-<small>Index: SAB-19840417-V3-P-037</small>
+<small>Index: SAB-19840417-V3-P-050</small>
 Oportunitatile arata resursa de crestere din fiecare etapa, iar provocarile
 arata lectia care trebuie maturizata in aceeasi perioada.
 
@@ -703,7 +703,7 @@ arata lectia care trebuie maturizata in aceeasi perioada.
 <small>Index: SAB-19840417-V3-SUB-023</small>
 ### Calculul pinaclurilor
 
-<small>Index: SAB-19840417-V3-I-014</small>
+<small>Index: SAB-19840417-V3-P-051</small>
 Perioadele pinaclurilor se stabilesc pornind de la vibratia destinului. Pentru
 Sabina, vibratia destinului este `7`.
 
@@ -726,12 +726,12 @@ Sabina, vibratia destinului este `7`.
 | 3 | 39-47 ani | 6 | 0 | armonie, familie, responsabilitate afectiva |
 | 4 | 48+ ani | 8 | 0 | putere matura si administrare |
 
-<small>Index: SAB-19840417-V3-I-015</small>
+<small>Index: SAB-19840417-V3-P-052</small>
 Sabina, in prezent esti in pinaclul al treilea. La data acestei lucrari,
 14.06.2026, ai 42 de ani, deci te afli in perioada `39-47 ani`. Asta inseamna ca
 oportunitatea activa este `6`, iar provocarea activa este `0`.
 
-<small>Index: SAB-19840417-V3-P-038</small>
+<small>Index: SAB-19840417-V3-P-053</small>
 Acest pinaclu este foarte important pentru tine, pentru ca `6` pune accent pe
 armonie, familie, responsabilitate afectiva, frumos, grija si felul in care
 locuiesti emotional in propria viata. In matricea ta, `6` lipseste, deci etapa nu
@@ -739,14 +739,14 @@ vine doar sa confirme ceva usor, ci sa te invete o zona care trebuie construita
 constient. Nu este doar despre a face mai mult, ci despre a face cu mai multa
 caldura, asezare si impacare interioara.
 
-<small>Index: SAB-19840417-V3-P-039</small>
+<small>Index: SAB-19840417-V3-P-054</small>
 Provocarea `0` nu arata o lipsa de tema, ci o provocare mai subtila: viata nu te
 strange intr-un conflict numeric clar, ci iti da spatiu mai mare de alegere.
 Asta cere atentie, pentru ca atunci cand provocarea este `0`, lectia poate fi sa
 nu te risipesti, sa nu amani maturizarea si sa nu crezi ca lipsa unei presiuni
 directe inseamna lipsa unei lucrari interioare.
 
-<small>Index: SAB-19840417-V3-P-040</small>
+<small>Index: SAB-19840417-V3-P-055</small>
 Privind inapoi, primele doua pinacluri au repetat oportunitatea `3` cu provocarea
 `4`. Sabina, asta arata ca viata a cerut exprimare, dar nu exprimare haotica; a
 cerut comunicare asezata, forma, disciplina si rabdare. Pinaclul al treilea muta
@@ -764,7 +764,7 @@ multa autoritate.
 | Soarta | `1704 x 1984` | 3380736 | `3+3+8+0+7+3+6 = 30`; `30 / 7 = 4,29` |
 | Destin | `1714 x 1984` | 3400576 | `3+4+0+0+5+7+6 = 25`; `25 / 7 = 3,57` |
 
-<small>Index: SAB-19840417-V3-I-016</small>
+<small>Index: SAB-19840417-V3-P-056</small>
 Sabina, linia sortii `3380736` arata un cadru primit in care expresia,
 profunzimea, pauzele de reasezare si responsabilitatea apar impreuna. Zona de
 confort `4,29` indica nevoia de structura, asezare si constructie interioara.
@@ -876,7 +876,7 @@ ce ai inteles.
 | --- | ---: | --- | --- |
 | `248854 / 7` | 5 | ezoterism spiritual | alchimie, transformare interioara |
 
-<small>Index: SAB-19840417-V3-I-017</small>
+<small>Index: SAB-19840417-V3-P-057</small>
 Sabina, codul principal `8` indica o inclinatie spre ezoterism spiritual: legi
 karmice, orientare de destin, ghidare si intelegerea felului in care experientele
 se asaza intr-un drum mai mare. Codul secundar `5` aduce tema alchimiei: puterea
@@ -893,7 +893,7 @@ discernamant, nu prin concluzii grabite.
 | Nu | `34 - 22 = 12` | 12 - Spanzuratul | rabdare, alta perspectiva | blocaj, sacrificiu inutil |
 | Da | `4 + 22 - 22 = 4` | 4 - Imparatul | organizare, autoritate | rigiditate, control |
 
-<small>Index: SAB-19840417-V3-I-018</small>
+<small>Index: SAB-19840417-V3-P-058</small>
 Sabina, directia potrivita este una in care poti organiza, administra, clarifica
 si construi. Umbra apare cand responsabilitatea devine sacrificiu sau cand
 structura devine control. Directia sanatoasa este autoritatea calda: fermitate cu
@@ -905,7 +905,7 @@ umanitate.
 <small>Index: SAB-19840417-V3-SUB-031</small>
 ### Directia principala
 
-<small>Index: SAB-19840417-V3-P-041</small>
+<small>Index: SAB-19840417-V3-P-059</small>
 Sabina, directia principala este transformarea fortei in intelepciune si a
 structurii in alegere personala. Ai multe resurse de constructie, dar destinul
 `7` iti cere sa nu construiesti fara sens, iar numele actual `1` iti cere sa nu
@@ -934,7 +934,7 @@ ramai doar in analiza.
 <small>Index: SAB-19840417-V3-SUB-034</small>
 ### Recomandare practica
 
-<small>Index: SAB-19840417-V3-P-042</small>
+<small>Index: SAB-19840417-V3-P-060</small>
 Recomandarea principala este sa iti construiesti o ordine care iti lasa sufletul
 sa respire. Ai nevoie de structura, dar nu de rigiditate; de responsabilitate,
 dar nu de autosacrificiu; de analiza, dar nu de amanare. Intrebarea practica care
@@ -944,7 +944,7 @@ duc?`
 <small>Index: SAB-19840417-V3-CAP-014</small>
 ## 12. Rubrici de test
 
-<small>Index: SAB-19840417-V3-P-043</small>
+<small>Index: SAB-19840417-V3-P-061</small>
 Rubricile principale au fost completate conform template-ului: date de baza,
 karma, matrice, scara bunastarii, nume, pinacluri, soarta si destin, cicluri,
 ezoterism si concluzie.
@@ -982,7 +982,7 @@ ezoterism si concluzie.
 <small>Index: SAB-19840417-V3-CAP-017</small>
 ## Rubrici incomplete si date de confirmat
 
-<small>Index: SAB-19840417-V3-I-019</small>
+<small>Index: SAB-19840417-V3-P-062</small>
 ciclul de 10 ani sau 12 ani.
 <small>Index: SAB-19840417-V3-L-010</small>
 - Data adaugarii in lista de persoane: de completat.

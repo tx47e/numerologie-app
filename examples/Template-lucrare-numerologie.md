@@ -48,8 +48,8 @@ Unde:
 - `COD-LUCRARE` identifica persoana si versiunea lucrarii, de exemplu
   `SAB-19840417-V3`.
 - `TIP` identifica elementul: `CAP` pentru capitol, `SUB` pentru subtitlu,
-  `P` pentru paragraf, `T` pentru tabel, `G` pentru grafic, `I` pentru
-  interpretare, `L` pentru lista, `C` pentru bloc de cod sau calcul.
+  `P` pentru paragraf, inclusiv interpretare, `T` pentru tabel, `G` pentru
+  grafic, `L` pentru lista, `C` pentru bloc de cod sau calcul.
 - `NNN` este numarul curent al elementului in lucrare, cu trei cifre:
   `001`, `002`, `003`.
 
@@ -67,9 +67,9 @@ Reguli de aplicare:
   `T`.
 - Fiecare grafic sau reprezentare vizuala primeste index de tip `G`.
 - Fiecare bloc de calcul sau bloc de cod primeste index de tip `C`.
-- Fiecare interpretare explicita de dupa tabel primeste index de tip `I`; daca
-  interpretarea are mai multe paragrafe, fiecare paragraf poate primi si index
-  de tip `P`, dar primul paragraf trebuie sa aiba obligatoriu index `I`.
+- Fiecare interpretare explicita de dupa tabel primeste index de tip `P`, ca
+  orice paragraf interpretativ. Nu se foloseste un tip separat pentru
+  interpretare.
 - Indexurile nu inlocuiesc titlurile si nu schimba continutul interpretarii; ele
   sunt repere de citare si raman intotdeauna pe rand separat.
 
