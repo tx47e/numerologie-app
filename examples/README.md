@@ -29,8 +29,8 @@ Exemple posibile:
 - [Lucrare numerologica V3 conversational - 1984-11-06 - SZABO Mihai Gabriel](1984-11-06-szabo-mihai-gabriel/lucrare-numerologica-v3-conversational.md)
 - [Lucrare numerologica V1 - 1984-04-17 - SZABO Sabina](1984-04-17-szabo-sabina/lucrare-numerologica-v1.md)
 - [Lucrare numerologica V2 conversational - 1984-04-17 - SZABO Sabina](1984-04-17-szabo-sabina/lucrare-numerologica-v2-conversational.md)
-- [Lucrare numerologica V1 formal - 1952-08-12 - SZABO Ioan Ovidiu](1952-08-12-szabo-ioan-ovidiu/lucrare-numerologica-v1-formal.md)
-- [Lucrare numerologica V1 formal - 1956-11-01 - SZABO Norica Doinita](1956-11-01-szabo-norica-doinita/lucrare-numerologica-v1-formal.md)
+- [Lucrare numerologica V1 formal amplu - 1952-08-12 - SZABO Ioan Ovidiu](1952-08-12-szabo-ioan-ovidiu/1952-08-12-Szabo-Ioan-Ovidiu-v1fa.md)
+- [Lucrare numerologica V1 formal amplu - 1956-11-01 - SZABO Norica Doinita](1956-11-01-szabo-norica-doinita/1956-11-01-Szabo-Norica-Doinita-v1fa.md)
 
 ## Surse bibliografice interne
 
