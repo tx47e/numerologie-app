@@ -35,10 +35,10 @@ fiecare element important primeste un cod de index vizibil si stabil, astfel inc
 se poate face trimitere exacta la un capitol, subtitlu, paragraf, tabel, grafic
 sau interpretare.
 
-Formatul recomandat este:
+Formatul recomandat este text mic pe linia de dinaintea elementului:
 
-```text
-[IDX:COD-LUCRARE-TIP-NNN]
+```html
+<small>Index: COD-LUCRARE-TIP-NNN</small>
 ```
 
 Unde:
@@ -53,11 +53,14 @@ Unde:
 
 Reguli de aplicare:
 
-- Titlul principal al lucrarii primeste index de tip `CAP`.
-- Fiecare capitol `##` primeste index de tip `CAP`.
-- Fiecare subtitlu `###` primeste index de tip `SUB`.
-- Fiecare paragraf cursiv primeste index de tip `P`, cu exceptia liniilor din
-  tabele si a listelor scurte.
+- Titlul principal al lucrarii primeste index de tip `CAP` pe linia imediat
+  anterioara titlului.
+- Fiecare capitol `##` primeste index de tip `CAP` pe linia imediat anterioara
+  capitolului.
+- Fiecare subtitlu `###` primeste index de tip `SUB` pe linia imediat anterioara
+  subtitlului.
+- Fiecare paragraf cursiv primeste index de tip `P` pe linia imediat anterioara
+  paragrafului, cu exceptia liniilor din tabele si a listelor scurte.
 - Fiecare tabel primeste o linie de index imediat inaintea tabelului, de tip
   `T`.
 - Fiecare grafic sau reprezentare vizuala primeste index de tip `G`.
