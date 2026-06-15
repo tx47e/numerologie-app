@@ -126,7 +126,17 @@ Sinteza karmica arata ca persoana are o tema de maturizare prin felul in care in
 | Operatia 3 | operatie 1 - 2 x prima cifra nenula din zi | 28 - 2 x 1 | 26 | Aspecte de indreptat. |
 | Operatia 4 | reducerea operatiei 3 | 2+6 | 8 | Vibratia solutiei. |
 
-Sir complet: `12081952 + 28 + 10 + 26 + 8`
+### Sir complet de cifre - data nasterii
+
+```text
+12081952 + 28 + 10 + 26 + 8
+```
+
+```text
+1, 2, 8, 1, 9, 5, 2, 2, 8, 1, 2, 6, 8
+```
+
+### Matricea datei de nastere
 
 | 1 | 4 | 7 |
 | --- | --- | --- |
@@ -135,6 +145,17 @@ Sir complet: `12081952 + 28 + 10 + 26 + 8`
 | 2222 | 5 | 888 |
 | 3 | 6 | 9 |
 | - | 6 | 9 |
+
+### Citirea matricei
+
+- Casute dominante: `2` si `8`, apoi `1`.
+- Casute lipsa: `3`, `4`, `7`.
+- Element predominant: relatie, receptivitate, responsabilitate practica.
+- Elemente slabe: exprimare spontana, structura metodica si incredere spirituala.
+- Trasee informationale importante: `258`, `789`, `159`.
+- Observatii despre paritate: cifrele pare sunt foarte active, deci profilul lucreaza puternic prin raspuns, relatie, responsabilitate si administrare.
+
+### Interpretare
 
 Matricea datei este concentrata pe 1, 2 si 8. Trei de 1 dau vointa personala, identitate si capacitate de afirmare. Patru de 2 arata receptivitate puternica, sensibilitate relationala si capacitate de a simti mediul. Trei de 8 intaresc responsabilitatea, puterea practica si tema administrarii resurselor. Casutele 3, 4 si 7 lipsesc, ceea ce cere exprimare mai ordonata, disciplina construita deliberat si incredere spirituala asezata prin experienta, nu prin impuls.
 
@@ -169,7 +190,59 @@ Matricea datei este concentrata pe 1, 2 si 8. Trei de 1 dau vointa personala, id
 
 Scara arata ca persoana se simte cel mai bine acolo unde exista contact uman, utilitate sociala si capacitatea de a gestiona relatii sau resurse: vectorul 258 are valoarea 37. Sub el se afla creativitatea 789, dar ea se sprijina mai ales pe 8 si 9, nu pe 7; creativitatea este deci mai practica si inteleapta decat mistica. Cariera 159 este activa si sustinuta de toate cele trei casute, ceea ce arata ca identitatea, centrul personal si perspectiva se pot uni in munca sau in rol social. Zonele joase, 147 si 357, cer cultivarea increderii, a sensului spiritual si a capacitatii de a urmari scopuri fara a depinde doar de responsabilitate.
 
+### Scara rezultata
+
+```text
+0: 3, 4, 7
+3: 1, 147
+5: 5, 357
+6: 6
+8: 2
+9: 9
+11: 123, 456
+15: 369
+17: 159
+24: 8
+33: 789
+37: 258
+```
+
+### Scara bunastarii
+
+| Ordine | Tip | Denumire | Cantitate | Valoare totala | Observatie |
+| --- | --- | --- | --- | ---: | --- |
+| 1 | vector | Bunastare sociala | `2222 / 5 / 888` | 37 | zona cea mai naturala de implinire |
+| 2 | vector | Bunastare creativa | `- / 888 / 9` | 33 | creativitate practica, sprijinita de responsabilitate |
+| 3 | casuta | 8 - putere practica | `888` | 24 | administrare, forta, control al resurselor |
+| 4 | vector | Bunastare in cariera | `111 / 5 / 9` | 17 | cariera prin identitate si perspectiva |
+| 5 | vector | Bunastare materiala | `- / 6 / 9` | 15 | materialul cere expresie constienta |
+| 6 | vector | Bunastare energetica | `111 / 2222 / -` | 11 | energie relationata, dar cu exprimare de exersat |
+| 7 | vector | Bunastare volutiva | `- / 5 / 6` | 11 | vointa sustinuta de centru si responsabilitate |
+| 8 | casuta | 9 - sens | `9` | 9 | perspectiva si finalizare |
+| 9 | casuta | 2 - receptivitate | `2222` | 8 | sensibilitate foarte activa |
+| 10 | casuta | 6 - responsabilitate | `6` | 6 | grija si datorie afectiva |
+| 11 | casuta | 5 - centru | `5` | 5 | reglaj personal |
+| 12 | vector | Atingerea scopurilor | `- / 5 / -` | 5 | obiectivele cer exprimare si incredere |
+| 13 | casuta | 1 - identitate | `111` | 3 | initiativa prezenta |
+| 14 | vector | Bunastare spirituala | `111 / - / -` | 3 | spiritualul cere structura si incredere |
+| 15 | casuta | 3 - expresie | `-` | 0 | comunicare de cultivat |
+| 16 | casuta | 4 - structura | `-` | 0 | metoda de construit |
+| 17 | casuta | 7 - incredere | `-` | 0 | sens spiritual de exersat |
+
 ## 6. Numele
+
+### Nume analizat
+
+- Nume complet: Szabo Ioan Ovidiu
+- Nume de familie: Szabo
+- Prenume: Ioan Ovidiu
+- Nume folosit curent: Szabo Ioan Ovidiu
+- Context lingvistic: alfabet pitagoreic, diacritice neaplicabile
+- Nume anterior / schimbat, daca exista: nu este cazul / de completat
+- Nume actual diferit, daca exista: nu este cazul
+- Data aproximativa a schimbarii numelui, daca exista: nu este cazul
+
+### Numarul de exprimare
 
 | Numar | Calcul | Rezultat | Interpretare |
 | --- | --- | --- | --- |
@@ -181,6 +254,8 @@ Scara arata ca persoana se simte cel mai bine acolo unde exista contact uman, ut
 | Numarul neamului | Szabo = 18 | 18 | Tema karmica de neam 18, cu accent pe emotie, confuzie de depasit si clarificare. |
 
 Numarul de exprimare 2 arata ca numele il face pe Szabo, Ioan Ovidiu mai diplomatic, mai atent la nuante si mai orientat spre cooperare decat ar sugera singur destinul 1. Exista o diferenta intre directia vietii, care cere afirmare, si modul de exprimare, care prefera armonizarea. Aceasta nu este o contradictie, ci o lectie: omul isi realizeaza destinul 1 mai bine cand nu forteaza separarea, ci construieste punti.
+
+### Numere derivate din nume
 
 Numarul intim 5 vine din vocale si arata o dorinta interioara de libertate, miscare, experienta si respiratie larga. In raport cu vibratia interioara 3, 5 amplifica nevoia de expresie si schimb. Persoana nu este facuta pentru stagnare sufleteasca; chiar daca exteriorul 8 poate impune responsabilitati, interiorul numelui cauta aer, varietate si invatare prin viata.
 
@@ -202,7 +277,55 @@ Sir numeric: `1,8,1,2,6,9,6,1,5,6,4,9,4,9,3,2`
 
 Comparativ cu matricea datei, numele sustine 1, 2, 5, 6, 8 si 9, aduce potential pe 3 si 4, dar nu activeaza 7. Numele intareste realizarea materiala si profesionala, pentru ca vectorii 369 si 159 devin foarte puternici. In acelasi timp, lipsa lui 7 ramane o tema: credinta, increderea profunda si sensul spiritual trebuie cultivate constient, nu asteptate doar de la nume sau data.
 
+### Comparare matricea numelui - matricea datei de nastere
+
+| Cifra | Data | Nume | Diferenta | Status comparativ | Observatie |
+| --- | --- | --- | ---: | --- | --- |
+| 1 | `111` | `111` | 0 | sustinuta | identitatea este confirmata de nume |
+| 2 | `2222` | `22` | -2 | lipsa in nume | poate exista senzatia ca receptivitatea este mai mica decat este nativ |
+| 3 | `-` | `3` | 1 | potential de nume | numele aduce expresie fara suport direct in data |
+| 4 | `-` | `44` | 2 | potential de nume | numele aduce metoda si constructie ca dorinta de exprimare |
+| 5 | `5` | `5` | 0 | sustinuta | centrul personal este confirmat |
+| 6 | `6` | `666` | 2 | exces | numele amplifica responsabilitatea si grija |
+| 7 | `-` | `-` | 0 | absenta | increderea spirituala cere lucru constient |
+| 8 | `888` | `8` | -2 | lipsa in nume | forta exista nativ, chiar daca numele o face mai putin vizibila |
+| 9 | `9` | `999` | 2 | exces | numele amplifica perspectiva, finalizarea si memoria |
+
+### Interpretare comparativa
+
+- Cifre dominante in data si in nume: `1`, `2`, `6`, `8`, `9`.
+- Casute sustinute, prezente in ambele matrici: `1`, `2`, `5`, `6`, `8`, `9`.
+- Casute in exces: `6` si `9`.
+- Casute lipsa in nume: `2` si `8` fata de data.
+- Casute potential de nume: `3` si `4`.
+- Casute absente: `7`.
+- Vectori activi in data fata de vectori activi in nume: data pune accent pe social, numele pe material, cariera si vointa.
+
+Numele completeaza data prin `3` si `4`, adica prin exprimare si metoda, doua zone care lipsesc din matricea nasterii. Totusi, fiind potential de nume, aceste cifre trebuie sustinute prin practica. Excesul de `6` si `9` arata ca numele poate impinge persoana sa fie mai responsabila, mai protectoare si mai orientata spre finalizare decat ii este confortabil in mod nativ. Lipsa relativa a lui `8` in nume nu anuleaza forta lui `888` din data; doar poate crea impresia ca puterea practica trebuie dovedita permanent.
+
 ## 7. Pinacluri, oportunitati si provocari
+
+Valorile folosite pentru calcul sunt: zi `3`, luna `8`, an `8`, vibratia destinului `1`.
+
+### Calculul oportunitatilor si provocarilor
+
+| Etapa | Calcul oportunitate | Rezultat | Calcul provocare | Rezultat |
+| --- | --- | ---: | --- | ---: |
+| O1 / P1 | `luna + zi = 8 + 3 = 11 -> 2` | 2 | `|zi - luna| = |3 - 8|` | 5 |
+| O2 / P2 | `zi + an = 3 + 8 = 11 -> 2` | 2 | `|zi - an| = |3 - 8|` | 5 |
+| O3 / P3 | `O1 + O2 = 2 + 2 = 4` | 4 | `|P1 - P2| = |5 - 5|` | 0 |
+| O4 / P4 | `luna + an = 8 + 8 = 16 -> 7` | 7 | `|luna - an| = |8 - 8|` | 0 |
+
+### Calculul pinaclurilor
+
+| Pinaclu | Calcul perioada | Perioada rezultata | Oportunitate | Provocare |
+| --- | --- | --- | ---: | ---: |
+| Pinaclul 1 | `36 - 1 = 35` | 0-35 ani | 2 | 5 |
+| Pinaclul 2 | `35 + 9 = 44` | 36-44 ani | 2 | 5 |
+| Pinaclul 3 | `44 + 9 = 53` | 45-53 ani | 4 | 0 |
+| Pinaclul 4 | dupa finalul pinaclului 3 | 54+ ani | 7 | 0 |
+
+### Tabel sinteza
 
 | Pinaclu | Perioada | Oportunitate | Provocare | Interpretare |
 | --- | --- | ---: | ---: | --- |
@@ -215,10 +338,17 @@ La data lucrarii, persoana are 73 de ani si se afla in pinaclul 4, activ de la 5
 
 ## 8. Soarta si destinul
 
-| Calcul | Formula | Rezultat | Zona de confort |
-| --- | --- | ---: | --- |
-| Soarta | `1208 x 1952` | 2358016 | `2+3+5+8+0+1+6 = 25`; `25 / 7 = 3,57` |
-| Destin | `1218 x 1952` | 2377536 | `2+3+7+7+5+3+6 = 33`; `33 / 7 = 4,71` |
+### Calcul soarta
+
+| Formula | Numar grafic | Zona de confort |
+| --- | ---: | --- |
+| `1208 x 1952` | 2358016 | `2+3+5+8+0+1+6 = 25`; `25 / 7 = 3,57` |
+
+### Calcul destin
+
+| Formula | Numar grafic | Zona de confort |
+| --- | ---: | --- |
+| `1218 x 1952` | 2377536 | `2+3+7+7+5+3+6 = 33`; `33 / 7 = 4,71` |
 
 Linia sortii `2358016` arata un cadru primit in care comunicarea, schimbarea, forta practica, pauzele de reasezare si initiativa apar impreuna. Zona de confort `3,57` sugereaza ca persoana functioneaza mai firesc atunci cand poate explica, adapta si misca lucrurile fara a le rigidiza excesiv. Cifra `8` din mijlocul liniei confirma tema responsabilitatii si a administrarii concrete, dar prezenta lui `0` arata ca exista si momente de gol, oprire sau resetare care trebuie acceptate ca parte din ritmul vietii.
 
@@ -234,6 +364,23 @@ Linia destinului `2377536` ridica zona de confort la `4,71`, ceea ce arata o dir
 
 ## 9. Lectii de viata si cicluri
 
+### Lectii de viata
+
+```text
+12 x 8 x 1952 = 187392
+```
+
+| Lectie | Perioada / an | Ce verifica viata | Recomandare |
+| --- | --- | --- | --- |
+| 1 | de completat | initiativa si autonomie | sa aleaga directia fara presiune |
+| 8 | de completat | putere si responsabilitate | sa foloseasca autoritatea cu masura |
+| 7 | de completat | analiza si credinta | sa lase experienta sa devina intelepciune |
+| 3 | de completat | comunicare | sa formuleze clar ce a inteles |
+| 9 | de completat | finalizare | sa incheie matur etapele consumate |
+| 2 | de completat | cooperare | sa nu poarte singur tot ce tine de relatie |
+
+### Ciclul de 9 ani
+
 | Reper | Rezultat |
 | --- | --- |
 | Vibratia anului personal 2026 | 3 |
@@ -245,27 +392,90 @@ Linia destinului `2377536` ridica zona de confort la `4,71`, ceea ce arata o dir
 
 Anul personal 3 in 2026 aduce o tema de comunicare, clarificare si exprimare. Pentru aceasta persoana, 2026 este important si interior, ceea ce sugereaza ca nu este doar un an de evenimente exterioare, ci unul in care felul de a intelege viata se poate reorganiza. 2027 apare atat pe firul interior apropiat, cat si ca an exterior important, deci poate marca o etapa de vizibilitate, schimbare concreta sau decizie.
 
+### Ani importanti
+
+| Ordine | An | Varsta | Important interior | Important exterior | Observatie |
+| --- | ---: | ---: | --- | --- | --- |
+| 1 | 1952 | 0 | punct de pornire | punct de pornire | anul nasterii |
+| 2 | 2021 | 69 | da |  | prag interior recent |
+| 3 | 2026 | 74 | da |  | an interior important |
+| 4 | 2027 | 75 | da | da | intalnire intre interior si exterior |
+| 5 | 2029 | 77 | da |  | reasezare interioara |
+| 6 | 2033 | 81 | da |  | prag de sinteza |
+
 ## 10. Ezoterism si aplicabilitate
 
-Codul ezoteric de baza se noteaza din data fara zerourile de completare din fata: `1281952`. Rubrica cere verificare suplimentara inainte de o versiune finala, deoarece calculul complet al impartirilor ezoterice nu a fost rulat separat aici. Prin profil, inclinatia ezoterica se observa mai ales prin 7 din vibratia cosmica variabila si prin pinaclul final 7: interes pentru sens, interpretare, cautare si intelegerea nevazuta a experientelor.
+### Cod ezoteric
+
+```text
+12.08.1952 -> 1281952
+1281952 / 7 = 183136
+```
+
+| Calcul | Cod | Tip de ezoterism | Esenta codului |
+| --- | ---: | --- | --- |
+| `1281952 / 7` | 0 | cod special | impartire exacta; prudenta, pagina noua, acces subtil nefortat |
+
+```text
+183136 / 7 = 26162,285714...
+```
+
+| Calcul | Cod secundar | Rezultat | Domenii deschise |
+| --- | ---: | --- | --- |
+| `183136 / 7` | 2 | cod secundar | se noteaza prudent, fara fortarea unei directii cand principalul este 0 |
+
+Codul principal `0` se trateaza cu prudenta. El nu neaga interesul pentru sens, dar arata ca zona ezoterica nu trebuie fortata prin concluzii rapide sau tehnici invazive. In profil, inclinatia spre intelegere subtila apare mai ales prin pinaclul final `7` si prin vibratia cosmica variabila `7`: cautare, observatie si nevoie de discernamant.
+
+### Aplicabilitate profesionala - Tarot
+
+| Aplicabil | Calcul | Arcana Tarot | Valenta constructiva | Valenta de umbra |
+| --- | --- | --- | --- | --- |
+| Nu | `28 - 22 = 6` | 6 - Indragostitii | relatie, alegere, comunicare | instabilitate, nehotarare |
+| Da | `8 + 17 - 22 = 3` | 3 - Imparateasa | creativitate, confort, familie, economie | control, materialism |
+
+Directia potrivita se leaga de a crea valoare concreta pentru oameni: organizare, confort, economie, familie, administrare sau activitati in care relatia si resursele trebuie armonizate. Umbra apare cand responsabilitatea se transforma in control sau cand alegerile relationale devin prea apasatoare.
 
 ## 11. Concluzie finala
 
+### Directia principala
+
 Directia principala a lucrarii este maturizarea puterii prin relatie. Szabo, Ioan Ovidiu are o structura in care expresia interioara, responsabilitatea exterioara si destinul de autonomie trebuie sa invete sa colaboreze. Cand forta lui 8 este condusa de intelepciunea lui 7, cand destinul 1 este temperat de exprimarea 2 a numelui si cand interiorul 3 isi gaseste cuvantul potrivit, persoana poate deveni un reper calm, practic si clar pentru cei din jur.
+
+### Ce are de cultivat
 
 De cultivat: comunicarea ordonata, limitele sanatoase, increderea spirituala, selectia relatiilor si folosirea responsabilitatii fara supraincarcare.
 
+### Ce are de evitat
+
 De evitat: controlul excesiv, sacrificiul tacut, rigiditatea in fata schimbarii si tendinta de a duce singur ceea ce trebuie impartit.
+
+### Recomandare practica
 
 Recomandarea practica este ca persoana sa transforme experienta acumulata in forma transmisa: sfat, poveste, ordine familiala, memorie, invatatura sau ghidaj. Profilul sustine puternic ideea de intelepciune aplicata, nu doar traita in interior.
 
-## 12. Rubrici incomplete si date de confirmat
+## 12. Rubrici de test
+
+Rubricile principale au fost completate conform template-ului: date de baza, karma, matrice, scara bunastarii, nume, pinacluri, soarta si destin, cicluri, ezoterism si concluzie.
+
+## 13. Nota despre persoane
+
+- Numele folosit in analiza: Szabo Ioan Ovidiu.
+- Prenumele activ: de completat; in calcul s-a folosit numele complet introdus.
+- Nume anterior / schimbat: nu este cazul / de confirmat.
+- Tema personala principala: de completat.
+
+## 14. Harta documentatie folosita
 
 - Prenumele activ trebuie confirmat: Ioan, Ovidiu sau Ioan Ovidiu.
 - Nume anterior / schimbat: de completat, daca exista.
 - Intrebarea personala sau tema principala: de completat.
 - Rubrica ezoterica si aplicabilitatea profesionala Tarot necesita calcul dedicat pentru versiunea finala.
 
-## 13. Harta documentatie folosita
-
 S-au folosit: `examples/Template-lucrare-numerologie.md`, `knowledge_base/calcule/vibratii-personale/`, `knowledge_base/calcule/patratul-lui-pitagora/`, `knowledge_base/calcule/nume/`, `knowledge_base/calcule/karma/`, `knowledge_base/calcule/pinacluri/`, `knowledge_base/calcule/timp-si-cicluri/` si scripturile locale din `scripts/`.
+
+## Rubrici incomplete si date de confirmat
+
+- Prenumele activ trebuie confirmat: Ioan, Ovidiu sau Ioan Ovidiu.
+- Nume anterior / schimbat: de completat, daca exista.
+- Intrebarea personala sau tema principala: de completat.
+- Reprezentarea grafica pentru soarta si destin: de completat daca se alege ciclul de 10 ani sau 12 ani.

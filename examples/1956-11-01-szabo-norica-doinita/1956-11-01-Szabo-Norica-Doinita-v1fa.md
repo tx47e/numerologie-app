@@ -126,7 +126,17 @@ Sinteza karmica pune accent pe neam, statut si responsabilitate. Ziua 1 arata o 
 | Operatia 3 | operatie 1 - 2 x prima cifra nenula din zi | 24 - 2 x 1 | 22 | Aspecte de indreptat. |
 | Operatia 4 | reducerea operatiei 3 | 2+2 | 4 | Vibratia solutiei. |
 
-Sir complet: `01111956 + 24 + 6 + 22 + 4`
+### Sir complet de cifre - data nasterii
+
+```text
+01111956 + 24 + 6 + 22 + 4
+```
+
+```text
+1, 1, 1, 1, 9, 5, 6, 2, 4, 6, 2, 2, 4
+```
+
+### Matricea datei de nastere
 
 | 1 | 4 | 7 |
 | --- | --- | --- |
@@ -135,6 +145,17 @@ Sir complet: `01111956 + 24 + 6 + 22 + 4`
 | 222 | 5 | - |
 | 3 | 6 | 9 |
 | - | 66 | 9 |
+
+### Citirea matricei
+
+- Casute dominante: `1`, `2`, `4`, `6`.
+- Casute lipsa: `3`, `7`, `8`.
+- Element predominant: vointa, structura, responsabilitate afectiva.
+- Elemente slabe: exprimare libera, incredere spirituala si putere materiala relaxata.
+- Trasee informationale importante: `456`, `369`, `159`.
+- Observatii despre paritate: cifrele pare sunt puternice, deci profilul lucreaza prin relatie, stabilitate si responsabilitate.
+
+### Interpretare
 
 Matricea datei are multa vointa personala prin 1111, sensibilitate relationala prin 222 si capacitate de munca prin 44 si 66. Casuta 5 este prezenta si da un centru de echilibru, iar 9 aduce intelepciune si perspectiva. Lipsesc 3, 7 si 8: exprimarea spontana, increderea spirituala si gestionarea puterii materiale trebuie cultivate constient. Persoana poate face mult, poate duce mult si poate organiza mult, dar are nevoie sa nu uite bucuria, credinta si raportarea relaxata la resurse.
 
@@ -169,7 +190,59 @@ Matricea datei are multa vointa personala prin 1111, sensibilitate relationala p
 
 Scara bunastarii incepe cu vectorul vointei 456. Persoana se simte cel mai stabila cand exista ordine, munca, responsabilitate si capacitatea de a tine lucrurile impreuna. Materialitatea 369 si cariera 159 sunt bine sustinute, dar nu prin 3, ci prin 6 si 9: adica prin responsabilitate, experienta si intelepciune. Zonele cele mai joase sunt scopul 357 si creativitatea 789, ceea ce arata ca obiectivele personale si creativitatea trebuie hranite deliberat, nu lasate pe ultimul loc dupa nevoile celorlalti.
 
+### Scara rezultata
+
+```text
+0: 3, 7, 8
+4: 1
+5: 5, 357
+6: 2
+8: 4
+9: 9, 789
+10: 123
+11: 258
+12: 6, 147
+18: 159
+21: 369
+25: 456
+```
+
+### Scara bunastarii
+
+| Ordine | Tip | Denumire | Cantitate | Valoare totala | Observatie |
+| --- | --- | --- | --- | ---: | --- |
+| 1 | vector | Bunastare volutiva | `44 / 5 / 66` | 25 | vointa, munca, responsabilitate |
+| 2 | vector | Bunastare materiala | `- / 66 / 9` | 21 | materialitate prin grija si experienta |
+| 3 | vector | Bunastare in cariera | `1111 / 5 / 9` | 18 | cariera prin identitate si sens |
+| 4 | casuta | 6 - responsabilitate | `66` | 12 | grija si datorie afectiva |
+| 5 | vector | Bunastare spirituala | `1111 / 44 / -` | 12 | spiritual practic, cu incredere de cultivat |
+| 6 | vector | Bunastare sociala | `222 / 5 / -` | 11 | social partial, fara 8 |
+| 7 | vector | Bunastare energetica | `1111 / 222 / -` | 10 | energie relationata, expresie de exersat |
+| 8 | casuta | 9 - sens | `9` | 9 | intelepciune si finalizare |
+| 9 | vector | Bunastare creativa | `- / - / 9` | 9 | creativitate sprijinita pe experienta |
+| 10 | casuta | 4 - structura | `44` | 8 | metoda si disciplina |
+| 11 | casuta | 2 - relatie | `222` | 6 | receptivitate |
+| 12 | casuta | 5 - centru | `5` | 5 | reglaj personal |
+| 13 | vector | Atingerea scopurilor | `- / 5 / -` | 5 | scopurile cer expresie si incredere |
+| 14 | casuta | 1 - identitate | `1111` | 4 | initiativa |
+| 15 | casuta | 3 - expresie | `-` | 0 | comunicare de cultivat |
+| 16 | casuta | 7 - incredere | `-` | 0 | sens spiritual de construit |
+| 17 | casuta | 8 - putere | `-` | 0 | putere si resurse de maturizat |
+
 ## 6. Numele
+
+### Nume analizat
+
+- Nume complet actual: Szabo Norica Doinita
+- Nume de familie actual: Szabo
+- Prenume: Norica Doinita
+- Nume folosit curent: Szabo Norica Doinita
+- Context lingvistic: alfabet pitagoreic, diacritice normalizate
+- Nume anterior / inainte de casatorie: Soporan Norica Doinita
+- Nume de familie de origine: Soporan
+- Data aproximativa a schimbarii numelui: de completat
+
+### Numarul de exprimare
 
 | Numar | Calcul | Rezultat | Interpretare |
 | --- | --- | --- | --- |
@@ -181,6 +254,8 @@ Scara bunastarii incepe cu vectorul vointei 456. Persoana se simte cel mai stabi
 | Numarul neamului | Szabo = 18 | 18 | Tema karmica de neam: clarificarea emotiei, fricii si confuziei. |
 
 Numarul de exprimare 6 este foarte important, fiind identic cu vibratia destinului. Aceasta arata o coerenta intre nume si menire: persoana se exprima in lume prin exact calitatile pe care viata i le cere sa le maturizeze. Grija, armonia, responsabilitatea, simtul familiei si capacitatea de a crea ordine afectiva nu sunt doar cerinte ale destinului, ci si modul in care numele o prezinta celorlalti.
+
+### Numere derivate din nume
 
 Numarul intim 3 vine din vocale si arata ca, in profunzime, persoana are nevoie de bucurie, comunicare, culoare si exprimare. Aceasta este o compensare valoroasa pentru lipsa lui 3 din matricea datei. Chiar daca structura nativa poate fi serioasa si responsabila, dorinta interioara cauta lumina, dialog si manifestare fireasca.
 
@@ -232,7 +307,55 @@ Sir numeric: `1,6,7,6,9,1,5,5,6,9,9,3,1,4,6,9,5,9,2,1,5`
 
 Matricea numelui anterior era mai puternica pe 5, 7 si 9. Ea activa toate pozitiile vectorului scopului 3-5-7 si aducea o bunastare spirituala completa 1-4-7, ceea ce sugereaza ca numele de origine purta mai multa miscare interioara, cautare si dorinta de sens. Numele actual pastreaza forta pe 6 si 9, dar muta accentul spre relatie si responsabilitate, prin 2 si 8.
 
+### Comparare matricea numelui - matricea datei de nastere
+
+| Cifra | Data | Nume actual | Diferenta | Status comparativ | Observatie |
+| --- | --- | --- | ---: | --- | --- |
+| 1 | `1111` | `1111` | 0 | sustinuta | identitatea este confirmata |
+| 2 | `222` | `22` | -1 | lipsa in nume | sensibilitatea exista nativ mai mult decat pare prin nume |
+| 3 | `-` | `3` | 1 | potential de nume | numele aduce expresie ca directie |
+| 4 | `44` | `4` | -1 | lipsa in nume | structura exista nativ mai mult decat o arata numele |
+| 5 | `5` | `55` | 1 | sustinuta | centrul este amplificat moderat |
+| 6 | `66` | `6666` | 2 | exces | numele amplifica grija si responsabilitatea |
+| 7 | `-` | `-` | 0 | absenta | increderea spirituala trebuie cultivata |
+| 8 | `-` | `8` | 1 | potential de nume | numele aduce putere si resurse ca invatare |
+| 9 | `9` | `9999` | 3 | exces | numele amplifica finalizarea si memoria |
+
+### Interpretare comparativa
+
+- Cifre dominante in data si in nume: `1`, `6`, `9`.
+- Casute sustinute: `1`, `2`, `4`, `5`, `6`, `9`.
+- Casute in exces: `6` si `9`.
+- Casute lipsa in nume fata de data: `2` si `4`.
+- Casute potential de nume: `3` si `8`.
+- Casute absente: `7`.
+- Vectori activi in data fata de vectori activi in nume: data accentueaza vointa, numele actual accentueaza materialul, cariera si responsabilitatea.
+
+Numele actual face destinul `6` foarte vizibil: grija, familia, responsabilitatea si armonizarea devin nu doar menire, ci si forma sociala. Excesul de `6` si `9` poate aduce tendinta de a duce prea mult, de a inchide etape pentru altii sau de a ramane in rol de sprijin. Numele anterior Soporan aducea mai mult `5` si `7`, deci mai multa libertate, cautare si miscare interioara; numele actual fixeaza mai mult energia in familie, responsabilitate si sinteza.
+
 ## 7. Pinacluri, oportunitati si provocari
+
+Valorile folosite pentru calcul sunt: zi `1`, luna `2`, an `3`, vibratia destinului `6`.
+
+### Calculul oportunitatilor si provocarilor
+
+| Etapa | Calcul oportunitate | Rezultat | Calcul provocare | Rezultat |
+| --- | --- | ---: | --- | ---: |
+| O1 / P1 | `luna + zi = 2 + 1 = 3` | 3 | `|zi - luna| = |1 - 2|` | 1 |
+| O2 / P2 | `zi + an = 1 + 3 = 4` | 4 | `|zi - an| = |1 - 3|` | 2 |
+| O3 / P3 | `O1 + O2 = 3 + 4 = 7` | 7 | `|P1 - P2| = |1 - 2|` | 1 |
+| O4 / P4 | `luna + an = 2 + 3 = 5` | 5 | `|luna - an| = |2 - 3|` | 1 |
+
+### Calculul pinaclurilor
+
+| Pinaclu | Calcul perioada | Perioada rezultata | Oportunitate | Provocare |
+| --- | --- | --- | ---: | ---: |
+| Pinaclul 1 | `36 - 6 = 30` | 0-30 ani | 3 | 1 |
+| Pinaclul 2 | `30 + 9 = 39` | 31-39 ani | 4 | 2 |
+| Pinaclul 3 | `39 + 9 = 48` | 40-48 ani | 7 | 1 |
+| Pinaclul 4 | dupa finalul pinaclului 3 | 49+ ani | 5 | 1 |
+
+### Tabel sinteza
 
 | Pinaclu | Perioada | Oportunitate | Provocare | Interpretare |
 | --- | --- | ---: | ---: | --- |
@@ -245,10 +368,17 @@ La data lucrarii, persoana are 69 de ani si se afla in pinaclul 4, activ de la 4
 
 ## 8. Soarta si destinul
 
-| Calcul | Formula | Rezultat | Zona de confort |
-| --- | --- | ---: | --- |
-| Soarta | `0111 x 1956` | 0217116 | `0+2+1+7+1+1+6 = 18`; `18 / 7 = 2,57` |
-| Destin | `1111 x 1956` | 2173116 | `2+1+7+3+1+1+6 = 21`; `21 / 7 = 3,00` |
+### Calcul soarta
+
+| Formula | Numar grafic | Zona de confort |
+| --- | ---: | --- |
+| `0111 x 1956` | 0217116 | `0+2+1+7+1+1+6 = 18`; `18 / 7 = 2,57` |
+
+### Calcul destin
+
+| Formula | Numar grafic | Zona de confort |
+| --- | ---: | --- |
+| `1111 x 1956` | 2173116 | `2+1+7+3+1+1+6 = 21`; `21 / 7 = 3,00` |
 
 Linia sortii `0217116` pastreaza zeroul initial pentru ca metoda cere numar grafic de 7 cifre. Acest cadru primit arata o viata in care sensibilitatea, relatia, cautarea de sens si responsabilitatea afectiva sunt prezente de la inceput. Zona de confort `2,57` este relativ joasa si indica o functionare fireasca prin relatie, rabdare, receptivitate si adaptare. Cifra `7` din centru arata ca, dincolo de rolurile familiale sau sociale, exista o nevoie de inteles, credinta si maturizare interioara.
 
@@ -264,6 +394,22 @@ Linia destinului `2173116` se obtine prin inlocuirea zeroului din `0111` cu `1`,
 
 ## 9. Lectii de viata si cicluri
 
+### Lectii de viata
+
+```text
+1 x 11 x 1956 = 21516
+```
+
+| Lectie | Perioada / an | Ce verifica viata | Recomandare |
+| --- | --- | --- | --- |
+| 2 | de completat | cooperare si relatie | sa asculte fara sa se anuleze |
+| 1 | de completat | initiativa | sa isi pastreze pozitia proprie |
+| 5 | de completat | schimbare | sa lase viata sa respire |
+| 1 | de completat | nou inceput | sa aleaga directia personal |
+| 6 | de completat | familie si grija | sa ofere fara autosacrificiu |
+
+### Ciclul de 9 ani
+
 | Reper | Rezultat |
 | --- | --- |
 | Vibratia anului personal 2026 | 4 |
@@ -275,27 +421,88 @@ Linia destinului `2173116` se obtine prin inlocuirea zeroului din `0111` cu `1`,
 
 Anul personal 4 in 2026 cere ordine, rabdare, organizare si consolidare. Pentru aceasta persoana, 2026 este un an bun pentru asezari practice, clarificari de casa, sanatate, ritm si responsabilitati. Anul 2028 apare ca reper interior, iar 2031 apare atat interior, cat si exterior, deci poate marca o schimbare mai vizibila sau o etapa de decizie si reasezare.
 
+### Ani importanti
+
+| Ordine | An | Varsta | Important interior | Important exterior | Observatie |
+| --- | ---: | ---: | --- | --- | --- |
+| 1 | 1956 | 0 | punct de pornire | punct de pornire | anul nasterii |
+| 2 | 2022 | 66 | da |  | prag interior recent |
+| 3 | 2028 | 72 | da |  | reasezare interioara |
+| 4 | 2031 | 75 | da | da | intalnire intre interior si exterior |
+
 ## 10. Ezoterism si aplicabilitate
 
-Codul ezoteric de baza este `1111956`, scris din zi, luna si an fara zerouri de completare in fata. Rubrica necesita calcul separat pentru impartirile ezoterice finale. In profil, sensibilitatea ezoterica se observa prin luna 11, prin 7 din al treilea pinaclu si prin lipsa lui 7 din matrice, care nu neaga inclinatia spre sens, ci arata ca aceasta trebuie cultivata prin practica, rugaciune, studiu sau disciplina interioara, nu doar prin emotie.
+### Cod ezoteric
+
+```text
+01.11.1956 -> 1111956
+1111956 / 7 = 158850,857142...
+```
+
+| Calcul | Cod | Tip de ezoterism | Esenta codului |
+| --- | ---: | --- | --- |
+| `1111956 / 7` | 8 | ezoterism spiritual | ghidare, legi karmice, orientare de destin |
+
+```text
+158850 / 7 = 22692,857142...
+```
+
+| Calcul | Cod secundar | Rezultat | Domenii deschise |
+| --- | ---: | --- | --- |
+| `158850 / 7` | 8 | ezoterism spiritual | calatorii astrale, perceptie subtila, informatie inalta |
+
+Codul principal `8` indica o orientare spre ezoterism spiritual, dar interpretarea trebuie pastrata prudenta. In profil, aceasta sensibilitate este sustinuta de luna `11` si de pinaclul al treilea `7`, insa lipsa lui `7` din matrice arata ca zona trebuie cultivata prin disciplina, protectie si discernamant, nu prin impuls emotional.
+
+### Aplicabilitate profesionala - Tarot
+
+| Aplicabil | Calcul | Arcana Tarot | Valenta constructiva | Valenta de umbra |
+| --- | --- | --- | --- | --- |
+| Nu | `24 - 22 = 2` | 2 - Marea Preoteasa | intuitie, tact, analiza | nehotarare, inertie |
+| Da | `11 + 21 - 22 = 10` | 10 - Roata Norocului | adaptare, plan material, sanse | pasivitate, sugestibilitate |
+
+Directia potrivita combina intuitia cu ordinea practica: activitati de sprijin, administrare, consiliere, economie, lucru cu familia, educatie sau domenii in care ritmul material trebuie armonizat cu nevoile oamenilor. Umbra apare cand persoana asteapta prea mult momentul potrivit sau preia emotii fara sa le filtreze.
 
 ## 11. Concluzie finala
 
+### Directia principala
+
 Directia principala a lucrarii este armonizarea responsabilitatii cu exprimarea personala. Szabo, Norica Doinita are o structura in care destinul, numele si soarta repeta vibratia 6, ceea ce face ca tema familiei, grijii, ordinii afective si sustinerii celorlalti sa fie centrala. Totusi, cheia de echilibru este 3: bucuria, cuvantul, creativitatea si dreptul de a se exprima.
+
+### Ce are de cultivat
 
 De cultivat: limite blande, exprimare libera, odihna, incredere spirituala si o relatie mai relaxata cu schimbarea.
 
+### Ce are de evitat
+
 De evitat: sacrificiul automat, tacerea din dorinta de pace, rigiditatea in responsabilitati si amanarea propriilor nevoi.
+
+### Recomandare practica
 
 Recomandarea practica este ca persoana sa isi pastreze rolul de sprijin, dar sa nu il confunde cu obligatia de a purta tot. Bucuria simpla, conversatia sincera, ordinea casei si timpul personal sunt instrumente reale de echilibru pentru acest profil.
 
-## 12. Rubrici incomplete si date de confirmat
+## 12. Rubrici de test
+
+Rubricile principale au fost completate conform template-ului: date de baza, karma, matrice, scara bunastarii, nume, pinacluri, soarta si destin, cicluri, ezoterism si concluzie.
+
+## 13. Nota despre persoane
+
+- Numele folosit in analiza: Szabo Norica Doinita.
+- Numele inainte de casatorie: Soporan Norica Doinita.
+- Prenumele activ: de completat; in calcul s-a folosit numele complet introdus.
+- Tema personala principala: de completat.
+
+## 14. Harta documentatie folosita
 
 - Prenumele activ trebuie confirmat: Norica, Doinita sau Norica Doinita.
 - Nume inainte de casatorie / nume anterior: completat ca Soporan Norica Doinita. Ar fi utila confirmarea ortografiei exacte.
 - Intrebarea personala sau tema principala: de completat.
 - Rubrica ezoterica si aplicabilitatea profesionala Tarot necesita calcul dedicat pentru versiunea finala.
 
-## 13. Harta documentatie folosita
-
 S-au folosit: `examples/Template-lucrare-numerologie.md`, `knowledge_base/calcule/vibratii-personale/`, `knowledge_base/calcule/patratul-lui-pitagora/`, `knowledge_base/calcule/nume/`, `knowledge_base/calcule/karma/`, `knowledge_base/calcule/pinacluri/`, `knowledge_base/calcule/timp-si-cicluri/` si scripturile locale din `scripts/`.
+
+## Rubrici incomplete si date de confirmat
+
+- Prenumele activ trebuie confirmat: Norica, Doinita sau Norica Doinita.
+- Ortografia exacta a numelui Soporan trebuie confirmata.
+- Intrebarea personala sau tema principala: de completat.
+- Reprezentarea grafica pentru soarta si destin: de completat daca se alege ciclul de 10 ani sau 12 ani.
