@@ -11,7 +11,7 @@ calea destinului folosita in calcul si vibratia solutiei.
 - Nivel de detaliere: amplu
 - Context scurt: aspecte de indreptat legate de Arcana Lunii
 - Lucrari unde a fost folosita:
-  - `examples/1984-11-06-szabo-mihai-gabriel/lucrare-numerologica-v3-conversational.md` - Szabo Mihai Gabriel / 06.11.1984 / aspecte 18
+  - `examples/1984-11-06-szabo-mihai-gabriel/1984-11-06-Szabo-Mihai-Gabriel-v3ca.md` - Szabo Mihai Gabriel / 06.11.1984 / aspecte 18
 - Data adaugarii: 2026-06-13
 
 Rezultatul `18` aduce o tema de lucru legata de Luna: frici, proiectii, confuzie
@@ -29,8 +29,8 @@ curata mult din ceea ce pare complicat.
 - Nivel de detaliere: amplu
 - Context scurt: aspecte de indreptat intre comunicare si relatie
 - Lucrari unde a fost folosita:
-  - `examples/1984-04-17-szabo-sabina/lucrare-numerologica-v2-conversational.md` - Szabo Sabina / 17.04.1984 / aspecte 32
-  - `examples/1984-04-17-szabo-sabina/lucrare-numerologica-v1.md` - Szabo Sabina / 17.04.1984 / interpretare initiala
+  - `examples/1984-04-17-szabo-sabina/1984-04-17-Szabo-Sabina-v2ca.md` - Szabo Sabina / 17.04.1984 / aspecte 32
+  - `examples/1984-04-17-szabo-sabina/1984-04-17-Szabo-Sabina-v1fa.md` - Szabo Sabina / 17.04.1984 / interpretare initiala
 - Data adaugarii: 2026-06-13
 
 Rezultatul `32` arata o tema intre comunicare si relatie. `3` vrea sa spuna, sa
@@ -46,7 +46,7 @@ o zona in care vocea si sensibilitatea trebuie sa invete sa stea la aceeasi masa
 - Nivel de detaliere: amplu
 - Context scurt: solutie prin libertate, respiratie si flexibilitate
 - Lucrari unde a fost folosita:
-  - `examples/1984-04-17-szabo-sabina/lucrare-numerologica-v2-conversational.md` - Szabo Sabina / 17.04.1984 / solutie 5
+  - `examples/1984-04-17-szabo-sabina/1984-04-17-Szabo-Sabina-v2ca.md` - Szabo Sabina / 17.04.1984 / solutie 5
 - Data adaugarii: 2026-06-13
 
 Vibratia solutiei `5` aduce libertate, respiratie, miscare si flexibilitate.

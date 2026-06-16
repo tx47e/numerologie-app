@@ -11,9 +11,9 @@ Date persoana:
 - Nume de familie:
 - Prenume:
 - Prenume activ, daca este cunoscut:
+- Gen persoana: masculin / feminin
 - Data nasterii:
 - Nume anterior / schimbat, daca exista:
-- Nume inainte de casatorie, daca exista:
 - Intrebare personala sau tema principala, daca exista:
 - Nivel de detaliere dorit: scurt / mediu / amplu / foarte amplu
 - Stil de adresare dorit: conversational / formal
@@ -40,8 +40,8 @@ Reguli de redactare:
   firesti.
 - Indexeaza lucrarea ca document de referinta: fiecare capitol, subtitlu,
   paragraf, tabel, grafic si bloc de calcul trebuie sa aiba un
-  cod afisat ca text mic pe linia separata de dinaintea elementului, de forma
-  `<small>Index: COD-LUCRARE-TIP-NNN</small>`, urmat de o linie goala. Nu pune
+  cod afisat pe linia separata de dinaintea elementului, de forma
+  `Index: COD-LUCRARE-TIP-NNN`, urmat de o linie goala. Nu pune
   indexul pe acelasi rand cu titlul, paragraful, tabelul sau orice alt element
   indexat. Interpretarile se indexeaza ca paragrafe, cu tipul `P`; nu folosi un
   tip separat `I`. Foloseste regula completa din
@@ -54,8 +54,18 @@ Reguli de redactare:
   cantitatea cifrelor, formula valorii totale, valoarea obtinuta si sensul
   practic al rezultatului.
 - Dupa matricea datei de nastere si matricea numelui, fa citirea comparativa
-  dupa metoda din Patratul lui Pitagora: casute sustinute, amplificate,
-  nesustinute, native si matricea rezultat.
+  dupa metoda din Patratul lui Pitagora: casute sustinute, cifre in exces in
+  nume, cifre lipsa in nume si potential de nume fara suport nativ. Nu calcula o
+  a treia matrice rezultat.
+- Daca exista nume anterior / schimbat si nume actual, pastreaza ambele nume in
+  analiza numarului ereditar karmic. Explica faptul ca numele anterior pastreaza
+  linia de origine, iar numele actual arata linia sociala si familiala activa;
+  numarul ereditar karmic de sange ramane prezent intreaga viata.
+- La interpretarea numarului ereditar karmic / numarului neamului, pastreaza
+  definitia traditionala din documentatie, dar adapteaza analiza la societatea
+  actuala. Tradu ocupatiile vechi in echivalente moderne potrivite persoanei:
+  de exemplu, `mestesugar` poate deveni specialist tehnic, designer, producator,
+  creator, artizan modern sau profesionist practic.
 - Leaga rezultatele intre ele: data nasterii, karma, matricea, scara
   bunastarii, numele, pinaclurile, ciclurile, ezoterismul si concluzia.
 - Tonul trebuie sa fie prietenos, cald, limpede si usor poetic unde se potriveste,
@@ -76,6 +86,11 @@ Reguli de redactare:
   variante potrivite, alege una care aduce varietate fata de alte lucrari
   apropiate, mai ales cand analizezi persoane din aceeasi familie sau acelasi
   grup.
+- La tabelul `Punti`, coloana `Calcul` trebuie sa contina operatia numerica
+  efectiva cu valorile persoanei, de forma `2 - 7`, `8 - 4` etc., fara
+  apostrofuri, backticks sau bare de valoare absoluta; coloana `Rezultat` trebuie
+  sa contina cifra obtinuta prin diferenta absoluta. Nu folosi in tabel formule
+  generice de tip `vibratia interioara - vibratia exterioara`.
 - Genereaza o exprimare noua daca variantele existente nu se potrivesc
   rezultatului, stilului, nivelului de detaliere, contextului lucrarii sau daca
   este nevoie de o formulare diferita pentru a evita repetitia intre lucrari

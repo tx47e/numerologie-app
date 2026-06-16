@@ -47,6 +47,10 @@ Interpretare scurta:
 - anul 4: lectie de incheiere si integrare;
 - anii 5 si 6: lectii repetate de structura si disciplina.
 
+Pentru ca lectia `4` apare in doi ani consecutivi, ea poate aduce un plus de
+cariera, faima si bani. Persoana sta mai mult in aceasta lectie si are timp sa
+invete mai bine ordinea, munca, structura si constructia concreta.
+
 ## Exemplul 2: 14.7.1992
 
 Data nasterii:

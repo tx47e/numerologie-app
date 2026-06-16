@@ -2,8 +2,7 @@
 
 Aceste exemple arata calculul complet pentru trei profiluri: matricea datei de
 nastere, matricea numelui, valorile pe casute, valorile vectorilor, scara
-bunastarii si matricea rezultat obtinuta prin preluarea diferentelor sustinute
-din matricea numelui.
+bunastarii si comparatia dintre matricea datei de nastere si matricea numelui.
 
 ## Exemplu 1 - 24.04.1982 / Ana Maria Popescu
 
@@ -183,29 +182,21 @@ Scara bunastarii pentru nume:
 
 | Casuta | Data nasterii | Nume | Rezultat |
 | --- | --- | --- | --- |
-| 1 | `1` | `11111` | amplificata; diferenta `1111` se adauga datei |
-| 2 | `222` | - | nativa, neamplificata de nume |
-| 3 | `33` | `33` | sustinuta, fara diferenta de preluat |
+| 1 | `1` | `11111` | exces in nume; diferenta 4 fata de data |
+| 2 | `222` | - | lipsa in nume |
+| 3 | `33` | `33` | sustinuta, fara exces |
 | 4 | `44` | `4` | sustinuta, dar numele nu depaseste data |
-| 5 | - | `55` | nesustinuta; nu se preia |
-| 6 | `6` | `6` | sustinuta, fara diferenta de preluat |
-| 7 | - | `77` | nesustinuta; nu se preia |
-| 8 | `88` | - | nativa, neamplificata de nume |
-| 9 | `9` | `999` | amplificata; diferenta `99` se adauga datei |
+| 5 | - | `55` | potential de nume fara suport nativ |
+| 6 | `6` | `6` | sustinuta, fara exces |
+| 7 | - | `77` | potential de nume fara suport nativ |
+| 8 | `88` | - | lipsa in nume |
+| 9 | `9` | `999` | exces in nume; diferenta 2 fata de data |
 
-Matricea rezultat:
-
-```text
-11111 | 44 |
-222   |    | 88
-33    | 6  | 999
-```
-
-Descriere rezultat: numele adauga patru valori de `1` peste casuta 1 si doua
-valori de `9` peste casuta 9. Casutele `5` si `7` apar in matricea numelui, dar
-nu pot fi preluate pentru ca lipsesc din matricea datei de nastere. Casutele
-`3`, `4` si `6` sunt sustinute, dar nu primesc valori noi deoarece numele nu
-depaseste data in acele casute.
+Observatie comparativa: numele are exces de `1`, cu diferenta 4 fata de matricea
+datei, si exces de `9`, cu diferenta 2 fata de matricea datei. Casutele `5` si
+`7` apar in matricea numelui, dar raman potential de nume fara suport nativ pentru
+ca lipsesc din matricea datei de nastere. Casutele `3`, `4` si `6` sunt sustinute,
+fara exces major.
 
 ## Exemplu 2 - 07.11.1994 / Mihai Ionescu
 
@@ -383,28 +374,19 @@ Scara bunastarii pentru nume:
 | Casuta | Data nasterii | Nume | Rezultat |
 | --- | --- | --- | --- |
 | 1 | `1111` | `11` | sustinuta, dar numele nu depaseste data |
-| 2 | `2` | - | nativa, neamplificata de nume |
-| 3 | `3` | `33` | amplificata; diferenta `3` se adauga datei |
-| 4 | `4` | `4` | sustinuta, fara diferenta de preluat |
-| 5 | `5` | `55` | amplificata; diferenta `5` se adauga datei |
-| 6 | - | `6` | nesustinuta; nu se preia |
-| 7 | `7` | - | nativa, neamplificata de nume |
-| 8 | `8` | `8` | sustinuta, fara diferenta de preluat |
-| 9 | `999` | `9999` | amplificata; diferenta `9` se adauga datei |
+| 2 | `2` | - | lipsa in nume |
+| 3 | `3` | `33` | sustinuta; diferenta 1 fata de data |
+| 4 | `4` | `4` | sustinuta, fara exces |
+| 5 | `5` | `55` | sustinuta; diferenta 1 fata de data |
+| 6 | - | `6` | potential de nume fara suport nativ |
+| 7 | `7` | - | lipsa in nume |
+| 8 | `8` | `8` | sustinuta, fara exces |
+| 9 | `999` | `9999` | sustinuta; diferenta 1 fata de data |
 
-Matricea rezultat:
-
-```text
-1111 | 4  | 7
-2    | 55 | 8
-33   |    | 9999
-```
-
-Descriere rezultat: numele adauga o valoare de `3`, o valoare de `5` si o
-valoare de `9` peste matricea datei de nastere. Casuta `6` apare in matricea
-numelui, dar nu poate fi preluata pentru ca lipseste din matricea datei.
-Casutele `1`, `4` si `8` sunt sustinute, dar nu primesc valori noi deoarece
-numele nu depaseste data in acele casute.
+Observatie comparativa: numele sustine casutele `3`, `5` si `9`, dar diferenta
+este de o singura unitate, deci nu se citeste ca exces major. Casuta `6` apare in
+matricea numelui, dar ramane potential de nume fara suport nativ pentru ca
+lipseste din matricea datei. Casutele `1`, `4` si `8` sunt sustinute, fara exces.
 
 ## Exemplu 3 - 15.10.1988 / Elena Dumitrescu
 
@@ -584,25 +566,17 @@ Scara bunastarii pentru nume:
 | Casuta | Data nasterii | Nume | Rezultat |
 | --- | --- | --- | --- |
 | 1 | `1111` | `11` | sustinuta, dar numele nu depaseste data |
-| 2 | - | `2` | nesustinuta; nu se preia |
-| 3 | `333` | `3333` | amplificata; diferenta `3` se adauga datei |
-| 4 | `4` | `44` | amplificata; diferenta `4` se adauga datei |
-| 5 | `5` | `5555` | amplificata; diferenta `555` se adauga datei |
-| 6 | `6` | - | nativa, neamplificata de nume |
+| 2 | - | `2` | potential de nume fara suport nativ |
+| 3 | `333` | `3333` | sustinuta; diferenta 1 fata de data |
+| 4 | `4` | `44` | sustinuta; diferenta 1 fata de data |
+| 5 | `5` | `5555` | exces in nume; diferenta 3 fata de data |
+| 6 | `6` | - | lipsa in nume |
 | 7 | - | - | absenta |
 | 8 | `88` | `8` | sustinuta, dar numele nu depaseste data |
-| 9 | `9` | `99` | amplificata; diferenta `9` se adauga datei |
+| 9 | `9` | `99` | sustinuta; diferenta 1 fata de data |
 
-Matricea rezultat:
-
-```text
-1111 | 44   |
-     | 5555 | 88
-3333 | 6    | 99
-```
-
-Descriere rezultat: numele adauga o valoare de `3`, o valoare de `4`, trei
-valori de `5` si o valoare de `9` peste matricea datei de nastere. Casuta `2`
-apare in matricea numelui, dar nu poate fi preluata pentru ca lipseste din
-matricea datei. Casutele `1` si `8` sunt sustinute, dar nu primesc valori noi
-deoarece numele nu depaseste data in acele casute.
+Observatie comparativa: numele are exces de `5`, cu diferenta 3 fata de matricea
+datei. Casutele `3`, `4` si `9` sunt sustinute, dar diferenta este de o singura
+unitate si nu se citeste ca exces major. Casuta `2` apare in matricea numelui,
+dar ramane potential de nume fara suport nativ pentru ca lipseste din matricea
+datei. Casutele `1` si `8` sunt sustinute, fara exces major.

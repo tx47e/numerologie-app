@@ -12,7 +12,7 @@ neamului si comparatia dintre matricea datei si matricea numelui.
 - Nivel de detaliere: amplu
 - Context scurt: numar de exprimare orientat spre constructie si metoda
 - Lucrari unde a fost folosita:
-  - `examples/1984-11-06-szabo-mihai-gabriel/lucrare-numerologica-v3-conversational.md` - Szabo Mihai Gabriel / 06.11.1984 / exprimare 22/4
+  - `examples/1984-11-06-szabo-mihai-gabriel/1984-11-06-Szabo-Mihai-Gabriel-v3ca.md` - Szabo Mihai Gabriel / 06.11.1984 / exprimare 22/4
 - Data adaugarii: 2026-06-13
 
 Numarul de exprimare `22/4` arata ca manifestarea persoanei nu trebuie sa ramana
@@ -29,8 +29,8 @@ profesionala sau un mod coerent de a transmite ceea ce persoana stie.
 - Nivel de detaliere: amplu
 - Context scurt: numar de exprimare orientat spre inceput si identitate proprie
 - Lucrari unde a fost folosita:
-  - `examples/1984-04-17-szabo-sabina/lucrare-numerologica-v2-conversational.md` - Szabo Sabina / 17.04.1984 / exprimare actuala 1
-  - `examples/1984-04-17-szabo-sabina/lucrare-numerologica-v1.md` - Szabo Sabina / 17.04.1984 / interpretare initiala
+  - `examples/1984-04-17-szabo-sabina/1984-04-17-Szabo-Sabina-v2ca.md` - Szabo Sabina / 17.04.1984 / exprimare actuala 1
+  - `examples/1984-04-17-szabo-sabina/1984-04-17-Szabo-Sabina-v1fa.md` - Szabo Sabina / 17.04.1984 / interpretare initiala
 - Data adaugarii: 2026-06-13
 
 Numarul de exprimare `1` orienteaza manifestarea sociala spre inceput, afirmare
@@ -47,8 +47,8 @@ sustine catre a initia si a asuma o identitate proprie.
 - Nivel de detaliere: amplu
 - Context scurt: comparatie intre nume anterior cu exprimare 8 si nume actual cu exprimare 1
 - Lucrari unde a fost folosita:
-  - `examples/1984-04-17-szabo-sabina/lucrare-numerologica-v2-conversational.md` - Szabo Sabina / trecere MIRESCU SABINA 8 -> SZABO SABINA 1
-  - `examples/1984-04-17-szabo-sabina/lucrare-numerologica-v1.md` - Szabo Sabina / comparatie initiala nume
+  - `examples/1984-04-17-szabo-sabina/1984-04-17-Szabo-Sabina-v2ca.md` - Szabo Sabina / trecere MIRESCU SABINA 8 -> SZABO SABINA 1
+  - `examples/1984-04-17-szabo-sabina/1984-04-17-Szabo-Sabina-v1fa.md` - Szabo Sabina / comparatie initiala nume
 - Data adaugarii: 2026-06-13
 
 Trecerea de la o exprimare `8` la o exprimare `1` poate fi citita ca o mutare de

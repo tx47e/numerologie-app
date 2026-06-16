@@ -2,7 +2,8 @@
 
 Numarul intim este calculul derivat din vocalele numelui complet. El descrie
 zona ascunsa a numelui: dorinte profunde, simpatii, antipatii si motivatie
-interioara.
+interioara. In interpretare, se compara cu vibratia interioara din data nasterii,
+pentru a vedea cum numele modifica, mentine sau amplifica eul ascuns.
 
 ## Fisiere
 

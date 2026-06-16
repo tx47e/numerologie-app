@@ -1,8 +1,14 @@
 # Numarul de exprimare - semnificatii
 
-Numarul de exprimare descrie felul in care persoana se exprima prin numele purtat:
-tonul exterior, directia de manifestare, felul in care isi pune calitatile in
-relatie cu lumea si modul in care este chemata sa isi foloseasca resursele.
+Numarul de exprimare descrie personalitatea formata prin numele purtat si cheia
+catre ceea ce omul poate deveni. El arata nivelurile care pot fi atinse prin
+manifestarea numelui: cum isi construieste persoana identitatea, ce calitati
+poate dezvolta si ce directie de expresie ii sustine evolutia.
+
+In lectura proiectului, numarul de exprimare este echivalentul pe nume al
+vibratiei destinului din data de nastere. Vibratia destinului arata directia
+derivata din data nasterii, iar numarul de exprimare arata cum numele poate
+sprijini, nuanta sau tensiona acea directie.
 
 Acest calcul nu anuleaza data nasterii. El completeaza profilul personal si
 arata mai ales cum se vede persoana in actiune, in comunicare, in roluri sociale
@@ -45,8 +51,9 @@ si in alegerile prin care isi construieste identitatea.
 
 Rezultatul se interpreteaza impreuna cu:
 
-- soarta, pentru a vedea directia vietii;
-- vibratia interioara, pentru a observa motivatia personala;
-- vibratia exterioara, pentru stilul de reactie si adaptare;
-- matricea numelui, pentru distributia concreta a literelor;
-- lectiile karmice, pentru valorile lipsa din nume.
+- vibratia destinului, pentru a vedea daca numele sustine directia principala
+  din data nasterii;
+- paritatea dintre numarul de exprimare si vibratia destinului: ideal este ca
+  ele sa fie identice; daca sunt diferite, este mai armonios cand ambele sunt
+  pare sau ambele impare; cand una este para si cealalta impara, persoana poate
+  simti mai multa tensiune intre nume si directia de viata.

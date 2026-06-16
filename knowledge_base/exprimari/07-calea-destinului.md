@@ -11,7 +11,7 @@ suma neredusa a tuturor cifrelor din data nasterii.
 - Nivel de detaliere: amplu
 - Context scurt: calea destinului ca expresie amplificata si transmitere
 - Lucrari unde a fost folosita:
-  - `examples/1984-11-06-szabo-mihai-gabriel/lucrare-numerologica-v3-conversational.md` - Szabo Mihai Gabriel / 06.11.1984 / calea destinului 30
+  - `examples/1984-11-06-szabo-mihai-gabriel/1984-11-06-Szabo-Mihai-Gabriel-v3ca.md` - Szabo Mihai Gabriel / 06.11.1984 / calea destinului 30
 - Data adaugarii: 2026-06-13
 
 Calea `30` arata o directie in care expresia nu este decorativa, ci necesara.
@@ -29,8 +29,8 @@ devine transmitere, nu zgomot.
 - Nivel de detaliere: amplu
 - Context scurt: calea destinului ca stabilitate dupa incercari
 - Lucrari unde a fost folosita:
-  - `examples/1984-04-17-szabo-sabina/lucrare-numerologica-v2-conversational.md` - Szabo Sabina / 17.04.1984 / calea destinului 34
-  - `examples/1984-04-17-szabo-sabina/lucrare-numerologica-v1.md` - Szabo Sabina / 17.04.1984 / interpretare initiala
+  - `examples/1984-04-17-szabo-sabina/1984-04-17-Szabo-Sabina-v2ca.md` - Szabo Sabina / 17.04.1984 / calea destinului 34
+  - `examples/1984-04-17-szabo-sabina/1984-04-17-Szabo-Sabina-v1fa.md` - Szabo Sabina / 17.04.1984 / interpretare initiala
 - Data adaugarii: 2026-06-13
 
 Calea `34` invita la transformarea expresiei `3` in structura `4`. Ideile,

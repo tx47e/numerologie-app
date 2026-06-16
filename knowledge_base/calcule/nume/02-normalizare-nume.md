@@ -9,13 +9,13 @@ Acest fisier descrie cum pregatim numele inainte de calcul.
 3. Se ignora semnele de punctuatie care nu sunt litere.
 4. Se pastreaza ordinea numelor asa cum sunt introduse.
 
-## Nume inainte si dupa casatorie
+## Nume anterior / schimbat si nume actual
 
 Pentru profilul complet pastram doua variante de nume, daca persoana si-a
-schimbat numele prin casatorie:
+schimbat numele:
 
-- `nume_inainte_casatorie`: numele complet purtat inainte de casatorie;
-- `nume_dupa_casatorie`: numele complet purtat dupa casatorie.
+- `nume_anterior_schimbat`: numele complet purtat anterior, daca exista;
+- `nume_actual`: numele complet purtat in prezent.
 
 Ambele variante se calculeaza separat:
 
@@ -32,12 +32,12 @@ Cand exista doua variante de nume, comparatia urmareste:
 
 - ce vibratie se pastreaza;
 - ce vibratie se schimba;
-- ce cifre apar in matricea numelui dupa casatorie;
+- ce cifre apar in matricea numelui actual;
 - ce cifre dispar sau devin mai slabe;
 - ce lectii karmice raman constante;
 - ce lectii karmice apar sau se reduc;
 - diferenta dintre numarul neamului de origine si numarul neamului preluat.
 
-Numele dinainte de casatorie nu este sters din analiza. El ramane stratul de
-origine al identitatii numerologice. Numele de dupa casatorie arata stratul
-social, familial si relational activ dupa schimbarea numelui.
+Numele anterior / schimbat nu este sters din analiza. El ramane stratul de
+origine al identitatii numerologice. Numele actual arata stratul social,
+familial si relational activ dupa schimbarea numelui.

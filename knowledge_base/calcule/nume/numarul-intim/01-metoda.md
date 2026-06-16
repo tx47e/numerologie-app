@@ -26,3 +26,12 @@ numarul intim = reducere_numerologica(suma valorilor vocalelor din numele comple
 In bibliografie, numarul intim este asociat cu cifra inimii si cu vibratia
 interioara. El descrie ce ramane mai putin vizibil: aspiratii intime, dorinte
 profunde si eul ascuns.
+
+In interpretare, numarul intim se citeste intotdeauna in concordanta cu vibratia
+interioara calculata din ziua nasterii. Vibratia interioara arata ce isi doreste
+omul in structura lui nativa, iar numarul intim arata ce amplifica numele in zona
+dorintelor ascunse. Comparatia dintre cele doua arata daca numele confirma,
+modifica, mentine sau amplifica eul ascuns.
+
+Numarul intim amplifica aspiratiile intime si dorintele profunde ale omului,
+servind la modificarea, mentinerea sau amplificarea eului ascuns.

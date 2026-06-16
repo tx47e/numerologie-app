@@ -48,6 +48,14 @@ In acest caz, lectia `4` apare in doi ani consecutivi. Interpretarea poate
 indica o insistenta pe aceeasi tema: structura, disciplina, ordine, constructie
 sau responsabilitate practica.
 
+Cand o lectie apare in doi ani consecutivi, ea poate aduce un plus de cariera,
+faima si bani pentru persoana analizata. Repetitia arata ca omul sta mai mult
+in acea lectie, o invata mai bine si poate transforma tema respectiva intr-un
+avantaj vizibil. De exemplu, in sirul `130944`, lectia `4` apare in doi ani
+consecutivi; prin lectia de `4`, persoana poate dezvolta potential de cariera,
+faima si bani, deoarece invata mai profund structura, disciplina, constructia si
+responsabilitatea practica.
+
 ## Lungimea sirului
 
 Lungimea sirului depinde de numarul de cifre al produsului.

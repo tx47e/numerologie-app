@@ -121,6 +121,8 @@ domeniilor secundare, se foloseste documentul
 ## 5. Domeniile care se deschid mai usor
 
 Dupa stabilirea codului principal, se poate calcula si o orientare secundara.
+Exceptie: daca prima impartire da cod principal `0`, calculul se opreste aici.
+Nu se mai face a doua impartire si nu se forteaza un domeniu secundar.
 
 Se ia partea intreaga obtinuta la prima impartire:
 

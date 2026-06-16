@@ -1,8 +1,9 @@
 # Numarul de exprimare
 
-Numarul de exprimare descrie energia generala extrasa din numele complet.
-In proiect, aceasta categorie inlocuieste denumirea generica folosita anterior
-pentru calculul din numele complet.
+Numarul de exprimare descrie personalitatea formata prin numele complet si cheia
+catre ceea ce omul poate deveni. In proiect, el este citit ca echivalentul pe
+nume al vibratiei destinului din data de nastere si se compara intotdeauna cu
+aceasta.
 
 ## Fisiere
 

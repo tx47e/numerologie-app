@@ -35,12 +35,13 @@ fiecare element important primeste un cod de index vizibil si stabil, astfel inc
 se poate face trimitere exacta la un capitol, subtitlu, paragraf, tabel, grafic
 sau interpretare.
 
-Formatul obligatoriu este text mic pe linia separata de dinaintea elementului.
+Formatul obligatoriu este indexul afisat pe linia separata de dinaintea
+elementului.
 Indexul nu se scrie niciodata pe acelasi rand cu titlul, subtitlul, paragraful,
 tabelul, graficul, interpretarea, lista sau blocul de calcul:
 
-```html
-<small>Index: COD-LUCRARE-TIP-NNN</small>
+```text
+Index: COD-LUCRARE-TIP-NNN
 
 ```
 
@@ -264,16 +265,19 @@ bucati, ci arata ce calitate poate impaca interiorul cu exteriorul, firea cu
 destinul si valorile cu directia de viata.
 
 In tabel, completeaza calculul numeric explicit si rezultatul obtinut. Puntea se
-calculeaza ca diferenta absoluta intre doua vibratii. Calculul arata cifrele
-concrete ale persoanei, de exemplu `|8 - 4|`. Rezultatul este cifra obtinuta
-prin scaderea celor doua valori si este cifra care se interpreteaza.
+calculeaza ca diferenta dintre cele doua vibratii, citita ca valoare absoluta
+atunci cand prima cifra este mai mica decat a doua. In coloana `Calcul` se scrie
+operatia simpla cu cifrele persoanei, fara apostrofuri, backticks sau bare de
+valoare absoluta, dupa modelul `2 - 7` sau `8 - 4`. In coloana `Rezultat` se
+scrie cifra obtinuta din diferenta absoluta dintre cele doua valori; aceasta este
+cifra care se interpreteaza.
 
 | Punte | Calcul | Rezultat |
 | --- | --- | --- |
-| Interior - exterior | vibratia interioara - vibratia exterioara | cifra rezultata |
-| Interior - destin | vibratia interioara - vibratia destinului | cifra rezultata |
-| Exterior - destin | vibratia exterioara - vibratia destinului | cifra rezultata |
-| Cosmic - destin | vibratia cosmica totala - vibratia destinului | cifra rezultata |
+| Interior - exterior | cifra interioara - cifra exterioara | cifra rezultata |
+| Interior - destin | cifra interioara - cifra destinului | cifra rezultata |
+| Exterior - destin | cifra exterioara - cifra destinului | cifra rezultata |
+| Cosmic - destin | cifra cosmica totala - cifra destinului | cifra rezultata |
 
 Dupa tabel, scrie cate o interpretare ampla pentru fiecare punte din tabel: 4
 interpretari in total. Metoda de interpretare este aceeasi pentru toate puntile:
@@ -487,11 +491,10 @@ se duce mai departe prin neam.
 - Nu folosi o forma scurta sau prescurtata daca nu apare explicit in fisa persoanei.
 - Daca numele s-a schimbat, se analizeaza in paralel numele anterior si numele actual.
 - Pentru numarul neamului, se pastreaza atentia pe numele de familie de la nastere, daca documentatia cere linia de sange.
-- Pentru gen feminin, daca exista un nume anterior / schimbat si un nume actual,
-  pastreaza ambele nume in analiza. Explica faptul ca numele anterior poate
-  pastra linia de origine, iar numele actual poate arata linia sociala si
-  familiala activa; numarul ereditar karmic de sange ramane prezent intreaga
-  viata.
+- Daca exista un nume anterior / schimbat si un nume actual, pastreaza ambele
+  nume in analiza. Explica faptul ca numele anterior poate pastra linia de
+  origine, iar numele actual poate arata linia sociala si familiala activa;
+  numarul ereditar karmic de sange ramane prezent intreaga viata.
 
 ### Numarul de exprimare
 
@@ -808,7 +811,7 @@ se pastreaza.
 | --- | --- | --- | --- |
 |  |  |  |  |
 
-A doua impartire:
+A doua impartire, doar daca primul cod nu este `0`:
 
 | Calcul | Cod secundar | Rezultat | Domenii deschise |
 | --- | --- | --- | --- |

@@ -18,7 +18,7 @@ Acest document centralizeaza formulele numerologice adoptate in proiect.
 - [`numarul ereditar karmic`](../knowledge_base/calcule/nume/numarul-ereditar-karmic/01-metoda.md): numele de familie se transforma in valori
   numerologice, valorile se aduna, iar daca rezultatul este mai mare de 22 se
   scade 22 pana cand ramane un numar intre 1 si 22.
-- [`normalizare nume`](../knowledge_base/calcule/nume/02-normalizare-nume.md) pentru `nume inainte/dupa casatorie`: se calculeaza separat, apoi se compara
+- [`normalizare nume`](../knowledge_base/calcule/nume/02-normalizare-nume.md) pentru `nume anterior / schimbat` si `nume actual`: se calculeaza separat, apoi se compara
   numarul de exprimare, matricea numelui, karma numelui si numarul ereditar
   karmic / numarul neamului.
 

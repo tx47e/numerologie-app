@@ -11,7 +11,7 @@ calculata din luna nasterii.
 - Nivel de detaliere: amplu
 - Context scurt: vibratie exterioara calculata din luna `11`, prin `1 + 1 = 2`
 - Lucrari unde a fost folosita:
-  - `examples/1984-11-06-szabo-mihai-gabriel/lucrare-numerologica-v3-conversational.md` - Szabo Mihai Gabriel / 06.11.1984 / vibratie exterioara 2
+  - `examples/1984-11-06-szabo-mihai-gabriel/1984-11-06-Szabo-Mihai-Gabriel-v3ca.md` - Szabo Mihai Gabriel / 06.11.1984 / vibratie exterioara 2
 - Data adaugarii: 2026-06-13
 
 Luna `11` se reduce prin `1 + 1 = 2`. Cele doua trepte de `1` vorbesc despre doua
@@ -30,8 +30,8 @@ ascultare si atentie la nuanta emotionala.
 - Nivel de detaliere: amplu
 - Context scurt: vibratie exterioara directa din luna `4`
 - Lucrari unde a fost folosita:
-  - `examples/1984-04-17-szabo-sabina/lucrare-numerologica-v2-conversational.md` - Szabo Sabina / 17.04.1984 / vibratie exterioara 4
-  - `examples/1984-04-17-szabo-sabina/lucrare-numerologica-v1.md` - Szabo Sabina / 17.04.1984 / interpretare initiala
+  - `examples/1984-04-17-szabo-sabina/1984-04-17-Szabo-Sabina-v2ca.md` - Szabo Sabina / 17.04.1984 / vibratie exterioara 4
+  - `examples/1984-04-17-szabo-sabina/1984-04-17-Szabo-Sabina-v1fa.md` - Szabo Sabina / 17.04.1984 / interpretare initiala
 - Data adaugarii: 2026-06-13
 
 Luna nasterii este `4`, deci vibratia exterioara nu are nevoie de reducere.

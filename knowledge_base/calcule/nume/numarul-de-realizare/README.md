@@ -2,7 +2,9 @@
 
 Numarul de realizare este calculul derivat din consoanele numelui complet. El
 descrie imaginea exterioara, comportamentul vizibil si modul in care numele
-sprijina sau franeaza realizarea concreta.
+sprijina sau franeaza realizarea concreta. In interpretare, se compara cu
+vibratia exterioara din data nasterii, pentru a vedea cum numele amplifica,
+mentine, modifica sau franeaza eul exterior si realizarile concrete.
 
 ## Fisiere
 

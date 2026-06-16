@@ -11,7 +11,7 @@ calculata din ziua de nastere redusa.
 - Nivel de detaliere: amplu
 - Context scurt: vibratie interioara asociata grijii, armoniei si responsabilitatii
 - Lucrari unde a fost folosita:
-  - `examples/1984-11-06-szabo-mihai-gabriel/lucrare-numerologica-v3-conversational.md` - Szabo Mihai Gabriel / 06.11.1984 / vibratie interioara 6
+  - `examples/1984-11-06-szabo-mihai-gabriel/1984-11-06-Szabo-Mihai-Gabriel-v3ca.md` - Szabo Mihai Gabriel / 06.11.1984 / vibratie interioara 6
 - Data adaugarii: 2026-06-13
 
 Ziua de nastere intra direct in semnificatia lui `6`. Aceasta vibratie arata o
@@ -31,8 +31,8 @@ locul altora.
 - Nivel de detaliere: amplu
 - Context scurt: vibratie interioara calculata din `1 + 7 = 8`
 - Lucrari unde a fost folosita:
-  - `examples/1984-04-17-szabo-sabina/lucrare-numerologica-v2-conversational.md` - Szabo Sabina / 17.04.1984 / vibratie interioara 8
-  - `examples/1984-04-17-szabo-sabina/lucrare-numerologica-v1.md` - Szabo Sabina / 17.04.1984 / interpretare initiala
+  - `examples/1984-04-17-szabo-sabina/1984-04-17-Szabo-Sabina-v2ca.md` - Szabo Sabina / 17.04.1984 / vibratie interioara 8
+  - `examples/1984-04-17-szabo-sabina/1984-04-17-Szabo-Sabina-v1fa.md` - Szabo Sabina / 17.04.1984 / interpretare initiala
 - Data adaugarii: 2026-06-13
 
 Calculul porneste de la ziua `17`, adica `1 + 7 = 8`. `1` aduce initiativa si

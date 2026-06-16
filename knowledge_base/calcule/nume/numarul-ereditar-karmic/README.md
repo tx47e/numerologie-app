@@ -8,6 +8,10 @@ Arcanei 0.
 In proiect, `karma neamului` nu este un calcul separat. Termenul este pastrat ca
 denumire alternativa pentru numarul ereditar karmic / numarul neamului.
 
+Daca exista nume anterior / schimbat si nume actual, se calculeaza si se
+interpreteaza ambele: numarul de origine, ca linie de sange care persista
+intreaga viata, si numarul actual, ca neam social si familial activ.
+
 ## Fisiere
 
 - [Metoda](01-metoda.md)

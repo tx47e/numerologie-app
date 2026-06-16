@@ -199,79 +199,134 @@ Matricea numelui:
 
 ## Citire comparativa
 
-In profilul complet se pastreaza doua matrici:
+In profilul complet se pastreaza si se compara doua matrici:
 
 - matricea datei de nastere;
 - matricea numelui.
 
-Din matricea datei de nastere si matricea numelui rezulta o a treia matrice:
-matricea rezultat. Ea porneste de la matricea datei de nastere si adauga doar
-diferenta prin care valorile din matricea numelui depasesc valorile deja prezente
-in aceeasi casuta din matricea datei de nastere. O valoare din nume poate fi
-adaugata datei doar daca aceeasi casuta exista si in matricea datei; aceasta
-prezenta comuna este sustinerea.
+Nu se mai calculeaza o a treia matrice. Matricea datei de nastere si matricea
+numelui raman doua surse separate: prima arata structura nativa, iar a doua arata
+ce activeaza numele in dorinta, expresie si manifestare.
 
 Regula de lucru:
 
 1. Se calculeaza matricea datei de nastere.
 2. Se calculeaza matricea numelui.
-3. Pentru fiecare casuta 1-9 se verifica daca exista valori in ambele matrici.
-4. Daca o casuta este prezenta in matricea numelui si prezenta in matricea
-   datei, se compara numarul de valori din cele doua casute.
-5. Daca o casuta este prezenta in matricea numelui, dar absenta in matricea
-   datei, valorile din nume nu se copiaza in a treia matrice; sunt potential de
-   nume fara suport direct in data.
-6. Daca numele are mai multe valori decat data in aceeasi casuta, diferenta se
-   adauga peste valorile datei in matricea rezultat.
-7. Daca numele are un numar egal sau mai mic de valori decat data, nu se preia
-   nimic in a treia matrice pentru acea casuta.
+3. Pentru fiecare casuta 1-9 se compara cantitatea din matricea numelui cu
+   cantitatea din matricea datei de nastere.
+4. Daca matricea numelui depaseste matricea datei cu doua sau mai multe unitati
+   in aceeasi casuta, cifra este considerata in exces in nume.
+5. Excesul nu se adauga intr-o matrice noua. El se interpreteaza ca dorinta
+   interioara a posesorului numelui de a fi mai mult pe tema acelei cifre decat
+   ii este dat prin structura nativa.
+6. Daca cifra este prezenta in matricea datei de nastere, dar lipseste din
+   matricea numelui, cifra este considerata lipsa in nume. Lipsa arata impresia
+   interioara ca omul are mai putin din acea caracteristica decat ii este dat
+   prin datele native.
+7. Daca diferenta este de zero sau de o singura unitate, cifra poate fi citita ca
+   sustinere sau nuantare, nu ca exces major.
+8. Daca cifra apare in nume, dar lipseste din data, se noteaza ca potential de
+   nume fara suport direct in structura nativa.
 
 Ele se compara prin:
 
 - cifre dominante in data si in nume;
 - casute sustinute: prezente si in data, si in nume;
-- casute amplificate: prezente in ambele matrici, cu mai multe valori in nume
-  decat in data;
-- casute nesustinute: prezente in nume, dar absente in data;
-- casute native: prezente in data, dar absente in nume;
+- casute in exces in nume: numele depaseste data cu doua sau mai multe unitati;
+- casute lipsa in nume: prezente in data, dar absente in nume;
+- casute potential de nume: prezente in nume, dar absente in data;
 - vectori activi in data fata de vectori activi in nume.
-
-Nu combinam automat cifrele datei cu cifrele numelui intr-o singura matrice,
-pentru ca ar amesteca doua surse simbolice diferite: structura nasterii si
-expresia prin nume.
 
 Formula simpla pentru comparatia pe casute:
 
 ```text
-matrice_rezultat = copie(matricea_datei_de_nastere)
-
 pentru fiecare cifra 1..9:
   data = numar_aparitii(cifra, matricea_datei_de_nastere)
   nume = numar_aparitii(cifra, matricea_numelui)
+  diferenta = nume - data
 
-  daca data > 0 si nume > 0:
-    status = sustinuta
-    diferenta = nume - data
-    daca diferenta > 0:
-      status = amplificata
-      matrice_rezultat[cifra] = matricea_datei_de_nastere[cifra] + cifra repetata de diferenta ori
-    altfel:
-      matrice_rezultat[cifra] = matricea_datei_de_nastere[cifra]
   daca data == 0 si nume > 0:
-    status = nesustinuta
-    matrice_rezultat[cifra] = gol
+    status = potential_de_nume_fara_suport_nativ
+  altfel daca diferenta >= 2:
+    status = exces_in_nume
+  altfel daca data > 0 si nume > 0:
+    status = sustinuta_sau_nuantata
   daca data > 0 si nume == 0:
-    status = nativa_neamplificata_de_nume
-    matrice_rezultat[cifra] = matricea_datei_de_nastere[cifra]
+    status = lipsa_in_nume
   daca data == 0 si nume == 0:
     status = absenta
-    matrice_rezultat[cifra] = gol
 ```
 
-Matricea rezultat nu afiseaza separat valorile preluate. Ea afiseaza direct
-matricea datei de nastere dupa adaugarea diferentelor sustinute din matricea
-numelui. Valorile din nume care nu sunt sustinute de data nu intra in matricea
-rezultat.
+## Interpretarea excesului in matricea numelui
+
+Cand o cifra este in exces in matricea numelui, posesorul numelui isi poate dori
+in interior sa fie mai mult pe tema acelei cifre decat ii este dat prin matricea
+datei de nastere. Formularea trebuie facuta prudent: excesul nu este defect, ci
+o presiune de exprimare a numelui, care poate cere constienta si masura.
+
+- 1 in exces: omul isi doreste sa fie mai dominator, mai autoritar, mai lider,
+  cu ego mai puternic decat ii este dat prin datele native.
+- 2 in exces: omul isi doreste sa fie mai vorbaret, mai emotional, mai comunicativ
+  decat ii este dat prin datele native.
+- 3 in exces: omul isi doreste sa fie mai descurcaret, mai istet, mai bagat in
+  seama si mai stimulat decat poate sustine natural.
+- 4 in exces: omul isi doreste sa fie mai fit, mai sanatos si mai tonic decat ii
+  este dat prin structura nativa.
+- 5 in exces: omul isi doreste sa fie mai social, mai prietenos, mai increzator,
+  mai aventuros si sa intre in mai multe experiente decat ii este dat.
+- 6 in exces: omul isi doreste sa fie mai pragmatic, mai luxos, mai armonios in
+  familie, mai senzual, mai iubitor.
+- 7 in exces: omul isi doreste sa fie mai spiritual, mai rational, mai intelept,
+  sa gandeasca in avans si sa analizeze mai profund decat poate sustine natural.
+- 8 in exces: omul isi doreste sa fie mai bogat, sa faca parte din elite, sa aiba
+  functii, grade sau pozitii mai inalte decat ii este dat prin structura nativa.
+- 9 in exces: omul isi doreste sa fie mai aplecat catre ceilalti, pana la riscul
+  de a uita de sine.
+
+## Interpretarea lipsei in matricea numelui
+
+Cand o cifra exista in matricea datei de nastere, dar lipseste din matricea
+numelui, posesorul numelui poate trai in interior impresia ca are mai putin din
+acea caracteristica decat ii este dat prin datele native. Lipsa nu inseamna ca
+omul nu are calitatea respectiva; inseamna ca numele nu o activeaza explicit si
+poate crea nesiguranta, neplacere sau dificultate in raport cu tema cifrei.
+
+- 1 lipsa: puterea psihica nu este suficient de clara; omul poate simti ca nu
+  stie destul de limpede ce vrea si ce ii face bine, iar acest lucru se rasfrange
+  asupra increderii in sine.
+- 2 lipsa: comunicarea se poate resimti in parteneriate, asocieri si relatii;
+  omul poate simti ca legatura cu celalalt nu este suficient de usoara sau de
+  fireasca.
+- 3 lipsa: flexibilitatea se poate resimti prin senzatia ca nu a spus ce trebuie,
+  ca ar fi putut formula mai bine sau ca ar fi putut actiona mai inspirat.
+- 4 lipsa: organizarea se poate resimti asupra stabilitatii, trainiciei si
+  rezultatelor muncii.
+- 5 lipsa: schimbarea se poate resimti prin frica si neincredere fata de viitor.
+- 6 lipsa: capacitatea de gestionare a conflictelor se poate resimti prin frica
+  de angajare in relatii, frica de casatorie, frica de saracie si frica de a
+  gestiona relatiile sau bunurile materiale.
+- 7 lipsa: senzatia de a fi inteles si de a se face inteles se poate resimti prin
+  frica de a fi inventiv, de a cerceta sau de a merge mai profund in analiza.
+- 8 lipsa: capacitatea de a mentine echilibrul intre bani si familie se poate
+  resimti prin frica de divort, frica de a nu putea iubi si frica de a nu fi iubit.
+- 9 lipsa: interesul fata de cei din jur se poate resimti prin frica de a nu se
+  putea dedica si de a nu putea fi devotat celor din jur.
+
+## Concluzie pentru exces si lipsa in nume
+
+In comparatia dintre matricea numelui si matricea datei de nastere, cifrele in
+exces si cifrele lipsa se citesc impreuna, dar nu spun acelasi lucru.
+
+Cifrele in exces arata ca posesorul numelui isi poate dori sa fie mai mult pe
+tema acelei cifre decat poate sustine in realitate prin structura nativa. Ele
+descriu o aspiratie, o presiune sau o imagine interioara de tipul `vreau sa fiu
+mai mult decat imi este dat aici`.
+
+Cifrele lipsa in nume arata ca persoana are doar senzatia ca are mai putin din
+acea caracteristica decat are de fapt. Daca cifra exista in matricea datei de
+nastere, calitatea este prezenta nativ; lipsa ei din nume nu o anuleaza, ci poate
+crea impresia interioara ca acea resursa este mai slaba, mai greu de accesat sau
+mai putin vizibila.
 
 ## Metoda pentru scara bunastarii
 

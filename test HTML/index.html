@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Test HTML - Lucrare numerologica</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    <section class="panel form-panel">
+      <div class="eyebrow">Numerologie</div>
+      <h1>Date pentru lucrare</h1>
+
+      <form id="person-form">
+        <label>
+          <span>Nume complet</span>
+          <input name="nume_complet" required placeholder="Comaniciu Casiana Teodora">
+        </label>
+
+        <div class="grid-two">
+          <label>
+            <span>Nume de familie</span>
+            <input name="nume_familie" required placeholder="Comaniciu">
+          </label>
+          <label>
+            <span>Prenume</span>
+            <input name="prenume" required placeholder="Casiana Teodora">
+          </label>
+        </div>
+
+        <div class="grid-two">
+          <label>
+            <span>Prenume activ</span>
+            <input name="prenume_activ" placeholder="Casiana">
+          </label>
+          <label>
+            <span>Gen persoana</span>
+            <select name="gen_persoana" required>
+              <option value="feminin">feminin</option>
+              <option value="masculin">masculin</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="grid-two">
+          <label>
+            <span>Data nasterii</span>
+            <input name="data_nasterii" required placeholder="11.07.1989">
+          </label>
+          <label>
+            <span>Nume anterior / schimbat</span>
+            <input name="nume_anterior" placeholder="de completat">
+          </label>
+        </div>
+
+        <label>
+          <span>Intrebare personala sau tema principala</span>
+          <textarea name="tema" rows="3" placeholder="de completat"></textarea>
+        </label>
+
+        <div class="grid-two">
+          <label>
+            <span>Nivel de detaliere</span>
+            <select name="nivel_detaliere">
+              <option value="amplu">amplu</option>
+              <option value="foarte amplu">foarte amplu</option>
+              <option value="mediu">mediu</option>
+              <option value="scurt">scurt</option>
+            </select>
+          </label>
+          <label>
+            <span>Stil de adresare</span>
+            <select name="stil_adresare">
+              <option value="conversational">conversational</option>
+              <option value="formal">formal</option>
+            </select>
+          </label>
+        </div>
+
+        <button type="submit">Genereaza lucrarea</button>
+      </form>
+    </section>
+
+    <aside class="panel result-panel">
+      <div class="eyebrow">Rezultat</div>
+      <h2>Lucrare generata</h2>
+      <div id="status" class="status">Completeaza formularul si apasa butonul.</div>
+      <div id="links" class="links"></div>
+      <pre id="log" class="log"></pre>
+    </aside>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>

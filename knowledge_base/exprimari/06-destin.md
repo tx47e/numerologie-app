@@ -12,7 +12,7 @@ Adauga interpretarile pe rezultate numerice, de exemplu `Rezultat 3`,
 - Nivel de detaliere: amplu
 - Context scurt: destin obtinut din suma datei `30 -> 3`
 - Lucrari unde a fost folosita:
-  - `examples/1984-11-06-szabo-mihai-gabriel/lucrare-numerologica-v3-conversational.md` - Szabo Mihai Gabriel / 06.11.1984 / destin 3
+  - `examples/1984-11-06-szabo-mihai-gabriel/1984-11-06-Szabo-Mihai-Gabriel-v3ca.md` - Szabo Mihai Gabriel / 06.11.1984 / destin 3
 - Data adaugarii: 2026-06-13
 
 Suma cifrelor datei conduce la `30`, iar `3 + 0 = 3`. Traseul este important:
@@ -31,8 +31,8 @@ multe directii raman nefinalizate.
 - Nivel de detaliere: amplu
 - Context scurt: destin obtinut din suma datei `34 -> 7`
 - Lucrari unde a fost folosita:
-  - `examples/1984-04-17-szabo-sabina/lucrare-numerologica-v2-conversational.md` - Szabo Sabina / 17.04.1984 / destin 7
-  - `examples/1984-04-17-szabo-sabina/lucrare-numerologica-v1.md` - Szabo Sabina / 17.04.1984 / interpretare initiala
+  - `examples/1984-04-17-szabo-sabina/1984-04-17-Szabo-Sabina-v2ca.md` - Szabo Sabina / 17.04.1984 / destin 7
+  - `examples/1984-04-17-szabo-sabina/1984-04-17-Szabo-Sabina-v1fa.md` - Szabo Sabina / 17.04.1984 / interpretare initiala
 - Data adaugarii: 2026-06-13
 
 Data completa conduce la `34`, apoi `3 + 4 = 7`. `3` aduce expresie, iar `4`

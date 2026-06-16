@@ -53,7 +53,7 @@ Obiectiv: transformarea formulelor documentate in functii testabile.
   - [ ] diacritice;
   - [ ] cratime si spatii;
   - [ ] caractere neacceptate.
-- [ ] Analiza nume inainte si dupa casatorie:
+- [ ] Analiza nume anterior / schimbat si nume actual:
   - [ ] numarul de exprimare;
   - [ ] matricea numelui;
   - [ ] karma numelui;
