@@ -669,8 +669,8 @@ def markdown_to_html(markdown: str, title: str) -> str:
             )
 
         zone_overlap = abs(soarta_zone - destin_zone) < 0.03
-        soarta_zone_offset = -5 if zone_overlap else 0
-        destin_zone_offset = 5 if zone_overlap else 0
+        soarta_zone_offset = -7 if zone_overlap else 0
+        destin_zone_offset = 7 if zone_overlap else 0
         soarta_zone_y = point(0, soarta_zone)[1] + soarta_zone_offset
         destin_zone_y = point(0, destin_zone)[1] + destin_zone_offset
         soarta_zone_points = f"{left},{soarta_zone_y:.1f} {width - right},{soarta_zone_y:.1f}"
@@ -740,14 +740,14 @@ def markdown_to_html(markdown: str, title: str) -> str:
             body.append(render_matrix_table(rows))
             table_lines = []
             return
-        body.append("<table>")
+        body.append('<div class="table-wrap"><table>')
         for index, row in enumerate(rows):
             if index == 1 and all(set(cell.strip()) <= {"-", ":", " "} for cell in row):
                 continue
             tag = "th" if index == 0 else "td"
             cells = "".join(f"<{tag}>{inline_markup(clean_table_cell(cell))}</{tag}>" for cell in row)
             body.append(f"<tr>{cells}</tr>")
-        body.append("</table>")
+        body.append("</table></div>")
         if "soarta si destinul" in current_section.lower():
             chart = render_destiny_chart(rows)
             if chart:
@@ -859,12 +859,20 @@ def markdown_to_html(markdown: str, title: str) -> str:
       font-size: 14px;
     }}
     main {{
-      width: min(1040px, calc(100% - 32px));
+      width: 1040px;
+      max-width: min(1040px, calc(100% - 32px));
       margin: 28px auto;
       background: var(--paper);
       border-radius: 8px;
       padding: clamp(20px, 4vw, 42px);
       box-shadow: 0 18px 44px rgba(11, 43, 44, 0.08);
+    }}
+    .table-wrap {{
+      width: 100%;
+      overflow-x: auto;
+      overflow-y: hidden;
+      margin: 18px 0;
+      -webkit-overflow-scrolling: touch;
     }}
     .toc {{
       display: grid;
@@ -937,16 +945,18 @@ def markdown_to_html(markdown: str, title: str) -> str:
       margin-top: 18px;
     }}
     table {{
-      width: 100%;
+      min-width: 100%;
       border-collapse: collapse;
-      margin: 18px 0;
+      margin: 0;
       background: white;
-      table-layout: auto;
+      table-layout: fixed;
     }}
     th, td {{
       border: 1px solid rgba(11, 43, 44, 0.16);
       padding: 10px;
       vertical-align: top;
+      overflow-wrap: anywhere;
+      word-break: break-word;
     }}
     th {{
       background: var(--teal);
@@ -1084,6 +1094,15 @@ def markdown_to_html(markdown: str, title: str) -> str:
       padding-left: 14px;
     }}
     li {{ margin: 6px 0; }}
+    @media (max-width: 1100px) {{
+      body {{
+        overflow-x: auto;
+      }}
+      main {{
+        width: 1040px;
+        max-width: none;
+      }}
+    }}
     @media print {{
       body {{ background: white; }}
       .topbar, .toc {{ break-inside: avoid; }}

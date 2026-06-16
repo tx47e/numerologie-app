@@ -37,12 +37,20 @@
       font-size: 14px;
     }
     main {
-      width: min(1040px, calc(100% - 32px));
+      width: 1040px;
+      max-width: min(1040px, calc(100% - 32px));
       margin: 28px auto;
       background: var(--paper);
       border-radius: 8px;
       padding: clamp(20px, 4vw, 42px);
       box-shadow: 0 18px 44px rgba(11, 43, 44, 0.08);
+    }
+    .table-wrap {
+      width: 100%;
+      overflow-x: auto;
+      overflow-y: hidden;
+      margin: 18px 0;
+      -webkit-overflow-scrolling: touch;
     }
     .toc {
       display: grid;
@@ -115,16 +123,18 @@
       margin-top: 18px;
     }
     table {
-      width: 100%;
+      min-width: 100%;
       border-collapse: collapse;
-      margin: 18px 0;
+      margin: 0;
       background: white;
-      table-layout: auto;
+      table-layout: fixed;
     }
     th, td {
       border: 1px solid rgba(11, 43, 44, 0.16);
       padding: 10px;
       vertical-align: top;
+      overflow-wrap: anywhere;
+      word-break: break-word;
     }
     th {
       background: var(--teal);
@@ -262,6 +272,15 @@
       padding-left: 14px;
     }
     li { margin: 6px 0; }
+    @media (max-width: 1100px) {
+      body {
+        overflow-x: auto;
+      }
+      main {
+        width: 1040px;
+        max-width: none;
+      }
+    }
     @media print {
       body { background: white; }
       .topbar, .toc { break-inside: avoid; }
@@ -348,7 +367,7 @@
 <p>Datele de bază stabilesc fundamentul numeric al lucrării. Aici vedem cum lucreaza ziua, luna, anul, suma totală a datei și puntile dintre aceste straturi.</p>
 <h3><span class="heading-index">Index: MIH-19841106-V3-SUB-003</span><span>Vibrații esențiale</span></h3>
 <div class="index">Index: MIH-19841106-V3-T-001</div>
-<table>
+<div class="table-wrap"><table>
 <tr><th>Vibratie</th><th>Formula</th><th>Calcul</th><th>Rezultat</th><th>Descriere scurtă</th></tr>
 <tr><td>Interioară</td><td>ziua redusa</td><td>6</td><td>6</td><td>Caracter, armonie, responsabilitate.</td></tr>
 <tr><td>Exterioară</td><td>luna redusa</td><td>1 + 1 = 2</td><td>2</td><td>Diplomatie, cooperare, sensibilitate sociala.</td></tr>
@@ -358,7 +377,7 @@
 <tr><td>Globala</td><td>interioară + exterioară</td><td>6 + 2 = 8</td><td>8</td><td>Forță, raspundere, maturizare.</td></tr>
 <tr><td>Destin</td><td>suma cifrelor datei</td><td>0 + 6 + 1 + 1 + 1 + 9 + 8 + 4 = 30 -&gt; 3</td><td>3</td><td>Comunicare, expresie, creativitate.</td></tr>
 <tr><td>Calea destinului</td><td>suma neredusa</td><td>0 + 6 + 1 + 1 + 1 + 9 + 8 + 4</td><td>30</td><td>Influență, transmitere, lectie de exprimare.</td></tr>
-</table>
+</table></div>
 <div class="index">Index: MIH-19841106-V3-P-009</div>
 <p><strong>Vibrația interioară 6.</strong> Mihai, ziua ta de naștere este 6, deci nu avem o reducere prin adunare, ci o intrare directa în semnificația lui 6. Asta arată ca în interiorul tău exista o căutare naturală a armoniei, a echilibrului și a responsabilității. 6 este cifră omului care observa ce trebuie reparat, ce trebuie protejat, ce trebuie facut mai frumos sau mai asezat. În viață de zi cu zi, această vibratie poate aparea ca nevoie de a avea grija de oameni, de spațiu, de familie, de proiecte sau de ceea ce consideri important. Partea de lucru este să nu transformi grija în control și să nu porti în locul altora poveri care nu îți apartin.</p>
 <div class="index">Index: MIH-19841106-V3-P-010</div>
@@ -381,13 +400,13 @@
 <p>La nivel integrat, ziua 6, luna 2, anul 22/4 și destinul 3 arată un om care are nevoie să simta, să inteleaga, să structureze și să comunice. Armonia nu vine din liniste pasiva, ci din a pune lucrurile la locul lor. Cand esti în echilibru, poți deveni un traducator între haos și metodă.</p>
 <h3><span class="heading-index">Index: MIH-19841106-V3-SUB-004</span><span>Aspecte de îndreptat și solutia</span></h3>
 <div class="index">Index: MIH-19841106-V3-T-002</div>
-<table>
+<div class="table-wrap"><table>
 <tr><th>Element</th><th>Calcul</th><th>Rezultat</th></tr>
 <tr><td>Calea destinului</td><td>0 + 6 + 1 + 1 + 1 + 9 + 8 + 4</td><td>30</td></tr>
 <tr><td>Prima cifră din ziua nașterii</td><td>6</td><td>6</td></tr>
 <tr><td>Aspecte de îndreptat</td><td>30 - 2 x 6</td><td>18</td></tr>
 <tr><td>Vibrația solutiei</td><td>1 + 8</td><td>9</td></tr>
-</table>
+</table></div>
 <div class="index">Index: MIH-19841106-V3-P-019</div>
 <p><strong>Calea destinului 30.</strong> Mihai, 30 se citeste mai intai prin categoria lui mare: 30-39, cu 3 în față. Asta arată ca drumul tău trece prin relationare, influență asupra mediului și transmiterea unei intelegeri care ii poate ajuta pe ceilalti. Apoi il citim prin intrebarile ce? și cum?. 3 raspunde la ce: ai de lucrat cu idei, comunicare, creativitate, transmitere și influență. Ai de cultivat expresia clara și de invins partea de umbra a lui 3: imprastierea, zgomotul, nefinalizarea și tendinta de a vorbi înainte ca forma să fie coapta. 0 raspunde la cum: prin prezenta, deschidere, spațiu interior și atenție la ce vine. Uneori ai multe posibilitati, alteori poți simti un gol înainte să se aseze direcția. Calea ta cere să nu te sperii de acest spațiu gol. El poate fi locul în care se pregateste formularea corecta.</p>
 <div class="index">Index: MIH-19841106-V3-P-020</div>
@@ -396,13 +415,13 @@
 <p><strong>Vibrația solutiei 9.</strong> Solutia vine prin 1 + 8 = 9. 1 aduce claritate, initiativa și decizie, iar 8 aduce forță și responsabilitate. Cand se aduna în 9, solutia devine perspectiva, intelepciune și capacitatea de a incheia matur. Mihai, pentru aspectele 18, solutia nu este să fortezi lucrurile, ci să le vezi dintr-un plan mai larg. 9 te ajuta să intrebi: ce lectie se inchide aici, ce nu mai trebuie carat și ce poate deveni experienta inteleapta?</p>
 <h3><span class="heading-index">Index: MIH-19841106-V3-SUB-005</span><span>Punti</span></h3>
 <div class="index">Index: MIH-19841106-V3-T-003</div>
-<table>
+<div class="table-wrap"><table>
 <tr><th>Punte</th><th>Calcul</th><th>Rezultat</th></tr>
 <tr><td>Interior - exterior</td><td>6 - 2</td><td>4</td></tr>
 <tr><td>Interior - destin</td><td>6 - 3</td><td>3</td></tr>
 <tr><td>Exterior - destin</td><td>2 - 3</td><td>1</td></tr>
 <tr><td>Cosmic - destin</td><td>4 - 3</td><td>1</td></tr>
-</table>
+</table></div>
 <div class="index">Index: MIH-19841106-V3-P-022</div>
 <p>Puntea 4 dintre interior și exterior este una dintre cele mai utile pentru tine. Ea spune ca armonia lui 6 și sensibilitatea lui 2 se aseaza mai bine cand ai un cadru: reguli clare, timp, limite, metodă, program, instrumente. Dacă nu ai cadru, poți simti prea multe deodata sau poți lua prea mult asupra ta. Puntea 4 nu raceste sensibilitatea, ci ii da pereti buni, ca unei case în care se poate locui.</p>
 <div class="index">Index: MIH-19841106-V3-P-023</div>
@@ -416,26 +435,26 @@
 <p>Karma din data nașterii este citita aici ca temă de maturizare, nu ca pedeapsa. Ea arată ce se cere înțeles, transformat și folosit mai conștient.</p>
 <h3><span class="heading-index">Index: MIH-19841106-V3-SUB-006</span><span>Karma zilei de naștere</span></h3>
 <div class="index">Index: MIH-19841106-V3-T-004</div>
-<table>
+<div class="table-wrap"><table>
 <tr><th>Zi / Arcana</th><th>Temă karmica</th><th>Ce trebuie transformat</th><th>Solutie</th></tr>
 <tr><td>6 / Indragostitii</td><td>iubire, alegere, familie, armonie</td><td>dependenta afectiva, indecizia, salvarea altora</td><td>alegere matura, iubire cu limite, responsabilitate limpede</td></tr>
-</table>
+</table></div>
 <div class="index">Index: MIH-19841106-V3-P-027</div>
 <p>Mihai, ziua 6 aduce o lectie legata de alegere și armonie. Nu este doar cifră familiei sau a iubirii, ci și cifră deciziei afective mature. Poți simti usor unde lipseste pacea, dar lectia este să nu cauti armonia cu orice pret. Uneori, adevarata armonie vine după o limita clara, după un nu spus curat sau după o alegere asumata. 6 îți cere să iubesti fără să te dizolvi în nevoile altora.</p>
 <h3><span class="heading-index">Index: MIH-19841106-V3-SUB-007</span><span>Karma lunii de naștere</span></h3>
 <div class="index">Index: MIH-19841106-V3-T-005</div>
-<table>
+<div class="table-wrap"><table>
 <tr><th>Luna</th><th>Temă karmica</th><th>Relație-cheie</th><th>Direcție de lucru</th></tr>
 <tr><td>11</td><td>statutul neamului, demnitate, dreptate</td><td>neam, reputatie, loc social</td><td>respect castigat prin merit, echilibru și fapte</td></tr>
-</table>
+</table></div>
 <div class="index">Index: MIH-19841106-V3-P-028</div>
 <p>Luna 11 vorbeste despre demnitate construita. Mihai, aici nu este vorba neaparat despre imagine publica mare, ci despre felul în care îți castigi respectul prin coerenta. 11 cere să nu te bazezi doar pe intentie, ci pe fapte, masura și echilibru. Cand această temă este traita matur, omul devine vertical fără să fie rigid și corect fără să devina rece.</p>
 <h3><span class="heading-index">Index: MIH-19841106-V3-SUB-008</span><span>Karma din calea destinului</span></h3>
 <div class="index">Index: MIH-19841106-V3-T-006</div>
-<table>
+<div class="table-wrap"><table>
 <tr><th>Calea karmica</th><th>Categorie</th><th>Ajutoare / obstacole</th><th>Recomandare</th></tr>
 <tr><td>30</td><td>influență, transmitere, inteligenta relationala</td><td>claritate mentala, expresie, risc de superioritate</td><td>foloseste cunoasterea ca punte, nu ca distanta</td></tr>
-</table>
+</table></div>
 <div class="index">Index: MIH-19841106-V3-P-029</div>
 <p>Calea 30 aduce o temă karmica a expresiei și influentei. Mihai, poți intelege repede anumite lucruri, dar lectia este să nu folosesti intelegerea ca separare. Cand mintea vede mai repede decat pot ceilalti explica, apare riscul de nerabdare. Direcția buna este să transformi ceea ce vezi în limbaj accesibil, nu în verdict. Atunci cunoasterea devine sprijin și oamenii pot urca mai usor către sensul pe care tu deja l-ai intuit.</p>
 <div class="index">Index: MIH-19841106-V3-P-030</div>
@@ -445,13 +464,13 @@
 <p>Matricea numerologica organizeaza cifrele datei și ale numerelor de lucru. Ea arată unde energia este concentrata și unde ai nevoie de exercitiu conștient.</p>
 <h3><span class="heading-index">Index: MIH-19841106-V3-SUB-009</span><span>Cod numerologic personal</span></h3>
 <div class="index">Index: MIH-19841106-V3-T-007</div>
-<table>
+<div class="table-wrap"><table>
 <tr><th>Operatie</th><th>Formula</th><th>Calcul</th><th>Rezultat</th><th>Descriere scurtă</th></tr>
 <tr><td>Operatia 1</td><td>suma cifrelor datei</td><td>0+6+1+1+1+9+8+4</td><td>30</td><td>Bază codului personal.</td></tr>
 <tr><td>Operatia 2</td><td>reducerea operatiei 1</td><td>3+0</td><td>3</td><td>Esența redusa a primei sume.</td></tr>
 <tr><td>Operatia 3</td><td>operatie 1 - dublul primei cifre din zi</td><td>30 - 2 x 6</td><td>18</td><td>Aspecte de îndreptat.</td></tr>
 <tr><td>Operatia 4</td><td>reducerea operatiei 3</td><td>1+8</td><td>9</td><td>Vibrația solutiei.</td></tr>
-</table>
+</table></div>
 <h3><span class="heading-index">Index: MIH-19841106-V3-SUB-010</span><span>Șir complet de cifre - data nașterii</span></h3>
 <div class="index">Index: MIH-19841106-V3-C-001</div>
 <pre>06111984 + 30 + 3 + 18 + 9</pre>
@@ -490,7 +509,7 @@
 <p>Scară bunăstării foloseste valorile casutelor și vectorilor din matrice. Ea arată ce sustine profilul, unde sunt treptele inalte și unde apar goluri care cer grija.</p>
 <h3><span class="heading-index">Index: MIH-19841106-V3-SUB-013</span><span>Valorile casutelor</span></h3>
 <div class="index">Index: MIH-19841106-V3-T-009</div>
-<table>
+<div class="table-wrap"><table>
 <tr><th>Căsuță</th><th>Cantitate</th><th>Formula valorii totale</th><th>Valoare totală</th><th>Explicatie simpla</th></tr>
 <tr><td>1</td><td>4</td><td>1 x 4</td><td>4</td><td>initiativa mentala prezenta și activa</td></tr>
 <tr><td>2</td><td>0</td><td>2 x 0</td><td>0</td><td>sensibilitate relationala de cultivat</td></tr>
@@ -501,12 +520,12 @@
 <tr><td>7</td><td>0</td><td>7 x 0</td><td>0</td><td>analiza intuitiva de antrenat</td></tr>
 <tr><td>8</td><td>2</td><td>8 x 2</td><td>16</td><td>forță și responsabilitate puternice</td></tr>
 <tr><td>9</td><td>2</td><td>9 x 2</td><td>18</td><td>memorie, finalizare și sens puternice</td></tr>
-</table>
+</table></div>
 <div class="index">Index: MIH-19841106-V3-P-036</div>
 <p>Mihai, valorile casutelor arată ca partea de finalizare și sens (9) este cea mai puternica, urmata de forță și responsabilitatea lui 8. Ai multa capacitate de a duce lucruri, de a observa direcția și de a te raporta la rezultat. În același timp, valorile zero la 2, 5 și 7 cer să nu te bazezi doar pe voință. Ai nevoie să-ti construiesti conștient finetea relationala, centrul interior și increderea în analiza intuitiva.</p>
 <h3><span class="heading-index">Index: MIH-19841106-V3-SUB-014</span><span>Valorile vectorilor</span></h3>
 <div class="index">Index: MIH-19841106-V3-T-010</div>
-<table>
+<div class="table-wrap"><table>
 <tr><th>Vector</th><th>Căsuțe</th><th>Cantitate pe căsuțe</th><th>Formula valorii totale</th><th>Valoare</th><th>Sens</th></tr>
 <tr><td>123</td><td>1,2,3</td><td>4 / 0 / 2</td><td>4 + 0 + 6</td><td>10</td><td>bunastare energetica</td></tr>
 <tr><td>456</td><td>4,5,6</td><td>1 / 0 / 1</td><td>4 + 0 + 6</td><td>10</td><td>bunastare volutiva</td></tr>
@@ -516,7 +535,7 @@
 <tr><td>369</td><td>3,6,9</td><td>2 / 1 / 2</td><td>6 + 6 + 18</td><td>30</td><td>bunastare materiala</td></tr>
 <tr><td>159</td><td>1,5,9</td><td>4 / 0 / 2</td><td>4 + 0 + 18</td><td>22</td><td>bunastare în carieră</td></tr>
 <tr><td>357</td><td>3,5,7</td><td>2 / 0 / 0</td><td>6 + 0 + 0</td><td>6</td><td>atingerea scopurilor</td></tr>
-</table>
+</table></div>
 <div class="index">Index: MIH-19841106-V3-P-037</div>
 <p><strong>Vectorul 123 - bunastare energetica.</strong> Mihai, acest vector are valoarea 10, venita din 1 = 4, 2 = 0 și 3 = 6. Asta inseamna ca energia de pornire este sustinuta de minte și expresie, dar nu are sprijin automat pe sensibilitatea lui 2. Practic, poți porni repede și poți formula, dar ai nevoie să verifici și partea emoțională: cum se simte contextul, cum se simte omul din față ta, cum te simti tu înainte să actionezi.</p>
 <div class="index">Index: MIH-19841106-V3-P-038</div>
@@ -547,7 +566,7 @@
 34: 789</pre>
 <h3><span class="heading-index">Index: MIH-19841106-V3-SUB-016</span><span>Tabel descrescator al treptelor</span></h3>
 <div class="index">Index: MIH-19841106-V3-T-011</div>
-<table>
+<div class="table-wrap"><table>
 <tr><th>Ordine</th><th>Tip</th><th>Cantitate</th><th>Valoare totală</th><th>Observatie</th></tr>
 <tr><td>1</td><td>vector 789</td><td>0/2/2</td><td>34</td><td>bunastarea creativa este cea mai inalta</td></tr>
 <tr><td>2</td><td>vector 369</td><td>2/1/2</td><td>30</td><td>bunastare materiala foarte sustinuta</td></tr>
@@ -566,7 +585,7 @@
 <tr><td>15</td><td>căsuță 2</td><td>0</td><td>0</td><td>sensibilitate de cultivat</td></tr>
 <tr><td>16</td><td>căsuță 5</td><td>0</td><td>0</td><td>centru de construit</td></tr>
 <tr><td>17</td><td>căsuță 7</td><td>0</td><td>0</td><td>intuitie și analiza de antrenat</td></tr>
-</table>
+</table></div>
 <div class="index">Index: MIH-19841106-V3-P-045</div>
 <p>Interpretarea scarii este clara: cele mai mari resurse sunt creativitatea, materialitatea și carieră. Dar toate acestea se sprijina pe o zonă lipsa: centrul 5, sensibilitatea 2 și analiza intuitiva 7. Mihai, asta inseamna ca ai resurse mari, dar ele trebuie reglate. Cand nu te centrezi, forță poate deveni oboseala. Cand nu asculti nuanță, comunicarea poate deveni prea directa. Cand nu ai încredere verificata în intuitie, poți cauta prea multa certitudine în control.</p>
 <h2 id="sectiune-7"><span class="heading-index">Index: MIH-19841106-V3-CAP-008</span><span>6. Numele</span></h2>
@@ -583,22 +602,22 @@
 </ul>
 <h3><span class="heading-index">Index: MIH-19841106-V3-SUB-018</span><span>Numarul de exprimare</span></h3>
 <div class="index">Index: MIH-19841106-V3-T-012</div>
-<table>
+<div class="table-wrap"><table>
 <tr><th>Calcul</th><th>Rezultat</th><th>Interpretare</th></tr>
 <tr><td>SZABO = 18 -&gt; 9, MIHAI = 31 -&gt; 4, GABRIEL = 36 -&gt; 9; 9 + 4 + 9 = 22</td><td>22/4</td><td>exprimare prin constructie, metodă, proiect și responsabilitate</td></tr>
-</table>
+</table></div>
 <div class="index">Index: MIH-19841106-V3-P-047</div>
 <p>Mihai, numarul de exprimare 22/4 este foarte important. El spune ca felul tău de a te manifesta nu trebuie să ramana doar la nivel de idee sau inspiratie. 22 cere constructie mare, iar 4 cere munca, ordine și verificare. În limbaj practic, numele tău cere să construiesti ceva folosibil: un sistem, o metodă, o lucrare, o structura, o direcție profesionala sau un mod coerent de a transmite ceea ce stii.</p>
 <h3><span class="heading-index">Index: MIH-19841106-V3-SUB-019</span><span>Numere derivate din nume</span></h3>
 <div class="index">Index: MIH-19841106-V3-T-013</div>
-<table>
+<div class="table-wrap"><table>
 <tr><th>Număr</th><th>Calcul</th><th>Rezultat</th><th>Interpretare</th></tr>
 <tr><td>Numarul intim</td><td>vocale: 41 -&gt; 5</td><td>5</td><td>dorinta interioară de libertate și miscare</td></tr>
 <tr><td>Numarul de realizare</td><td>consoane: 44 -&gt; 8</td><td>8</td><td>realizare prin forță și responsabilitate</td></tr>
 <tr><td>Numarul activ</td><td>MIHAI = 31 -&gt; 4</td><td>4</td><td>actiune prin metodă și disciplina</td></tr>
 <tr><td>Numarul ereditar</td><td>SZABO = 18 -&gt; 9</td><td>9</td><td>mostenire de sens, finalizare și memorie</td></tr>
 <tr><td>Numarul neamului</td><td>SZABO = 18</td><td>18</td><td>temă de neam legata de Luna, intuitie, imagine și mestesug</td></tr>
-</table>
+</table></div>
 <div class="index">Index: MIH-19841106-V3-P-048</div>
 <p><strong>Numarul intim 5.</strong> Vocalele din nume dau 41, apoi 4 + 1 = 5. 4 aduce nevoie de ordine și siguranta, iar 1 aduce initiativa; impreuna ajung la 5, care vrea libertate, miscare și experienta. Mihai, în interiorul tău exista o nevoie de aer, schimbare și spațiu personal. Chiar dacă numele complet te impinge spre constructie, sufletul numelui nu vrea să fie inchis intr-o rutina moarta.</p>
 <div class="index">Index: MIH-19841106-V3-P-049</div>
@@ -628,7 +647,7 @@
 </div>
 <h3><span class="heading-index">Index: MIH-19841106-V3-SUB-021</span><span>Comparare matricea numelui - matricea datei de naștere</span></h3>
 <div class="index">Index: MIH-19841106-V3-T-015</div>
-<table>
+<div class="table-wrap"><table>
 <tr><th>Cifră</th><th>Data</th><th>Nume</th><th>Diferența</th><th>Status comparativ</th><th>Observatie</th></tr>
 <tr><td>1</td><td>1111</td><td>1111</td><td>0</td><td>sustinuta</td><td>initiativa confirmata de nume</td></tr>
 <tr><td>2</td><td>-</td><td>22</td><td>2</td><td>potential de nume</td><td>numele aduce sensibilitate fără suport direct în data</td></tr>
@@ -639,7 +658,7 @@
 <tr><td>7</td><td>-</td><td>7</td><td>1</td><td>potential de nume</td><td>analiza intuitiva vine prin nume, nu prin data</td></tr>
 <tr><td>8</td><td>88</td><td>88</td><td>0</td><td>sustinuta</td><td>forță este confirmata</td></tr>
 <tr><td>9</td><td>99</td><td>9999</td><td>2</td><td>amplificata</td><td>numele mareste memoria și sensul</td></tr>
-</table>
+</table></div>
 <h3><span class="heading-index">Index: MIH-19841106-V3-SUB-022</span><span>Matricea rezultat: data susținută de nume</span></h3>
 <div class="index">Index: MIH-19841106-V3-T-016</div>
 <div class="matrix-grid">
@@ -655,18 +674,26 @@
 </div>
 <div class="index">Index: MIH-19841106-V3-P-054</div>
 <p>Mihai, comparatia este foarte interesanta: numele nu se amesteca automat în data, dar acolo unde exista suport comun, el amplifica. 4 este amplificat, deci numele intareste metodă, structura și constructia. 9 este amplificat puternic, deci numele mareste memoria, idealul, finalizarea și căutarea sensului. În același timp, 2, 5 și 7 apar în nume, dar nu intra în matricea rezultat, pentru ca lipsesc din data. Ele raman potentiale de nume: calitati pe care le poți activa prin identitate, exercitiu, rol social și lucru conștient.</p>
-<h2 id="sectiune-8"><span class="heading-index">Index: MIH-19841106-V3-CAP-009</span><span>7. Oportunit????i, provoc??ri ??i pinacluri</span></h2>
-<div class="index">Index: MIH-19841106-V3-P-056</div>
-<p>Mihai, primul pinaclu 8 arat?? o formare prin responsabilitate. Probabil via???? nu te-a invitat doar la joaca, ci destul de repede la asumare, rezultate ??i maturizare. Provocarea 4 a cerut ordine, munca, rabdare ??i capacitatea de a construi pas cu pas.</p>
-<div class="index">Index: MIH-19841106-V3-P-057</div>
-<p>Pinaclul al doilea, ??n care te afli ??n jurul acestei perioade, aduce oportunitatea 1: initiativa, autonomie, inceput personal. Provocarea 2 spune ca acest inceput nu trebuie facut prin rupere rece de ceilalti, ci prin cooperare matura. Mihai, aici este important s?? ????i asumi direc??ia f??r?? s?? pierzi dialogul.</p>
-<div class="index">Index: MIH-19841106-V3-P-058</div>
-<p>Pinaclul al treilea 9 va cere sens, finalizare ??i privire larga. Este o etapa ??n care experienta acumulata poate deveni intelepciune, iar ceea ce ai construit poate fi dus mai departe intr-o forma mai rafinata. Provocarea ramane 2, deci relatiile ??i finetea emo??ional?? continua s?? fie teren de lucru.</p>
-<div class="index">Index: MIH-19841106-V3-P-059</div>
-<p>Pinaclul al patrulea 6 intoarce via???? spre armonie, familie, frumos, grija ??i responsabilitate afectiva. Provocarea 2 ramane ca un fir rosu: sensibilitatea nu trebuie evitata, ci educata. Practic, drumul pinaclurilor spune: putere, initiativa, intelepciune, armonie.</p>
+<h2 id="sectiune-8"><span class="heading-index">Index: MIH-19841106-V3-CAP-009</span><span>7. Oportunități, provocări și pinacluri</span></h2>
 <div class="index">Index: MIH-19841106-V3-P-055</div>
-<p>Valorile folosite sunt: zi 6, luna 2, an 4, soart?? 3.</p>
-<h3><span class="heading-index">Index: MIH-19841106-V3-SUB-023</span><span>Oportunit????i</span></h3>
+<p>Valorile folosite sunt: zi 6, luna 2, an 4, soartă 3.</p>
+<div class="index">Index: MIH-19841106-V3-T-017</div>
+<div class="table-wrap"><table>
+<tr><th>Pinaclu</th><th>Perioadă</th><th>Oportunitate</th><th>Provocare</th><th>Interpretare</th></tr>
+<tr><td>1</td><td>0-33 ani</td><td>8</td><td>4</td><td>creștere prin responsabilitate și disciplina</td></tr>
+<tr><td>2</td><td>34-42 ani</td><td>1</td><td>2</td><td>initiativa personala cu lectie de cooperare</td></tr>
+<tr><td>3</td><td>43-51 ani</td><td>9</td><td>2</td><td>sens, finalizare, maturizare relationala</td></tr>
+<tr><td>4</td><td>52+ ani</td><td>6</td><td>2</td><td>armonie, familie, grija cu limite</td></tr>
+</table></div>
+<div class="index">Index: MIH-19841106-V3-P-056</div>
+<p>Mihai, primul pinaclu 8 arată o formare prin responsabilitate. Probabil viață nu te-a invitat doar la joaca, ci destul de repede la asumare, rezultate și maturizare. Provocarea 4 a cerut ordine, munca, rabdare și capacitatea de a construi pas cu pas.</p>
+<div class="index">Index: MIH-19841106-V3-P-057</div>
+<p>Pinaclul al doilea, în care te afli în jurul acestei perioade, aduce oportunitatea 1: initiativa, autonomie, inceput personal. Provocarea 2 spune ca acest inceput nu trebuie facut prin rupere rece de ceilalti, ci prin cooperare matura. Mihai, aici este important să îți asumi direcția fără să pierzi dialogul.</p>
+<div class="index">Index: MIH-19841106-V3-P-058</div>
+<p>Pinaclul al treilea 9 va cere sens, finalizare și privire larga. Este o etapa în care experienta acumulata poate deveni intelepciune, iar ceea ce ai construit poate fi dus mai departe intr-o forma mai rafinata. Provocarea ramane 2, deci relatiile și finetea emoțională continua să fie teren de lucru.</p>
+<div class="index">Index: MIH-19841106-V3-P-059</div>
+<p>Pinaclul al patrulea 6 intoarce viață spre armonie, familie, frumos, grija și responsabilitate afectiva. Provocarea 2 ramane ca un fir rosu: sensibilitatea nu trebuie evitata, ci educata. Practic, drumul pinaclurilor spune: putere, initiativa, intelepciune, armonie.</p>
+<h3><span class="heading-index">Index: MIH-19841106-V3-SUB-023</span><span>Oportunități</span></h3>
 <div class="index">Index: MIH-19841106-V3-L-006</div>
 <ul>
 <li>O1: 2 + 6 = 8</li>
@@ -674,7 +701,7 @@
 <li>O3: 8 + 1 = 9</li>
 <li>O4: 2 + 4 = 6</li>
 </ul>
-<h3><span class="heading-index">Index: MIH-19841106-V3-SUB-024</span><span>Provoc??ri</span></h3>
+<h3><span class="heading-index">Index: MIH-19841106-V3-SUB-024</span><span>Provocări</span></h3>
 <div class="index">Index: MIH-19841106-V3-L-007</div>
 <ul>
 <li>P1: |6 - 2| = 4</li>
@@ -682,21 +709,13 @@
 <li>P3: |4 - 2| = 2</li>
 <li>P4: |2 - 4| = 2</li>
 </ul>
-<div class="index">Index: MIH-19841106-V3-T-017</div>
-<table>
-<tr><th>Pinaclu</th><th>Perioad??</th><th>Oportunitate</th><th>Provocare</th><th>Interpretare</th></tr>
-<tr><td>1</td><td>0-33 ani</td><td>8</td><td>4</td><td>cre??tere prin responsabilitate ??i disciplina</td></tr>
-<tr><td>2</td><td>34-42 ani</td><td>1</td><td>2</td><td>initiativa personala cu lectie de cooperare</td></tr>
-<tr><td>3</td><td>43-51 ani</td><td>9</td><td>2</td><td>sens, finalizare, maturizare relationala</td></tr>
-<tr><td>4</td><td>52+ ani</td><td>6</td><td>2</td><td>armonie, familie, grija cu limite</td></tr>
-</table>
 <h2 id="sectiune-9"><span class="heading-index">Index: MIH-19841106-V3-CAP-010</span><span>8. Soartă și destinul</span></h2>
 <div class="index">Index: MIH-19841106-V3-T-018</div>
-<table>
+<div class="table-wrap"><table>
 <tr><th>Calcul</th><th>Formula</th><th>Rezultat</th><th>Zonă de confort</th></tr>
 <tr><td>Soartă</td><td>0611 x 1984</td><td>1212224</td><td>1+2+1+2+2+2+4 = 14; 14 / 7 = 2</td></tr>
 <tr><td>Destin</td><td>1611 x 1984</td><td>3196224</td><td>3+1+9+6+2+2+4 = 27; 27 / 7 = 3,86</td></tr>
-</table>
+</table></div>
 
 <section class="destiny-chart">
   <div class="chart-heading">
@@ -761,7 +780,7 @@
 <div class="index">Index: MIH-19841106-V3-C-005</div>
 <pre>6 x 11 x 1984 = 130944</pre>
 <div class="index">Index: MIH-19841106-V3-T-019</div>
-<table>
+<div class="table-wrap"><table>
 <tr><th>Lectie</th><th>Perioadă / an</th><th>Ce verifica viață</th><th>Recomandare</th></tr>
 <tr><td>1</td><td>de completat</td><td>autonomie, inceput, curaj</td><td>incepe fără să astepti confirmarea perfectă</td></tr>
 <tr><td>3</td><td>de completat</td><td>exprimare, comunicare</td><td>spune limpede, dar evita imprastierea</td></tr>
@@ -769,14 +788,14 @@
 <tr><td>9</td><td>de completat</td><td>finalizare, sens</td><td>incheie matur și pastreaza lectia</td></tr>
 <tr><td>4</td><td>de completat</td><td>metodă, munca, structura</td><td>construieste pas cu pas</td></tr>
 <tr><td>4</td><td>de completat</td><td>disciplina repetata</td><td>repeta metodă pana devine stabila</td></tr>
-</table>
+</table></div>
 <div class="index">Index: MIH-19841106-V3-P-062</div>
 <p>Mihai, lectiile incep cu 1 și 3, deci viață verifica initiativa și exprimarea. 0 introduce un spațiu de resetare: nu orice pauza este blocaj, uneori este locul în care se reconfigureaza direcția. 9 cere sens și finalizare, iar dublul 4 confirma ca drumul se stabilizeaza prin metodă.</p>
 <h3><span class="heading-index">Index: MIH-19841106-V3-SUB-027</span><span>Ciclul de 9 ani</span></h3>
 <div class="index">Index: MIH-19841106-V3-P-063</div>
 <p>Tabelul include 15 ani: 5 înainte de anul curent 2026, anul curent și 9 după. Vârstă este calculata la aniversarea din anul respectiv.</p>
 <div class="index">Index: MIH-19841106-V3-T-020</div>
-<table>
+<div class="table-wrap"><table>
 <tr><th>An</th><th>Vârstă</th><th>Vibratie cosmica</th><th>An personal</th><th>Lectie suprapusa</th><th>Interpretare</th></tr>
 <tr><td>2021</td><td>37</td><td>5</td><td>2</td><td>cooperare</td><td>reglaje relationale și rabdare</td></tr>
 <tr><td>2022</td><td>38</td><td>6</td><td>3</td><td>expresie</td><td>comunicare și responsabilitate afectiva</td></tr>
@@ -793,10 +812,10 @@
 <tr><td>2033</td><td>49</td><td>8</td><td>5</td><td>schimbare</td><td>putere și libertate responsabila</td></tr>
 <tr><td>2034</td><td>50</td><td>9</td><td>6</td><td>armonie</td><td>incheiere și grija matura</td></tr>
 <tr><td>2035</td><td>51</td><td>1</td><td>7</td><td>analiza</td><td>inceput cu discernământ</td></tr>
-</table>
+</table></div>
 <h3><span class="heading-index">Index: MIH-19841106-V3-SUB-028</span><span>Ani importanți</span></h3>
 <div class="index">Index: MIH-19841106-V3-T-021</div>
-<table>
+<div class="table-wrap"><table>
 <tr><th>Ordine</th><th>An</th><th>Vârstă</th><th>Important interior</th><th>Important exterior</th><th>Observatie</th></tr>
 <tr><td>1</td><td>1988</td><td>4</td><td>da</td><td></td><td>deschidere interioară timpurie</td></tr>
 <tr><td>2</td><td>1996</td><td>12</td><td>da</td><td></td><td>formare și schimbare de ritm</td></tr>
@@ -828,7 +847,7 @@
 <tr><td>28</td><td>2060</td><td>76</td><td></td><td>da</td><td>prag exterior</td></tr>
 <tr><td>29</td><td>2062</td><td>78</td><td>da</td><td></td><td>reglaj interior</td></tr>
 <tr><td>30</td><td>2063</td><td>79</td><td>da</td><td></td><td>continuare interioară</td></tr>
-</table>
+</table></div>
 <h2 id="sectiune-11"><span class="heading-index">Index: MIH-19841106-V3-CAP-012</span><span>10. Ezoterism și aplicabilitate</span></h2>
 <h3><span class="heading-index">Index: MIH-19841106-V3-SUB-029</span><span>Cod ezoteric</span></h3>
 <div class="index">Index: MIH-19841106-V3-P-064</div>
@@ -836,32 +855,32 @@
 <div class="index">Index: MIH-19841106-V3-C-006</div>
 <pre>6111984</pre>
 <div class="index">Index: MIH-19841106-V3-T-022</div>
-<table>
+<div class="table-wrap"><table>
 <tr><th>Calcul</th><th>Cod</th><th>Tip de ezoterism</th><th>Esența codului</th></tr>
 <tr><td>6111984 / 7 = 873140,571428...</td><td>5</td><td>ezoterism științific</td><td>citire de semne, tipare, simboluri</td></tr>
-</table>
+</table></div>
 <div class="index">Index: MIH-19841106-V3-P-065</div>
 <p>A doua impartire:</p>
 <div class="index">Index: MIH-19841106-V3-T-023</div>
-<table>
+<div class="table-wrap"><table>
 <tr><th>Calcul</th><th>Cod secundar</th><th>Rezultat</th><th>Domenii deschise</th></tr>
 <tr><td>873140 / 7 = 124734,285714...</td><td>2</td><td>domeniu secundar</td><td>terapii complementare / lucru subtil cu omul</td></tr>
-</table>
+</table></div>
 <div class="index">Index: MIH-19841106-V3-P-066</div>
 <p>Mihai, codul principal 5 indică o inclinatie spre ezoterism științific: nu neaparat credinta oarba, ci interes pentru semne, structuri, cifre, simboluri, corespondente și mecanisme ascunse. Asta se potriveste foarte bine cu destinul 3 și numele 22/4: vezi un tipar, il formulezi, apoi incerci să ii dai metodă. Codul secundar 2 adauga o nota relationala și terapeutica: informatia subtilă are sens mai ales cand poate sprijini omul, nu cand ramane simpla curiozitate.</p>
 <h3><span class="heading-index">Index: MIH-19841106-V3-SUB-030</span><span>Aplicabilitate profesionala - Tarot</span></h3>
 <div class="index">Index: MIH-19841106-V3-T-024</div>
-<table>
+<div class="table-wrap"><table>
 <tr><th>Aplicabil</th><th>Calcul</th><th>Arcana Tarot</th><th>Valenta constructiva</th><th>Valenta de umbra</th></tr>
 <tr><td>Nu</td><td>30 - 22 = 8</td><td>8 - Puterea</td><td>forță, rezistenta, caracter</td><td>presiune, control, exces</td></tr>
 <tr><td>Da</td><td>11 + 22 - 22 = 11</td><td>11 - Dreptatea</td><td>echilibru, corectitudine, fapte</td><td>rigiditate, judecata rece</td></tr>
-</table>
+</table></div>
 <div class="index">Index: MIH-19841106-V3-T-025</div>
-<table>
+<div class="table-wrap"><table>
 <tr><th>Tip direcție</th><th>Arcana</th><th>Profesii / directii</th></tr>
 <tr><td>De evitat ca direcție principală</td><td>8 în umbra</td><td>control excesiv, presiune, fortare</td></tr>
 <tr><td>De aplicat / potrivite personal</td><td>11</td><td>analiza, reguli, administratie, arhiva, dreptate, sisteme</td></tr>
-</table>
+</table></div>
 <div class="index">Index: MIH-19841106-V3-P-067</div>
 <p>Mihai, zonă profesionala buna este acolo unde forță se combina cu masura. Ai nevoie de domenii unde poți observa, structura, verifica și imbunatati. Arcana 11 spune ca lucrul tău devine valoros cand este corect, echilibrat și argumentat. Umbra lui 8 avertizeaza să nu transformi eficienta în presiune asupra ta sau asupra altora.</p>
 <h2 id="sectiune-12"><span class="heading-index">Index: MIH-19841106-V3-CAP-013</span><span>11. Concluzie finala</span></h2>
@@ -902,7 +921,7 @@
 </ul>
 <h2 id="sectiune-15"><span class="heading-index">Index: MIH-19841106-V3-CAP-016</span><span>14. Harta documentatie folosita</span></h2>
 <div class="index">Index: MIH-19841106-V3-T-026</div>
-<table>
+<div class="table-wrap"><table>
 <tr><th>Rubrica din lucrare</th><th>Documentatie de lucru</th></tr>
 <tr><td>Vibrații esențiale</td><td>knowledge_base/calcule/vibrații-personale/</td></tr>
 <tr><td>Aspecte de îndreptat</td><td>knowledge_base/calcule/vibrații-personale/aspecte-de-îndreptat/</td></tr>
@@ -917,7 +936,7 @@
 <tr><td>Ezoterism</td><td>knowledge_base/calcule/ezoterism/</td></tr>
 <tr><td>Aplicabilitate profesionala</td><td>knowledge_base/calcule/aplicabilitate-profesionala/</td></tr>
 <tr><td>Exprimari validate</td><td>knowledge_base/exprimari/</td></tr>
-</table>
+</table></div>
 <h2 id="sectiune-16"><span class="heading-index">Index: MIH-19841106-V3-CAP-017</span><span>Rubrici incomplete și date de confirmat</span></h2>
 <div class="index">Index: MIH-19841106-V3-P-071</div>
 <p>ciclul de 10 ani sau 12 ani.</p>
