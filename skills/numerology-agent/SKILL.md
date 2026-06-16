@@ -101,6 +101,8 @@ Follow this workflow:
   karmic hereditary number analysis. Explain that the former name preserves the
   origin line, while the current name shows the active social and family line;
   the blood-line karmic hereditary number remains present throughout life.
+- In the ezoterism rubric, if the first division yields code `0`, stop there.
+  Do not write or interpret a second division; explain only the principal `0`.
 - When interpreting the karmic hereditary number / number of the lineage, keep
   the traditional definition from the documentation, but adapt the analysis to
   current society. Translate old occupations into suitable modern equivalents

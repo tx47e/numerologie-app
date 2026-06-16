@@ -823,19 +823,6 @@ Index: MIH-19841106-V3-CAP-009
 
 ## 7. Oportunitati, provocari si pinacluri
 
-Index: MIH-19841106-V3-P-055
-
-Valorile folosite sunt: zi `6`, luna `2`, an `4`, soarta `3`.
-
-Index: MIH-19841106-V3-T-017
-
-| Pinaclu | Perioada | Oportunitate | Provocare | Interpretare |
-| --- | --- | ---: | ---: | --- |
-| 1 | 0-33 ani | 8 | 4 | crestere prin responsabilitate si disciplina |
-| 2 | 34-42 ani | 1 | 2 | initiativa personala cu lectie de cooperare |
-| 3 | 43-51 ani | 9 | 2 | sens, finalizare, maturizare relationala |
-| 4 | 52+ ani | 6 | 2 | armonie, familie, grija cu limite |
-
 Index: MIH-19841106-V3-P-056
 
 Mihai, primul pinaclu `8` arata o formare prin responsabilitate. Probabil viata
@@ -864,6 +851,10 @@ responsabilitate afectiva. Provocarea `2` ramane ca un fir rosu: sensibilitatea
 nu trebuie evitata, ci educata. Practic, drumul pinaclurilor spune: putere,
 initiativa, intelepciune, armonie.
 
+Index: MIH-19841106-V3-P-055
+
+Valorile folosite sunt: zi `6`, luna `2`, an `4`, soarta `3`.
+
 Index: MIH-19841106-V3-SUB-023
 
 ### Oportunitati
@@ -885,6 +876,15 @@ Index: MIH-19841106-V3-L-007
 - P2: `|6 - 4| = 2`
 - P3: `|4 - 2| = 2`
 - P4: `|2 - 4| = 2`
+
+Index: MIH-19841106-V3-T-017
+
+| Pinaclu | Perioada | Oportunitate | Provocare | Interpretare |
+| --- | --- | ---: | ---: | --- |
+| 1 | 0-33 ani | 8 | 4 | crestere prin responsabilitate si disciplina |
+| 2 | 34-42 ani | 1 | 2 | initiativa personala cu lectie de cooperare |
+| 3 | 43-51 ani | 9 | 2 | sens, finalizare, maturizare relationala |
+| 4 | 52+ ani | 6 | 2 | armonie, familie, grija cu limite |
 
 Index: MIH-19841106-V3-CAP-010
 
@@ -966,23 +966,23 @@ Varsta este calculata la aniversarea din anul respectiv.
 
 Index: MIH-19841106-V3-T-020
 
-| An | Varsta | Vibratie cosmica | An personal | Lectie suprapusa | Interpretare |
-| --- | ---: | ---: | ---: | --- | --- |
-| 2021 | 37 | 5 | 2 | cooperare | reglaje relationale si rabdare |
-| 2022 | 38 | 6 | 3 | expresie | comunicare si responsabilitate afectiva |
-| 2023 | 39 | 7 | 4 | metoda | analiza, disciplina, clarificare |
-| 2024 | 40 | 8 | 5 | schimbare | libertate cu responsabilitate |
-| 2025 | 41 | 9 | 6 | armonie | incheieri si reasezari de familie/interior |
-| 2026 | 42 | 1 | 7 | analiza | inceput cu nevoie de introspectie |
-| 2027 | 43 | 2 | 8 | responsabilitate | cooperare, rezultate, pozitionare |
-| 2028 | 44 | 3 | 9 | finalizare | expresie si sens larg |
-| 2029 | 45 | 4 | 1 | inceput | constructie noua, autonomie |
-| 2030 | 46 | 5 | 2 | cooperare | schimbare negociata |
-| 2031 | 47 | 6 | 3 | expresie | armonie prin comunicare |
-| 2032 | 48 | 7 | 4 | metoda | analiza si consolidare |
-| 2033 | 49 | 8 | 5 | schimbare | putere si libertate responsabila |
-| 2034 | 50 | 9 | 6 | armonie | incheiere si grija matura |
-| 2035 | 51 | 1 | 7 | analiza | inceput cu discernamant |
+| An | Varsta | An personal | Lectie suprapusa | Interpretare |
+| --- | ---: | ---: | ---: | --- |
+| 2021 | 37 | 2 | 2 | reglaje relationale si rabdare |
+| 2022 | 38 | 3 | 3 | comunicare si responsabilitate afectiva |
+| 2023 | 39 | 4 | 4 | analiza, disciplina, clarificare |
+| 2024 | 40 | 5 | 5 | libertate cu responsabilitate |
+| 2025 | 41 | 6 | 6 | incheieri si reasezari de familie/interior |
+| 2026 | 42 | 7 | 7 | inceput cu nevoie de introspectie |
+| 2027 | 43 | 8 | 8 | cooperare, rezultate, pozitionare |
+| 2028 | 44 | 9 | 9 | expresie si sens larg |
+| 2029 | 45 | 1 | 1 | constructie noua, autonomie |
+| 2030 | 46 | 2 | 2 | schimbare negociata |
+| 2031 | 47 | 3 | 3 | armonie prin comunicare |
+| 2032 | 48 | 4 | 4 | analiza si consolidare |
+| 2033 | 49 | 5 | 5 | putere si libertate responsabila |
+| 2034 | 50 | 6 | 6 | incheiere si grija matura |
+| 2035 | 51 | 7 | 7 | inceput cu discernamant |
 
 Index: MIH-19841106-V3-SUB-028
 
@@ -990,38 +990,38 @@ Index: MIH-19841106-V3-SUB-028
 
 Index: MIH-19841106-V3-T-021
 
-| Ordine | An | Varsta | Important interior | Important exterior | Observatie |
-| --- | ---: | ---: | --- | --- | --- |
-| 1 | 1988 | 4 | da |  | deschidere interioara timpurie |
-| 2 | 1996 | 12 | da |  | formare si schimbare de ritm |
-| 3 | 2003 | 19 | da |  | maturizare personala |
-| 4 | 2006 | 22 |  | da | context exterior important |
-| 5 | 2008 | 24 | da |  | reglaj interior |
-| 6 | 2009 | 25 | da |  | prag apropiat |
-| 7 | 2011 | 27 | da |  | reasezare interioara |
-| 8 | 2014 | 30 |  | da | context exterior vizibil |
-| 9 | 2015 | 31 | da |  | accent interior |
-| 10 | 2021 | 37 |  | da | impuls exterior |
-| 11 | 2023 | 39 | da |  | an interior semnificativ |
-| 12 | 2026 | 42 |  | da | an exterior important, inceput de ciclu |
-| 13 | 2027 | 43 |  | da | continuare exteriora |
-| 14 | 2029 | 45 |  | da | schimbare vizibila |
-| 15 | 2030 | 46 | da |  | prag interior |
-| 16 | 2033 | 49 |  | da | context exterior puternic |
-| 17 | 2035 | 51 | da |  | reasezare interioara |
-| 18 | 2036 | 52 | da |  | consolidare |
-| 19 | 2038 | 54 | da |  | ajustare interioara |
-| 20 | 2041 | 57 |  | da | prag exterior |
-| 21 | 2042 | 58 | da |  | raspuns interior |
-| 22 | 2048 | 64 |  | da | context exterior |
-| 23 | 2050 | 66 | da |  | reasezare interioara |
-| 24 | 2053 | 69 |  | da | schimbare exterioara |
-| 25 | 2054 | 70 |  | da | continuare exterioara |
-| 26 | 2056 | 72 |  | da | context exterior |
-| 27 | 2057 | 73 | da |  | an interior |
-| 28 | 2060 | 76 |  | da | prag exterior |
-| 29 | 2062 | 78 | da |  | reglaj interior |
-| 30 | 2063 | 79 | da |  | continuare interioara |
+| An | Varsta | Important interior | Important exterior | Observatie |
+| --- | ---: | --- | --- | --- |
+| 1988 | 4 | da |  | deschidere interioara timpurie |
+| 1996 | 12 | da |  | formare si schimbare de ritm |
+| 2003 | 19 | da |  | maturizare personala |
+| 2006 | 22 |  | da | context exterior important |
+| 2008 | 24 | da |  | reglaj interior |
+| 2009 | 25 | da |  | prag apropiat |
+| 2011 | 27 | da |  | reasezare interioara |
+| 2014 | 30 |  | da | context exterior vizibil |
+| 2015 | 31 | da |  | accent interior |
+| 2021 | 37 |  | da | impuls exterior |
+| 2023 | 39 | da |  | an interior semnificativ |
+| 2026 | 42 |  | da | an exterior important, inceput de ciclu |
+| 2027 | 43 |  | da | continuare exteriora |
+| 2029 | 45 |  | da | schimbare vizibila |
+| 2030 | 46 | da |  | prag interior |
+| 2033 | 49 |  | da | context exterior puternic |
+| 2035 | 51 | da |  | reasezare interioara |
+| 2036 | 52 | da |  | consolidare |
+| 2038 | 54 | da |  | ajustare interioara |
+| 2041 | 57 |  | da | prag exterior |
+| 2042 | 58 | da |  | raspuns interior |
+| 2048 | 64 |  | da | context exterior |
+| 2050 | 66 | da |  | reasezare interioara |
+| 2053 | 69 |  | da | schimbare exterioara |
+| 2054 | 70 |  | da | continuare exterioara |
+| 2056 | 72 |  | da | context exterior |
+| 2057 | 73 | da |  | an interior |
+| 2060 | 76 |  | da | prag exterior |
+| 2062 | 78 | da |  | reglaj interior |
+| 2063 | 79 | da |  | continuare interioara |
 
 Index: MIH-19841106-V3-CAP-012
 

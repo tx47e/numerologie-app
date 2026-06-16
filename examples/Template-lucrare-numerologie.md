@@ -780,13 +780,13 @@ lucrarii. Pentru fiecare an important rezultat in acest interval, marcheaza daca
 este important interior, exterior sau ambele. Anul nasterii se trece ca punct de
 pornire pentru ambele siruri.
 
-| Ordine | An | Varsta | Important interior | Important exterior | Observatie |
-| --- | --- | --- | --- | --- | --- |
-| 1 | anul nasterii | 0 | punct de pornire | punct de pornire | inceputul celor doua siruri |
-| 2 |  |  |  |  |  |
-| 3 |  |  |  |  |  |
-| 4 |  |  |  |  |  |
-| ... |  |  |  |  |  |
+| An | Varsta | Important interior | Important exterior | Observatie |
+| --- | --- | --- | --- | --- |
+| anul nasterii | 0 | punct de pornire | punct de pornire | inceputul celor doua siruri |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+| ... |  |  |  |  |
 
 ## 10. Ezoterism si aplicabilitate
 
@@ -811,7 +811,8 @@ se pastreaza.
 | --- | --- | --- | --- |
 |  |  |  |  |
 
-A doua impartire, doar daca primul cod nu este `0`:
+A doua impartire, doar daca primul cod nu este `0`. Daca primul cod este `0`,
+se opreste calculul aici si se interpreteaza doar codul principal:
 
 | Calcul | Cod secundar | Rezultat | Domenii deschise |
 | --- | --- | --- | --- |
