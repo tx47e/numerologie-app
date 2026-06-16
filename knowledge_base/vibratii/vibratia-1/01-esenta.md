@@ -1,4 +1,4 @@
-﻿# Vibratia 1 - Esenta
+# Vibratia 1 - Esenta
 
 Vibratia 1 reprezinta principiul inceputului, al individualitatii si al vointei
 care deschide drumuri. In limbaj simbolic, 1 este punctul de pornire: primul pas,

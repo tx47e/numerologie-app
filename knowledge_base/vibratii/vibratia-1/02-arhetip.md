@@ -1,4 +1,4 @@
-﻿# Vibratia 1 - Arhetip
+# Vibratia 1 - Arhetip
 
 Arhetipul vibratiei 1 este Pionierul. Pionierul merge inainte atunci cand traseul
 nu este inca marcat. El nu are neaparat toate raspunsurile, dar are impulsul de a

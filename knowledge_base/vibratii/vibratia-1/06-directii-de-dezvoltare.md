@@ -1,4 +1,4 @@
-﻿# Vibratia 1 - Directii de dezvoltare
+# Vibratia 1 - Directii de dezvoltare
 
 Pentru echilibrare, vibratia 1 are nevoie de practici care rafineaza impulsul
 initial: planificare, feedback, cooperare si rabdare. Este util ca persoana sa isi

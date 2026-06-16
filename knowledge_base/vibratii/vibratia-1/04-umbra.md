@@ -1,4 +1,4 @@
-﻿# Vibratia 1 - Umbra
+# Vibratia 1 - Umbra
 
 Umbra vibratiei 1 apare atunci cand nevoia de autonomie devine izolare, iar
 increderea se transforma in rigiditate. Persoana poate deveni incapatanata,

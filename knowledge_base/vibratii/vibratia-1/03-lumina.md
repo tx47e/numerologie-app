@@ -1,4 +1,4 @@
-﻿# Vibratia 1 - Lumina
+# Vibratia 1 - Lumina
 
 In expresia sa luminoasa, vibratia 1 aduce claritate, curaj si spirit de initiativa.
 Persoana influentata de aceasta energie poate vedea rapid unde este nevoie de o

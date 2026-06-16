@@ -1,4 +1,4 @@
-﻿# Vibratia 1 - Lectii
+# Vibratia 1 - Lectii
 
 Lectia principala a vibratiei 1 este folosirea vointei fara a rupe legatura cu
 ceilalti. Autonomia nu inseamna separare totala, iar leadershipul nu inseamna
