@@ -273,8 +273,207 @@ def markdown_to_html(markdown: str, title: str) -> str:
     current_subsection = ""
     pending_index = ""
 
+    DIACRITICS = {
+        "aceasta": "această",
+        "aceleasi": "aceleași",
+        "acelasi": "același",
+        "acolo": "acolo",
+        "adancime": "adâncime",
+        "adanc": "adânc",
+        "adevar": "adevăr",
+        "adevarul": "adevărul",
+        "alegeri": "alegeri",
+        "ampla": "amplă",
+        "amplu": "amplu",
+        "ani": "ani",
+        "anul": "anul",
+        "aplicabilitate": "aplicabilitate",
+        "apropiere": "apropiere",
+        "aprofundare": "aprofundare",
+        "arata": "arată",
+        "atentie": "atenție",
+        "atitudinea": "atitudinea",
+        "baza": "bază",
+        "bunastarii": "bunăstării",
+        "calcul": "calcul",
+        "calcule": "calcule",
+        "calea": "calea",
+        "capitol": "capitol",
+        "cariera": "carieră",
+        "casuta": "căsuță",
+        "casute": "căsuțe",
+        "cautare": "căutare",
+        "cautarea": "căutarea",
+        "catre": "către",
+        "cat": "cât",
+        "centrata": "centrată",
+        "cicluri": "cicluri",
+        "cifra": "cifră",
+        "cifre": "cifre",
+        "claritate": "claritate",
+        "colaborare": "colaborare",
+        "comparare": "comparare",
+        "concluzie": "concluzie",
+        "constient": "conștient",
+        "constienta": "conștientă",
+        "constiente": "conștiente",
+        "conversational": "conversațional",
+        "creativitate": "creativitate",
+        "crestere": "creștere",
+        "date": "date",
+        "destin": "destin",
+        "destinul": "destinul",
+        "directia": "direcția",
+        "directie": "direcție",
+        "discernamant": "discernământ",
+        "diferenta": "diferența",
+        "dupa": "după",
+        "emotionala": "emoțională",
+        "energie": "energie",
+        "esenta": "esența",
+        "exterioara": "exterioară",
+        "exterior": "exterior",
+        "fara": "fără",
+        "feminin": "feminin",
+        "fortata": "forțată",
+        "fortate": "forțate",
+        "grafica": "grafică",
+        "grafic": "grafic",
+        "implinire": "împlinire",
+        "importanta": "importantă",
+        "important": "important",
+        "importanti": "importanți",
+        "inainte": "înainte",
+        "incheieri": "încheieri",
+        "incredere": "încredere",
+        "indica": "indică",
+        "indreptat": "îndreptat",
+        "influenta": "influență",
+        "informatie": "informație",
+        "informatii": "informații",
+        "initiale": "inițiale",
+        "interioara": "interioară",
+        "interior": "interior",
+        "intalnire": "întâlnire",
+        "intre": "între",
+        "intreaga": "întreagă",
+        "intrebare": "întrebare",
+        "invat": "învăț",
+        "invatare": "învățare",
+        "lectii": "lecții",
+        "legatura": "legătură",
+        "legaturi": "legături",
+        "lucrarii": "lucrării",
+        "lucrare": "lucrare",
+        "matricea": "matricea",
+        "masculin": "masculin",
+        "nastere": "naștere",
+        "nasterii": "nașterii",
+        "nevoie": "nevoie",
+        "nuanta": "nuanță",
+        "numar": "număr",
+        "nume": "nume",
+        "ocazii": "ocazii",
+        "oportunitati": "oportunități",
+        "pamant": "pământ",
+        "perioada": "perioadă",
+        "persoana": "persoană",
+        "peste": "peste",
+        "pinacluri": "pinacluri",
+        "practica": "practică",
+        "principal": "principal",
+        "principala": "principală",
+        "provocari": "provocări",
+        "prudenta": "prudență",
+        "recomandare": "recomandare",
+        "relatie": "relație",
+        "relatii": "relații",
+        "rezultat": "rezultat",
+        "scara": "scară",
+        "schimbare": "schimbare",
+        "scurta": "scurtă",
+        "sectiune": "secțiune",
+        "sensibilitate": "sensibilitate",
+        "simbol": "simbol",
+        "sinteza": "sinteză",
+        "sir": "șir",
+        "soarta": "soartă",
+        "sortii": "sorții",
+        "spirituala": "spirituală",
+        "stiintific": "științific",
+        "subtila": "subtilă",
+        "subtile": "subtile",
+        "tabel": "tabel",
+        "tarot": "Tarot",
+        "tema": "temă",
+        "test": "test",
+        "totala": "totală",
+        "transformare": "transformare",
+        "vibratia": "vibrația",
+        "vibratii": "vibrații",
+        "esentiale": "esențiale",
+        "viata": "viață",
+        "vietii": "vieții",
+        "vointa": "voință",
+        "varsta": "vârstă",
+        "varstelor": "vârstelor",
+        "zona": "zonă",
+        "si": "și",
+        "in": "în",
+        "iti": "îți",
+        "tau": "tău",
+        "poti": "poți",
+        "sa": "să",
+        "daca": "dacă",
+        "fata": "față",
+        "forta": "forță",
+        "forte": "forțe",
+        "responsabilitatii": "responsabilității",
+        "semnificatia": "semnificația",
+        "naturala": "naturală",
+        "spatiu": "spațiu",
+        "reactie": "reacție",
+        "metoda": "metodă",
+        "perfecta": "perfectă",
+        "potrivita": "potrivită",
+        "inteles": "înțeles",
+        "intamplarii": "întâmplării",
+        "functie": "funcție",
+        "calitatea": "calitatea",
+    }
+
+    PHRASE_DIACRITICS = {
+        "Data nasterii": "Data nașterii",
+        "data nasterii": "data nașterii",
+        "Luna nasterii": "Luna nașterii",
+        "luna nasterii": "luna nașterii",
+        "data de nastere": "data de naștere",
+        "Data de nastere": "Data de naștere",
+        "Matricea datei de nastere": "Matricea datei de naștere",
+        "matricea datei de nastere": "matricea datei de naștere",
+        "data sustinuta": "data susținută",
+        "Data sustinuta": "Data susținută",
+    }
+
+    def with_diacritics(text: str) -> str:
+        for source, replacement in PHRASE_DIACRITICS.items():
+            text = text.replace(source, replacement)
+
+        def replace(match: re.Match[str]) -> str:
+            word = match.group(0)
+            replacement = DIACRITICS.get(word.lower())
+            if not replacement:
+                return word
+            if word.isupper():
+                return replacement.upper()
+            if word[0].isupper():
+                return replacement[0].upper() + replacement[1:]
+            return replacement
+
+        return re.sub(r"\b[A-Za-z]+\b", replace, text)
+
     def inline_markup(text: str) -> str:
-        escaped = html.escape(text)
+        escaped = html.escape(with_diacritics(text))
         escaped = re.sub(r"`([^`]+)`", r"\1", escaped)
         escaped = escaped.replace("`", "")
         escaped = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", escaped)
@@ -703,7 +902,7 @@ def markdown_to_html(markdown: str, title: str) -> str:
     h2 {{
       margin: 42px 0 22px;
       color: white;
-      background: var(--deep);
+      background: linear-gradient(135deg, var(--deep) 0%, #0d4745 58%, var(--teal) 100%);
       border-top: 0;
       border-left: 8px solid var(--gold);
       padding: 16px 22px;
@@ -713,7 +912,7 @@ def markdown_to_html(markdown: str, title: str) -> str:
     }}
     h3 {{ color: var(--teal); }}
     .heading-index {{
-      color: var(--sand);
+      color: var(--gold);
       font-size: 12px;
       font-weight: 700;
       line-height: 1.2;
