@@ -1,0 +1,4 @@
+interface:
+  display_name: "Numerology HTML Generator"
+  short_description: "Genereaza HTML-uri locale din lucrari numerologice Markdown."
+  default_prompt: "Genereaza sau actualizeaza HTML-ul unei lucrari numerologice folosind fluxul din test HTML."
