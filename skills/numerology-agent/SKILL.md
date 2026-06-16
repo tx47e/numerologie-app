@@ -64,7 +64,8 @@ Follow this workflow:
    administrative fields.
 8. Link the results together: birth date, karma, matrix, wellbeing scale, name,
    pinnacles, cycles, esotericism, and conclusion.
-9. Mention incomplete rubrics and data that should be confirmed.
+9. Add `Rubrici incomplete si date de confirmat` as practical refinement
+   suggestions when useful. Do not write it as a technical list of missing work.
 
 ## Working Sources
 
@@ -122,6 +123,11 @@ Follow this workflow:
   maturity, and practical work.
 - If information is missing, mark it discreetly as `de completat` and continue
   with what can be calculated correctly.
+- In `Rubrici incomplete si date de confirmat`, give concrete suggestions the
+  reader can act on: personal theme, professional context, relationship/family
+  context, current-year events, socially used name, and optional graph/cycle
+  refinements. Each bullet should explain why confirming that detail would make
+  the report more precise.
 - For each recurring interpretation, first check whether a suitable wording
   already exists in `knowledge_base/exprimari/`. If there are several suitable
   variants, choose one that brings variety compared with nearby reports,
@@ -195,8 +201,8 @@ After creating a new report, update `examples/README.md` with a link to it.
 
 ## Final Requirements
 
-- Mention which rubrics remained incomplete.
-- Mention which data should be confirmed for a final version.
+- Mention which rubrics or data can refine a final version, but phrase them as
+  useful suggestions in `Rubrici incomplete si date de confirmat`.
 - Keep the report in Markdown format.
 
 ## Quality Check

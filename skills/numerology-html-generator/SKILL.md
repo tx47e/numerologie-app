@@ -105,6 +105,18 @@ Adapt `data` and output filenames for other people.
   identical, offset the two dashed lines slightly so both remain visible.
 - For ezoterism, if the first division gives code `0`, stop the calculation
   there. Do not render or interpret the second division.
+- In yearly cycle tables such as `T020`, use the header `Lectie` for the
+  lesson column and write the digit calculated from the life-lessons sequence
+  shown in `T019`, not the personal-year digit. Compute it from the person's
+  year of life (`age + 1`) and cycle through the `T019` sequence. Do not include
+  a `Vibratie cosmica` column in `T020`; keep only `An`, `Varsta`,
+  `An personal`, `Lectie`, and `Interpretare`. Keep lesson meanings or short
+  text only in the interpretation column.
+- For the first essential-vibrations table (`T001`), keep the `Rezultat` header
+  on one line. In HTML, slightly narrow the calculation column and widen the
+  result column when needed so headers do not split words.
+- Render bullet lists in the same text color as normal paragraphs. They should
+  feel like part of the report body, not a secondary or muted note.
 
 ## Visual Palette
 

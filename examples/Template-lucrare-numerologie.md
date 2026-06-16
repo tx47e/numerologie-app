@@ -754,7 +754,7 @@ continua pana la `9` si se reia.
 Tabelul se completeaza pentru 15 ani in total: 5 ani inainte de anul curent, anul
 curent si 9 ani dupa anul curent.
 
-| An | Varsta | An personal | Lectie de viata | Interpretare |
+| An | Varsta | An personal | Lectie | Interpretare |
 | --- | --- | --- | --- | --- |
 | anul curent - 5 |  |  |  |  |
 | anul curent - 4 |  |  |  |  |
@@ -903,3 +903,17 @@ alte rubrici similare.
 | Lectii de viata si cicluri | `knowledge_base/calcule/timp-si-cicluri/` |
 | Ezoterism | `knowledge_base/calcule/ezoterism/` |
 | Aplicabilitate profesionala | `knowledge_base/calcule/aplicabilitate-profesionala/` |
+
+## Rubrici incomplete si date de confirmat
+
+Aceasta rubrica nu trebuie sa sune ca o lista de erori sau lipsuri tehnice. Se
+scrie ca o lista de sugestii utile pentru rafinarea lucrarii. Fiecare punct
+trebuie sa spuna ce informatie ar merita confirmata si cum ar putea imbunatati
+interpretarea.
+
+- Tema personala principala: daca exista o intrebare concreta, lucrarea poate fi rafinata in jurul ei.
+- Context profesional: domeniul de lucru sau directia profesionala actuala pot nuanta aplicabilitatea numerologica.
+- Relatii si familie: daca exista o tema activa aici, interpretarile despre sensibilitate, grija, limite sau karma pot fi adaptate.
+- Perioada curenta: evenimentele deja simtite in anul analizat pot lega mai bine anul personal si lectia de viata de realitatea imediata.
+- Nume folosit social: daca numele complet, prenumele activ sau numele folosit public difera, analiza numelui poate fi ajustata.
+- Grafice si cicluri: daca se doreste o reprezentare mai precisa, se confirma ciclul vizual folosit si anii care merita dezvoltati.

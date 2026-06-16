@@ -966,23 +966,23 @@ Varsta este calculata la aniversarea din anul respectiv.
 
 Index: MIH-19841106-V3-T-020
 
-| An | Varsta | Vibratie cosmica | An personal | Lectie suprapusa | Interpretare |
-| --- | ---: | ---: | ---: | --- | --- |
-| 2021 | 37 | 5 | 2 | cooperare | reglaje relationale si rabdare |
-| 2022 | 38 | 6 | 3 | expresie | comunicare si responsabilitate afectiva |
-| 2023 | 39 | 7 | 4 | metoda | analiza, disciplina, clarificare |
-| 2024 | 40 | 8 | 5 | schimbare | libertate cu responsabilitate |
-| 2025 | 41 | 9 | 6 | armonie | incheieri si reasezari de familie/interior |
-| 2026 | 42 | 1 | 7 | analiza | inceput cu nevoie de introspectie |
-| 2027 | 43 | 2 | 8 | responsabilitate | cooperare, rezultate, pozitionare |
-| 2028 | 44 | 3 | 9 | finalizare | expresie si sens larg |
-| 2029 | 45 | 4 | 1 | inceput | constructie noua, autonomie |
-| 2030 | 46 | 5 | 2 | cooperare | schimbare negociata |
-| 2031 | 47 | 6 | 3 | expresie | armonie prin comunicare |
-| 2032 | 48 | 7 | 4 | metoda | analiza si consolidare |
-| 2033 | 49 | 8 | 5 | schimbare | putere si libertate responsabila |
-| 2034 | 50 | 9 | 6 | armonie | incheiere si grija matura |
-| 2035 | 51 | 1 | 7 | analiza | inceput cu discernamant |
+| An | Varsta | An personal | Lectie | Interpretare |
+| --- | ---: | ---: | --- | --- |
+| 2021 | 37 | 2 | 3 | reglaje relationale si rabdare |
+| 2022 | 38 | 3 | 0 | comunicare si responsabilitate afectiva |
+| 2023 | 39 | 4 | 9 | analiza, disciplina, clarificare |
+| 2024 | 40 | 5 | 4 | libertate cu responsabilitate |
+| 2025 | 41 | 6 | 4 | incheieri si reasezari de familie/interior |
+| 2026 | 42 | 7 | 1 | inceput cu nevoie de introspectie |
+| 2027 | 43 | 8 | 3 | cooperare, rezultate, pozitionare |
+| 2028 | 44 | 9 | 0 | expresie si sens larg |
+| 2029 | 45 | 1 | 9 | constructie noua, autonomie |
+| 2030 | 46 | 2 | 4 | schimbare negociata |
+| 2031 | 47 | 3 | 4 | armonie prin comunicare |
+| 2032 | 48 | 4 | 1 | analiza si consolidare |
+| 2033 | 49 | 5 | 3 | putere si libertate responsabila |
+| 2034 | 50 | 6 | 0 | incheiere si grija matura |
+| 2035 | 51 | 7 | 9 | inceput cu discernamant |
 
 Index: MIH-19841106-V3-SUB-028
 
@@ -1189,16 +1189,13 @@ Index: MIH-19841106-V3-CAP-017
 
 ## Rubrici incomplete si date de confirmat
 
-Index: MIH-19841106-V3-P-071
-
-  ciclul de 10 ani sau 12 ani.
-Index: MIH-19841106-V3-P-072
-
-  fi dezvoltate intr-o versiune extinsa.
 Index: MIH-19841106-V3-L-012
 
-- Data adaugarii in lista de persoane: de completat.
-- Intrebarea personala sau tema principala: de completat.
-- Reprezentarea grafica pentru soarta si destin: de completat daca se alege
-- Lectiile de viata pe perioade exacte: necesita o etapa separata de mapare.
-- Anii importanti au fost calculati tabelar; interpretarile lor individuale pot
+- Tema personala principala: daca exista o intrebare concreta, lucrarea poate fi rafinata in jurul ei, mai ales in zona relatiei dintre destinul `3`, grija lui `6` si constructia `22/4`.
+- Context profesional: ar fi util de confirmat domeniul de lucru sau directia profesionala actuala, pentru a adapta mai precis aplicabilitatea numerologica si arcana `11 - Dreptatea`.
+- Relatii si familie: daca exista o tema activa aici, interpretarile despre vibratia interioara `6`, provocarea `2` si karma lunii pot fi nuantate mai personal.
+- Perioada curenta: pentru anul analizat `2026`, se pot adauga observatii despre evenimente deja simtite de Mihai, astfel incat anul personal `7` si lectia `1` sa fie legate de realitatea imediata.
+- Nume folosit social: daca Mihai foloseste diferit numele complet, prenumele activ sau o forma scurta in familie, munca ori spatiul public, analiza numelui poate fi ajustata.
+- Soarta si destinul: reprezentarea grafica poate fi rafinata daca se stabileste explicit ciclul vizual dorit, de 10 ani sau 12 ani.
+- Lectiile de viata: perioadele exacte din T019 pot fi mapate separat pe varste si ani calendaristici daca se doreste o citire mai detaliata a etapelor.
+- Anii importanti: tabelul este calculat, iar interpretarile individuale pot fi dezvoltate intr-o versiune extinsa, mai ales pentru anii apropiati de prezent.

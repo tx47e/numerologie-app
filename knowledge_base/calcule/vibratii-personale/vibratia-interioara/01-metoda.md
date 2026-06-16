@@ -53,8 +53,11 @@ Toate ajung la 1, dar traseul energetic este diferit.
 
 Pentru implementarea initiala, rezultatul se reduce la 1-9.
 
-Optional, se poate pastra si rezultatul intermediar pentru zilele 11, 22 si 29,
-deoarece unele sisteme interpreteaza 11 si 22 ca numere maestre.
+Optional, se pot pastra numerele maestre 11, 22 si 33 atunci cand apar ca
+rezultat de calcul. Pentru ziua nasterii, doar 11 si 22 pot aparea direct ca zi;
+33 nu poate aparea direct in calendar, dar ramane in regula generala a numerelor
+maestre. Ziua 29 se citeste ca traseu `29 -> 11 -> 2`, nu ca numar maestru
+pastrat.
 
 ## Tabel rapid
 

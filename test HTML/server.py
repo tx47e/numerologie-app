@@ -275,9 +275,11 @@ def build_markdown(data: dict, calc_output: str, matrix_output: str) -> str:
         "",
         idx("L"),
         "",
-        "- Interpretarile ample trebuie revizuite si dezvoltate editorial.",
-        "- Tema personala trebuie confirmata daca nu a fost completata.",
-        "- Numele anterior / schimbat trebuie confirmat daca este relevant.",
+        "- Tema personala principala: daca exista o intrebare concreta, lucrarea poate fi rafinata in jurul ei.",
+        "- Context profesional: domeniul de lucru sau directia profesionala actuala pot nuanta aplicabilitatea numerologica.",
+        "- Relatii si familie: daca exista o tema activa aici, interpretarile despre sensibilitate, grija, limite sau karma pot fi adaptate.",
+        "- Perioada curenta: evenimentele deja simtite in anul analizat pot lega mai bine anul personal si lectia de viata de realitatea imediata.",
+        "- Nume folosit social: daca numele complet, prenumele activ sau numele folosit public difera, analiza numelui poate fi ajustata.",
     ]
     return "\n".join(lines) + "\n"
 
@@ -591,6 +593,16 @@ def markdown_to_html(markdown: str, title: str) -> str:
         cell = vector_label_map.get(cell, cell)
         return cell
 
+    def table_class_for(rows: list[list[str]]) -> str:
+        if not rows:
+            return ""
+        headers = [clean_table_cell(cell).lower() for cell in rows[0]]
+        if headers == ["vibratie", "formula", "calcul", "rezultat", "descriere scurta"]:
+            return "table-vibratii-esentiale"
+        if headers == ["an", "varsta", "an personal", "lectie", "interpretare"]:
+            return "table-ciclu-9-ani"
+        return ""
+
     def is_matrix_table(rows: list[list[str]]) -> bool:
         cleaned = [[clean_table_cell(cell) for cell in row] for row in rows]
         return (
@@ -761,7 +773,9 @@ def markdown_to_html(markdown: str, title: str) -> str:
             body.append(render_matrix_table(rows))
             table_lines = []
             return
-        body.append('<div class="table-wrap"><table>')
+        table_class = table_class_for(rows)
+        class_attr = f' class="{table_class}"' if table_class else ""
+        body.append(f'<div class="table-wrap"><table{class_attr}>')
         for index, row in enumerate(rows):
             if index == 1 and all(set(cell.strip()) <= {"-", ":", " "} for cell in row):
                 continue
@@ -983,6 +997,49 @@ def markdown_to_html(markdown: str, title: str) -> str:
       background: var(--teal);
       color: white;
       text-align: left;
+      overflow-wrap: normal;
+      word-break: normal;
+      hyphens: none;
+    }}
+    .table-vibratii-esentiale th:nth-child(1),
+    .table-vibratii-esentiale td:nth-child(1) {{
+      width: 18%;
+    }}
+    .table-vibratii-esentiale th:nth-child(2),
+    .table-vibratii-esentiale td:nth-child(2) {{
+      width: 22%;
+    }}
+    .table-vibratii-esentiale th:nth-child(3),
+    .table-vibratii-esentiale td:nth-child(3) {{
+      width: 17%;
+    }}
+    .table-vibratii-esentiale th:nth-child(4),
+    .table-vibratii-esentiale td:nth-child(4) {{
+      width: 12%;
+    }}
+    .table-vibratii-esentiale th:nth-child(5),
+    .table-vibratii-esentiale td:nth-child(5) {{
+      width: 31%;
+    }}
+    .table-ciclu-9-ani th:nth-child(1),
+    .table-ciclu-9-ani td:nth-child(1) {{
+      width: 11%;
+    }}
+    .table-ciclu-9-ani th:nth-child(2),
+    .table-ciclu-9-ani td:nth-child(2) {{
+      width: 11%;
+    }}
+    .table-ciclu-9-ani th:nth-child(3),
+    .table-ciclu-9-ani td:nth-child(3) {{
+      width: 15%;
+    }}
+    .table-ciclu-9-ani th:nth-child(4),
+    .table-ciclu-9-ani td:nth-child(4) {{
+      width: 11%;
+    }}
+    .table-ciclu-9-ani th:nth-child(5),
+    .table-ciclu-9-ani td:nth-child(5) {{
+      width: 52%;
     }}
     tr:nth-child(even) td {{
       background: rgba(244, 229, 212, 0.42);
@@ -1113,6 +1170,9 @@ def markdown_to_html(markdown: str, title: str) -> str:
     .chart-interpretation {{
       border-left: 5px solid var(--sand);
       padding-left: 14px;
+    }}
+    ul, li {{
+      color: var(--teal);
     }}
     li {{ margin: 6px 0; }}
     @media (max-width: 1100px) {{
