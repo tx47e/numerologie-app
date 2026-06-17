@@ -142,6 +142,15 @@ def build_markdown(data: dict, calc_output: str, matrix_output: str) -> str:
     tema_vietii = extract_value(r"Tema vietii:\s+(.+)", calc_output)
     an_personal = extract_value(r"Vibratia anului personal \d+:\s+(.+)", calc_output)
 
+    def chart_parts(value: str) -> tuple[str, str, str]:
+        match = re.match(r"(\d+)\s+\((.*?),\s+zona\s+([0-9.,]+)\)", value)
+        if not match:
+            return "de completat", value, "de completat"
+        return match.group(2), match.group(1), match.group(3)
+
+    soarta_formula, soarta_digits, soarta_zone = chart_parts(soarta)
+    destin_formula, destin_digits, destin_zone = chart_parts(destin_grafic)
+
     lines = [
         idx("CAP"),
         "",
@@ -219,10 +228,10 @@ def build_markdown(data: dict, calc_output: str, matrix_output: str) -> str:
         "",
         idx("T"),
         "",
-        "| Linie | Rezultat |",
-        "| --- | --- |",
-        f"| Soarta grafica | {soarta} |",
-        f"| Destin grafic | {destin_grafic} |",
+        "| Linie | Formula | Sir grafic | Zona de confort |",
+        "| --- | --- | --- | --- |",
+        f"| Soarta grafica | {soarta_formula} | {soarta_digits} | {soarta_zone} |",
+        f"| Destin grafic | {destin_formula} | {destin_digits} | {destin_zone} |",
         "",
         idx("CAP"),
         "",

@@ -1,0 +1,543 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pataki Bogdan Marius - 15.11.1992</title>
+  <style>
+    :root {
+      --ink: #061c1d;
+      --deep: #0b2b2c;
+      --teal: #0f5a56;
+      --aqua: #239f98;
+      --cream: #f4e5d4;
+      --paper: #fffaf3;
+      --gold: #8a632f;
+      --sand: #c9a479;
+    }
+    body {
+      margin: 0;
+      background: var(--cream);
+      color: var(--ink);
+      font-family: "Segoe UI", Arial, sans-serif;
+      line-height: 1.65;
+    }
+    .topbar {
+      background: linear-gradient(135deg, var(--deep), var(--teal) 62%, var(--aqua));
+      color: white;
+      padding: 22px 32px;
+      border-bottom: 8px solid var(--sand);
+    }
+    .topbar strong {
+      display: block;
+      font-size: 18px;
+    }
+    .topbar span {
+      color: #f7ead8;
+      font-size: 14px;
+    }
+    main {
+      width: 1040px;
+      max-width: min(1040px, calc(100% - 32px));
+      margin: 28px auto;
+      background: var(--paper);
+      border-radius: 8px;
+      padding: clamp(20px, 4vw, 42px);
+      box-shadow: 0 18px 44px rgba(11, 43, 44, 0.08);
+    }
+    .table-wrap {
+      width: 100%;
+      overflow-x: auto;
+      overflow-y: hidden;
+      margin: 18px 0;
+      -webkit-overflow-scrolling: touch;
+    }
+    .toc {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 8px;
+      margin: 18px 0 34px;
+      padding: 18px;
+      border: 1px solid rgba(11, 43, 44, 0.14);
+      border-left: 6px solid var(--aqua);
+      background: #fffdf8;
+      border-radius: 8px;
+    }
+    .toc div {
+      grid-column: 1 / -1;
+      color: var(--gold);
+      font-weight: 800;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+    .toc a {
+      color: var(--teal);
+      text-decoration-color: var(--sand);
+      font-weight: 650;
+    }
+    h1, h2, h3 { line-height: 1.18; }
+    h1, h2, h3 {
+      display: grid;
+      gap: 7px;
+    }
+    h1 {
+      font-size: clamp(30px, 4vw, 46px);
+      color: var(--deep);
+      margin-bottom: 18px;
+    }
+    h2 {
+      margin: 42px 0 22px;
+      color: white;
+      background: linear-gradient(135deg, var(--deep) 0%, #0d4745 58%, var(--teal) 100%);
+      border-top: 0;
+      border-left: 8px solid var(--gold);
+      padding: 16px 22px;
+      border-radius: 6px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    h3 { color: var(--teal); }
+    .heading-index {
+      color: var(--gold);
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+    p {
+      margin: 12px 0;
+      max-width: none;
+      width: 100%;
+      text-wrap: pretty;
+      color: var(--teal);
+    }
+    code {
+      background: rgba(35, 159, 152, 0.12);
+      color: var(--deep);
+      padding: 1px 5px;
+      border-radius: 4px;
+    }
+    .index {
+      color: var(--gold);
+      font-size: 12px;
+      font-weight: 700;
+      margin-top: 18px;
+    }
+    table {
+      min-width: 100%;
+      border-collapse: collapse;
+      margin: 0;
+      background: white;
+      table-layout: fixed;
+    }
+    th, td {
+      border: 1px solid rgba(11, 43, 44, 0.16);
+      padding: 10px;
+      vertical-align: top;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+    th {
+      background: var(--teal);
+      color: white;
+      text-align: left;
+    }
+    tr:nth-child(even) td {
+      background: rgba(244, 229, 212, 0.42);
+    }
+    pre {
+      background: #dcc39b;
+      color: var(--deep);
+      border-left: 6px solid var(--sand);
+      padding: 16px;
+      border-radius: 6px;
+      overflow: auto;
+      white-space: pre-wrap;
+    }
+    .matrix-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 6px;
+      margin: 18px 0 28px;
+      max-width: 420px;
+    }
+    .matrix-cell {
+      min-height: 58px;
+      border: 1px solid rgba(11, 43, 44, 0.18);
+      border-radius: 6px;
+      display: grid;
+      overflow: hidden;
+    }
+    .matrix-value {
+      display: grid;
+      place-items: center;
+      min-height: 58px;
+      color: var(--deep);
+      font-weight: 800;
+      font-size: 17px;
+      padding: 8px;
+      gap: 2px;
+    }
+    .matrix-value span {
+      font-size: 11px;
+      opacity: 0.82;
+    }
+    .element-aer {
+      background: #fffaf3;
+      color: var(--deep);
+    }
+    .element-apa {
+      background: #b8d9e7;
+      color: var(--deep);
+    }
+    .element-pamant {
+      background: #d8c1a2;
+      color: var(--deep);
+    }
+    .element-foc {
+      background: #e6b4a9;
+      color: var(--deep);
+    }
+    .destiny-chart {
+      margin: 26px 0 30px;
+      padding: 18px;
+      border: 1px solid rgba(11, 43, 44, 0.16);
+      border-radius: 8px;
+      background: #fffdf8;
+    }
+    .chart-heading {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      color: var(--gold);
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+    .chart-heading strong {
+      color: var(--teal);
+    }
+    .destiny-chart svg {
+      width: 100%;
+      height: auto;
+      background: #fffaf3;
+      border-radius: 6px;
+    }
+    .grid line {
+      stroke: rgba(11, 43, 44, 0.22);
+      stroke-dasharray: 5 5;
+    }
+    .grid text {
+      fill: var(--deep);
+      font-size: 13px;
+      font-weight: 700;
+    }
+    .line {
+      fill: none;
+      stroke-width: 4;
+      stroke-linejoin: round;
+      stroke-linecap: round;
+    }
+    .soarta-line { stroke: var(--aqua); }
+    .destin-line { stroke: var(--gold); }
+    .comfort {
+      fill: none;
+      stroke-width: 4;
+      stroke-dasharray: 12 8;
+      opacity: 1;
+    }
+    .soarta-comfort { stroke: var(--aqua); }
+    .destin-comfort { stroke: var(--gold); }
+    .soarta-dot { fill: var(--aqua); }
+    .destin-dot { fill: var(--gold); }
+    .chart-legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin: 12px 0;
+      color: var(--deep);
+      font-weight: 700;
+    }
+    .chart-legend i {
+      display: inline-block;
+      width: 20px;
+      height: 4px;
+      border-radius: 99px;
+      margin-right: 7px;
+      vertical-align: middle;
+    }
+    .legend-soarta { background: var(--aqua); }
+    .legend-destin { background: var(--gold); }
+    .legend-comfort { background: var(--sand); }
+    .chart-interpretation {
+      border-left: 5px solid var(--sand);
+      padding-left: 14px;
+    }
+    li { margin: 6px 0; }
+    @media (max-width: 1100px) {
+      body {
+        overflow-x: auto;
+      }
+      main {
+        width: 1040px;
+        max-width: none;
+      }
+    }
+    @media print {
+      body { background: white; }
+      .topbar, .toc { break-inside: avoid; }
+      main { box-shadow: none; margin: 0; width: auto; }
+      h2, h3, table, pre { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <strong>Pataki Bogdan Marius - 15.11.1992</strong>
+    <span>Lucrare numerologica completa, transpusă din Markdown in HTML</span>
+  </header>
+  <main>
+    <nav class="toc"><div>Cuprins</div><a href="#sectiune-1">Date lucrare</a>
+<a href="#sectiune-2">1. Sinteza scurta</a>
+<a href="#sectiune-3">2. Date de baza si calcule initiale</a>
+<a href="#sectiune-4">3. Numele</a>
+<a href="#sectiune-5">4. Soarta si destinul</a>
+<a href="#sectiune-6">5. Rezultate brute din scripturi</a>
+<a href="#sectiune-7">Rubrici incomplete si date de confirmat</a></nav>
+    <h1><span class="heading-index">Index: PBM-19921115-V1-CAP-001</span><span>Pataki Bogdan Marius - 15.11.1992</span></h1>
+<div class="index">Index: PBM-19921115-V1-P-001</div>
+<p>Această lucrare este generata din formularul local test HTML, folosind skill-ul numerology-agent ca referinta de structura și scripturile existente ale proiectului pentru calcule.</p>
+<h2 id="sectiune-1"><span class="heading-index">Index: PBM-19921115-V1-CAP-002</span><span>Date lucrare</span></h2>
+<div class="index">Index: PBM-19921115-V1-L-001</div>
+<ul>
+<li>Persoană analizata: Pataki Bogdan Marius</li>
+<li>Gen persoană: masculin</li>
+<li>Data nașterii: 15.11.1992</li>
+<li>Nume complet folosit în analiza: Pataki Bogdan Marius</li>
+<li>Nume de familie folosit în analiza: Pataki</li>
+<li>Prenume folosit în analiza: Bogdan Marius</li>
+<li>Prenume activ: Pelican</li>
+<li>Nume anterior / schimbat: de completat</li>
+<li>Întrebare personala sau temă principală: de completat</li>
+<li>Nivel de detaliere: amplu</li>
+<li>Stil de adresare: conversațional</li>
+<li>Data realizarii lucrării: 2026-06-17 13:08</li>
+<li>Status: de revizuit, v1ca</li>
+</ul>
+<h2 id="sectiune-2"><span class="heading-index">Index: PBM-19921115-V1-CAP-003</span><span>1. Sinteză scurtă</span></h2>
+<div class="index">Index: PBM-19921115-V1-P-002</div>
+<p>Această versiune HTML construieste o lucrare de lucru pe bază calculelor numerologice generate automat. Pentru interpretarea finala amplă, textul poate fi extins ulterior conform regulilor din skill-ul numerology-agent, pastrand structura, indexarea și legătură dintre capitole.</p>
+<h2 id="sectiune-3"><span class="heading-index">Index: PBM-19921115-V1-CAP-004</span><span>2. Date de bază și calcule inițiale</span></h2>
+<div class="index">Index: PBM-19921115-V1-T-001</div>
+<div class="table-wrap"><table>
+<tr><th>Element</th><th>Rezultat</th></tr>
+<tr><td>Vibrația interioară</td><td>6</td></tr>
+<tr><td>Vibrația exterioară</td><td>2</td></tr>
+<tr><td>Vibrația datei / destin</td><td>2 (cale 29)</td></tr>
+<tr><td>Număr de exprimare / destin pe nume</td><td>2 (total 20)</td></tr>
+<tr><td>Temă vieții</td><td>4</td></tr>
+<tr><td>An personal</td><td>9 (total 18)</td></tr>
+</table></div>
+<h2 id="sectiune-4"><span class="heading-index">Index: PBM-19921115-V1-CAP-005</span><span>3. Numele</span></h2>
+<div class="index">Index: PBM-19921115-V1-T-002</div>
+<div class="table-wrap"><table>
+<tr><th>Număr</th><th>Rezultat</th></tr>
+<tr><td>Număr intim</td><td>4 (total 31)</td></tr>
+<tr><td>Număr de realizare</td><td>7 (total 43)</td></tr>
+<tr><td>Număr activ</td><td>4 (total 4)</td></tr>
+<tr><td>Număr ereditar</td><td>4 (total 4)</td></tr>
+<tr><td>Numarul neamului</td><td>22 (total 22)</td></tr>
+</table></div>
+<h2 id="sectiune-5"><span class="heading-index">Index: PBM-19921115-V1-CAP-006</span><span>4. Soartă și destinul</span></h2>
+<div class="index">Index: PBM-19921115-V1-T-003</div>
+<div class="table-wrap"><table>
+<tr><th>Linie</th><th>Formula</th><th>Șir grafic</th><th>Zonă de confort</th></tr>
+<tr><td>Soartă grafică</td><td>1511 x 1992</td><td>3009912</td><td>3.43</td></tr>
+<tr><td>Destin grafic</td><td>1511 x 1992</td><td>3009912</td><td>3.43</td></tr>
+</table></div>
+
+<section class="destiny-chart">
+  <div class="chart-heading">
+    <span>Grafic Soarta si Destin</span>
+    <strong>3009912 / 3009912</strong>
+  </div>
+  <svg viewBox="0 0 920 430" role="img" aria-label="Grafic Soarta si Destin">
+    <g class="grid"><line x1="64" y1="372.0" x2="896" y2="372.0" /><text x="46" y="376.0">0</text><line x1="64" y1="333.8" x2="896" y2="333.8" /><text x="46" y="337.8">1</text><line x1="64" y1="295.6" x2="896" y2="295.6" /><text x="46" y="299.6">2</text><line x1="64" y1="257.3" x2="896" y2="257.3" /><text x="46" y="261.3">3</text><line x1="64" y1="219.1" x2="896" y2="219.1" /><text x="46" y="223.1">4</text><line x1="64" y1="180.9" x2="896" y2="180.9" /><text x="46" y="184.9">5</text><line x1="64" y1="142.7" x2="896" y2="142.7" /><text x="46" y="146.7">6</text><line x1="64" y1="104.4" x2="896" y2="104.4" /><text x="46" y="108.4">7</text><line x1="64" y1="66.2" x2="896" y2="66.2" /><text x="46" y="70.2">8</text><line x1="64" y1="28.0" x2="896" y2="28.0" /><text x="46" y="32.0">9</text><line x1="64.0" y1="28" x2="64.0" y2="372" /><text x="56.0" y="406">0</text><line x1="156.4" y1="28" x2="156.4" y2="372" /><text x="148.4" y="406">10</text><line x1="248.9" y1="28" x2="248.9" y2="372" /><text x="240.9" y="406">20</text><line x1="341.3" y1="28" x2="341.3" y2="372" /><text x="333.3" y="406">30</text><line x1="433.8" y1="28" x2="433.8" y2="372" /><text x="425.8" y="406">40</text><line x1="526.2" y1="28" x2="526.2" y2="372" /><text x="518.2" y="406">50</text><line x1="618.7" y1="28" x2="618.7" y2="372" /><text x="610.7" y="406">60</text><line x1="711.1" y1="28" x2="711.1" y2="372" /><text x="703.1" y="406">70</text><line x1="803.6" y1="28" x2="803.6" y2="372" /><text x="795.6" y="406">80</text><line x1="896.0" y1="28" x2="896.0" y2="372" /><text x="888.0" y="406">90</text></g>
+    <polyline class="comfort soarta-comfort" points="64,233.9 896,233.9" />
+    <polyline class="comfort destin-comfort" points="64,247.9 896,247.9" />
+    <polyline class="line soarta-line" points="64.0,257.3 156.4,372.0 248.9,372.0 341.3,28.0 433.8,28.0 526.2,333.8 618.7,295.6 711.1,257.3 803.6,372.0 896.0,372.0" />
+    <polyline class="line destin-line" points="64.0,257.3 156.4,372.0 248.9,372.0 341.3,28.0 433.8,28.0 526.2,333.8 618.7,295.6 711.1,257.3 803.6,372.0 896.0,372.0" />
+    <circle class="soarta-dot" cx="64.0" cy="257.3" r="5" />
+<circle class="soarta-dot" cx="156.4" cy="372.0" r="5" />
+<circle class="soarta-dot" cx="248.9" cy="372.0" r="5" />
+<circle class="soarta-dot" cx="341.3" cy="28.0" r="5" />
+<circle class="soarta-dot" cx="433.8" cy="28.0" r="5" />
+<circle class="soarta-dot" cx="526.2" cy="333.8" r="5" />
+<circle class="soarta-dot" cx="618.7" cy="295.6" r="5" />
+<circle class="soarta-dot" cx="711.1" cy="257.3" r="5" />
+<circle class="soarta-dot" cx="803.6" cy="372.0" r="5" />
+<circle class="soarta-dot" cx="896.0" cy="372.0" r="5" />
+    <circle class="destin-dot" cx="64.0" cy="257.3" r="5" />
+<circle class="destin-dot" cx="156.4" cy="372.0" r="5" />
+<circle class="destin-dot" cx="248.9" cy="372.0" r="5" />
+<circle class="destin-dot" cx="341.3" cy="28.0" r="5" />
+<circle class="destin-dot" cx="433.8" cy="28.0" r="5" />
+<circle class="destin-dot" cx="526.2" cy="333.8" r="5" />
+<circle class="destin-dot" cx="618.7" cy="295.6" r="5" />
+<circle class="destin-dot" cx="711.1" cy="257.3" r="5" />
+<circle class="destin-dot" cx="803.6" cy="372.0" r="5" />
+<circle class="destin-dot" cx="896.0" cy="372.0" r="5" />
+  </svg>
+  <div class="chart-legend">
+    <span><i class="legend-soarta"></i>Soarta</span>
+    <span><i class="legend-destin"></i>Destin</span>
+    <span><i class="legend-comfort"></i>Zone de confort</span>
+  </div>
+  <div class="chart-interpretation">
+    <p><strong>Puncte de apropiere:</strong> liniile se apropie cel mai mult in jurul varstelor 0, 10, 20, 30, 40, 50, 60, 70, 80, 90 ani. Acolo cadrul primit si directia de implinire pot colabora mai usor.</p>
+    <p><strong>Puncte de departare:</strong> diferenta cea mai mare apare in jurul varstelor 0, 10, 20, 30, 40, 50, 60, 70, 80, 90 ani. Acolo poate fi nevoie de alegeri mai constiente, pentru ca directia interioara si contextul exterior nu merg automat in acelasi ritm.</p>
+    <p><strong>Zona de confort:</strong> Soarta are zona 3.43, iar Destinul are zona 3.43. Linia punctata arata nivelul la care energia se simte familiara; sub ea apar efort, invatare si reglaj, peste ea apare activare mai vizibila.</p>
+    <p><strong>Zone de efort:</strong> varstele 0, 10, 20, 50, 60, 70, 80, 90 cer mai multa atentie la centru, limite si adaptare.</p>
+  </div>
+</section>
+
+<h2 id="sectiune-6"><span class="heading-index">Index: PBM-19921115-V1-CAP-007</span><span>5. Rezultate brute din scripturi</span></h2>
+<h3><span class="heading-index">Index: PBM-19921115-V1-SUB-001</span><span>Calcule numerologice</span></h3>
+<div class="index">Index: PBM-19921115-V1-C-001</div>
+<pre>Calcule numerologice
+====================
+Data: 15.11.1992
+Nume: Pataki Bogdan Marius
+
+Vibratia interioara: 6
+Vibratia exterioara: 2
+Numar de exprimare / destin: 2 (total 20)
+Numar intim: 4 (total 31)
+Numar de realizare: 7 (total 43)
+Numar activ: 4 (total 4)
+Numar ereditar: 4 (total 4)
+Numar ereditar karmic: 22 (total 22)
+Vibratia datei / destin: 2 (cale 29)
+Soarta grafica: 3009912 (1511 x 1992, zona 3.43)
+Destin grafic: 3009912 (1511 x 1992, zona 3.43)
+Tema vietii: 4
+Vibratia anului personal 2026: 9 (total 18)
+
+Lectii karmice din nume:
+8
+
+Datorii karmice din nume:
+-
+
+Karma zilei de nastere:
+15 (Arcana 15, karma implinita spre 80%)
+
+Karma lunii de nastere:
+11 - karma statutului neamului
+
+Karma din calea destinului:
+29 - 2 - prelucrarea karmei
+Datorii karmice din calea destinului:
+-
+
+Ani importanti interiori 1992-2036:
+1995, 2001, 2004, 2010, 2013, 2019, 2022, 2028, 2031
+
+Ani importanti exteriori 1992-2036:
+2013, 2019, 2031
+
+Pinacluri si provocari:
+1. varsta 0-34: pinaclu 8, provocare 4
+2. varsta 35-43: pinaclu 9, provocare 3
+3. varsta 44-52: pinaclu 8, provocare 1
+4. varsta 53+: pinaclu 5, provocare 1
+
+Cicluri pentru varsta 0:
+7 ani: ciclul 1, pozitia 1
+9 ani: ciclul 1, pozitia 1
+12 ani: ciclul 1, pozitia 1</pre>
+<h3><span class="heading-index">Index: PBM-19921115-V1-SUB-002</span><span>Patratul lui Pitagora</span></h3>
+<div class="index">Index: PBM-19921115-V1-C-002</div>
+<pre>Cod extras din data nasterii:
+15111992
+
+Cifre brute, fara zero:
+1, 5, 1, 1, 1, 9, 9, 2
+
+Numarul 1 de lucru:
+1 + 5 + 1 + 1 + 1 + 9 + 9 + 2 = 29
+
+Numarul 2 de lucru:
+2 + 9 = 11
+
+Numarul 3 de lucru:
+29 - (2 x 1) = 27
+
+Numarul 4 de lucru:
+2 + 7 = 9
+
+Cod complet atasat:
+15111992 + 29 + 11 + 27 + 9
+
+Cifre introduse in matrice, fara zero:
+1, 5, 1, 1, 1, 9, 9, 2, 2, 9, 1, 1, 2, 7, 9
+
+Patratul lui Pitagora:
+111111 |      | 7
+222  | 5    |
+     |      | 9999
+
+Vectori:
+1. Vectorul carierei (1-5-9): activ, 3/3 pozitii, valoare 47 (1:6, 5:5, 9:36)
+2. Vectorul creativitatii (7-8-9): partial activ, 2/3 pozitii, valoare 43 (7:7, 8:0, 9:36)
+3. Bunastare materiala (3-6-9): slab, 1/3 pozitii, valoare 36 (3:0, 6:0, 9:36)
+4. Bunastare spirituala (1-4-7): partial activ, 2/3 pozitii, valoare 13 (1:6, 4:0, 7:7)
+5. Vectorul scopului (3-5-7): partial activ, 2/3 pozitii, valoare 12 (3:0, 5:5, 7:7)
+6. Vectorul energetic (1-2-3): partial activ, 2/3 pozitii, valoare 12 (1:6, 2:6, 3:0)
+7. Bunastare sociala (2-5-8): partial activ, 2/3 pozitii, valoare 11 (2:6, 5:5, 8:0)
+8. Vectorul vointa (4-5-6): slab, 1/3 pozitii, valoare 5 (4:0, 5:5, 6:0)
+
+Analiza comuna a vectorilor:
+Vector dominant: Vectorul carierei cu valoarea 47.
+Vector cel mai slab: Vectorul vointa cu valoarea 5.
+
+Matricea numelui:
+Nume: Pataki Bogdan Marius
+Nume normalizat: PATAKIBOGDANMARIUS
+
+Valori litere:
+P=7, A=1, T=2, A=1, K=2, I=9, B=2, O=6, G=7, D=4, A=1, N=5, M=4, A=1, R=9, I=9, U=3, S=1
+
+Componente reduse:
+PATAKI: 7 + 1 + 2 + 1 + 2 + 9 = 22 -&gt; 4
+BOGDAN: 2 + 6 + 7 + 4 + 1 + 5 = 25 -&gt; 7
+MARIUS: 4 + 1 + 9 + 9 + 3 + 1 = 27 -&gt; 9
+
+Numar de exprimare:
+4 + 7 + 9 = 20 -&gt; 2
+
+Cifre introduse in matricea numelui:
+7, 1, 2, 1, 2, 9, 2, 6, 7, 4, 1, 5, 4, 1, 9, 9, 3, 1, 2
+
+Patratul numelui:
+11111 | 44   | 77
+2222 | 5    |
+3    | 6    | 999
+
+Vectori nume:
+1. Vectorul creativitatii (7-8-9): partial activ, 2/3 pozitii, valoare 41 (7:14, 8:0, 9:27)
+2. Vectorul carierei (1-5-9): activ, 3/3 pozitii, valoare 37 (1:5, 5:5, 9:27)
+3. Bunastare materiala (3-6-9): activ, 3/3 pozitii, valoare 36 (3:3, 6:6, 9:27)
+4. Bunastare spirituala (1-4-7): activ, 3/3 pozitii, valoare 27 (1:5, 4:8, 7:14)
+5. Vectorul scopului (3-5-7): activ, 3/3 pozitii, valoare 22 (3:3, 5:5, 7:14)
+6. Vectorul vointa (4-5-6): activ, 3/3 pozitii, valoare 19 (4:8, 5:5, 6:6)
+7. Vectorul energetic (1-2-3): activ, 3/3 pozitii, valoare 16 (1:5, 2:8, 3:3)
+8. Bunastare sociala (2-5-8): partial activ, 2/3 pozitii, valoare 13 (2:8, 5:5, 8:0)</pre>
+<h2 id="sectiune-7"><span class="heading-index">Index: PBM-19921115-V1-CAP-008</span><span>Rubrici incomplete și date de confirmat</span></h2>
+<div class="index">Index: PBM-19921115-V1-L-002</div>
+<ul>
+<li>Interpretarile ample trebuie revizuite și dezvoltate editorial.</li>
+<li>Temă personala trebuie confirmata dacă nu a fost completata.</li>
+<li>Numele anterior / schimbat trebuie confirmat dacă este relevant.</li>
+</ul>
+  </main>
+</body>
+</html>
