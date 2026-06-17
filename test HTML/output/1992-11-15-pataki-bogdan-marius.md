@@ -296,20 +296,29 @@ Index: PBM-19921115-V2-T-009
 | --- | --- | --- | --- | ---: | --- |
 | 1 | vector | Cariera 159 | 111111 / 5 / 9999 | 47 | directie foarte puternica prin vointa, centru si finalizare |
 | 2 | vector | Creativitate 789 | 7 / - / 9999 | 43 | creativitate prin profunzime si memorie |
-| 3 | vector | Bunastare materiala 369 | - / - / 9999 | 36 | materialitate sustinuta mai ales de `9` |
-| 4 | vector | Spiritualitate 147 | 111111 / - / 7 | 13 | cautare interioara prin vointa si analiza |
-| 5 | vector | Scopuri 357 | - / 5 / 7 | 12 | scop atins prin centru si introspectie |
-| 6 | vector | Energie 123 | 111111 / 222 / - | 12 | energie mentala si relationala, exprimare de cultivat |
-| 7 | vector | Social 258 | 222 / 5 / - | 11 | nevoie de relatie si centru, fara exces social |
-| 8 | vector | Vointa 456 | - / 5 / - | 5 | vointa practica cere disciplina constienta |
+| 3 | casuta | 9 | 9999 | 36 | memorie, finalizare si profunzime foarte puternice |
+| 4 | vector | Bunastare materiala 369 | - / - / 9999 | 36 | materialitate sustinuta mai ales de `9` |
+| 5 | vector | Spiritualitate 147 | 111111 / - / 7 | 13 | cautare interioara prin vointa si analiza |
+| 6 | vector | Scopuri 357 | - / 5 / 7 | 12 | scop atins prin centru si introspectie |
+| 7 | vector | Energie 123 | 111111 / 222 / - | 12 | energie mentala si relationala, exprimare de cultivat |
+| 8 | vector | Social 258 | 222 / 5 / - | 11 | nevoie de relatie si centru, fara exces social |
+| 9 | casuta | 7 | 7 | 7 | introspectie, analiza si nevoie de sens |
+| 10 | casuta | 1 | 111111 | 6 | vointa mentala intensa, initiativa si forta de pornire |
+| 11 | casuta | 2 | 222 | 6 | sensibilitate relationala si receptivitate |
+| 12 | vector | Vointa 456 | - / 5 / - | 5 | vointa practica cere disciplina constienta |
+| 13 | casuta | 5 | 5 | 5 | centru personal si capacitate de adaptare |
+| 14 | casuta | 3 | - | 0 | exprimarea directa trebuie cultivata constient |
+| 15 | casuta | 4 | - | 0 | structura si disciplina cer antrenament practic |
+| 16 | casuta | 6 | - | 0 | armonia afectiva stabila cere educare si limite |
+| 17 | casuta | 8 | - | 0 | asumarea materiala si autoritatea se construiesc prin exercitiu |
 
 Index: PBM-19921115-V2-P-030
 
-Prima treapta este cariera, cu valoarea `47`, construita din foarte mult `1`, un `5` central si mult `9`. Asta nu inseamna doar profesie, ci directie de viata: ai nevoie sa simti ca mergi undeva, ca finalizezi, ca lasi ceva in urma. In relatii, femeia potrivita nu iti anuleaza directia, ci o respecta; iar tu ai de invatat sa nu sacrifici iubirea pentru ambitie, dar nici ambitia pentru dependenta afectiva.
+Prima treapta este cariera, cu valoarea `47`, construita din foarte mult `1`, un `5` central si mult `9`. Asta nu inseamna doar profesie, ci directie de viata: ai nevoie sa simti ca mergi undeva, ca finalizezi, ca lasi ceva in urma. Faptul ca scara completa include si casutele separate arata mai limpede de unde vine forta: `9` este foarte sus, iar `1` si `2` sustin miscarea prin vointa si sensibilitate. In relatii, femeia potrivita nu iti anuleaza directia, ci o respecta; iar tu ai de invatat sa nu sacrifici iubirea pentru ambitie, dar nici ambitia pentru dependenta afectiva.
 
 Index: PBM-19921115-V2-P-031
 
-Vectorul vointei este cel mai slab, cu valoarea `5`, pentru ca lipsesc `4` si `6`. Aici este cheia practica: ceea ce simti trebuie transformat in rutina, limite, corp, program si fapte. In viata amoroasa, promisiunile si intensitatea trebuie coborate in gesturi concrete: prezenta, consecventa, sinceritate si asumare.
+La baza scarii apar casutele goale `3`, `4`, `6` si `8`, fiecare cu valoarea `0`. Acestea nu arata lipsa de posibilitate, ci zone care trebuie invatate constient: exprimare, structura, armonie afectiva stabila si asumare materiala. Vectorul vointei are valoarea `5`, pentru ca se sprijina doar pe centrul `5`, fara `4` si `6`. Aici este cheia practica: ceea ce simti trebuie transformat in rutina, limite, corp, program si fapte. In viata amoroasa, promisiunile si intensitatea trebuie coborate in gesturi concrete: prezenta, consecventa, sinceritate si asumare.
 
 Index: PBM-19921115-V2-CAP-008
 
@@ -390,24 +399,11 @@ Numele completeaza multe goluri din data: aduce `3`, `4` si `6`, adica expresie,
 
 Index: PBM-19921115-V2-CAP-009
 
-## 7. Oportunitati, provocari si pinacluri
+## 7. Pinacluri: oportunitati si provocari
 
 Index: PBM-19921115-V2-P-036
 
 Valorile folosite sunt: zi `6`, luna `2`, an cosmic total `3`, destin `2`. In 2026 ai 33 de ani pana la aniversarea din 15 noiembrie si intri in zona de final a primului pinaclu, aproape de trecerea spre al doilea.
-
-Index: PBM-19921115-V2-T-013
-
-| Pinaclu | Perioada | Oportunitate | Provocare | Interpretare |
-| --- | --- | ---: | ---: | --- |
-| 1 | 0-34 ani | 8 | 4 | formare prin responsabilitate, munca si structura |
-| 2 | 35-43 ani | 9 | 3 | maturizare prin sens, finalizare si comunicare |
-| 3 | 44-52 ani | 8 | 1 | putere asumata cu lectie de initiativa curata |
-| 4 | 53+ ani | 5 | 1 | libertate, schimbare si autonomie |
-
-Index: PBM-19921115-V2-P-037
-
-Bogdan, primul pinaclu `8` te formeaza prin responsabilitate. Provocarea `4` cere structura, ceea ce se leaga perfect de tema relatiei: fara claritate, iubirea poate deveni teren de presiune. Al doilea pinaclu, care se apropie, aduce oportunitatea `9`: inchideri, sens, maturizare. Provocarea `3` iti cere sa comunici mai limpede, mai cald si mai direct.
 
 Index: PBM-19921115-V2-SUB-015
 
@@ -431,6 +427,28 @@ Index: PBM-19921115-V2-L-006
 - P3: `|4 - 3| = 1`
 - P4: `|2 - 3| = 1`
 
+Index: PBM-19921115-V2-SUB-017
+
+### Pinacluri
+
+Index: PBM-19921115-V2-L-007
+
+- Primul pinaclu: `36 - vibratia destinului 2 = 34`, deci prima etapa merge de la `0` la `34` de ani.
+- Urmatoarele pinacluri se calculeaza din 9 in 9 ani: `34 + 9 = 43`, apoi `43 + 9 = 52`, iar al patrulea pinaclu incepe dupa `52` de ani.
+
+Index: PBM-19921115-V2-T-013
+
+| Pinaclu | Perioada | Oportunitate | Provocare | Interpretare |
+| --- | --- | ---: | ---: | --- |
+| 1 | 0-34 ani | 8 | 4 | formare prin responsabilitate, munca si structura |
+| 2 | 35-43 ani | 9 | 3 | maturizare prin sens, finalizare si comunicare |
+| 3 | 44-52 ani | 8 | 1 | putere asumata cu lectie de initiativa curata |
+| 4 | 53+ ani | 5 | 1 | libertate, schimbare si autonomie |
+
+Index: PBM-19921115-V2-P-037
+
+Bogdan, primul pinaclu `8` te formeaza prin responsabilitate. Provocarea `4` cere structura, ceea ce se leaga perfect de tema relatiei: fara claritate, iubirea poate deveni teren de presiune. Al doilea pinaclu, care se apropie, aduce oportunitatea `9`: inchideri, sens, maturizare. Provocarea `3` iti cere sa comunici mai limpede, mai cald si mai direct.
+
 Index: PBM-19921115-V2-CAP-010
 
 ## 8. Soarta si destinul
@@ -446,11 +464,11 @@ Index: PBM-19921115-V2-P-038
 
 La tine, linia sortii si linia destinului sunt identice: `3009912`, cu zona de confort `3.43`. Asta arata ca intre cadrul primit si directia de implinire nu exista o ruptura majora. Tema vietii este mai degraba sa folosesti constient ceea ce ai primit. `3` cere exprimare, `9` apare dublu ca memorie si maturizare, `1` cere initiativa, iar `2` incheie prin relatie. In iubire, asta spune ca directia ta nu este fuga de relatie, ci exprimarea matura in relatie.
 
-Index: PBM-19921115-V2-SUB-017
+Index: PBM-19921115-V2-SUB-018
 
 ### Interpretare grafica
 
-Index: PBM-19921115-V2-L-007
+Index: PBM-19921115-V2-L-008
 
 - Ciclul folosit: reprezentare pe 10 ani in HTML.
 - Puncte de intalnire: toate punctele, deoarece Soarta si Destinul au acelasi sir.
@@ -462,7 +480,7 @@ Index: PBM-19921115-V2-CAP-011
 
 ## 9. Lectii de viata si cicluri
 
-Index: PBM-19921115-V2-SUB-018
+Index: PBM-19921115-V2-SUB-019
 
 ### Lectii de viata
 
@@ -483,29 +501,29 @@ Index: PBM-19921115-V2-T-015
 | 8 | repetitie a asumarii | verifica faptele, nu doar intentia |
 | 0 | pauza, potential, resetare | lasa spatiu intre impuls si decizie |
 
-Index: PBM-19921115-V2-SUB-019
+Index: PBM-19921115-V2-SUB-020
 
 ### Ciclul de 9 ani
 
 Index: PBM-19921115-V2-T-016
 
-| An | Varsta | An personal | Interpretare |
-| --- | ---: | ---: | --- |
-| 2021 | 29 | 4 | structura, munca, disciplina |
-| 2022 | 30 | 5 | schimbare si libertate |
-| 2023 | 31 | 6 | iubire, familie, responsabilitate afectiva |
-| 2024 | 32 | 7 | analiza si retragere |
-| 2025 | 33 | 8 | asumare si rezultate |
-| 2026 | 34 | 9 | inchidere, sens, curatare emotionala |
-| 2027 | 35 | 1 | inceput nou |
-| 2028 | 36 | 2 | relatie si cooperare |
-| 2029 | 37 | 3 | exprimare |
-| 2030 | 38 | 4 | constructie |
-| 2031 | 39 | 5 | schimbare |
-| 2032 | 40 | 6 | iubire si familie |
-| 2033 | 41 | 7 | analiza |
-| 2034 | 42 | 8 | forta si rezultate |
-| 2035 | 43 | 9 | finalizare |
+| An | Varsta | An personal | Lectie | Interpretare |
+| --- | ---: | ---: | ---: | --- |
+| 2021 | 29 | 4 | 3 | structura, munca, disciplina |
+| 2022 | 30 | 5 | 2 | schimbare si libertate |
+| 2023 | 31 | 6 | 8 | iubire, familie, responsabilitate afectiva |
+| 2024 | 32 | 7 | 6 | analiza si retragere |
+| 2025 | 33 | 8 | 8 | asumare si rezultate |
+| 2026 | 34 | 9 | 0 | inchidere, sens, curatare emotionala |
+| 2027 | 35 | 1 | 3 | inceput nou |
+| 2028 | 36 | 2 | 2 | relatie si cooperare |
+| 2029 | 37 | 3 | 8 | exprimare |
+| 2030 | 38 | 4 | 6 | constructie |
+| 2031 | 39 | 5 | 8 | schimbare |
+| 2032 | 40 | 6 | 0 | iubire si familie |
+| 2033 | 41 | 7 | 3 | analiza |
+| 2034 | 42 | 8 | 2 | forta si rezultate |
+| 2035 | 43 | 9 | 8 | finalizare |
 
 Index: PBM-19921115-V2-P-039
 
@@ -515,7 +533,7 @@ Index: PBM-19921115-V2-CAP-012
 
 ## 10. Ezoterism si aplicabilitate
 
-Index: PBM-19921115-V2-SUB-020
+Index: PBM-19921115-V2-SUB-021
 
 ### Cod ezoteric
 
@@ -535,7 +553,7 @@ Index: PBM-19921115-V2-P-040
 
 Codul principal iese `0`, deci calculul se opreste aici. Pentru tine, asta poate fi citit ca un semn de prudenta: nu forta semnele, nu cauta raspunsuri ascunse acolo unde viata iti cere fapte clare. In iubire, cea mai buna intuitie este verificata prin comportament concret.
 
-Index: PBM-19921115-V2-SUB-021
+Index: PBM-19921115-V2-SUB-022
 
 ### Aplicabilitate profesionala - Tarot
 
@@ -554,7 +572,7 @@ Index: PBM-19921115-V2-CAP-013
 
 ## 11. Concluzie finala
 
-Index: PBM-19921115-V2-SUB-022
+Index: PBM-19921115-V2-SUB-023
 
 ### Directia principala
 
@@ -562,11 +580,11 @@ Index: PBM-19921115-V2-P-042
 
 Bogdan, directia principala este sa transformi intensitatea afectiva in iubire matura. Ai o harta in care femeile si viata amoroasa sunt teme reale de invatare: nu pentru a te pierde in ele, ci pentru a invata alegerea, limitele, reciprocitatea si exprimarea clara.
 
-Index: PBM-19921115-V2-SUB-023
+Index: PBM-19921115-V2-SUB-024
 
 ### Ce ai de cultivat
 
-Index: PBM-19921115-V2-L-008
+Index: PBM-19921115-V2-L-009
 
 - Comunicare clara, mai ales cand iti este frica sa fii vulnerabil.
 - Structura in relatie: fapte, ritm, consecventa.
@@ -574,11 +592,11 @@ Index: PBM-19921115-V2-L-008
 - Demnitate si respect de sine in fata dorintei.
 - Capacitatea de a inchide matur ce nu mai poate creste.
 
-Index: PBM-19921115-V2-SUB-024
+Index: PBM-19921115-V2-SUB-025
 
 ### Ce ai de evitat
 
-Index: PBM-19921115-V2-L-009
+Index: PBM-19921115-V2-L-010
 
 - Dependenta de validarea unei femei.
 - Idealizarea unei relatii doar pentru ca este intensa.
@@ -586,7 +604,7 @@ Index: PBM-19921115-V2-L-009
 - Controlul mascat in grija.
 - Repetarea unei povesti vechi din frica de singuratate.
 
-Index: PBM-19921115-V2-SUB-025
+Index: PBM-19921115-V2-SUB-026
 
 ### Recomandare practica
 
@@ -606,7 +624,7 @@ Index: PBM-19921115-V2-CAP-015
 
 ## 13. Nota despre persoane
 
-Index: PBM-19921115-V2-L-010
+Index: PBM-19921115-V2-L-011
 
 - Numele folosit in analiza: Pataki Bogdan Marius.
 - Numele activ cerut si interpretat separat: Pelican.
@@ -635,7 +653,7 @@ Index: PBM-19921115-V2-CAP-017
 
 ## Rubrici incomplete si date de confirmat
 
-Index: PBM-19921115-V2-L-011
+Index: PBM-19921115-V2-L-012
 
 - Nume anterior / schimbat: de confirmat.
 - Daca `Pelican` este nume activ social, pseudonim sau prenume folosit efectiv: de confirmat.

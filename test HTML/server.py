@@ -599,6 +599,8 @@ def markdown_to_html(markdown: str, title: str) -> str:
         headers = [clean_table_cell(cell).lower() for cell in rows[0]]
         if headers == ["vibratie", "formula", "calcul", "rezultat", "descriere scurta"]:
             return "table-vibratii-esentiale"
+        if headers == ["ordine", "tip", "denumire", "cantitate", "valoare totala", "observatie"]:
+            return "table-scara-bunastarii"
         if headers == ["an", "varsta", "an personal", "lectie", "interpretare"]:
             return "table-ciclu-9-ani"
         return ""
@@ -682,8 +684,11 @@ def markdown_to_html(markdown: str, title: str) -> str:
             y = top + chart_h * ((9 - value) / 9)
             return x, y
 
-        def polyline(values: list[int]) -> str:
-            return " ".join(f"{x:.1f},{y:.1f}" for x, y in (point(i, val) for i, val in enumerate(values)))
+        def polyline(values: list[int], y_offset: float = 0) -> str:
+            return " ".join(
+                f"{x:.1f},{y + y_offset:.1f}"
+                for x, y in (point(i, val) for i, val in enumerate(values))
+            )
 
         grid = []
         for y_val in range(0, 10):
@@ -695,19 +700,25 @@ def markdown_to_html(markdown: str, title: str) -> str:
             grid.append(f"<line x1=\"{x:.1f}\" y1=\"{top}\" x2=\"{x:.1f}\" y2=\"{height - bottom}\" />")
             grid.append(f"<text x=\"{x - 8:.1f}\" y=\"{height - 24}\">{age}</text>")
 
-        def circles(values: list[int], klass: str) -> str:
+        def circles(values: list[int], klass: str, y_offset: float = 0) -> str:
             return "\n".join(
-                f"<circle class=\"{klass}\" cx=\"{point(i, val)[0]:.1f}\" cy=\"{point(i, val)[1]:.1f}\" r=\"5\" />"
+                f"<circle class=\"{klass}\" cx=\"{point(i, val)[0]:.1f}\" cy=\"{point(i, val)[1] + y_offset:.1f}\" r=\"5\" />"
                 for i, val in enumerate(values)
             )
 
         zone_overlap = abs(soarta_zone - destin_zone) < 0.03
-        soarta_zone_offset = -7 if zone_overlap else 0
-        destin_zone_offset = 7 if zone_overlap else 0
+        line_width = 4
+        soarta_zone_offset = -(line_width / 2) if zone_overlap else 0
+        destin_zone_offset = line_width / 2 if zone_overlap else 0
         soarta_zone_y = point(0, soarta_zone)[1] + soarta_zone_offset
         destin_zone_y = point(0, destin_zone)[1] + destin_zone_offset
         soarta_zone_points = f"{left},{soarta_zone_y:.1f} {width - right},{soarta_zone_y:.1f}"
         destin_zone_points = f"{left},{destin_zone_y:.1f} {width - right},{destin_zone_y:.1f}"
+        line_overlap = soarta_values == destin_values
+        soarta_line_points = polyline(soarta_values, -line_width / 2 if line_overlap else 0)
+        destin_line_points = polyline(destin_values, line_width / 2 if line_overlap else 0)
+        soarta_dot_offset = -line_width / 2 if line_overlap else 0
+        destin_dot_offset = line_width / 2 if line_overlap else 0
 
         diffs = [abs(a - b) for a, b in zip(soarta_values, destin_values)]
         closest = [str(i * 10) for i, diff in enumerate(diffs) if diff == min(diffs)]
@@ -724,15 +735,16 @@ def markdown_to_html(markdown: str, title: str) -> str:
     <g class="grid">{''.join(grid)}</g>
     <polyline class="comfort soarta-comfort" points="{soarta_zone_points}" />
     <polyline class="comfort destin-comfort" points="{destin_zone_points}" />
-    <polyline class="line soarta-line" points="{polyline(soarta_values)}" />
-    <polyline class="line destin-line" points="{polyline(destin_values)}" />
-    {circles(soarta_values, "soarta-dot")}
-    {circles(destin_values, "destin-dot")}
+    <polyline class="line soarta-line" points="{soarta_line_points}" />
+    <polyline class="line destin-line" points="{destin_line_points}" />
+    {circles(soarta_values, "soarta-dot", soarta_dot_offset)}
+    {circles(destin_values, "destin-dot", destin_dot_offset)}
   </svg>
   <div class="chart-legend">
     <span><i class="legend-soarta"></i>Soarta</span>
     <span><i class="legend-destin"></i>Destin</span>
-    <span><i class="legend-comfort"></i>Zone de confort</span>
+    <span><i class="legend-soarta-comfort"></i>Zona de confort pentru soarta</span>
+    <span><i class="legend-destin-comfort"></i>Zona de confort pentru destin</span>
   </div>
   <div class="chart-interpretation">
     <p><strong>Puncte de apropiere:</strong> liniile se apropie cel mai mult in jurul varstelor {", ".join(closest)} ani. Acolo cadrul primit si directia de implinire pot colabora mai usor.</p>
@@ -1021,6 +1033,33 @@ def markdown_to_html(markdown: str, title: str) -> str:
     .table-vibratii-esentiale td:nth-child(5) {{
       width: 31%;
     }}
+    .table-scara-bunastarii th:nth-child(1),
+    .table-scara-bunastarii td:nth-child(1) {{
+      width: 8%;
+    }}
+    .table-scara-bunastarii th:nth-child(2),
+    .table-scara-bunastarii td:nth-child(2) {{
+      width: 11%;
+      white-space: nowrap;
+      overflow-wrap: normal;
+      word-break: normal;
+    }}
+    .table-scara-bunastarii th:nth-child(3),
+    .table-scara-bunastarii td:nth-child(3) {{
+      width: 20%;
+    }}
+    .table-scara-bunastarii th:nth-child(4),
+    .table-scara-bunastarii td:nth-child(4) {{
+      width: 19%;
+    }}
+    .table-scara-bunastarii th:nth-child(5),
+    .table-scara-bunastarii td:nth-child(5) {{
+      width: 10%;
+    }}
+    .table-scara-bunastarii th:nth-child(6),
+    .table-scara-bunastarii td:nth-child(6) {{
+      width: 32%;
+    }}
     .table-ciclu-9-ani th:nth-child(1),
     .table-ciclu-9-ani td:nth-child(1) {{
       width: 11%;
@@ -1166,7 +1205,20 @@ def markdown_to_html(markdown: str, title: str) -> str:
     }}
     .legend-soarta {{ background: var(--aqua); }}
     .legend-destin {{ background: var(--gold); }}
-    .legend-comfort {{ background: var(--sand); }}
+    .legend-soarta-comfort {{
+      background: repeating-linear-gradient(
+        90deg,
+        var(--aqua) 0 10px,
+        transparent 10px 16px
+      );
+    }}
+    .legend-destin-comfort {{
+      background: repeating-linear-gradient(
+        90deg,
+        var(--gold) 0 10px,
+        transparent 10px 16px
+      );
+    }}
     .chart-interpretation {{
       border-left: 5px solid var(--sand);
       padding-left: 14px;

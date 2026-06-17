@@ -94,6 +94,11 @@ Follow this workflow:
   space, and keep the table clear and easy to read.
 - On the wellbeing scale, explain both box values and each vector: digit
   quantity, total value formula, obtained value, and practical meaning.
+- The wellbeing scale table must contain all 17 steps: the 8 vectors and the 9
+  individual boxes from the Pythagorean matrix. Sort all 17 rows by total value
+  descending. In `Cantitate`, show the actual repeated digits for every vector
+  or box, using `-` only for missing digits. Do not publish a wellbeing scale
+  with only the 8 vectors.
 - After the birth-date matrix and name matrix, do the comparative reading using
   the Pythagorean Square method: supported boxes, digits in excess in the name,
   digits missing from the name, and name potential without native support. Do not
@@ -211,5 +216,7 @@ Before finishing:
 
 1. Search the generated report for conflict markers and unfinished TODOs.
 2. Check that indexes follow the repository template.
-3. Check that the report path and README link are correct.
-4. Summarize what was generated and mention any missing input data.
+3. Check that the wellbeing scale table has exactly 17 rows: 8 vectors and 9
+   individual boxes.
+4. Check that the report path and README link are correct.
+5. Summarize what was generated and mention any missing input data.

@@ -121,7 +121,7 @@ Textul interpretarii...
 4. Matricea numerologica
 5. Scara bunastarii
 6. Numele
-7. Pinacluri, oportunitati si provocari
+7. Pinacluri: oportunitati si provocari
 8. Soarta si destinul
 9. Lectii de viata si cicluri
 10. Ezoterism si aplicabilitate
@@ -641,7 +641,7 @@ doar senzatia ca persoana are mai putin din acea caracteristica decat are de fap
 Cand cifra exista in matricea datei, calitatea exista nativ; numele doar o face
 mai putin vizibila sau mai greu de accesat interior.
 
-## 7. Pinacluri, oportunitati si provocari
+## 7. Pinacluri: oportunitati si provocari
 
 Pinaclurile descriu etape de viata, nu intamplari fixe. Ele arata ce tip de
 energie devine mai vizibil intr-o perioada si ce calitate trebuie exersata pentru
@@ -650,30 +650,37 @@ ca acea etapa sa fie traita matur.
 Valorile folosite pentru calcul sunt: zi ``, luna ``, an ``, vibratia
 destinului ``.
 
-### Calculul oportunitatilor si provocarilor
+### Oportunitati
 
-Oportunitatile arata resursa de crestere din fiecare etapa, iar provocarile
-arata lectia care trebuie maturizata in aceeasi perioada.
+Oportunitatile arata resursa de crestere din fiecare etapa. Afiseaza calculele
+separat, inaintea tabelului de sinteza, astfel incat cititorul sa vada clar cum
+se ajunge la fiecare valoare.
 
-| Etapa | Calcul oportunitate | Rezultat | Calcul provocare | Rezultat |
-| --- | --- | --- | --- | --- |
-| O1 / P1 | `luna + zi = ...` |  | `|zi - luna| = ...` |  |
-| O2 / P2 | `zi + an = ...` |  | `|zi - an| = ...` |  |
-| O3 / P3 | `O1 + O2 = ...` |  | `|P1 - P2| = ...` |  |
-| O4 / P4 | `luna + an = ...` |  | `|luna - an| = ...` |  |
+- O1: `luna + zi = ...`
+- O2: `zi + an = ...`
+- O3: `O1 + O2 = ...`
+- O4: `luna + an = ...`
 
-### Calculul pinaclurilor
+### Provocari
+
+Provocarile arata lectia care trebuie maturizata in aceeasi perioada. Afiseaza
+calculele separat de oportunitati, pentru ca cele doua concepte sa ramana usor de
+urmarit.
+
+- P1: `|zi - luna| = ...`
+- P2: `|zi - an| = ...`
+- P3: `|P1 - P2| = ...`
+- P4: `|luna - an| = ...`
+
+### Pinacluri
 
 Perioadele pinaclurilor se stabilesc pornind de la vibratia destinului.
 
-| Pinaclu | Calcul perioada | Perioada rezultata | Oportunitate | Provocare |
-| --- | --- | --- | --- | --- |
-| Pinaclul 1 | `36 - vibratia destinului = ...` |  |  |  |
-| Pinaclul 2 | `sfarsit pinaclu 1 + 9 = ...` |  |  |  |
-| Pinaclul 3 | `sfarsit pinaclu 2 + 9 = ...` |  |  |  |
-| Pinaclul 4 | dupa finalul pinaclului 3 |  |  |  |
+- Primul pinaclu: `36 - vibratia destinului = ...`, cu perioada rezultata.
+- Urmatoarele pinacluri: se calculeaza din 9 in 9 ani pornind de la finalul
+  primului pinaclu; al patrulea incepe dupa finalul celui de-al treilea.
 
-### Tabel sinteza
+### Tabel sinteza T13
 
 | Pinaclu | Perioada | Oportunitate | Provocare | Interpretare |
 | --- | --- | --- | --- | --- |
@@ -753,6 +760,11 @@ continua pana la `9` si se reia.
 
 Tabelul se completeaza pentru 15 ani in total: 5 ani inainte de anul curent, anul
 curent si 9 ani dupa anul curent.
+
+Coloana `Lectie` se completeaza din sirul calculat la tabelul `Lectii de viata`.
+Daca sirul lectiilor are mai putine pozitii decat cei 15 ani afisati, lectiile
+se reiau ciclic, in aceeasi ordine, pana cand fiecare an din tabel are lectia
+aferenta.
 
 | An | Varsta | An personal | Lectie | Interpretare |
 | --- | --- | --- | --- | --- |
