@@ -55,6 +55,18 @@ def extract_value(pattern: str, text: str, default: str = "de completat") -> str
     return match.group(1).strip() if match else default
 
 
+def calculation_summary(calc_output: str) -> str:
+    soarta = extract_value(r"Soarta grafica:\s+(.+)", calc_output)
+    destin = extract_value(r"Destin grafic:\s+(.+)", calc_output)
+    tema = extract_value(r"Tema vietii:\s+(.+)", calc_output)
+    return "\n".join([
+        "Calcul Soarta si Destin:",
+        f"Soarta grafica: {soarta}",
+        f"Destin grafic: {destin}",
+        f"Tema vietii: {tema}",
+    ])
+
+
 def report_code(data: dict, an: int, luna: int, zi: int) -> str:
     initials = "".join(part[:1].upper() for part in data["nume_complet"].split() if part)
     return f"{initials}-{an:04d}{luna:02d}{zi:02d}-V1"
@@ -1200,7 +1212,10 @@ class Handler(SimpleHTTPRequestHandler):
                 "html_name": html_name,
                 "markdown_url": f"/output/{markdown_name}",
                 "html_url": f"/output/{html_name}",
-                "summary": f"Au fost rulate scripturile de calcul. {source_note}",
+                "summary": (
+                    f"Au fost rulate scripturile de calcul. {source_note}\n\n"
+                    f"{calculation_summary(calc_output)}"
+                ),
             }
             self.send_response(200)
             self.send_header("Content-Type", "application/json; charset=utf-8")
