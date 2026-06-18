@@ -99,6 +99,20 @@ Follow this workflow:
   descending. In `Cantitate`, show the actual repeated digits for every vector
   or box, using `-` only for missing digits. Do not publish a wellbeing scale
   with only the 8 vectors.
+- In the wellbeing scale table, the `Denumire` column must name every vector by
+  code plus label: `123 - Energie`, `456 - Vointa`, `789 - Creativitate`,
+  `147 - Spiritualitate`, `258 - Social`, `369 - Bunastare materiala`,
+  `159 - Cariera`, and `357 - Scopuri`. For box rows, use the box digit.
+- In yearly cycle tables with columns `An`, `Varsta`, `An personal`, `Lectie`,
+  and `Interpretare`, keep `Interpretare` short and include both the personal
+  year and the lesson in meaning, without displaying labels such as `AP` or
+  `L`. For example, for personal year `9` and lesson `3`, write `incheiere prin
+  exprimare`, not `AP 9 + L 3: incheiere prin exprimare`. Reserve longer
+  explanation for the paragraph after the table.
+- After the 9-year cycle table and its interpretation, include the `Ani
+  importanti` subchapter in review versions. Use one chronological table with
+  `Important interior` and `Important exterior` columns; mark both when the same
+  year appears in both sequences.
 - After the birth-date matrix and name matrix, do the comparative reading using
   the Pythagorean Square method: supported boxes, digits in excess in the name,
   digits missing from the name, and name potential without native support. Do not
@@ -149,9 +163,9 @@ Follow this workflow:
 
 ## Indexing
 
-Index the report as a reference document: every chapter, subtitle, paragraph,
-table, graph, and calculation block must have a code displayed on the separate
-line before the element, in this form:
+For review versions, index the report as a reference document: every chapter,
+subtitle, paragraph, table, graph, and calculation block must have a code
+displayed on the separate line before the element, in this form:
 
 ```text
 Index: COD-LUCRARE-TIP-NNN
@@ -162,6 +176,13 @@ title, paragraph, table, or any other indexed element. Interpretations are
 indexed as paragraphs, with type `P`; do not use a separate `I` type. Follow the
 complete rule in `examples/Template-lucrare-numerologie.md`, section `Regula de
 indexare editoriala`.
+
+Keep indexes in every review version so the user can revise by exact reference.
+Do not remove previously omitted rubrics from the review version; keep the work
+complete and fully structured. Only after the user confirms the indexed review
+version is approved should a second final report be generated. For that final
+report, create a separate final template in `examples/` with suffix `final`,
+based on the reviewed version and the validated editorial decisions.
 
 ## Report Structure
 
@@ -198,6 +219,9 @@ YYYY-MM-DD-Nume-Prenume-vNxx.md
 Where:
 
 - `vN` is the version number.
+- Use review versions such as `v2ca` for indexed review work. Reserve the
+  `final` suffix for the separate final template/report created only after the
+  user has reviewed and approved the indexed version.
 - `fa` means formal amplu.
 - `ca` means conversational amplu.
 - Adapt the suffix for other style/detail combinations if needed.

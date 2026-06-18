@@ -30,10 +30,21 @@ vede in relatii, munca, decizii, ritm personal, maturizare si directie de viata.
 
 ## Regula de indexare editoriala
 
-Fiecare lucrare trebuie sa poata fi citata ca un document de norme. De aceea,
-fiecare element important primeste un cod de index vizibil si stabil, astfel incat
-se poate face trimitere exacta la un capitol, subtitlu, paragraf, tabel, grafic
-sau interpretare.
+Fiecare lucrare de lucru / de revizuit trebuie sa poata fi citata ca un document
+de norme. De aceea, fiecare element important primeste un cod de index vizibil si
+stabil, astfel incat se poate face trimitere exacta la un capitol, subtitlu,
+paragraf, tabel, grafic sau interpretare.
+
+Indexurile se pastreaza in versiunile de revizuit pentru ca revizia editoriala sa
+poata indica exact ce element trebuie modificat. Nu se elimina rubrici din
+versiunea de revizuit: lucrarea trebuie sa ramana completa, cu toate capitolele,
+subcapitolele, tabelele, listele, graficele si interpretarile necesare.
+
+Dupa ce persoana care revizuieste confirma ca lucrarea indexata este finalizata,
+se poate genera o a doua lucrare, finala. Pentru aceasta se creeaza un template
+separat in `examples/`, cu sufixul `final`, pornind de la forma revizuita si de
+la deciziile editoriale validate. Template-ul final se creeaza doar dupa revizie,
+nu inainte.
 
 Formatul obligatoriu este indexul afisat pe linia separata de dinaintea
 elementului.
@@ -437,6 +448,12 @@ prezente efectiv in fiecare vector sau casuta: `77 / 8 / 9`, `444 / 5 / -`,
 `33 / - / 9`. Cifrele repetate se scriu lipit, fara minus intre ele. Foloseste
 `-` numai acolo unde o cifra lipseste.
 
+In coloana `Denumire`, pentru fiecare rand de tip `vector`, scrie obligatoriu
+codul vectorului si denumirea lui, dupa modelul `123 - Energie`,
+`456 - Vointa`, `789 - Creativitate`, `147 - Spiritualitate`, `258 - Social`,
+`369 - Bunastare materiala`, `159 - Cariera`, `357 - Scopuri`. Pentru randurile
+de tip `casuta`, scrie cifra casutei.
+
 | Ordine | Tip | Denumire | Cantitate | Valoare totala | Observatie |
 | --- | --- | --- | --- | --- | --- |
 | 1 | vector / casuta |  |  |  |  |
@@ -766,6 +783,13 @@ Daca sirul lectiilor are mai putine pozitii decat cei 15 ani afisati, lectiile
 se reiau ciclic, in aceeasi ordine, pana cand fiecare an din tabel are lectia
 aferenta.
 
+Coloana `Interpretare` se completeaza scurt, in cateva cuvinte, si trebuie sa
+interpreteze impreuna anul personal si lectia, fara sa afiseze etichete precum
+`AP` sau `L`. De exemplu, pentru an personal `9` si lectie `3`, scrie
+`incheiere prin exprimare`, nu `AP 9 + L 3: incheiere prin exprimare`. Nu scrie
+paragrafe lungi in aceasta coloana; explicatia ampla a anului curent ramane in
+paragraful de dupa tabel.
+
 | An | Varsta | An personal | Lectie | Interpretare |
 | --- | --- | --- | --- | --- |
 | anul curent - 5 |  |  |  |  |
@@ -785,6 +809,11 @@ aferenta.
 | anul curent + 9 |  |  |  |  |
 
 ### Ani importanti
+
+Acest subcapitol este obligatoriu dupa `Ciclul de 9 ani` in versiunile de
+revizuit. Include anii importanti interiori si exteriori, dupa modelul lucrarii
+lui Mihai: un singur tabel cronologic, cu marcaj separat pentru interior si
+exterior. Daca un an este important pe ambele planuri, marcheaza ambele coloane.
 
 Anii importanti interiori si exteriori se noteaza intr-un singur tabel cronologic
 care incepe cu anul nasterii si merge pana la 10 ani peste anul curent al

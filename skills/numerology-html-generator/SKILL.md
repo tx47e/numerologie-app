@@ -105,18 +105,31 @@ Adapt `data` and output filenames for other people.
   identical, offset the two dashed lines slightly so both remain visible.
 - For ezoterism, if the first division gives code `0`, stop the calculation
   there. Do not render or interpret the second division.
+- Render the wellbeing scale table with all 17 rows: 8 vectors and 9 individual
+  boxes. In the `Denumire` column, vector rows must include code plus label,
+  for example `123 - Energie`, `456 - Vointa`, `789 - Creativitate`,
+  `147 - Spiritualitate`, `258 - Social`, `369 - Bunastare materiala`,
+  `159 - Cariera`, and `357 - Scopuri`. Keep box rows as the box digit.
 - In yearly cycle tables such as `T020`, use the header `Lectie` for the
   lesson column and write the digit calculated from the life-lessons sequence
   shown in `T019`, not the personal-year digit. Compute it from the person's
   year of life (`age + 1`) and cycle through the `T019` sequence. Do not include
   a `Vibratie cosmica` column in `T020`; keep only `An`, `Varsta`,
   `An personal`, `Lectie`, and `Interpretare`. Keep lesson meanings or short
-  text only in the interpretation column.
+  text only in the interpretation column. The `Interpretare` cell must be short
+  and combine the personal year with the lesson in meaning, without labels such
+  as `AP` or `L`; for example, write `incheiere prin exprimare`.
+- Review-version HTML should include the `Ani importanti` subchapter after the
+  9-year cycle table and its interpretation when the source report contains or
+  requires important interior/exterior years.
 - For the first essential-vibrations table (`T001`), keep the `Rezultat` header
   on one line. In HTML, slightly narrow the calculation column and widen the
   result column when needed so headers do not split words.
 - Render bullet lists in the same text color as normal paragraphs. They should
   feel like part of the report body, not a secondary or muted note.
+- For review versions, preserve indexes and all rubrics in the generated HTML so
+  the user can revise by exact reference. Do not create or render a `final`
+  variant unless the user has already approved the indexed review version.
 
 ## Visual Palette
 
@@ -137,7 +150,9 @@ Before finishing:
 3. Confirm matrix colors and dimensions appear in CSS.
 4. Confirm `Soarta` and `Destin` chart lines and comfort lines are present.
 5. Confirm table headers and chapter boxes use the requested palette.
-6. Confirm the HTML file was regenerated after source or converter changes.
+6. Confirm wellbeing scale vector labels use `cod - denumire` and the table has
+   17 rows when the source contains the full scale.
+7. Confirm the HTML file was regenerated after source or converter changes.
 
 Use `Select-String` or `rg` for targeted verification. If browser tooling is
 available, inspect the open local file visually after regeneration.

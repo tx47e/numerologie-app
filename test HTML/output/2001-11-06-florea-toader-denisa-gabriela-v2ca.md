@@ -134,23 +134,23 @@ Matricea datei este foarte concentrata. Cifra `1` este dominanta, cifra `2` este
 
 | Ordine | Tip | Denumire | Cantitate | Valoare totala | Observatie |
 | --- | --- | --- | --- | ---: | --- |
-| 1 | vector | 123 | 1111111 / 22 / - | 11 | energie si expresie de baza |
+| 1 | vector | 123 - Energie | 1111111 / 22 / - | 11 | energie si expresie de baza |
 | 2 | casuta | 1 | 1111111 | 7 | vointa, identitate, impuls interior |
-| 3 | vector | 147 | 1111111 / - / - | 7 | verticalitate spirituala sprijinita de vointa |
-| 4 | vector | 159 | 1111111 / - / - | 7 | cariera prin initiativa, cu sens de cultivat |
+| 3 | vector | 147 - Spiritualitate | 1111111 / - / - | 7 | verticalitate spirituala sprijinita de vointa |
+| 4 | vector | 159 - Cariera | 1111111 / - / - | 7 | cariera prin initiativa, cu sens de cultivat |
 | 5 | casuta | 6 | 6 | 6 | armonie si responsabilitate afectiva |
-| 6 | vector | 456 | - / - / 6 | 6 | vointa sustinuta prin responsabilitate |
-| 7 | vector | 369 | - / 6 / - | 6 | materialitate prin grija si asumare |
+| 6 | vector | 456 - Vointa | - / - / 6 | 6 | vointa sustinuta prin responsabilitate |
+| 7 | vector | 369 - Bunastare materiala | - / 6 / - | 6 | materialitate prin grija si asumare |
 | 8 | casuta | 2 | 22 | 4 | sensibilitate si cooperare |
-| 9 | vector | 258 | 22 / - / - | 4 | socializare prin tact |
+| 9 | vector | 258 - Social | 22 / - / - | 4 | socializare prin tact |
 | 10 | casuta | 3 | - | 0 | expresie de cultivat |
 | 11 | casuta | 4 | - | 0 | disciplina corporala de construit |
 | 12 | casuta | 5 | - | 0 | centru si libertate de exersat |
 | 13 | casuta | 7 | - | 0 | analiza profunda de cultivat constient |
 | 14 | casuta | 8 | - | 0 | gestionarea puterii si resurselor |
 | 15 | casuta | 9 | - | 0 | sens larg si altruism de maturizat |
-| 16 | vector | 789 | - / - / - | 0 | creativitate inalta de construit |
-| 17 | vector | 357 | - / - / - | 0 | atingerea scopurilor cere metoda externa |
+| 16 | vector | 789 - Creativitate | - / - / - | 0 | creativitate inalta de construit |
+| 17 | vector | 357 - Scopuri | - / - / - | 0 | atingerea scopurilor cere metoda externa |
 
 Scara arata ca baza cea mai puternica este combinatia dintre vointa si relationare: vectorul `123` are valoarea `11`, dar se sprijina aproape complet pe `1` si `2`, nu pe `3`. Asta inseamna ca energia exista, sensibilitatea exista, dar expresia trebuie invatata. Cuvintele, arta dialogului, jocul, umorul si curajul de a spune direct ce simti devin trepte de bunastare, nu simple detalii de personalitate.
 
@@ -247,23 +247,35 @@ Sir de lectii: 1, 3, 2, 0, 6, 6
 
 | An | Varsta | An personal | Lectie | Interpretare |
 | --- | ---: | ---: | ---: | --- |
-| 2021 | 20 | 3 | 2 | etapa de lucru in ritmul ciclului personal |
-| 2022 | 21 | 4 | 0 | etapa de lucru in ritmul ciclului personal |
-| 2023 | 22 | 5 | 6 | etapa de lucru in ritmul ciclului personal |
-| 2024 | 23 | 6 | 6 | etapa de lucru in ritmul ciclului personal |
-| 2025 | 24 | 7 | 1 | etapa de lucru in ritmul ciclului personal |
-| 2026 | 25 | 8 | 3 | an activ de inchidere si curatare |
-| 2027 | 26 | 9 | 2 | etapa de lucru in ritmul ciclului personal |
-| 2028 | 27 | 1 | 0 | etapa de lucru in ritmul ciclului personal |
-| 2029 | 28 | 2 | 6 | etapa de lucru in ritmul ciclului personal |
-| 2030 | 29 | 3 | 6 | etapa de lucru in ritmul ciclului personal |
-| 2031 | 30 | 4 | 1 | etapa de lucru in ritmul ciclului personal |
-| 2032 | 31 | 5 | 3 | etapa de lucru in ritmul ciclului personal |
-| 2033 | 32 | 6 | 2 | etapa de lucru in ritmul ciclului personal |
-| 2034 | 33 | 7 | 0 | etapa de lucru in ritmul ciclului personal |
-| 2035 | 34 | 8 | 6 | etapa de lucru in ritmul ciclului personal |
+| 2021 | 20 | 4 | 2 | structura prin cooperare |
+| 2022 | 21 | 5 | 0 | schimbare si resetare |
+| 2023 | 22 | 6 | 6 | iubire cu responsabilitate |
+| 2024 | 23 | 7 | 6 | introspectie afectiva |
+| 2025 | 24 | 8 | 1 | asumare prin initiativa |
+| 2026 | 25 | 9 | 3 | incheiere prin exprimare |
+| 2027 | 26 | 1 | 2 | inceput prin cooperare |
+| 2028 | 27 | 2 | 0 | rabdare si resetare |
+| 2029 | 28 | 3 | 6 | exprimare afectiva |
+| 2030 | 29 | 4 | 6 | stabilitate in iubire |
+| 2031 | 30 | 5 | 1 | schimbare cu initiativa |
+| 2032 | 31 | 6 | 3 | armonie prin comunicare |
+| 2033 | 32 | 7 | 2 | introspectie relationala |
+| 2034 | 33 | 8 | 0 | putere si resetare |
+| 2035 | 34 | 9 | 6 | incheiere afectiva |
 
 Anul personal 2026 este `9`, calculat ca `6 + 11 + 2026 = 2043 -> 9` in formula scriptului local. `9` este an de incheiere, sinteza, curatare si desprindere. Pentru tine, intr-un prim pinaclu `8` cu provocare `4`, anul `9` poate cere sa vezi ce responsabilitati nu mai sunt ale tale, ce structuri trebuie inchise si ce atasamente trebuie lasate sa se termine. Nu este un an de fortare a inceputurilor mari, ci de clarificare, eliberare si pregatire pentru un nou ciclu.
+
+### Ani importanti
+
+| Ordine | An | Varsta | Important interior | Important exterior | Observatie |
+| --- | ---: | ---: | --- | --- | --- |
+| 1 | 2004 | 3 | da | da | deschidere timpurie pe ambele planuri |
+| 2 | 2010 | 9 | da | da | prag de formare si schimbare de ritm |
+| 3 | 2013 | 12 | da | da | maturizare si reasezare personala |
+| 4 | 2019 | 18 | da | da | trecere vizibila spre autonomie |
+| 5 | 2022 | 21 | da |  | accent interior si clarificare |
+| 6 | 2028 | 27 | da |  | reasezare interioara importanta |
+| 7 | 2031 | 30 | da | da | prag comun interior si exterior |
 
 ## 10. Ezoterism si aplicabilitate
 
