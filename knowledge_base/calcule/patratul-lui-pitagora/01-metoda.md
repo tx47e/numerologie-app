@@ -57,6 +57,9 @@ Se reduce numarul 1 de lucru prin adunarea cifrelor sale.
 ### Numarul 3 de lucru
 
 Din numarul 1 de lucru se scade dublul primei cifre nenule din ziua nasterii.
+In cazul in care rezultatul este negativ, se foloseste valoarea absoluta,
+normalizata. Semnul minus nu intra in sirul de cifre si nu se introduce in
+matrice.
 
 Pentru ziua 24, prima cifra este 2.
 
@@ -125,7 +128,7 @@ functie patratul_lui_pitagora(zi, luna, an):
   n1 = suma(data)
   n2 = suma_cifrelor_pana_la_o_cifra(n1)
   prima_cifra_zi = prima_cifra_nenula(zi)
-  n3 = n1 - 2 * prima_cifra_zi
+  n3 = abs(n1 - 2 * prima_cifra_zi)
   n4 = suma_cifrelor_pana_la_o_cifra(n3)
 
   sir = data + cifrele(n1) + cifrele(n2) + cifrele(n3) + cifrele(n4)

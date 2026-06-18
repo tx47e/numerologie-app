@@ -32,11 +32,12 @@ ALFABET = {
 
 
 def suma_cifrelor(numar):
+    numar = abs(numar)
     return sum(int(cifra) for cifra in str(numar))
 
 
 def reducere(numar):
-    curent = numar
+    curent = abs(numar)
     while curent > 9:
         curent = suma_cifrelor(curent)
     return curent
@@ -129,7 +130,7 @@ def calculeaza_patratul_lui_pitagora(zi, luna, an):
 
     n1 = sum(cifre_data)
     n2 = suma_cifrelor(n1)
-    n3 = n1 - 2 * prima_cifra_nenula(zi)
+    n3 = abs(n1 - 2 * prima_cifra_nenula(zi))
     n4 = suma_cifrelor(n3)
 
     sir_complet = f"{data} + {n1} + {n2} + {n3} + {n4}"
