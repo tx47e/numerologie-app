@@ -96,9 +96,9 @@ Adapt `data` and output filenames for other people.
   Markdown tables.
 - Matrix element mapping:
   - `1, 5, 9`: foc
-  - `2, 4`: apa
+  - `2, 6`: apa
   - `3, 7`: aer
-  - `6, 8`: pamant
+  - `4, 8`: pamant
 - Use calm, palette-compatible matrix colors; `aer` should be near white.
 - Render `Soarta si destinul` as a SVG line chart when the table is present.
   Include separate dashed comfort lines for Soarta and Destin. If the values are

@@ -626,10 +626,10 @@ def markdown_to_html(markdown: str, title: str) -> str:
             "5": "foc",
             "9": "foc",
             "2": "apa",
-            "4": "apa",
+            "4": "pamant",
             "3": "aer",
             "7": "aer",
-            "6": "pamant",
+            "6": "apa",
             "8": "pamant",
         }
         html_rows = ["<div class=\"matrix-grid\">"]
