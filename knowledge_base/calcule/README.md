@@ -25,6 +25,8 @@ Scopul este sa pastram separat:
   destinului; termenul `karma neamului` este tratat ca alias la
   `nume/numarul-ereditar-karmic/`.
 - `patratul-lui-pitagora/`: matrice numerologica pe baza datei de nastere.
+- `relatii/`: metode pentru compatibilitate, dinamica relationala si omuletul
+  relatiilor.
 
 ## Regula pentru fiecare calcul
 
@@ -37,4 +39,4 @@ Fiecare calcul important trebuie sa aiba, pe cat posibil:
 
 ## Surse bibliografice interne
 
-- Nu sunt documentate surse bibliografice interne.
+- `bibliography/Omuletul Relatiilor.md`

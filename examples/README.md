@@ -31,6 +31,8 @@ Exemple posibile:
 - [1984-11-06-Szabo-Mihai-Gabriel-v4ca.md](1984-11-06-szabo-mihai-gabriel/1984-11-06-Szabo-Mihai-Gabriel-v4ca.md)
 - [1984-04-17-Szabo-Sabina-v3ca.md](1984-04-17-szabo-sabina/1984-04-17-Szabo-Sabina-v3ca.md)
 - [1989-07-11-Comaniciu-Casiana-Teodora-v1ca.md](1989-07-11-comaniciu-casiana-teodora/1989-07-11-Comaniciu-Casiana-Teodora-v1ca.md)
+- [1998-01-12-Roman-Andreea-Maria-v1ca.md](1998-01-12-roman-andreea-maria/1998-01-12-Roman-Andreea-Maria-v1ca.md)
+- [1998-02-19-Birsan-Daniel-Robert-v1ca.md](1998-02-19-birsan-daniel-robert/1998-02-19-Birsan-Daniel-Robert-v1ca.md)
 - [2001-11-06-Florea-Toader-Denisa-Gabriela-v1ca.md](2001-11-06-florea-toader-denisa-gabriela/2001-11-06-Florea-Toader-Denisa-Gabriela-v1ca.md)
 - [2001-11-06-Florea-Toader-Denisa-Gabriela-v2ca.md](2001-11-06-florea-toader-denisa-gabriela/2001-11-06-Florea-Toader-Denisa-Gabriela-v2ca.md)
 

@@ -63,7 +63,11 @@ Follow this workflow:
 7. Explain concepts and calculations richly, but do not over-explain
    administrative fields.
 8. Link the results together: birth date, karma, matrix, wellbeing scale, name,
-   pinnacles, cycles, esotericism, and conclusion.
+   pinnacles, cycles, esotericism, optional relationship analysis, and
+   conclusion.
+   If the user provides a loved person / compatibility person, include the
+   optional relationship chapter and use
+   `knowledge_base/calcule/relatii/omuletul-relatiilor/`.
 9. Add `Rubrici incomplete si date de confirmat` as practical refinement
    suggestions when useful. Do not write it as a technical list of missing work.
 
@@ -142,6 +146,9 @@ Follow this workflow:
   maturity, and practical work.
 - If information is missing, mark it discreetly as `de completat` and continue
   with what can be calculated correctly.
+- Include `Omuletul relatiilor` only when a loved person, compatibility person,
+  or explicit relationship theme is provided. Do not add it mechanically to every
+  individual report.
 - In `Rubrici incomplete si date de confirmat`, give concrete suggestions the
   reader can act on: personal theme, professional context, relationship/family
   context, current-year events, socially used name, and optional graph/cycle
@@ -199,8 +206,9 @@ Use this structure:
 9. Soarta si destinul
 10. Lectii de viata si cicluri
 11. Ezoterism si aplicabilitate
-12. Concluzie finala
-13. Harta documentatie folosita
+12. Relatii, persoana iubita si compatibilitate optionala
+13. Concluzie finala
+14. Harta documentatie folosita
 
 ## File Output
 

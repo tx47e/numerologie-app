@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Omuletul relatiilor - Birsan Daniel Robert vs Roman Andreea Maria</title>
+  <desc id="desc">Diagrama relationala numerologica pentru Birsan Daniel Robert, nascut la 19.02.1998, si Roman Andreea Maria, nascuta la 12.01.1998.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f4e5d4; }
+      .panel { fill: #fffaf3; stroke: #0b2b2c; stroke-opacity: .18; stroke-width: 2; }
+      .circle { fill: none; stroke: #0f5a56; stroke-width: 4; opacity: .28; }
+      .square { fill: none; stroke: #8a632f; stroke-width: 4; opacity: .38; }
+      .pentagram { fill: none; stroke: #239f98; stroke-width: 6; stroke-linejoin: round; }
+      .vitruvian { fill: none; stroke: #0b2b2c; stroke-width: 4; opacity: .26; stroke-linecap: round; }
+      .point { stroke: #0b2b2c; stroke-width: 2; }
+      .foc { fill: #e6b4a9; }
+      .apa { fill: #b8d9e7; }
+      .aer { fill: #fffdf8; }
+      .pamant { fill: #d8c1a2; }
+      .potential { fill: #efe3c7; }
+      .text { fill: #061c1d; font-family: "Segoe UI", Arial, sans-serif; }
+      .title { font-size: 34px; font-weight: 800; fill: #0b2b2c; }
+      .subtitle { font-size: 18px; fill: #0f5a56; }
+      .label { font-size: 18px; font-weight: 800; }
+      .small { font-size: 14px; }
+      .micro { font-size: 12px; }
+      .count { font-size: 15px; font-weight: 700; }
+      .chip-d { fill: #0f5a56; }
+      .chip-a { fill: #8a632f; }
+      .chip-text { fill: white; font-size: 13px; font-weight: 800; }
+      .table-head { fill: #0f5a56; }
+      .table-line { stroke: #0b2b2c; stroke-opacity: .16; stroke-width: 1; }
+      .note { fill: #0b2b2c; font-size: 15px; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1200" height="900"/>
+  <rect class="panel" x="40" y="32" width="1120" height="836" rx="8"/>
+
+  <text class="text title" x="70" y="82">Omuletul relatiilor</text>
+  <text class="text subtitle" x="70" y="112">Birsan Daniel Robert 19.02.1998 vs Roman Andreea Maria 12.01.1998</text>
+
+  <g transform="translate(70,142)">
+    <rect class="panel" x="0" y="0" width="300" height="84" rx="8"/>
+    <text class="text label" x="18" y="31">Sinteza relatiei</text>
+    <text class="text small" x="18" y="58">Realizare impreuna: 1 + 3 = 4</text>
+    <text class="text small" x="18" y="78">De rezolvat impreuna: |1 - 3| = 2</text>
+  </g>
+
+  <g transform="translate(820,142)">
+    <rect class="panel" x="0" y="0" width="300" height="84" rx="8"/>
+    <circle class="chip-d" cx="25" cy="28" r="10"/>
+    <text class="text small" x="44" y="33">Daniel</text>
+    <circle class="chip-a" cx="25" cy="58" r="10"/>
+    <text class="text small" x="44" y="63">Andreea</text>
+    <text class="text micro" x="138" y="33">D = aparitii Daniel</text>
+    <text class="text micro" x="138" y="63">A = aparitii Andreea</text>
+  </g>
+
+  <!-- Main relational figure -->
+  <g transform="translate(600,430)">
+    <circle class="circle" cx="0" cy="0" r="270"/>
+    <rect class="square" x="-205" y="-205" width="410" height="410"/>
+
+    <!-- Vitruvian-like human silhouette -->
+    <circle class="vitruvian" cx="0" cy="-114" r="30"/>
+    <path class="vitruvian" d="M0 -84 L0 92"/>
+    <path class="vitruvian" d="M-154 -38 L0 -12 L154 -38"/>
+    <path class="vitruvian" d="M-118 156 L0 92 L118 156"/>
+    <path class="vitruvian" d="M-205 0 C-116 -92 116 -92 205 0"/>
+
+    <!-- Pentagram points: 1 top, 3 right, 5 bottom, 7 left-bottom, 9 left; inner points: 2,4,6,8,0 -->
+    <polyline class="pentagram" points="0,-250 147,202 -238,-77 238,-77 -147,202 0,-250"/>
+
+    <!-- outer points -->
+    <g transform="translate(0,-250)">
+      <circle class="point foc" r="44"/>
+      <text class="text label" text-anchor="middle" y="-9">1</text>
+      <text class="text count" text-anchor="middle" y="12">D 4 / A 6</text>
+      <text class="text micro" text-anchor="middle" y="30">foc</text>
+    </g>
+    <g transform="translate(238,-77)">
+      <circle class="point aer" r="44"/>
+      <text class="text label" text-anchor="middle" y="-9">3</text>
+      <text class="text count" text-anchor="middle" y="12">D 2 / A 1</text>
+      <text class="text micro" text-anchor="middle" y="30">aer</text>
+    </g>
+    <g transform="translate(147,202)">
+      <circle class="point foc" r="44"/>
+      <text class="text label" text-anchor="middle" y="-9">5</text>
+      <text class="text count" text-anchor="middle" y="12">D 0 / A 0</text>
+      <text class="text micro" text-anchor="middle" y="30">foc</text>
+    </g>
+    <g transform="translate(-147,202)">
+      <circle class="point aer" r="44"/>
+      <text class="text label" text-anchor="middle" y="-9">7</text>
+      <text class="text count" text-anchor="middle" y="12">D 1 / A 0</text>
+      <text class="text micro" text-anchor="middle" y="30">aer</text>
+    </g>
+    <g transform="translate(-238,-77)">
+      <circle class="point foc" r="44"/>
+      <text class="text label" text-anchor="middle" y="-9">9</text>
+      <text class="text count" text-anchor="middle" y="12">D 4 / A 3</text>
+      <text class="text micro" text-anchor="middle" y="30">foc</text>
+    </g>
+
+    <!-- inner points -->
+    <g transform="translate(90,-78)">
+      <circle class="point apa" r="36"/>
+      <text class="text label" text-anchor="middle" y="-8">2</text>
+      <text class="text count" text-anchor="middle" y="13">D 2 / A 2</text>
+    </g>
+    <g transform="translate(58,80)">
+      <circle class="point pamant" r="36"/>
+      <text class="text label" text-anchor="middle" y="-8">4</text>
+      <text class="text count" text-anchor="middle" y="13">D 0 / A 1</text>
+    </g>
+    <g transform="translate(0,0)">
+      <circle class="point apa" r="38"/>
+      <text class="text label" text-anchor="middle" y="-8">6</text>
+      <text class="text count" text-anchor="middle" y="13">D 0 / A 0</text>
+    </g>
+    <g transform="translate(-58,80)">
+      <circle class="point pamant" r="36"/>
+      <text class="text label" text-anchor="middle" y="-8">8</text>
+      <text class="text count" text-anchor="middle" y="13">D 1 / A 1</text>
+    </g>
+    <g transform="translate(-90,-78)">
+      <circle class="point potential" r="36"/>
+      <text class="text label" text-anchor="middle" y="-8">0</text>
+      <text class="text count" text-anchor="middle" y="13">D 2 / A 1</text>
+    </g>
+  </g>
+
+  <!-- Element synthesis table -->
+  <g transform="translate(70,700)">
+    <rect class="panel" x="0" y="0" width="1060" height="135" rx="8"/>
+    <rect class="table-head" x="0" y="0" width="1060" height="34" rx="8"/>
+    <text class="chip-text" x="18" y="23">Sinteza pe elemente</text>
+    <text class="chip-text" x="250" y="23">Daniel</text>
+    <text class="chip-text" x="372" y="23">Andreea</text>
+    <text class="chip-text" x="504" y="23">Total</text>
+    <text class="chip-text" x="622" y="23">Citire</text>
+
+    <g class="text small">
+      <line class="table-line" x1="0" y1="60" x2="1060" y2="60"/>
+      <line class="table-line" x1="0" y1="85" x2="1060" y2="85"/>
+      <line class="table-line" x1="0" y1="110" x2="1060" y2="110"/>
+      <text x="18" y="53">Foc (1,5,9)</text><text x="270" y="53">8</text><text x="397" y="53">9</text><text x="524" y="53">17</text><text x="622" y="53">dominant: initiativa, sens, directie si intensitate</text>
+      <text x="18" y="78">Apa (2,6)</text><text x="270" y="78">2</text><text x="397" y="78">2</text><text x="524" y="78">4</text><text x="622" y="78">sensibilitate prezenta, armonie de ingrijit constient</text>
+      <text x="18" y="103">Aer (3,7)</text><text x="270" y="103">3</text><text x="397" y="103">1</text><text x="524" y="103">4</text><text x="622" y="103">comunicare si analiza sustinute mai mult de Daniel</text>
+      <text x="18" y="128">Pamant (4,8) / 0</text><text x="270" y="128">1 / 2</text><text x="397" y="128">2 / 1</text><text x="524" y="128">3 / 3</text><text x="622" y="128">concret de construit, potential de resetare si clarificare</text>
+    </g>
+  </g>
+
+  <text class="text note" x="70" y="866">Concluzie: impreuna pot realiza 4 - constructie si stabilitate; au de rezolvat 2 - cooperare, rabdare si ascultare.</text>
+</svg>

@@ -136,10 +136,11 @@ Textul interpretarii...
 8. Soarta si destinul
 9. Lectii de viata si cicluri
 10. Ezoterism si aplicabilitate
-11. Concluzie finala
-12. Rubrici de test
-13. Nota despre persoane
-14. Harta documentatie folosita
+11. Relatii, persoana iubita si compatibilitate optionala
+12. Concluzie finala
+13. Rubrici de test
+14. Nota despre persoane
+15. Harta documentatie folosita
 
 ## Date lucrare
 
@@ -151,6 +152,8 @@ Textul interpretarii...
 - Prenume folosit in analiza:
 - Nume anterior / schimbat, daca exista: nu este cazul / de completat
 - Intrebare personala sau tema principala:
+- Persoana iubita / persoana de compatibilitate, optional:
+- Tip relatie analizata, optional: iubire / familie / profesional / general
 - Data adaugarii in lista de persoane:
 - Tip template folosit: template complet / maxim
 - Nivel de detaliere: amplu / mediu / scurt
@@ -871,7 +874,58 @@ se opreste calculul aici si se interpreteaza doar codul principal:
 | De evitat ca directie profesionala principala |  |  |
 | De aplicat / potrivite personal |  |  |
 
-## 11. Concluzie finala
+## 11. Relatii, persoana iubita si compatibilitate optionala
+
+Aceasta rubrica se include numai daca exista o persoana iubita, o persoana de
+comparat sau o tema explicita de compatibilitate. Daca nu exista aceste date,
+rubrica se poate omite din lucrarea individuala si se noteaza in `Rubrici
+incomplete si date de confirmat` ca poate fi adaugata ulterior.
+
+### Omuletul relatiilor
+
+Omuletul relatiilor foloseste documentatia din
+`knowledge_base/calcule/relatii/omuletul-relatiilor/`. El se construieste din
+cifrele deja calculate pentru persoanele implicate, folosind aceeasi sursa
+pentru toate persoanele. Pentru compatibilitate generala, sursa recomandata este
+matricea datei de nastere, cu sirul complet al codului numerologic personal,
+inclusiv cifra `0`.
+
+Rubrica trebuie sa contina:
+
+- calculul pentru `ce se poate realiza impreuna`;
+- calculul pentru `ce este de rezolvat impreuna`;
+- distributia cifrelor pe pozitiile pentagramei;
+- sinteza pe elemente;
+- interpretarea cifrelor sustinute, absente sau supraincarcate;
+- o concluzie relationala practica.
+
+| Calcul | Formula | Rezultat | Citire |
+| --- | --- | --- | --- |
+| Ce se poate realiza impreuna | suma vibratiilor interioare reduse |  |  |
+| Ce este de rezolvat impreuna | diferenta vibratiilor interioare reduse |  |  |
+
+| Cifra | Element | Pozitie in pentagrama | Persoana A | Persoana B | Total relatie | Cine sustine | Citire |
+| --- | --- | --- | ---: | ---: | ---: | --- | --- |
+| 1 | Foc | varf sus |  |  |  |  |  |
+| 2 | Apa | colt interior dreapta sus |  |  |  |  |  |
+| 3 | Aer | colt exterior dreapta |  |  |  |  |  |
+| 4 | Pamant | colt interior dreapta jos |  |  |  |  |  |
+| 5 | Foc | colt exterior jos |  |  |  |  |  |
+| 6 | Apa | centru / punct de intersectie |  |  |  |  |  |
+| 7 | Aer | colt exterior stanga jos |  |  |  |  |  |
+| 8 | Pamant | colt interior stanga jos |  |  |  |  |  |
+| 9 | Foc | colt exterior stanga |  |  |  |  |  |
+| 0 | Potential | colt interior stanga sus |  |  |  |  |  |
+
+| Element | Persoana A | Persoana B | Total relatie | Citire |
+| --- | ---: | ---: | ---: | --- |
+| Foc |  |  |  |  |
+| Apa |  |  |  |  |
+| Aer |  |  |  |  |
+| Pamant |  |  |  |  |
+| Potential / 0 |  |  |  |  |
+
+## 12. Concluzie finala
 
 ### Directia principala
 

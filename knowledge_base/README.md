@@ -12,6 +12,7 @@ numerologic stabil trebuie pastrat aici.
 - `tarot/`: interpretari simbolice pentru Arcanele Majore si analogii numerologice.
 - `exprimari/`: formulari generate si validate pentru interpretari recurente,
   organizate pe teme precum destin, vibratii, punti, scara bunastarii si nume.
+- `calcule/relatii/`: metode pentru compatibilitate si omuletul relatiilor.
 
 ## Regula de lucru
 
@@ -26,4 +27,4 @@ de exprimari reutilizabile.
 
 ## Surse bibliografice interne
 
-- Nu sunt documentate surse bibliografice interne.
+- `bibliography/Omuletul Relatiilor.md`

@@ -1,0 +1,706 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Birsan Daniel vs Roman Andreea - Comparatie</title>
+  <style>
+    :root {
+      --ink: #061c1d;
+      --deep: #0b2b2c;
+      --teal: #0f5a56;
+      --aqua: #239f98;
+      --cream: #f4e5d4;
+      --paper: #fffaf3;
+      --gold: #8a632f;
+      --sand: #c9a479;
+    }
+    body {
+      margin: 0;
+      background: var(--cream);
+      color: var(--ink);
+      font-family: "Segoe UI", Arial, sans-serif;
+      line-height: 1.65;
+    }
+    .topbar {
+      background: linear-gradient(135deg, var(--deep), var(--teal) 62%, var(--aqua));
+      color: white;
+      padding: 22px 32px;
+      border-bottom: 8px solid var(--sand);
+    }
+    .topbar strong {
+      display: block;
+      font-size: 18px;
+    }
+    .topbar span {
+      color: #f7ead8;
+      font-size: 14px;
+    }
+    main {
+      width: 1040px;
+      max-width: min(1040px, calc(100% - 32px));
+      margin: 28px auto;
+      background: var(--paper);
+      border-radius: 8px;
+      padding: clamp(20px, 4vw, 42px);
+      box-shadow: 0 18px 44px rgba(11, 43, 44, 0.08);
+    }
+    .table-wrap {
+      width: 100%;
+      overflow-x: auto;
+      overflow-y: hidden;
+      margin: 18px 0;
+      -webkit-overflow-scrolling: touch;
+    }
+    .toc {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 8px;
+      margin: 18px 0 34px;
+      padding: 18px;
+      border: 1px solid rgba(11, 43, 44, 0.14);
+      border-left: 6px solid var(--aqua);
+      background: #fffdf8;
+      border-radius: 8px;
+    }
+    .toc div {
+      grid-column: 1 / -1;
+      color: var(--gold);
+      font-weight: 800;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+    .toc a {
+      color: var(--teal);
+      text-decoration-color: var(--sand);
+      font-weight: 650;
+    }
+    h1, h2, h3 { line-height: 1.18; }
+    h1, h2, h3 {
+      display: grid;
+      gap: 7px;
+    }
+    h1 {
+      font-size: clamp(30px, 4vw, 46px);
+      color: var(--deep);
+      margin-bottom: 18px;
+    }
+    h2 {
+      margin: 42px 0 22px;
+      color: white;
+      background: linear-gradient(135deg, var(--deep) 0%, #0d4745 58%, var(--teal) 100%);
+      border-top: 0;
+      border-left: 8px solid var(--gold);
+      padding: 16px 22px;
+      border-radius: 6px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    h3 { color: var(--teal); }
+    .heading-index {
+      color: var(--gold);
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+    p {
+      margin: 12px 0;
+      max-width: none;
+      width: 100%;
+      text-wrap: pretty;
+      color: var(--teal);
+    }
+    code {
+      background: rgba(35, 159, 152, 0.12);
+      color: var(--deep);
+      padding: 1px 5px;
+      border-radius: 4px;
+    }
+    .index {
+      color: var(--gold);
+      font-size: 12px;
+      font-weight: 700;
+      margin-top: 18px;
+    }
+    table {
+      min-width: 100%;
+      border-collapse: collapse;
+      margin: 0;
+      background: white;
+      table-layout: fixed;
+    }
+    th, td {
+      border: 1px solid rgba(11, 43, 44, 0.16);
+      padding: 10px;
+      vertical-align: top;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+    th {
+      background: var(--teal);
+      color: white;
+      text-align: left;
+      overflow-wrap: normal;
+      word-break: normal;
+      hyphens: none;
+    }
+    .table-vibratii-esentiale th:nth-child(1),
+    .table-vibratii-esentiale td:nth-child(1) {
+      width: 18%;
+    }
+    .table-vibratii-esentiale th:nth-child(2),
+    .table-vibratii-esentiale td:nth-child(2) {
+      width: 22%;
+    }
+    .table-vibratii-esentiale th:nth-child(3),
+    .table-vibratii-esentiale td:nth-child(3) {
+      width: 17%;
+    }
+    .table-vibratii-esentiale th:nth-child(4),
+    .table-vibratii-esentiale td:nth-child(4) {
+      width: 12%;
+    }
+    .table-vibratii-esentiale th:nth-child(5),
+    .table-vibratii-esentiale td:nth-child(5) {
+      width: 31%;
+    }
+    .table-scara-bunastarii th:nth-child(1),
+    .table-scara-bunastarii td:nth-child(1) {
+      width: 8%;
+    }
+    .table-scara-bunastarii th:nth-child(2),
+    .table-scara-bunastarii td:nth-child(2) {
+      width: 11%;
+      white-space: nowrap;
+      overflow-wrap: normal;
+      word-break: normal;
+    }
+    .table-scara-bunastarii th:nth-child(3),
+    .table-scara-bunastarii td:nth-child(3) {
+      width: 20%;
+    }
+    .table-scara-bunastarii th:nth-child(4),
+    .table-scara-bunastarii td:nth-child(4) {
+      width: 19%;
+    }
+    .table-scara-bunastarii th:nth-child(5),
+    .table-scara-bunastarii td:nth-child(5) {
+      width: 10%;
+    }
+    .table-scara-bunastarii th:nth-child(6),
+    .table-scara-bunastarii td:nth-child(6) {
+      width: 32%;
+    }
+    .table-ciclu-9-ani th:nth-child(1),
+    .table-ciclu-9-ani td:nth-child(1) {
+      width: 11%;
+    }
+    .table-ciclu-9-ani th:nth-child(2),
+    .table-ciclu-9-ani td:nth-child(2) {
+      width: 11%;
+    }
+    .table-ciclu-9-ani th:nth-child(3),
+    .table-ciclu-9-ani td:nth-child(3) {
+      width: 15%;
+    }
+    .table-ciclu-9-ani th:nth-child(4),
+    .table-ciclu-9-ani td:nth-child(4) {
+      width: 11%;
+    }
+    .table-ciclu-9-ani th:nth-child(5),
+    .table-ciclu-9-ani td:nth-child(5) {
+      width: 52%;
+    }
+    tr:nth-child(even) td {
+      background: rgba(244, 229, 212, 0.42);
+    }
+    pre {
+      background: #dcc39b;
+      color: var(--deep);
+      border-left: 6px solid var(--sand);
+      padding: 16px;
+      border-radius: 6px;
+      overflow: auto;
+      white-space: pre-wrap;
+    }
+    .matrix-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 6px;
+      margin: 18px 0 28px;
+      max-width: 420px;
+    }
+    .matrix-cell {
+      min-height: 58px;
+      border: 1px solid rgba(11, 43, 44, 0.18);
+      border-radius: 6px;
+      display: grid;
+      overflow: hidden;
+    }
+    .matrix-value {
+      display: grid;
+      place-items: center;
+      min-height: 58px;
+      color: var(--deep);
+      font-weight: 800;
+      font-size: 17px;
+      padding: 8px;
+      gap: 2px;
+    }
+    .matrix-value span {
+      font-size: 11px;
+      opacity: 0.82;
+    }
+    .element-aer {
+      background: #fffaf3;
+      color: var(--deep);
+    }
+    .element-apa {
+      background: #b8d9e7;
+      color: var(--deep);
+    }
+    .element-pamant {
+      background: #d8c1a2;
+      color: var(--deep);
+    }
+    .element-foc {
+      background: #e6b4a9;
+      color: var(--deep);
+    }
+    .destiny-chart {
+      margin: 26px 0 30px;
+      padding: 18px;
+      border: 1px solid rgba(11, 43, 44, 0.16);
+      border-radius: 8px;
+      background: #fffdf8;
+    }
+    .chart-heading {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      color: var(--gold);
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+    .chart-heading strong {
+      color: var(--teal);
+    }
+    .destiny-chart svg {
+      width: 100%;
+      height: auto;
+      background: #fffaf3;
+      border-radius: 6px;
+    }
+    .grid line {
+      stroke: rgba(11, 43, 44, 0.22);
+      stroke-dasharray: 5 5;
+    }
+    .grid text {
+      fill: var(--deep);
+      font-size: 13px;
+      font-weight: 700;
+    }
+    .line {
+      fill: none;
+      stroke-width: 4;
+      stroke-linejoin: round;
+      stroke-linecap: round;
+    }
+    .soarta-line { stroke: var(--aqua); }
+    .destin-line { stroke: var(--gold); }
+    .comfort {
+      fill: none;
+      stroke-width: 4;
+      stroke-dasharray: 12 8;
+      opacity: 1;
+    }
+    .soarta-comfort { stroke: var(--aqua); }
+    .destin-comfort { stroke: var(--gold); }
+    .soarta-dot { fill: var(--aqua); }
+    .destin-dot { fill: var(--gold); }
+    .chart-legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin: 12px 0;
+      color: var(--deep);
+      font-weight: 700;
+    }
+    .chart-legend i {
+      display: inline-block;
+      width: 20px;
+      height: 4px;
+      border-radius: 99px;
+      margin-right: 7px;
+      vertical-align: middle;
+    }
+    .legend-soarta { background: var(--aqua); }
+    .legend-destin { background: var(--gold); }
+    .legend-soarta-comfort {
+      background: repeating-linear-gradient(
+        90deg,
+        var(--aqua) 0 10px,
+        transparent 10px 16px
+      );
+    }
+    .legend-destin-comfort {
+      background: repeating-linear-gradient(
+        90deg,
+        var(--gold) 0 10px,
+        transparent 10px 16px
+      );
+    }
+    .chart-interpretation {
+      border-left: 5px solid var(--sand);
+      padding-left: 14px;
+    }
+    ul, li {
+      color: var(--teal);
+    }
+    li { margin: 6px 0; }
+    @media (max-width: 1100px) {
+      body {
+        overflow-x: auto;
+      }
+      main {
+        width: 1040px;
+        max-width: none;
+      }
+    }
+    @media print {
+      body { background: white; }
+      .topbar, .toc { break-inside: avoid; }
+      main { box-shadow: none; margin: 0; width: auto; }
+      h2, h3, table, pre { break-inside: avoid; }
+    }
+
+    .comparison-pair {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(260px, 1fr));
+      gap: 18px;
+      align-items: start;
+      margin: 18px 0 28px;
+    }
+    .comparison-card {
+      border: 1px solid rgba(11, 43, 44, 0.16);
+      border-radius: 8px;
+      background: #fffdf8;
+      padding: 16px;
+      box-shadow: 0 12px 28px rgba(11, 43, 44, 0.08);
+    }
+    .comparison-card h4 {
+      margin: 0 0 12px;
+      color: var(--teal);
+      font-size: 18px;
+    }
+    .comparison-card .matrix-grid {
+      margin: 0;
+    }
+    .vector-scale {
+      width: 100%;
+      border-collapse: collapse;
+      overflow: hidden;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+    .vector-scale th {
+      background: var(--teal);
+      color: white;
+      text-align: left;
+      padding: 9px 10px;
+    }
+    .vector-scale td {
+      border-bottom: 1px solid rgba(11, 43, 44, 0.12);
+      padding: 8px 10px;
+      vertical-align: top;
+    }
+    .vector-scale td:last-child,
+    .vector-scale th:last-child {
+      text-align: right;
+      font-weight: 800;
+    }
+    @media (max-width: 760px) {
+      .comparison-pair { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <strong>Birsan Daniel vs Roman Andreea - Comparatie</strong>
+    <span>Lucrare numerologica completa, transpusă din Markdown in HTML</span>
+  </header>
+  <main>
+    <nav class="toc"><div>Cuprins</div><a href="#sectiune-1">1. Date comparatie</a>
+<a href="#sectiune-2">2. Sinteza compatibilitatii</a>
+<a href="#sectiune-3">3. Datele celor doua persoane</a>
+<a href="#sectiune-4">4. Matricea datei de nastere: comparatie</a>
+<a href="#sectiune-5">5. Matricea numelui: comparatie</a>
+<a href="#sectiune-6">6. Activari reciproce</a>
+<a href="#sectiune-7">7. Vectori de compatibilitate</a>
+<a href="#sectiune-8">8. Zone de armonie</a>
+<a href="#sectiune-9">8. Omuletul relatiilor</a>
+<a href="#sectiune-10">9. Zone de armonie</a>
+<a href="#sectiune-11">10. Zone de tensiune si lucru constient</a>
+<a href="#sectiune-12">11. Recomandari practice</a>
+<a href="#sectiune-13">12. Concluzie</a>
+<a href="#sectiune-14">13. Surse folosite</a>
+<a href="#sectiune-15">Date de confirmat</a></nav>
+    <h1><span>Birsan Daniel vs Roman Andreea - Comparatie</span></h1>
+<h2 id="sectiune-1"><span>1. Date comparatie</span></h2>
+<div class="table-wrap"><table>
+<tr><th>Camp</th><th>Persoană 1</th><th>Persoană 2</th></tr>
+<tr><td>Nume complet</td><td>Birsan Daniel Robert</td><td>Roman Andreea Maria</td></tr>
+<tr><td>Prenume activ</td><td>Daniel</td><td>Andreea</td></tr>
+<tr><td>Data nașterii</td><td>19.02.1998</td><td>12.01.1998</td></tr>
+<tr><td>Lucrare sursa</td><td>examples/1998-02-19-birsan-daniel-robert/1998-02-19-Birsan-Daniel-Robert-v1ca.md</td><td>examples/1998-01-12-roman-andreea-maria/1998-01-12-Roman-Andreea-Maria-v1ca.md</td></tr>
+<tr><td>Tip comparatie</td><td>general, relational și energetic</td><td>general, relational și energetic</td></tr>
+</table></div>
+<p>Această comparatie foloseste matricea datei de naștere și matricea numelui pentru fiecare persoană. Matricea datei arată structura nativa: ce vine natural, ce lipseste și ce trebuie cultivat conștient. Matricea numelui arată felul în care persoană se exprima social, ce activeaza prin nume și ce resurse poate aduce în relație.</p>
+<h2 id="sectiune-2"><span>2. Sinteză compatibilitatii</span></h2>
+<p>Daniel și Andreea, între voi exista o compatibilitate interesanta pentru ca ambele profiluri au multa energie pe axa creativitatii, carierei și sensului. Daniel vine cu o matrice a datei foarte puternica pe 9, cu destin 3 și cale 39: comunicare, influență, exprimare cu sens. Andreea vine cu o matrice foarte puternica pe 1, cu destin 4 și cale 31: initiativa, constructie, expresie pusa în forma. Pe scurt, Daniel poate aduce viziune și mesaj, Andreea poate aduce pornire, structura și concretizare.</p>
+<p>Punctul foarte important este ca amandoi aveti lipsa nativa de 5 în matricea datei. 5 este centrul, ritmul, libertatea responsabila, spatiul personal și capacitatea de a ramane în propriul ax cand apar presiuni. Asta inseamna ca relatia poate avea multa energie, multe idei și multa intensitate, dar are nevoie de reguli simple de reglaj: pauza, limite, timp personal, claritate și decizii care nu se iau doar din emotie sau presiune.</p>
+<p>Numele amandurora aduce puternic 5: Daniel are 5555 în matricea numelui, Andreea are tot 5555. Asta este foarte bun pentru compatibilitate, pentru ca ceea ce lipseste nativ poate fi activat prin identitatea sociala, prin modul în care va chemati unul pe altul, prin roluri și prin alegeri conștiente. Relatia poate invata centrul, dar centrul nu vine automat; trebuie practicat.</p>
+<h2 id="sectiune-3"><span>3. Datele celor doua persoane</span></h2>
+<div class="table-wrap"><table>
+<tr><th>Indicator</th><th>Daniel</th><th>Andreea</th><th>Observatie de compatibilitate</th></tr>
+<tr><td>Vibratie interioară</td><td>1</td><td>3</td><td>Daniel porneste din autonomie, Andreea din expresie.</td></tr>
+<tr><td>Vibratie exterioară</td><td>2</td><td>1</td><td>Daniel se arată mai relational, Andreea mai directa.</td></tr>
+<tr><td>Destin</td><td>3</td><td>4</td><td>Daniel exprima și influenteaza, Andreea construieste și stabilizeaza.</td></tr>
+<tr><td>Calea destinului</td><td>39</td><td>31</td><td>Amandoi au cai din categoria 30-39, deci comunicarea este centrala.</td></tr>
+<tr><td>Număr de exprimare</td><td>6</td><td>7</td><td>Daniel cauta armonie, Andreea cauta profunzime și selectie.</td></tr>
+<tr><td>Prenume activ</td><td>Daniel = 9</td><td>Andreea = 3</td><td>Daniel activeaza sensul, Andreea activeaza comunicarea.</td></tr>
+</table></div>
+<p>Amandoi aveti o temă puternica de exprimare, pentru ca ambele cai sunt în zonă 30-39. Diferența este direcția: Daniel are 39, adica exprimare care trebuie să ajunga la sens, finalizare și perspectiva; Andreea are 31, adica exprimare care trebuie să se transforme în initiativa și forma. În relație, asta poate fi fertil: unul vede imaginea larga, celalalt poate impinge ideea spre pas concret. Tensiunea apare dacă Daniel ramane prea mult în sens și Andreea vrea forma mai repede, sau dacă Andreea porneste direct iar Daniel simte ca nu s-a asezat suficient perspectiva.</p>
+<h2 id="sectiune-4"><span>4. Matricea datei de naștere: comparatie</span></h2>
+<h3><span>Matrici colorate - data nașterii</span></h3>
+<div class="comparison-pair">
+  <section class="comparison-card">
+    <h4>Daniel - matricea datei</h4>
+    <div class="matrix-grid">
+<div class="matrix-cell element-foc"><div class="matrix-value"><span>1</span>1111</div></div>
+<div class="matrix-cell element-pamant"><div class="matrix-value"><span>4</span>-</div></div>
+<div class="matrix-cell element-aer"><div class="matrix-value"><span>7</span>7</div></div>
+<div class="matrix-cell element-apa"><div class="matrix-value"><span>2</span>22</div></div>
+<div class="matrix-cell element-foc"><div class="matrix-value"><span>5</span>-</div></div>
+<div class="matrix-cell element-pamant"><div class="matrix-value"><span>8</span>8</div></div>
+<div class="matrix-cell element-aer"><div class="matrix-value"><span>3</span>33</div></div>
+<div class="matrix-cell element-apa"><div class="matrix-value"><span>6</span>-</div></div>
+<div class="matrix-cell element-foc"><div class="matrix-value"><span>9</span>9999</div></div>
+</div>
+  </section>
+  <section class="comparison-card">
+    <h4>Andreea - matricea datei</h4>
+    <div class="matrix-grid">
+<div class="matrix-cell element-foc"><div class="matrix-value"><span>1</span>111111</div></div>
+<div class="matrix-cell element-pamant"><div class="matrix-value"><span>4</span>4</div></div>
+<div class="matrix-cell element-aer"><div class="matrix-value"><span>7</span>-</div></div>
+<div class="matrix-cell element-apa"><div class="matrix-value"><span>2</span>22</div></div>
+<div class="matrix-cell element-foc"><div class="matrix-value"><span>5</span>-</div></div>
+<div class="matrix-cell element-pamant"><div class="matrix-value"><span>8</span>8</div></div>
+<div class="matrix-cell element-aer"><div class="matrix-value"><span>3</span>3</div></div>
+<div class="matrix-cell element-apa"><div class="matrix-value"><span>6</span>-</div></div>
+<div class="matrix-cell element-foc"><div class="matrix-value"><span>9</span>999</div></div>
+</div>
+  </section>
+</div>
+<div class="table-wrap"><table>
+<tr><th>Cifră</th><th>Daniel - data</th><th>Andreea - data</th><th>Citire comparativa</th></tr>
+<tr><td>1</td><td>1111</td><td>111111</td><td>Amandoi au initiativa; Andreea are exces mai mare de pornire mentala.</td></tr>
+<tr><td>2</td><td>22</td><td>22</td><td>Sensibilitate relationala egala ca bază nativa.</td></tr>
+<tr><td>3</td><td>33</td><td>3</td><td>Daniel are expresie nativa mai sustinuta; Andreea are expresie mai concentrata.</td></tr>
+<tr><td>4</td><td>-</td><td>4</td><td>Andreea aduce structura nativa pe care Daniel nu o are în data.</td></tr>
+<tr><td>5</td><td>-</td><td>-</td><td>Lipsa comuna: centrul și ritmul trebuie cultivate de amandoi.</td></tr>
+<tr><td>6</td><td>-</td><td>-</td><td>Lipsa comuna: armonia afectiva trebuie construita conștient.</td></tr>
+<tr><td>7</td><td>7</td><td>-</td><td>Daniel aduce analiza nativa; Andreea o aduce mai mult prin nume.</td></tr>
+<tr><td>8</td><td>8</td><td>8</td><td>Amandoi au forță, responsabilitate și potential de presiune.</td></tr>
+<tr><td>9</td><td>9999</td><td>999</td><td>Amandoi au memorie și sens; Daniel are intensitate mai mare pe 9.</td></tr>
+</table></div>
+<p>Matricea datei arată o potrivire puternica pe 1, 2, 8 și 9. Asta inseamna ca exista initiativa, sensibilitate, forță și viziune în ambele profiluri. Nu este o relație fără energie; dimpotriva, poate avea multa miscare interioară și multe idei. Partea buna este ca va puteti intelege pe teme de ambitie, sens, responsabilitate și dorinta de a face lucrurile să conteze.</p>
+<p>Zonă delicata este lipsa comuna de 5 și 6. Cand doi oameni au aceleași lipsuri, uneori se inteleg foarte bine pentru ca recunosc același teren interior; alteori se asteapta ca celalalt să aduca exact resursa pe care niciunul nu o are automat. Aici, nici Daniel, nici Andreea nu trebuie să astepte ca celalalt să fie centrul relatiei. Centrul trebuie construit prin reguli comune: timp personal, discutii calme, pauze înainte de decizii și ritualuri simple de reconectare.</p>
+<h2 id="sectiune-5"><span>5. Matricea numelui: comparatie</span></h2>
+<h3><span>Matrici colorate - nume</span></h3>
+<div class="comparison-pair">
+  <section class="comparison-card">
+    <h4>Daniel - matricea numelui</h4>
+    <div class="matrix-grid">
+<div class="matrix-cell element-foc"><div class="matrix-value"><span>1</span>111</div></div>
+<div class="matrix-cell element-pamant"><div class="matrix-value"><span>4</span>4</div></div>
+<div class="matrix-cell element-aer"><div class="matrix-value"><span>7</span>-</div></div>
+<div class="matrix-cell element-apa"><div class="matrix-value"><span>2</span>222</div></div>
+<div class="matrix-cell element-foc"><div class="matrix-value"><span>5</span>5555</div></div>
+<div class="matrix-cell element-pamant"><div class="matrix-value"><span>8</span>-</div></div>
+<div class="matrix-cell element-aer"><div class="matrix-value"><span>3</span>3</div></div>
+<div class="matrix-cell element-apa"><div class="matrix-value"><span>6</span>66</div></div>
+<div class="matrix-cell element-foc"><div class="matrix-value"><span>9</span>99999</div></div>
+</div>
+  </section>
+  <section class="comparison-card">
+    <h4>Andreea - matricea numelui</h4>
+    <div class="matrix-grid">
+<div class="matrix-cell element-foc"><div class="matrix-value"><span>1</span>11111</div></div>
+<div class="matrix-cell element-pamant"><div class="matrix-value"><span>4</span>444</div></div>
+<div class="matrix-cell element-aer"><div class="matrix-value"><span>7</span>7</div></div>
+<div class="matrix-cell element-apa"><div class="matrix-value"><span>2</span>-</div></div>
+<div class="matrix-cell element-foc"><div class="matrix-value"><span>5</span>5555</div></div>
+<div class="matrix-cell element-pamant"><div class="matrix-value"><span>8</span>-</div></div>
+<div class="matrix-cell element-aer"><div class="matrix-value"><span>3</span>-</div></div>
+<div class="matrix-cell element-apa"><div class="matrix-value"><span>6</span>6</div></div>
+<div class="matrix-cell element-foc"><div class="matrix-value"><span>9</span>9999</div></div>
+</div>
+  </section>
+</div>
+<div class="table-wrap"><table>
+<tr><th>Cifră</th><th>Daniel - nume</th><th>Andreea - nume</th><th>Citire comparativa</th></tr>
+<tr><td>1</td><td>111</td><td>11111</td><td>Ambele nume sustin initiativa; Andreea aduce mai multa pornire prin nume.</td></tr>
+<tr><td>2</td><td>222</td><td>-</td><td>Daniel aduce mai multa diplomatie sociala prin nume.</td></tr>
+<tr><td>3</td><td>3</td><td>-</td><td>Daniel are cifră 3 în nume; Andreea are 3 prin prenumele activ, nu în matricea numelui.</td></tr>
+<tr><td>4</td><td>4</td><td>444</td><td>Andreea aduce mult mai multa structura prin nume.</td></tr>
+<tr><td>5</td><td>5555</td><td>5555</td><td>Amandoi activati centru, libertate și adaptare prin nume.</td></tr>
+<tr><td>6</td><td>66</td><td>6</td><td>Daniel aduce mai multa armonie și responsabilitate prin nume.</td></tr>
+<tr><td>7</td><td>-</td><td>7</td><td>Andreea aduce analiza prin nume.</td></tr>
+<tr><td>8</td><td>-</td><td>-</td><td>Numele nu accentueaza forță; 8 ramane mai mult în data.</td></tr>
+<tr><td>9</td><td>99999</td><td>9999</td><td>Ambele nume amplifica sensul, memoria și finalizarea.</td></tr>
+</table></div>
+<p>Matricea numelui este foarte compatibila pe axa 5 și 9: amandoi aveti 5555 și foarte mult 9. Asta poate crea o relație în care exista libertate, miscare, adaptare, dar și discutii despre sens, viitor, idealuri și concluzii. Numele lui Daniel aduce mai mult 2 și 6, deci poate activa diplomatie și grija. Numele Andreei aduce mai mult 4 și 7, deci poate activa structura, metodă și analiza.</p>
+<p>Această combinatie este buna dacă fiecare isi foloseste resursa fără să o transforme în repros. Daniel poate aduce caldura și armonie, dar nu trebuie să devina responsabil pentru tot climatul emotional. Andreea poate aduce structura și analiza, dar nu trebuie să transforme fiecare tensiune intr-un proiect de corectat.</p>
+<h2 id="sectiune-6"><span>6. Activari reciproce</span></h2>
+<h3><span>Ce activeaza Daniel în Andreea</span></h3>
+<p>Daniel aduce prin data 7, pe care Andreea nu il are nativ în matricea datei. Asta poate activa în Andreea mai multa profunzime, rabdare, analiza și curiozitate față de ce este dincolo de prima reacție. Prin nume, Daniel aduce 222 și 66, deci poate activa în Andreea mai multa diplomatie, blandete relationala și dorinta de armonie.</p>
+<p>În același timp, Daniel are foarte mult 9, ceea ce poate amplifica în Andreea temă sensului și a finalizarii. Dacă relatia este echilibrata, el o poate ajuta să vada imaginea mare. Dacă este tensionata, acest 9 poate fi simtit ca idealizare, concluzii mari sau asteptari greu de atins.</p>
+<h3><span>Ce activeaza Andreea în Daniel</span></h3>
+<p>Andreea aduce prin data 4, pe care Daniel nu il are nativ în matricea datei. Asta poate activa în Daniel mai multa structura, metodă și nevoie de claritate practică. Prin nume, Andreea aduce 444 și 7, deci poate functiona ca un factor de ordonare și aprofundare.</p>
+<p>Andreea are foarte mult 1, mai ales în data, ceea ce poate stimula în Daniel curajul de a porni, dar poate crea și presiune dacă ritmul ei devine prea direct. În forma buna, ea il ajuta să transforme viziunea în pas concret. În forma tensionata, el poate simti ca trebuie să raspunda mai repede decat este pregatit.</p>
+<h2 id="sectiune-7"><span>7. Vectori de compatibilitate</span></h2>
+<h3><span>Scară bunăstării după vectori - matricea datei de naștere</span></h3>
+<div class="comparison-pair">
+  <section class="comparison-card">
+    <h4>Daniel - vectori din data nașterii</h4>
+    <table class="vector-scale">
+      <tr><th>Ordine</th><th>Vector</th><th>Valoare</th></tr>
+      <tr><td>1</td><td>789 - Creativitate</td><td>51</td></tr>
+      <tr><td>2</td><td>369 - Bunastare materiala</td><td>42</td></tr>
+      <tr><td>3</td><td>159 - Carieră</td><td>40</td></tr>
+      <tr><td>4</td><td>123 - Energie</td><td>14</td></tr>
+      <tr><td>5</td><td>357 - Scopuri</td><td>13</td></tr>
+      <tr><td>6</td><td>258 - Social</td><td>12</td></tr>
+      <tr><td>7</td><td>147 - Spiritualitate</td><td>11</td></tr>
+      <tr><td>8</td><td>456 - Voință</td><td>0</td></tr>
+    </table>
+  </section>
+  <section class="comparison-card">
+    <h4>Andreea - vectori din data nașterii</h4>
+    <table class="vector-scale">
+      <tr><th>Ordine</th><th>Vector</th><th>Valoare</th></tr>
+      <tr><td>1</td><td>789 - Creativitate</td><td>35</td></tr>
+      <tr><td>2</td><td>159 - Carieră</td><td>33</td></tr>
+      <tr><td>3</td><td>369 - Bunastare materiala</td><td>30</td></tr>
+      <tr><td>4</td><td>123 - Energie</td><td>13</td></tr>
+      <tr><td>5</td><td>258 - Social</td><td>12</td></tr>
+      <tr><td>6</td><td>147 - Spiritualitate</td><td>10</td></tr>
+      <tr><td>7</td><td>456 - Voință</td><td>4</td></tr>
+      <tr><td>8</td><td>357 - Scopuri</td><td>3</td></tr>
+    </table>
+  </section>
+</div>
+<p>Această scară foloseste matricea datei de naștere, pentru ca aici se vede structura nativa a relatiei: ce vine natural în fiecare profil, înainte de rolurile sociale activate prin nume. Amandoi aveti 789 - Creativitate pe primul loc, ceea ce arată o compatibilitate nativa puternica pe viziune, idei, intensitate și capacitatea de a produce sens. Diferența este ca Daniel are imediat după aceea 369 - Bunastare materiala, iar Andreea are 159 - Carieră; Daniel poate impinge spre rezultat și materializare, Andreea spre direcție, initiativa și constructie în carieră.</p>
+<div class="table-wrap"><table>
+<tr><th>Vector</th><th>Daniel - data</th><th>Andreea - data</th><th>Daniel - nume</th><th>Andreea - nume</th><th>Interpretare</th></tr>
+<tr><td>123 - Energie</td><td>14</td><td>13</td><td>12</td><td>5</td><td>Energie apropiata nativ; Daniel are mai mult echilibru relational prin nume.</td></tr>
+<tr><td>456 - Voință</td><td>0</td><td>4</td><td>36</td><td>38</td><td>Voință lipseste sau este slaba nativ, dar este foarte puternica prin numele amandurora.</td></tr>
+<tr><td>789 - Creativitate</td><td>51</td><td>35</td><td>45</td><td>43</td><td>Creativitate foarte puternica la amandoi, mai intensa nativ la Daniel.</td></tr>
+<tr><td>147 - Spiritualitate</td><td>11</td><td>10</td><td>7</td><td>24</td><td>Andreea sustine mai mult structura spirituală prin nume.</td></tr>
+<tr><td>258 - Social</td><td>12</td><td>12</td><td>26</td><td>20</td><td>Social nativ egal; Daniel aduce mai multa diplomatie prin nume.</td></tr>
+<tr><td>369 - Bunastare materiala</td><td>42</td><td>30</td><td>60</td><td>42</td><td>Daniel are materialitate mai ridicata, Andreea o poate structura.</td></tr>
+<tr><td>159 - Carieră</td><td>40</td><td>33</td><td>68</td><td>61</td><td>Carieră este foarte puternica la amandoi, mai accentuata la Daniel.</td></tr>
+<tr><td>357 - Scopuri</td><td>13</td><td>3</td><td>23</td><td>27</td><td>Andreea castiga mult pe scopuri prin nume; Daniel are mai mult suport nativ.</td></tr>
+</table></div>
+<p>Vectorii arată o compatibilitate cu potential mare de creatie, munca și direcție comuna. 789, 369 și 159 sunt sus la amandoi, ceea ce inseamna ca între voi pot exista proiecte, obiective, discutii despre viitor și dorinta de a produce ceva concret. Nu este o combinatie pasiva.</p>
+<p>Totusi, vectorul 456 - Voință este punctul-cheie. Daniel are 0 nativ, Andreea are 4 nativ, dar numele amandurora il ridica foarte mult: 36 și 38. Asta inseamna ca voință nu trebuie cautata doar în impulsul de moment, ci în identitate, obiceiuri și angajamente asumate. Cand va numiti clar nevoile și rolurile, voință apare. Cand asteptati să vina natural, poate lipsi.</p>
+<h2 id="sectiune-8"><span>8. Zone de armonie</span></h2>
+<h2 id="sectiune-9"><span>8. Omuletul relatiilor</span></h2>
+<p>Omuletul relatiilor foloseste aici matricea datei de naștere și sirul complet al codului numerologic personal pentru fiecare persoană, inclusiv cifră 0. Pentru Daniel, sirul este 19021998 + 39 + 12 + 37 + 10. Pentru Andreea, sirul este 12011998 + 31 + 4 + 29 + 11. Această sursa arată structura nativa a relatiei: ce aduce fiecare prin data, unde se completeaza și unde relatia are nevoie de lucru conștient.</p>
+<h3><span>Sinteză relatiei</span></h3>
+<div class="table-wrap"><table>
+<tr><th>Calcul</th><th>Formula</th><th>Rezultat</th><th>Citire</th></tr>
+<tr><td>Ce se poate realiza impreuna</td><td>Daniel 1 + Andreea 3 = 4</td><td>4</td><td>relație care poate construi forma, stabilitate, reguli și proiecte concrete</td></tr>
+<tr><td>Ce este de rezolvat impreuna</td><td>1 - 3 = 2</td><td>2</td><td>temă de lucru prin cooperare, rabdare, ascultare și sensibilitate</td></tr>
+</table></div>
+<p>Rezultatul 4 arată ca impreuna puteti construi ceva stabil dacă energia este asezata în reguli simple, consecventa și pasi concreti. Relatia nu functioneaza bine doar pe emotie sau inspiratie; are nevoie de cadru. Rezultatul 2 ca zonă de rezolvat spune ca maturizarea vine prin rabdare, tact, ascultare și capacitatea de a nu transforma diferentele de ritm în lupta de putere.</p>
+<h3><span>Distributia cifrelor pe pentagrama</span></h3>
+<div class="table-wrap"><table>
+<tr><th>Cifră</th><th>Element</th><th>Pozitie în pentagrama</th><th>Daniel</th><th>Andreea</th><th>Total relație</th><th>Cine sustine</th><th>Citire</th></tr>
+<tr><td>1</td><td>Foc</td><td>varf sus</td><td>4</td><td>6</td><td>10</td><td>Andreea</td><td>initiativa foarte puternica; relatia porneste repede, dar poate deveni presanta</td></tr>
+<tr><td>2</td><td>Apa</td><td>colt interior dreapta sus</td><td>2</td><td>2</td><td>4</td><td>amandoi egal</td><td>sensibilitate relationala comuna, buna pentru dialog dacă exista rabdare</td></tr>
+<tr><td>3</td><td>Aer</td><td>colt exterior dreapta</td><td>2</td><td>1</td><td>3</td><td>Daniel</td><td>comunicarea este sustinuta mai mult de Daniel, dar Andreea o activeaza prin cale și prenume</td></tr>
+<tr><td>4</td><td>Pământ</td><td>colt interior dreapta jos</td><td>0</td><td>1</td><td>1</td><td>Andreea</td><td>structura este adusa mai ales de Andreea; Daniel o poate invata prin relație</td></tr>
+<tr><td>5</td><td>Foc</td><td>colt exterior jos</td><td>0</td><td>0</td><td>0</td><td>lipsa comuna</td><td>centrul, libertatea și ritmul trebuie construite conștient</td></tr>
+<tr><td>6</td><td>Apa</td><td>centru / punct de intersectie</td><td>0</td><td>0</td><td>0</td><td>lipsa comuna</td><td>armonia afectiva nu vine automat; trebuie ingrijita explicit</td></tr>
+<tr><td>7</td><td>Aer</td><td>colt exterior stanga jos</td><td>1</td><td>0</td><td>1</td><td>Daniel</td><td>analiza profunda vine mai ales prin Daniel în matricea datei</td></tr>
+<tr><td>8</td><td>Pământ</td><td>colt interior stanga jos</td><td>1</td><td>1</td><td>2</td><td>amandoi egal</td><td>forță și responsabilitatea sunt prezente la amandoi</td></tr>
+<tr><td>9</td><td>Foc</td><td>colt exterior stanga</td><td>4</td><td>3</td><td>7</td><td>Daniel</td><td>sens, memorie și finalizare puternice; Daniel duce mai mult intensitatea lui 9</td></tr>
+<tr><td>0</td><td>Potential</td><td>colt interior stanga sus</td><td>2</td><td>1</td><td>3</td><td>Daniel</td><td>exista spațiu de resetare și posibilitate, dar și nevoia de a defini ce ramane neclar</td></tr>
+</table></div>
+<p>Distributia arată o relație cu mult foc: 1, 9 și lipsa lui 5 creeaza o combinatie speciala. Exista initiativa și sens, dar centrul trebuie construit. Cu alte cuvinte, aveti motor și direcție, dar trebuie să aveti și volan. Dacă nu exista pauza, ritm și limite, focul poate deveni presiune. Dacă exista centru, același foc devine motivatie și proiect comun.</p>
+<h3><span>Sinteză pe elemente</span></h3>
+<div class="table-wrap"><table>
+<tr><th>Element</th><th>Daniel</th><th>Andreea</th><th>Total relație</th><th>Citire</th></tr>
+<tr><td>Foc</td><td>8</td><td>9</td><td>17</td><td>element dominant; multa initiativa, sens, direcție și intensitate</td></tr>
+<tr><td>Apa</td><td>2</td><td>2</td><td>4</td><td>sensibilitate prezenta, dar armonia trebuie ingrijita conștient</td></tr>
+<tr><td>Aer</td><td>3</td><td>1</td><td>4</td><td>comunicare și analiza sustinute mai mult de Daniel</td></tr>
+<tr><td>Pământ</td><td>1</td><td>2</td><td>3</td><td>concretul exista, dar are nevoie de reguli și practică</td></tr>
+<tr><td>Potential / 0</td><td>2</td><td>1</td><td>3</td><td>spațiu de resetare, neclaritati și posibilitati de construit</td></tr>
+</table></div>
+<p>Elementul dominant este focul, ceea ce face relatia vie, intensa și orientata spre direcție. Apa și aerul sunt prezente, dar nu domina; de aceea, dialogul emotional și discutia calma trebuie alese, nu asteptate să apara de la sine. Pamantul este cel mai mic dintre cele patru elemente principale, deci relatia are nevoie de gesturi concrete, program, reguli, acorduri clare și stabilitate construita prin fapte.</p>
+<p>Concluzia omuletului relatiilor este practică: Daniel și Andreea pot realiza impreuna 4, adica structura și constructie, dar au de rezolvat 2, adica felul în care se asculta și coopereaza. Relatia are multa forță de pornire și sens, insa centrul 5 și armonia 6 trebuie cultivate cu intentie.</p>
+<h2 id="sectiune-10"><span>9. Zone de armonie</span></h2>
+<ul>
+<li>Amandoi aveti energie puternica pe 9, deci puteti intelege usor teme de sens, finalizare, imagine mare și evolutie.</li>
+<li>Amandoi aveti 2 în matricea datei, deci exista bază de sensibilitate și capacitate de cooperare.</li>
+<li>Amandoi aveti 8 în data, deci intelegeti responsabilitatea și presiunea rezultatului.</li>
+<li>Amandoi aveti 5555 în matricea numelui, deci relatia poate invata libertate, adaptare și centru prin alegeri conștiente.</li>
+<li>Vectorii de carieră și materialitate sunt ridicati la amandoi, ceea ce sustine proiecte comune, planuri concrete și constructie în timp.</li>
+</ul>
+<p>Armonia voastra nu este una foarte linistita și statica, ci una dinamica. Compatibilitatea vine prin miscare, discutie, proiecte, sens și reglaj. Aveti nevoie să simtiti ca relatia merge undeva, ca produce creștere și ca nu ramane blocata în repetitii fără concluzie.</p>
+<h2 id="sectiune-11"><span>10. Zone de tensiune și lucru conștient</span></h2>
+<ul>
+<li>Lipsa comuna de 5 în date poate aduce dificultate de centrare în momente de presiune.</li>
+<li>Lipsa comuna de 6 în date poate face ca armonia afectiva să fie dorita, dar nu mereu usor de mentinut spontan.</li>
+<li>Excesul de 1 la Andreea poate aparea ca graba sau presiune pentru Daniel.</li>
+<li>Excesul de 9 la Daniel poate aparea ca idealizare, asteptare mare sau concluzie grea pentru Andreea.</li>
+<li>Daniel poate simti nevoia de sens înainte de pas, Andreea poate simti nevoia de forma mai repede.</li>
+<li>Amandoi aveti multa energie de carieră și creativitate, deci exista riscul ca obiectivele să ocupe spatiul emotional dacă nu sunt echilibrate.</li>
+</ul>
+<p>Zonă de lucru nu este lipsa iubirii sau lipsa compatibilitatii, ci reglajul. Relatia cere ritm: cand se discuta, cand se tace, cand se decide, cand se lasa spațiu și cand se revine la concret. Pentru voi, regulile simple pot salva multa energie.</p>
+<h2 id="sectiune-12"><span>11. Recomandari practice</span></h2>
+<ul>
+<li>Stabiliti pauze reale înainte de discutii importante, mai ales cand apare presiune.</li>
+<li>Separati temă emoțională de temă practică: ce simtim, ce decidem, ce facem concret.</li>
+<li>Folositi forță lui 5 din nume prin miscare, schimbare de cadru, flexibilitate și spațiu personal.</li>
+<li>Daniel să nu ramana doar în sens și imagine mare; să aduca o concluzie simpla.</li>
+<li>Andreea să nu transforme imediat totul în structura; să lase loc pentru proces și nuanță.</li>
+<li>Cand apare tensiune, intrebarea buna este: avem nevoie acum de centru, de armonie sau de metodă?</li>
+<li>Pentru proiecte comune, impartiti rolurile natural: Daniel poate aduce viziune și mesaj, Andreea poate aduce organizare și forma.</li>
+</ul>
+<h2 id="sectiune-13"><span>12. Concluzie</span></h2>
+<p>Daniel și Andreea, compatibilitatea voastra are potential mare pentru creativitate, proiecte, creștere și învățare reciproca. Nu este o combinatie în care unul aduce tot și celalalt doar primeste. Fiecare activeaza în celalalt ceva important: Daniel poate activa profunzime, sensibilitate și sens; Andreea poate activa structura, initiativa și concretizare.</p>
+<p>Cheia relatiei este centrul. Pentru ca amandoi aveti lipsa nativa de 5, relatia trebuie să invete conștient libertatea responsabila: spațiu personal, limite, ritm, decizii clare și intoarcere la sine. Cand centrul este prezent, creativitatea și carieră pot deveni resurse comune. Cand centrul lipseste, aceleași resurse pot deveni presiune, asteptari mari sau graba.</p>
+<p>Verdictul nu este &quot;bun&quot; sau &quot;rau&quot;, ci practic: exista material bun, dar el cere metodă emoțională. Dacă relatia isi construieste ritmul, comunicarea și limitele, compatibilitatea poate deveni una de creștere, sens și constructie.</p>
+<h2 id="sectiune-14"><span>13. Surse folosite</span></h2>
+<div class="table-wrap"><table>
+<tr><th>Sursa</th><th>Fisier</th></tr>
+<tr><td>Lucrare Daniel</td><td>examples/1998-02-19-birsan-daniel-robert/1998-02-19-Birsan-Daniel-Robert-v1ca.md</td></tr>
+<tr><td>Lucrare Andreea</td><td>examples/1998-01-12-roman-andreea-maria/1998-01-12-Roman-Andreea-Maria-v1ca.md</td></tr>
+<tr><td>Calcul matrice Daniel</td><td>scripts/patratul_lui_pitagora.py 19 2 1998 --nume &quot;Birsan Daniel Robert&quot;</td></tr>
+<tr><td>Calcul matrice Andreea</td><td>scripts/patratul_lui_pitagora.py 12 1 1998 --nume &quot;Roman Andreea Maria&quot;</td></tr>
+<tr><td>Omuletul relatiilor</td><td>knowledge_base/calcule/relații/omuletul-relatiilor/</td></tr>
+<tr><td>Skill comparatie</td><td>skills/numerology-compatibility/SKILL.md</td></tr>
+</table></div>
+<h2 id="sectiune-15"><span>Date de confirmat</span></h2>
+<ul>
+<li>Temă relatiei: comparatia este generala; poate fi rafinata pentru relație de cuplu, colaborare, familie sau prietenie.</li>
+<li>Numele folosite social: am folosit Daniel și Andreea ca prenume active.</li>
+<li>Contextul actual: evenimentele concrete dintre cei doi pot nuanță mult zonele 5, 6 și 456.</li>
+</ul>
+  </main>
+</body>
+</html>

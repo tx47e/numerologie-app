@@ -1,0 +1,4 @@
+interface:
+  display_name: "Numerology Compatibility"
+  short_description: "Compara compatibilitatea numerologica intre doua persoane."
+  default_prompt: "Genereaza o comparatie de compatibilitate numerologica intre doua persoane folosind lucrarile si matricile existente."
